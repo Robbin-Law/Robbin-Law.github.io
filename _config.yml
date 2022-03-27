@@ -10,10 +10,11 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
  - comp1017/index.md
+ - dmit1530/index.md
+ - cpsc1520/index.md
  #- cpsc1012/index.md
- #- dmit1530/index.md
+ #- cpsc1517/index.md
  #- dmit2018/index.md
- #- dmit2028/index.md
  #- about.md
 
 exclude:
