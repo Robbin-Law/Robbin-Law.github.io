@@ -4,12 +4,12 @@ author: Robbin Law
 email: robbinl@nait.ca
 minima:
   date_format: "%b %-d, %Y"
-github_username: robbin-law
+github_username: robbinl
 description: A collection of notes and resources.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
- #- comp1017/index.md
+ - comp1017/index.md
  #- cpsc1012/index.md
  #- dmit1530/index.md
  #- dmit2018/index.md
