@@ -1,6 +1,7 @@
 ---
 layout: post
 title: COMP1017
+subtitle: Web Fundamentals I
 ---
 ![comp1017-icon.png](comp1017-icon.png) **Web Fundamentals I**
 
