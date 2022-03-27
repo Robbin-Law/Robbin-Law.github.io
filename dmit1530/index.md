@@ -2,7 +2,7 @@
 layout: page
 title: DMIT1530
 ---
-![dmit1530-icon.png](dmit1530-icon.png) **Web Fundamentals II**
+**Web Fundamentals II**
 
 ## Modules
 ### [Module 1: Responsive Web Design](module1/)

@@ -2,7 +2,8 @@
 layout: post
 title: CPSC1520
 ---
-![cpsc1520-icon.png](cpsc1520-icon.png) **JavaScript I**
+
+**JavaScript I**
 
 ## Introduction
 This is the first course on JavaScript.
