@@ -1,7 +1,9 @@
 ---
 layout: page
-title: ANAP1525 - System Analysis and Design I
+title: ANAP1525System Analysis and Design I
 ---
+
+# System Analysis and Design I
 
 ## Topics
 [System Analysis and Design (SAD) Theory](sad-theory/)<br>
@@ -12,5 +14,7 @@ title: ANAP1525 - System Analysis and Design I
 [User Interfaces](interfaces/)
 
 ## [Exercises](exercises/index.md)
+
+## [Schedule](schedule-2024-01-win.md)
 
 ### [Home](../)
