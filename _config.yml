@@ -17,8 +17,6 @@ header_pages:
  #- dmit2018/index.md
  #- about.md
 
-exclude:
-  README.md
 theme: minima
 
 favicon: favicon.ico
