@@ -21,4 +21,4 @@ exclude:
   README.md
 theme: minima
 
-favicon: favicon.ico
+favicon: favicon.png
