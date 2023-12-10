@@ -2,7 +2,7 @@
 layout: page
 title: ANAP1525
 ---
-![anap1525-icon.png](anap1525-icon.png) **System Analysis and Design I**
+**System Analysis and Design I**
 
 ## Topics
 [SAD Theory](sad-theory/)<br>
