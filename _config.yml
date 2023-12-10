@@ -19,7 +19,7 @@ header_pages:
  #- dmit2018/index.md
  #- about.md
 
-theme: jekyll-theme-minimal
-#theme: minima
+#theme: jekyll-theme-minimal
+theme: minima
 
 favicon: favicon.png
