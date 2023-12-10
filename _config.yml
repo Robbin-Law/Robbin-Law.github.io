@@ -8,7 +8,6 @@ github_username: robbinl
 description: A collection of notes and resources.
 show_excerpts: false # set to true to show excerpts on the homepage
 
-
 header_pages:
  - comp1017/index.md
  - dmit1530/index.md
@@ -18,7 +17,8 @@ header_pages:
  #- dmit2018/index.md
  #- about.md
 
-theme: jekyll-theme-minimal
-#theme: minima
+exclude:
+  README.md
+theme: minima
 
-favicon: favicon.png
+favicon: favicon.ico
