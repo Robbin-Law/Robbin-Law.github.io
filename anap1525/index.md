@@ -8,9 +8,9 @@ title: ANAP1525
 ## Topics
 [System Analysis and Design (SAD) Theory](sad-theory/)<br>
 [Client Interviews](interviews/)<br>
-[ADEPT Analysis](adept/)<br>
-[Data Flow Diagrams](dfd/)<br>
-[Entity Relationship Diagrams](erd/)<br>
+[Activities, Data, Environment, People, Technology (ADEPT) Analysis](adept/)<br>
+[Context, System, and Process Data Flow Diagrams (DFD)](dfd/)<br>
+[Entity Relationship Diagrams (ERD)](erd/)<br>
 [User Interfaces](interfaces/)
 
 ## [Exercises](exercises/index.md)
