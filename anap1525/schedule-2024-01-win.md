@@ -11,7 +11,7 @@ title: Calendar 2024 Winter
 |Week|Assessment|Day1|Day2|
 |:-:|:-:|:-:|:-:|
 |1-J04||SAD-Theory|SAD-Theory|
-|2-J15||Business-Rules <p>Feasibility</p>|Risk Management <p>Team Selection</p>|
+|2-J15||Business-Rules<br /> Feasibility|Risk Management<br/>Team Selection|
 |3-J22|Bucket-Risk (4%)|Interview <p>ADEPT</p>|Interview <p>ADEPT</p>|
 |4-J29|Q1-Terms (5%)|Context-DFD|Context-DFD|
 |5-F05|Bucket-ADEPT (4%)|System-DFD|System-DFD|
