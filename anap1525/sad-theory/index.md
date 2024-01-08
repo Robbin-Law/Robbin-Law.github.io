@@ -8,6 +8,7 @@ title: SAD Theory
 [Information Systems](info-systems.md)<br>
 [Business Rules](business-rules.md)<br>
 [Feasibility](feasibility.md)<br>
-[Risk Analysis](risks.md)
+[Risk Analysis](risks.md)<br>
+[Definitions](definitions.md)<br>
 
 #### [ANAP1525 Home](../)
