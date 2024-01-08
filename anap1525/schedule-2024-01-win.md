@@ -24,5 +24,5 @@ title: Calendar 2024 Winter
 |11-M25|Bucket-ERD (4%)|Reports|Reports|
 |12-A01||Lab2|Lab2|
 |13-A08||Lab2|Lab2|
-|14-A15|L2 (15%)|Prototyping|Prototyping||
+|14-A15|L2 (15%)|Prototyping|Prototyping|
 |15-A22|Q4-Prototyping (25%)|||
