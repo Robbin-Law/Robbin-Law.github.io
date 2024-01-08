@@ -14,7 +14,7 @@ title: Calendar 2024 Winter
 |2-J15||SAD-Theory|SAD-Theory|
 |3-J22|Bucket-Risk (4%)|Interview|Interview|
 |4-J29|Q1-Terms (5%)|Context-DFD|Context-DFD|
-|5-F05|Bucket-ADEPT (4%)|System-DFD|System-DFD|Bucket-Context-DFD|
+|5-F05|Bucket-ADEPT (4%)|System-DFD|System-DFD|
 |6-F12|Bucket-Context-DFD (4%)|Process-DFD|Process-DFD|
 |F19||||
 |7-F26|Q2-ADEPT/Context-DFD (10%)|Lab1|Lab1|
