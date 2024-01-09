@@ -17,6 +17,9 @@ title: SAD Introduction
   * Plan – Analyze – Design – Implement – Support
 
 ### System Planning
+* This is where the feasibility study is done
+* This is where the scope document is produced
+* This is where the risk assessment is done
 * Identify and prioritize proposed system
 * Define scope and boundary of problem
 
@@ -32,8 +35,10 @@ title: SAD Introduction
 ![sdlc-2](files/sdlc-2.jpg)
 
 ### System Design
+* This is where the physical data modeling is done
+* This is where the ERD (Entity-Relationship-Diagram) is created
 * Design the solution that meets business requirements:
-  * Create a physical model of the system.
+  * Create a physical model of the system
   * User interfaces
   * Internal and external controls
   * Security
@@ -43,6 +48,8 @@ title: SAD Introduction
 ![sdlc-3](files/sdlc-3.jpg)
 
 ### System Implementation
+* This is where the software programming and testing is done
+* This is where the system is rolled out and presented to the organization
 * Create new improved information system
 * Input – technical design document
 * Output – system delivered, end user training and documentation
@@ -52,8 +59,11 @@ title: SAD Introduction
 ![sdlc-4](files/sdlc-4.jpg)
 
 ### System Operation and Support
+* This is where end user system training is done
+* This is where end users of the system report bugs
 * Review implementation, refine design, implement improvements
 * Maintenance of system for remainder of useful life
+
 
 ![sdlc-5](files/sdlc-5.jpg)
 
