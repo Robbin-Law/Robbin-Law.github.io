@@ -8,6 +8,5 @@ title: CPSC1520
 ### Introduction
 This is the first course on JavaScript.
 
-### Modules
 
 #### [Main Page](../)

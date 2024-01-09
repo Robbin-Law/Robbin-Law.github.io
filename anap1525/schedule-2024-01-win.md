@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Calendar 2024 Winter
 ---
+
+### Schedule 2024 Winter
 
 - All assessments are due on Monday of the week at 11:59 PM.
 - All assessments are to be submitted via Moodle.

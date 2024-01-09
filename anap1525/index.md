@@ -5,7 +5,6 @@ title: ANAP1525
 
 ### System Analysis and Design I
 
-### Topics
 [System Analysis and Design (SAD) Theory](sad-theory/)<br>
 [Client Interviews](interviews/)<br>
 [Activities, Data, Environment, People, Technology (ADEPT) Analysis](adept/)<br>

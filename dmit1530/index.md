@@ -4,8 +4,6 @@ title: DMIT1530
 ---
 ## Web Fundamentals II
 
-### Modules
-
 ### [Module 1: Responsive Web Design](module1/)
 In this module, we will start off with a review of best practice techniques for web development and the basics of the Flexbox layout model. You will be introduced to responsive web design (RWD) and you will learn how to make page layouts that will fit and adjust to different screen widths.
 
@@ -18,5 +16,5 @@ The second part of the module will continue with building and styling parts, or 
 ### [Module 4: Performance & Advanced Tools](module4/)
 In the last module of the course you will learn the tools and tricks to optimize your website for performance purposes. You will also learn how to test your site for performance and speed. You will be introduced to Bootstrap, currently one of the most popular CSS frameworks for quick, responsive builds.
 
-#### [Home](../)
+#### [Main Page](../)
 

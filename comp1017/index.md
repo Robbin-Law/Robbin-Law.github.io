@@ -9,8 +9,6 @@ title: COMP1017
 This is a first course covering HyperText-Markup-Language (HTML-5)<br>
 and Cascading-Style-Sheets (CSS-3).
 
-### Modules
-
 ### [Module 1 - Document Structure](module1/)
 Here you will explore the basic structure of web pages, marking up content, deployment, sectioning, and simple site navigation.
 
@@ -23,4 +21,4 @@ Here you will explore content styling with CSS, web image formats, background im
 ### [Module 4 - Web Site Build](module4/)
 Here you will put all your knowledge together to build a complete web site.
 
-#### [Home](../)
+#### [Main Page](../)
