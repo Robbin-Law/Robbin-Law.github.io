@@ -7,15 +7,15 @@ subtitle: Web Fundamentals I
 **Web Fundamentals I**
 
 ## Introduction
-This is a secondary resource for COMP1017; the official course material can be found on Moodle. Feel free to bookmark this page to have the current version of these notes.
+This is a first course covering HyperText-Markup-Language (HTML-5) and Cascading-Style-Sheets (CSS-3).
 
 ## Modules
 
 ### [Module 1 - Document Structure](module1/)
-Here you will explore the basic structure of web pages, marking up content, deployemnt, sectioning, and simple site navigation.
+Here you will explore the basic structure of web pages, marking up content, deployment, sectioning, and simple site navigation.
 
 ### [Module 2 - CSS & Web Page Layout](module2/)
-Here you will explore layout styling using Cascading Stylesheets (CSS), the Box Model, and Flexbox.
+Here you will explore layout styling using Cascading Stylesheets (CSS), the Box Model, and FlexBox.
 
 ### [Module 3 - Styling Content With CSS](module3/)
 Here you will explore content styling with CSS, web image formats, background images, styled navigation, and styling web forms.
