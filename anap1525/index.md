@@ -3,9 +3,9 @@ layout: page
 title: ANAP1525
 ---
 
-# System Analysis and Design I
+## System Analysis and Design I
 
-## Topics
+### Topics
 [System Analysis and Design (SAD) Theory](sad-theory/)<br>
 [Client Interviews](interviews/)<br>
 [Activities, Data, Environment, People, Technology (ADEPT) Analysis](adept/)<br>
@@ -13,8 +13,8 @@ title: ANAP1525
 [Entity Relationship Diagrams (ERD)](erd/)<br>
 [User Interfaces](interfaces/)
 
-## [Exercises](exercises/index.md)
+### [Exercises](exercises/index.md)
 
-## [Schedule](schedule-2024-01-win.md)
+### [Schedule](schedule-2024-01-win.md)
 
-### [Home](../)
+#### [Main Page](../)
