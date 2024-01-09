@@ -1,16 +1,15 @@
 ---
 layout: post
 title: COMP1017
-subtitle: Web Fundamentals I
 ---
 
-**Web Fundamentals I**
+## Web Fundamentals I
 
-## Introduction
+### Introduction
 This is a first course covering HyperText-Markup-Language (HTML-5)<br>
 and Cascading-Style-Sheets (CSS-3).
 
-## Modules
+### Modules
 
 ### [Module 1 - Document Structure](module1/)
 Here you will explore the basic structure of web pages, marking up content, deployment, sectioning, and simple site navigation.
