@@ -12,4 +12,4 @@ title: SAD Theory
 [Risk Analysis](risks.md)<br>
 [Definitions](definitions.md)<br>
 
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)
