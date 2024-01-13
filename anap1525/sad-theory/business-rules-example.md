@@ -4,10 +4,12 @@ title: Business Rules Example
 ---
 
 In a hotel system, the reception clerk will check in a guest.
-They will look up the guest reservation.
-Once found they will verify the guest details, including those of the guest demographics and reservation information.
-If it is past 1pm they will do a regular check in for the guest.
-If it is earlier than 1 they will charge the guest $35 for early check in.
+The reception clerk will look up the guest reservation.
+A guest can only check in if they have a reservation.
+Once found the reception clerk will verify the guest details, including those of the guest demographics and reservation information.
+The reception clerk works a 12 hour shift every day.
+If it is past 1pm the reception clerk will do a regular check in for the guest.
+If it is earlier than 1pm the reception clerk will charge the guest $35 for early check in.
 If a reservation is not found as the guest is a walk in, a reservation is created in the system if there is availability.
 
 #### [Theory Home](index.md)
