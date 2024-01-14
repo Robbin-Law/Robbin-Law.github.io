@@ -12,5 +12,12 @@ If it is past 1pm the reception clerk will do a regular check in for the guest.
 If it is earlier than 1pm the reception clerk will charge the guest $35 for early check in.
 If a reservation is not found as the guest is a walk in, a reservation is created in the system if there is availability.
 
+Which of the following statements are valid business rules, and which are not?
+
+- Check in starts at 1pm otherwise a fee is charged. YES
+- The reception staff work 12 hour shifts. NO
+- A reservation is required prior to check in. YES
+- The reception clerk looks up a reservation. NO
+
 #### [Theory Home](index.md)
 #### [ANAP1525 Home](../index.md)
