@@ -48,4 +48,4 @@ The above business rule must be satisfied. So the clerk responds “Just a momen
 5.  Determine inter-rule relationships
 
 #### [Theory Home](index.md)
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

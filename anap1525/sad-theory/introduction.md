@@ -107,4 +107,4 @@ title: SAD Introduction
 * Joint Application Development [(JAD)](https://searchsoftwarequality.techtarget.com/definition/JAD){:target="_blank"}
 
 #### [Theory Home](index.md)
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)
