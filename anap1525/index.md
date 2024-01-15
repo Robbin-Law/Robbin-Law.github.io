@@ -16,4 +16,4 @@ title: ANAP1525
 
 ### [Schedule](schedule-2024-01-win.md)
 
-#### [Main Page](./index.md)
+#### [Main Page](../index.md)
