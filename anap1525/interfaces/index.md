@@ -8,4 +8,4 @@ title: User Interface Design
 [Graphical Design C.R.A.P.](c_r_a_p.md)<br>
 [Report Layout](reports.md)
 
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

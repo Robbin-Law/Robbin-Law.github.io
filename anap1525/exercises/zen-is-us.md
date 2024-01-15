@@ -22,4 +22,4 @@ The next day she will send confirmation emails to the students and send the clas
 5.	Draw the Entity Relationship Diagram
 
 #### [Exercise Home](index.md)
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

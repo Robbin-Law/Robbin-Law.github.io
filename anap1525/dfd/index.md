@@ -68,4 +68,4 @@ Symbol:<br>
 [DFD Rules](rules.md)<br>
 [Multi-Level DFDs](multi-level.md)
 
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

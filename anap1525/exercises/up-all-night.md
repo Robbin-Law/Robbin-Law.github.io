@@ -22,4 +22,4 @@ When the year is done, the books are expected to be returned.  They will arrive 
 5.	Draw the Entity Relationship Diagram
 
 #### [Exercise Home](index.md)
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

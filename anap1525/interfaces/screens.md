@@ -263,4 +263,4 @@ Users want:
 **1st Amount: $12.34**<br><br>**2nd Amount: $23.45**<br><br>**3rd Amount: $34.56**<br><br>**4th Amount: $45.67** | ![duplication](files/duplication.jpg)
 
 #### [Interfaces Home](index.md)
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

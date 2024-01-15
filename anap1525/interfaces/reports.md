@@ -75,4 +75,4 @@ The following general principles are important for output design:
 ![reports-07](files/reports-07.jpg)
 
 #### [Interfaces Home](index.md)
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

@@ -72,4 +72,4 @@ PK must be Unique, Stable, and NOT NULL.
 
 ![erd-sample](files/erd-sample.png)
 
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

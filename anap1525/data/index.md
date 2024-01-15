@@ -53,4 +53,4 @@ Adds details that are not typically included in [DFDs](../dfd/), [ERDs](../edr/)
 
 ![example-erd](files/example-erd.png)
 
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

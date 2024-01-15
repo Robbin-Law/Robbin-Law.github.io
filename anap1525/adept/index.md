@@ -71,4 +71,4 @@ title: ADEPT Analysis
   * Computer programs and operating systems that tell the hardware what to do
 * **Other**
 
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)

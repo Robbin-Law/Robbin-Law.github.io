@@ -92,5 +92,5 @@ Instead, be very specific:
 ## Evaluation on the Lab
 ![lab-evaluation-1](files/lab-evaluation-1.jpg)![lab-evaluation-2](files/lab-evaluation-2.jpg)
 
-#### [ANAP1525 Home](../)
-#### [Home](../)
+#### [ANAP1525 Home](../index.md)
+#### [Home](../index.md)

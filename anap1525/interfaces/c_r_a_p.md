@@ -78,4 +78,4 @@ title: Graphical Design C.R.A.P.
 ![wrong](files/wrong.png) | ![check](files/check.png)
 
 #### [Interfaces Home](index.md)
-#### [ANAP1525 Home](../)
+#### [ANAP1525 Home](../index.md)
