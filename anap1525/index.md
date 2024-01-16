@@ -12,6 +12,8 @@ title: ANAP1525
 [Entity Relationship Diagrams (ERD)](erd/index.md)<br>
 [User Interfaces](interfaces/index.md)
 
+### [Groups](groups/index.md)
+
 ### [Exercises](exercises/index.md)
 
 ### [Schedule](schedule-2024-01-win.md)
