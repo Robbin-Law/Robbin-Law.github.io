@@ -1,9 +1,7 @@
 ---
 layout: page
-title: SAD Theory
+title: Groups 2024 Winter
 ---
-
-## Groups 2024 Winter
 
 Group	First name	Surname	
 
