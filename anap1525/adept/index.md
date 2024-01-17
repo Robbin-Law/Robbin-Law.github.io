@@ -57,6 +57,7 @@ title: ADEPT Analysis
     * Can include external groups that receive information required by law or be membership in industry groups
 * **Stakeholders**:
   * **Defined**: people with a personal stake in the system and its information who are neither customer or users:
+    * **Investors**
     * **System sponsors**
     * **Champions**
 
