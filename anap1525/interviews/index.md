@@ -76,7 +76,7 @@ Through client analysis, you may know if this is the case with your client. When
 
 ## Not Understanding the Technical Document(s)
 *  If you choose to show your DFD’s make sure you are explaining all parts to them.
-*  "The updating customer membership is started because the customer phones in to place an order and a verification of information is your first step" instead of  "Does this look correct?"<br>
+*  "The updating customer membership is started because the customer phones in to place an order and a verification of information is your first step" instead of  "Does this look correct?"<br><br>
 ![DFD Extract](files/dfd-extract.jpg)
 
 ## Not Paying Attention to Details
@@ -88,9 +88,6 @@ Avoid the following scenario:
 Instead, be very specific:
 
 **Question**: "In the initial search function you see at the top of the screen, is there enough choices for filtering and selection?  Is there more that is needed here for you to be effective in your initial search?"
-
-## Evaluation on the Lab
-![lab-evaluation-1](files/lab-evaluation-1.jpg)![lab-evaluation-2](files/lab-evaluation-2.jpg)
 
 #### [ANAP1525 Home](../index.md)
 #### [Home](../index.md)
