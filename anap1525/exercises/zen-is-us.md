@@ -3,7 +3,7 @@ layout: page
 title: Zen is Us Yoga Scheduling System
 ---
 
-The local yoga studio Zen Is Us has a class schedule system.  Zen Is Us runs a beginner class when there are enough interested students.  This class is always offered on a Monday at 10am.  
+The local yoga studio `Zen Is Us` has a class schedule system.  Zen Is Us runs a beginner class when there are enough interested students.  This class is always offered on a Monday at 10am.  
 
 Students will submit a class request by sending us an email.  Upon receipt of an email receptionist will add the class request to the system.  
 
@@ -14,12 +14,48 @@ The next day she will send confirmation emails to the students and send the clas
 
 <hr>
 
-## Required: SDLC
-1.	Apply the ADEPT Analysis Framework to this case
-2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 
-3.	Draw the LOGICAL SYSTEM LEVEL Data Flow Diagram for this case 
-4.	Write the System Level DFD Narratives
-5.	Draw the Entity Relationship Diagram
+## Required: SDLC (System Development Life Cycle)
+1.	`ADEPT` (Activities, Data, Environment, People, Technology) Framework 
+2.	`Context DFD` (Data Flow Diagram)
+3.	`System DFD` (Data Flow Diagram)
+4.	`System Level Data Flow Narratives`
+5.	`ERD` (Entity Relationship Diagram)
+
+<hr>
+
+## SOLUTION
+
+### ADEPT
+
+Activities/Processes
+- Student Registration (1.0)
+- Class Registration (2.0)
+- Confirmation (3.0)
+
+Data (Information Sources)
+- Registration
+- Teacher
+- Class List
+- Studio Schedule
+
+Environment
+- Products/Services
+  - Class Scheduling Management System
+  - Competition - other yoga studios
+- Nature of Industry
+  - Year Round, Private
+
+People
+  - External
+    - Student
+    - Teacher
+  - Internal
+    - Reception
+
+Technology
+  - Mix of Manual and Electronic Processes
+
+<hr>
 
 #### [Exercise Home](index.md)
 #### [ANAP1525 Home](../index.md)

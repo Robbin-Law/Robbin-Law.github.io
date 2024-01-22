@@ -3,7 +3,7 @@ layout: page
 title: Up All Night Online School Inventory System
 ---
 
-The Online school UP ALL NIGHT has an inventory of books students will borrow for their courses.  These books are shipped to the student.
+The Online school `Up All Night` has an inventory of books students will borrow for their courses.  These books are shipped to the student.
 
 When a student registers for a class there is a list of books that go with each course.  In the inventory file, there is a field that will designate which course the book is associated to.  If a student creates a registration for Social 20, the system will pull up all active inventory items associated with Social 20.  A new book order is created when the student registers for classes for the school year.  An invoice is sent to the student.  The student will pay for their courses, a receipt issued, then the book order can be processed when shipping and receiving start their process. 
 
