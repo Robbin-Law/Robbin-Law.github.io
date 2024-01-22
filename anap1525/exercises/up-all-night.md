@@ -11,15 +11,46 @@ Every morning, Shipping and Receiving will pull up the orders that are ready to 
 
 When the year is done, the books are expected to be returned.  They will arrive at the shipping and receiving office and the book bar code is scanned.  The student they are signed out to will come up.  The book is evaluated and may be “written off” if not in good condition.  The student record is updated as having returned the book and the student is sent an email confirming receipt of the books.
 
+<hr>
+
+## Required: SDLC (System Development Life Cycle)
+1.	Apply the `ADEPT` (Activities, Data, Environment, People, Technology) Analysis Framework to this case
+2.	Draw the `Context DFD` (Data Flow Diagram) for this case 
+3.	Draw the `System DFD` (Data Flow Diagram) for this case 
+4.	Write the `System Level Data Flow Narratives`
+5.	Draw the `ERD` (Entity Relationship Diagram) for this case
 
 <hr>
 
-## Required: SDLC
-1.	Apply the ADEPT Analysis Framework to this case
-2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 
-3.	Draw the LOGICAL SYSTEM LEVEL Data Flow Diagram for this case 
-4.	Write the System Level DFD Narratives
-5.	Draw the Entity Relationship Diagram
+## SOLUTION
 
+### ADEPT
+
+Activities/Processes
+- 1.0 book order creation
+- 2.0 send orders
+- 3.0 return books
+
+Data (Information Sources)
+- Registration
+- Inventory
+- Book Order
+- Invoice
+
+Environment
+- Products/Services
+  - Inventory Management System
+  - Competition - other book stores
+- Nature of Industry
+  - Year Round, Private
+
+- People
+  - External
+    - student
+  - Internal
+    - shipping and receiving
+
+- Technology
+  - Mix of Manual and electronic processes
 #### [Exercise Home](index.md)
 #### [ANAP1525 Home](../index.md)
