@@ -27,9 +27,9 @@ When the year is done, the books are expected to be returned.  They will arrive 
 ### ADEPT
 
 Activities/Processes
-- 1.0 book order creation
-- 2.0 send orders
-- 3.0 return books
+- Book Order Creation (1.0)
+- Send Orders (2.0)
+- Return Books (3.0)
 
 Data (Information Sources)
 - Registration
@@ -44,13 +44,13 @@ Environment
 - Nature of Industry
   - Year Round, Private
 
-- People
+People
   - External
-    - student
+    - Student
   - Internal
-    - shipping and receiving
+    - Shipping and Receiving
 
-- Technology
-  - Mix of Manual and electronic processes
+Technology
+  - Mix of Manual and Electronic Processes
 #### [Exercise Home](index.md)
 #### [ANAP1525 Home](../index.md)
