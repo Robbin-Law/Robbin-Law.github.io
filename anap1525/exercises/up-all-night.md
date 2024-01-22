@@ -14,11 +14,11 @@ When the year is done, the books are expected to be returned.  They will arrive 
 <hr>
 
 ## Required: SDLC (System Development Life Cycle)
-1.	Apply the `ADEPT` (Activities, Data, Environment, People, Technology) Analysis Framework to this case
-2.	Draw the `Context DFD` (Data Flow Diagram) for this case 
-3.	Draw the `System DFD` (Data Flow Diagram) for this case 
-4.	Write the `System Level Data Flow Narratives`
-5.	Draw the `ERD` (Entity Relationship Diagram) for this case
+1.	`ADEPT` (Activities, Data, Environment, People, Technology) Framework 
+2.	`Context DFD` (Data Flow Diagram)
+3.	`System DFD` (Data Flow Diagram)
+4.	`System Level Data Flow Narratives`
+5.	`ERD` (Entity Relationship Diagram)
 
 <hr>
 
@@ -53,6 +53,7 @@ People
 Technology
   - Mix of Manual and Electronic Processes
 
+<hr>
 
 #### [Exercise Home](index.md)
 #### [ANAP1525 Home](../index.md)
