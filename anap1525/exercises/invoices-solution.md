@@ -18,6 +18,39 @@ If the invoice is rejected, it is sent to the Purchasing Department to be reproc
 
 <hr>
 
+## SOLUTION
+
+### ADEPT
+
+Activities/Processes
+- Student Registration (1.0)
+- Class Registration (2.0)
+- Confirmation (3.0)
+
+Data (Information Sources)
+- Registration
+- Teacher
+- Class List
+- Studio Schedule
+
+Environment
+- Products/Services
+  - Class Scheduling Management System
+  - Competition - other yoga studios
+- Nature of Industry
+  - Year Round, Private
+
+People
+  - External
+    - Student
+    - Teacher
+  - Internal
+    - Reception
+
+Technology
+  - Mix of Manual and Electronic Processes
+
+<hr>
 
 #### [Exercise Home](index.md)
 #### [ANAP1525 Home](../)
