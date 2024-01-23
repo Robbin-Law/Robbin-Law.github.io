@@ -22,4 +22,41 @@ When the year is done, the books are expected to be returned. They will arrive a
 
 <hr>
 
-#### [Exercise Home](index.md)
+## SOLUTION
+
+### ADEPT
+
+Activities/Processes
+- Book Order Creation (1.0)
+- Send Orders (2.0)
+- Return Books (3.0)
+
+Data (Information Sources)
+- Registration
+- Inventory
+- Book Order
+- Invoice
+
+Environment
+- Products/Services
+  - Inventory Management System
+  - Competition - other book stores
+- Nature of Industry
+  - Year Round, Private
+
+People
+  - External
+    - Student
+  - Internal
+    - Shipping and Receiving
+
+Technology
+  - Mix of Manual and Electronic Processes
+
+<hr>
+
+![system-dfd](system-dfd.png)
+
+<hr>
+
+#### [Exercise Home](../index.md)

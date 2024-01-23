@@ -20,5 +20,42 @@ If the invoice is authorized for payment then a cheque issued to the vendor. The
 
 <hr>
 
+## SOLUTION
 
-#### [Exercise Home](index.md)
+### ADEPT
+
+Activities/Processes
+- Check Invoice (1.0)
+- Issue Payment (2.0)
+- Produce Reports (3.0)
+
+Data (Information Sources)
+- Invoice
+- Purchase Order
+- Packing Slip
+- Vendor
+
+Environment
+- Products/Services
+  - Invoice Tracking
+- Nature of Industry
+  - Year Round, Not enough info
+
+People
+  - External
+    - Vendors
+    - Purchasing Department
+    - Finance Department
+  - Internal
+    - Accounts Payable Department
+
+Technology
+  - Mix of Manual and Electronic Processes
+
+<hr>
+
+![system-dfd](system-dfd.png)
+
+<hr>
+
+#### [Exercise Home](../index.md)

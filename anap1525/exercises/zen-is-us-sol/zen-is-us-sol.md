@@ -23,4 +23,42 @@ The next day she will send confirmation emails to the students and send the clas
 
 <hr>
 
-#### [Exercise Home](index.md)
+## SOLUTION
+
+### ADEPT
+
+Activities/Processes
+- Student Registration (1.0)
+- Class Registration (2.0)
+- Confirmation (3.0)
+
+Data (Information Sources)
+- Registration
+- Teacher
+- Class List
+- Studio Schedule
+
+Environment
+- Products/Services
+  - Class Scheduling Management System
+  - Competition - other yoga studios
+- Nature of Industry
+  - Year Round, Private
+
+People
+  - External
+    - Student
+    - Teacher
+  - Internal
+    - Reception
+
+Technology
+  - Mix of Manual and Electronic Processes
+
+<hr>
+
+![system-dfd](system-dfd.png)
+
+<hr>
+
+#### [Exercise Home](../index.md)
