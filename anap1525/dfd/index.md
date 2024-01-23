@@ -64,6 +64,11 @@ Transforms incoming data flow(s) to outgoing data flow(s). Common synonyms are: 
 Symbol:<br>
 ![process-symbol](files/process-symbol.png)
 
+- Some symbols can be used multiple times to describe the same thing on a diagram. 
+- The changes made to these symbols indicate that they are a copy of a previous symbol.
+
+![symbol-copies](files/symbol-copies.png)
+
 ## Topics
 [DFD Rules](rules.md)<br>
 [Multi-Level DFDs](multi-level.md)
