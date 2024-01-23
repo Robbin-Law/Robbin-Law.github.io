@@ -23,29 +23,29 @@ If the invoice is rejected, it is sent to the Purchasing Department to be reproc
 ### ADEPT
 
 Activities/Processes
-- Student Registration (1.0)
-- Class Registration (2.0)
-- Confirmation (3.0)
+- Check Invoice (1.0)
+- Authorize Invoices for Payment (2.0)
+- Produce Reports (3.0)
 
 Data (Information Sources)
-- Registration
-- Teacher
-- Class List
-- Studio Schedule
+- Purchase Order
+- Invoice
+- Packing Slip
+- Vendor
 
 Environment
 - Products/Services
-  - Class Scheduling Management System
-  - Competition - other yoga studios
+  - Invoice Tracking
 - Nature of Industry
-  - Year Round, Private
+  - Year Round, Not enough info
 
 People
   - External
-    - Student
-    - Teacher
+    - Purchasing Department
+    - Finance Department
+    - Vendors
   - Internal
-    - Reception
+    - Accounting Department
 
 Technology
   - Mix of Manual and Electronic Processes
