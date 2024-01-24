@@ -98,7 +98,7 @@ title: Information Systems
 * Assists with decisions (MIS is report focused)
 * Can perform “what if” scenarios.
 * Used by middle management and up
-5. Knowledge Management Systems (Expert Systems
+5. Knowledge Management Systems (Expert Systems)
 * A system encoded with “expert” human knowledge and experience to achieve expert levels of problem solving. Imitates the reasoning of an expert.
 * Simulates human reasoning by combining a knowledge base and inference rules that determine how the knowledge is applied
   * Knowledge base – consists of a large database that allows users to find information by entering keyword or questions in normal English phrases

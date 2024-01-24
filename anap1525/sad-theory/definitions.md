@@ -7,17 +7,21 @@
 #### Information Systems Hierarchy
 
 - EIS - Executive Information System
-  - KMS - Knowledge Management System - Expert/AI
+  - KMS - Knowledge Management System
+    - imitates reasoning of an expert
 - DSS - Decision Support System
   - can perform "what-if" scenarios
-- MIS - Management Information System
+- BSS - Business Support System
+  - provides reports to managers
+  - MIS - Management Information System
 - OSS - Office Support System
 - TPS - Transaction Processing System
+  - inputs new information into systems
 
 ---
 
 - ECS - Enterprise Computing Systems
-  - support company-wide operations
+  - supports company-wide operations
   - ERP - Enterprise Resource Planning Software
     - Oracle NetSuite
     - Microsoft Dynamics 365
