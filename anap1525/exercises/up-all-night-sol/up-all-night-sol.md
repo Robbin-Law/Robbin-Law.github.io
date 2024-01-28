@@ -59,4 +59,8 @@ Technology
 
 <hr>
 
+![context-dfd](context-dfd.png)
+
+<hr>
+
 #### [Exercise Home](../index.md)
