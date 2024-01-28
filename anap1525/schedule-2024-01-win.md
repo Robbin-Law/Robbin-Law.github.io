@@ -19,13 +19,13 @@ title: Schedule 2024 Winter
 |F19||||
 |7-F26|Q2-ADEPT/Context-DFD (5%)|Lab1|Lab1|
 |8-M04|Bucket-System-DFD (4%)|Lab1|Lab1|
-|9-M11|L1 (20%)<br> L1 Client Meeting (4%)<br> L1 Group Meeting Agenda (4%)|ERD|ERD|
+|9-M11|L1 (15%)<br> L1 Client Meeting (4%)<br> L1 Group Meeting Agenda (4%)|ERD|ERD|
 |10-M17|Q3-System-DFD/Process-DFD (5%)|Screens|Screens|
 |11-M25|Bucket-ERD (4%)|Reports|Reports|
 |12-A01|Bucket-Screen-Critique (4%)|Lab2|Lab2|
 |13-A08||Lab2|Lab2|
-|14-A15|L2 (20%)<br> L2 Client Meeting (4%)<br> L2 Group Meeting Agenda (4%)|Prototyping|Prototyping|
-|15-A22|Q4-Prototyping (5%)|||
+|14-A15|L2 (15%)<br> L2 Client Meeting (4%)<br> L2 Group Meeting Agenda (4%)|Prototyping|Prototyping|
+|15-A22|Q4-Prototyping (15%)|||
 
 
 #### [ANAP1525 Home](./index.md)
