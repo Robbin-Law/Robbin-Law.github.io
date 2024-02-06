@@ -63,4 +63,8 @@ Technology
 
 <hr>
 
+![process-dfd](process-dfd.png)
+
+<hr>
+
 #### [Exercise Home](../index.md)
