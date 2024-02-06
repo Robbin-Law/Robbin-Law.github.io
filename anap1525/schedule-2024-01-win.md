@@ -10,12 +10,12 @@ title: Schedule 2024 Winter
 
 |Week|Assessment|Day1|Day2|
 |:-:|:-:|:-:|:-:|
-|1-J04||SAD-Theory|SAD-Theory<br>Team Selection|
-|2-J15||Business-Rules<br> Feasibility|Risk Management|
-|3-J22|Bucket-Risk (4%)|ADEPT|ADEPT|
-|4-J29|Q1-Terms (5%)|Context-DFD|Context-DFD|
-|5-F05|Bucket-ADEPT (4%)|System-DFD|System-DFD|
-|6-F12|Bucket-Context-DFD (4%)|Process-DFD|Process-DFD|
+|1-J04||SAD-Theory|SAD-Theory<br>Team-Selection|
+|2-J15||Business-Rules<br> Feasibility|Risk-Management|
+|3-J22|Bucket-Risk (4%)|System-DFD/ADEPT|System-DFD/ADEPT|
+|4-J29|Q1-Terms (5%)|System-Context-Process-DFD's|System-Context-Process-DFD's|
+|5-F05|Bucket-ADEPT (4%)|System-Context-Process-DFD's|Lab1-Intro/System-Context-Process-DFD's|
+|6-F12|Bucket-Context-DFD (4%)|Lab1|Lab1|
 |F19||||
 |7-F26|Bucket-System-DFD (4%)|Lab1|Lab1|
 |8-M04|Q2-ADEPT/Context-DFD (5%)|Lab1|Lab1|
