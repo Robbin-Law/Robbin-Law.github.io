@@ -14,14 +14,14 @@ title: Schedule 2024 Winter
 |2-J15||Business-Rules<br> Feasibility|Risk-Management|
 |3-J22|Bucket-Risk (4%)|System-DFD/ADEPT|System-DFD/ADEPT|
 |4-J29|Q1-Terms (5%)|System-Context-Process-DFD's|System-Context-Process-DFD's|
-|5-F05|Bucket-ADEPT (4%)|System-Context-Process-DFD's|Lab1-Intro/System-Context-Process-DFD's|
+|5-F05|Bucket-ADEPT (4%)|System-Context-Process-DFD's|System-Context-Process-DFD's/Lab1|
 |6-F12|Bucket-Context-DFD (4%)|Lab1|Lab1|
 |F19||||
 |7-F26|Bucket-System-DFD (4%)|Lab1|Lab1|
-|8-M04|Q2-ADEPT/Context-DFD (5%)|Lab1|Lab1|
-|9-M11|L1 (15%)<br> L1 Client Meeting (4%)<br> L1 Group Meeting Agenda (4%)|ERD|ERD|
-|10-M17|Q3-System-DFD/Process-DFD (5%)|Screens|Screens|
-|11-M25|Bucket-ERD (4%)|Reports|Reports|
+|8-M04|Q2-ADEPT/Context-DFD (5%)|ERD/Lab1|ERD/Lab1|
+|9-M11|L1 (15%)<br> L1 Client Meeting (4%)<br> L1 Group Meeting Agenda (4%)|ERD/Screens|ERD/Screens|
+|10-M17|Q3-System-DFD/Process-DFD (5%)|Screens/Reports|Screens/Reports|
+|11-M25|Bucket-ERD (4%)|Screens/Reports|Screens/Reports|
 |12-A01|Bucket-Screen-Critique (4%)|Lab2|Lab2|
 |13-A08||Lab2|Lab2|
 |14-A15|L2 (15%)<br> L2 Client Meeting (4%)<br> L2 Group Meeting Agenda (4%)|Prototyping|Prototyping|
