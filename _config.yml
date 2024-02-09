@@ -13,13 +13,14 @@ header_pages:
  - dmit1530/index.md
  - cpsc1520/index.md
  - anap1525/index.md
- #- cpsc1012/index.md
+ - dmit1508/index.md
  #- cpsc1517/index.md
  #- dmit2018/index.md
  #- about.md
 
-exclude:
-  README.md
+# exclude:
+#   README.md
+
 theme: minima
 
 favicon: favicon.ico
