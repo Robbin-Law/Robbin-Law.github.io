@@ -5,7 +5,6 @@ title: COMP1017
 
 # Web Fundamentals I
 
-### Introduction
 This is a first course covering HyperText-Markup-Language (HTML-5)<br>
 and Cascading-Style-Sheets (CSS-3).
 
