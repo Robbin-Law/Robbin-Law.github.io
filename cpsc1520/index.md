@@ -1,9 +1,7 @@
 ---
 layout: post
-title: CPSC1520
+title: CPSC1520 - JavaScript I
 ---
-
-## JavaScript I
 
 ### Introduction
 This is the first course on JavaScript.

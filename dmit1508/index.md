@@ -1,9 +1,7 @@
 ---
 layout: page
-title: DMIT1508
+title: DMIT1508 - Database Fundamentals
 ---
-
-### Database Fundamentals
 
 ### Main Topics
 * [Design](c-design/theory-normalization.md)

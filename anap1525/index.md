@@ -1,9 +1,7 @@
 ---
 layout: page
-title: ANAP1525
+title: ANAP1525 - System Analysis and Design I
 ---
-
-### System Analysis and Design I
 
 [System Analysis and Design (SAD) Theory](sad-theory/index.md)<br>
 [Client Interviews](interviews/index.md)<br>

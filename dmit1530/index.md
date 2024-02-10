@@ -1,8 +1,7 @@
 ---
 layout: page
-title: DMIT1530
+title: DMIT1530 - Web Fundamentals II
 ---
-## Web Fundamentals II
 
 ### [Module 1: Responsive Web Design](module1/)
 In this module, we will start off with a review of best practice techniques for web development and the basics of the Flexbox layout model. You will be introduced to responsive web design (RWD) and you will learn how to make page layouts that will fit and adjust to different screen widths.

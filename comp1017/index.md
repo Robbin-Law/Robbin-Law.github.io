@@ -1,9 +1,7 @@
 ---
 layout: post
-title: COMP1017
+title: COMP1017 - Web Fundamentals I
 ---
-
-## Web Fundamentals I
 
 ### Introduction
 This is a first course covering HyperText-Markup-Language (HTML-5)<br>
