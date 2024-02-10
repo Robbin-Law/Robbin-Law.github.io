@@ -95,7 +95,7 @@ Imagine a form that looks like this:
 
 ### ERD
 
-![Simple ERD](./Logical-ERD.svg)
+![Simple ERD](./ERD.svg)
 
 ----
 
