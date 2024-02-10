@@ -2,6 +2,8 @@
 title: Normalization
 ---
 
+This material is provided here thanks to it's creator Dan Gilleland.
+
 ## Zero Normal Form
 
 While Zero-Normal Form (**0NF**) isn't regarded by most as an official step, it's nonetheless crucial. The whole goal of this phase is to *identify all the attributes* of your entity. In the process of doing this, it's vital that you make sure
