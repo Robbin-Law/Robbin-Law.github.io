@@ -11,13 +11,6 @@ While Zero-Normal Form (**0NF**) isn't regarded by most as an official step, it'
 - you have identified what attribute is acting to *uniquely identify* the entity as a whole (usually it's a single attribute), and
 - you have given a name to your entity
 
-<!--
-1. Give a name to the complete form (this is our core entity)
-2. List all the metadata as atomized attributes
-3. Identify the unique primary key attribute
-4, Identify which attributes represent a set of repeating data
--->
-
 ## First Normal Form
 
 First Normal Form (**1NF**) is all about *separating out **repeating groups*** of information.
@@ -107,9 +100,6 @@ Imagine a form that looks like this:
 
 ----
 
-## Double-Checking Normalization Results
-
-It's a good practice to double-check your normalization by attempting two verifications. The first is to do a **data verification**.
 
 ### Data Verification
 
