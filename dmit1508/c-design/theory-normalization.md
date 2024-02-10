@@ -58,7 +58,7 @@ A key part of walking through the normalization steps is to **be consistent**.
 
 ---
 
-###  
+<br>  
 ## A Simple Example
 
 Imagine a form that looks like this:
@@ -89,6 +89,7 @@ Imagine a form that looks like this:
 
 ---
 
+<br>
 ![Simple ERD](./example-ESP/ERD/Logical-ERD-Optimized.png)
 
 ### ERD Description
@@ -102,7 +103,7 @@ Imagine a form that looks like this:
 
 ----
 
-
+<br>
 ### Data Verification
 
 The verification of the final set of entities after going through the normalization process can be demonstrated by drawing tables with the original document's data entered as a sample.
