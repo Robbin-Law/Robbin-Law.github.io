@@ -55,8 +55,10 @@ A key part of walking through the normalization steps is to **be consistent**.
 - ***Never*** change the primary key from a previously established entity. (*Note: There are some exceptions to this rule, but as a beginner, changing a primary key is a strong indicator that you're doing it wrong.*)
 - *Never* change the foreign keys from previously established entities when re-writing them as modified entities.
 - Always self-check the relationship between your entities at each step of the normalization process. Make a quick note of the one-to-many relationships that should form as you create new entities at each step; the cardinal relationship between the entities should make sense.
+
 ---
 
+###  
 ## A Simple Example
 
 Imagine a form that looks like this:
