@@ -1,7 +1,6 @@
 ---
 title: Normalization
 ---
-# Normalization
 
 ## Zero Normal Form
 
@@ -108,11 +107,11 @@ Imagine a form that looks like this:
 
 ----
 
-# Double-Checking Normalization Results
+## Double-Checking Normalization Results
 
 It's a good practice to double-check your normalization by attempting two verifications. The first is to do a **data verification**.
 
-## Data Verification
+### Data Verification
 
 The verification of the final set of entities after going through the normalization process can be demonstrated by drawing tables with the original document's data entered as a sample.
 
