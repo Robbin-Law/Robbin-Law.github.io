@@ -12,12 +12,13 @@ header_pages:
  - cpsc1012/index.md
  - dmit1508/index.md
  - comp1017/index.md
+ - cpsc1517/index.md
  - dmit1530/index.md
  - cpsc1520/index.md
- - cpsc1517/index.md
  - anap1525/index.md
- - dmit2008/index.md
  - dmit2018/index.md
+ - dmit2008/index.md
+ - dmit2504/index.md
  #- about.md
 
 # exclude:

@@ -3,10 +3,9 @@ layout: post
 title: COMP1017
 ---
 
-# Web Fundamentals I
+# Web Fundamentals I - HTML5 and CSS3
 
-This is a first course covering HyperText-Markup-Language (HTML-5)<br>
-and Cascading-Style-Sheets (CSS-3).
+- [Link to my demos repo](https://github.com/RobbinLawHTMLCSS/html-css-1-demos)
 
 ### [Module 1 - Document Structure](module1/)
 Here you will explore the basic structure of web pages, marking up content, deployment, sectioning, and simple site navigation.
