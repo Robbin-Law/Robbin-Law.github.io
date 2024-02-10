@@ -95,7 +95,7 @@ Imagine a form that looks like this:
 
 ### ERD
 
-![Simple ERD](./ERD.svg)
+![Simple ERD](./Nuts-n-Bolts-ERD/Logical-ERD-Optimized.png)
 
 ----
 
