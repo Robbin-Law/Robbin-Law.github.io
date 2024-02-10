@@ -100,6 +100,7 @@ Imagine a form that looks like this:
 
 ----
 
+
 ### Data Verification
 
 The verification of the final set of entities after going through the normalization process can be demonstrated by drawing tables with the original document's data entered as a sample.
