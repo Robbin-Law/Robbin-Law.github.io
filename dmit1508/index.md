@@ -6,7 +6,7 @@ title: DMIT1508
 ### Database Fundamentals
 
 ### Main Topics
-* [Normalization](c-design-normalization-erd/normalization.md)
+* [Design](c-design/normalization.md)
 * [Data Definition Langauge (DDL)](topics/ddl.md)
   * [Basic Table Definition](topics/ddl.md/#basic)
   * [CREATE TABLE Syntax](topics/ddl.md/#create)
