@@ -2,7 +2,7 @@
 title: Normalization
 ---
 
-This material is provided here thanks to it's creator Dan Gilleland.
+This content is complements of it's creator Dan Gilleland.
 
 ## Zero Normal Form
 
