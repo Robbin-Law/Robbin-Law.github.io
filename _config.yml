@@ -9,13 +9,15 @@ description: A collection of notes and resources.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
+ - cpsc1012/index.md
+ - dmit1508/index.md
  - comp1017/index.md
  - dmit1530/index.md
  - cpsc1520/index.md
+ - cpsc1517/index.md
  - anap1525/index.md
- - dmit1508/index.md
- #- cpsc1517/index.md
- #- dmit2018/index.md
+ - dmit2008/index.md
+ - dmit2018/index.md
  #- about.md
 
 # exclude:
