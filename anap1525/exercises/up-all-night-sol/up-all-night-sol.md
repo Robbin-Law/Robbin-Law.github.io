@@ -67,4 +67,8 @@ Technology
 
 <hr>
 
+![erd](erd.png)
+
+<hr>
+
 #### [Exercise Home](../index.md)
