@@ -9,6 +9,7 @@ description: A collection of notes and resources.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
+ - cmpe1250/index.md
  - cpsc1012/index.md
  - dmit1508/index.md
  - comp1017/index.md
