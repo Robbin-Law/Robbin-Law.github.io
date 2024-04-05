@@ -8,7 +8,4 @@ title: CMPE1250
 ### [1 - ](1/)
 Description
 
-### [2 - ](2/)
-Description
-
 #### [Main Page](../)
