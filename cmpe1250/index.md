@@ -5,16 +5,16 @@ title: CMPE1250
 
 # Embedded Systems Fundamentals
 
-### [Topic 1 - Embedded Systems Theory](module1/)
-Here you will explore the basic structure of web pages, marking up content, deployment, sectioning, and simple site navigation.
+### [1 - ](1/)
+Description
 
-### [Topic 2 - ](module2/)
-Here you will explore layout styling using Cascading Stylesheets (CSS), the Box Model, and FlexBox.
+### [2 - ](2/)
+Description
 
-### [Topic 3 - ](module3/)
-Here you will explore content styling with CSS, web image formats, background images, styled navigation, and styling web forms.
+### [3 - ](3/)
+Description
 
-### [Topic 4 - ](module4/)
-Here you will put all your knowledge together to build a complete web site.
+### [4 - ](4/)
+Description
 
 #### [Main Page](../)
