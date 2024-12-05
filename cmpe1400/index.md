@@ -5,6 +5,6 @@ title: CMPE1400
 
 ## Semiconductors
 
-- [Link to my notes repo](https://github.com/RobbinLawComputerEngineering/CMPE1400-Semiconductors-Public.git)
+- [Link to my notes repo](https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git)
 
 ## [Main Page](../)
