@@ -7,4 +7,6 @@ title: CMPE1400
 
 - [Link to my notes repo](https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git)
 
+- [SAR Examples](c-Example-SAR-ADC.md)
+
 ## [Main Page](../)
