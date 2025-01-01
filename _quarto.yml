@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: Home
+  open-graph: true
+  page-footer: "Powered by Quarto"
+  page-navigation: true
+  navbar:
+    background: secondary
+    search: true
+    left:
+      - text: "Semiconductors"
+        href: semiconductors/index.qmd
+      - text: "Embedded-Systems"
+        href: embedded-systems/index.qmd
+
+  sidebar:
+    - title: "Semiconductors"
+      style: "docked"
+      background: light
+      contents:
+        - semiconductors/index.qmd
+        - section: "Diodes"
+          contents:
+            - semiconductors/section1/topic1/index.qmd
+            - semiconductors/section1/topic2/index.qmd
+          
+
+    - title: "Embedded-Systems"
+      style: "docked"
+      background: light
+      contents:
+        - embedded-systems/index.qmd
+        - section: "Environment Setup"
+          contents:
+            - embedded-systems/section1/topic1/index.qmd
+            - embedded-systems/section1/topic2/index.qmd
+        - section: "Intro to the Micro"
+          contents:
+            - embedded-systems/section2/topic1/index.qmd
+            - embedded-systems/section2/topic2/index.qmd           
+    
+format:
+  html:
+    fig-height: 7
+    fig-width: 7
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

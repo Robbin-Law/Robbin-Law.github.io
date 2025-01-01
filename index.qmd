@@ -1,0 +1,21 @@
+---
+title: "Robbin Law"
+subtitle: "Engineer | Educator"
+image: profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/robbinl
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/robbin-law-6b02709a/
+      target: _blank
+---
+
+## Welcome
+
+This website contains a collection of resources on various subjects. This websites content has been edited by myself but much of it was originally authored by others. We stand on the shoulders of giants! I acknowledge original authors per resource. **Enjoy**

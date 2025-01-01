@@ -1,0 +1,14 @@
+---
+title: "Semiconductors"
+---
+
+## General Resources
+
+- [Semiconductors by Circuit Bread](https://www.youtube.com/watch?v=n2S7kN12RDQ&list=PLfYdTiQCV_p7sDswtLZKK43BWOd2mTmHC){target="_blank"}
+  - youtube video playlist; first 12 are on diodes, next 9 are on transistors.
+
+- [Transistors, How do they work by Lesics](https://www.youtube.com/watch?v=7ukDKVHnac4){target="_blank"}
+  - youtube video 6.52 min
+
+- [Why it was almost impossible to make the blue LED by Veritasum](https://www.youtube.com/watch?v=AF8d72mA41M){target="_blank"}
+  - youtube video 33.44 min; very good history lesson with great animations.

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Semiconductors-Private"
+		},
+		{
+			"path": "../Embedded-Systems-Private"
+		}
+	],
+	"settings": {}
+}

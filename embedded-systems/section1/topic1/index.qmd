@@ -1,0 +1,31 @@
+---
+title: "Tool Chain Software Setup"
+---
+
+### Go thru these resources before Downloading and Installing Software
+
+- [Install drivers and get CodeWarrior setup by Carlos Estay](https://www.youtube.com/watch?v=6BJ_XLAK3PQ&list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&index=2){target="_blank"}
+  - Youtube video; first in a playlist of 4.
+  - Watch this **first**.
+
+- [Using VS Code as an Editor by Simon Walker](assets/UsingVSCodeAsAnEditor.pdf){target="_blank"}
+  - PDF.
+  - Read this document **second**.
+
+- [Tool chain tips by Simon Walker](https://www.youtube.com/watch?v=jbNrwPYJGZE){target="_blank"}
+  - Youtube video.
+  - Watch this **third**.
+
+### Software to Download and Install
+
+- [USBDM First set of Drivers](assets/tool-chain-software/USBDMPod/USBDM_Drivers_4_12_1_Win_x64.msi){download=""}
+  - Download and install this **first**.
+
+- [CodeWarrior5.1](assets/tool-chain-software/CodeWarrior5.1/CW_HC12_v5.1_SPECIAL.exe){download=""}
+  - Download and install this **second**. 
+  - Do not store it in C:\Program Files (x86), put it in another folder on the C:\ drive that has **NO spaces** in the folder name.
+  - The very last step in the install asks if you want to update, we **DO NOT** want to update, so just cancel that.
+
+- [USBDM Second set of Drivers](assets/tool-chain-software/USBDMPod/USBDM_4_12_1_262_Win.msi){download=""}
+  - Download and install this **third** after CodeWarrior has been successfully installed.
+
