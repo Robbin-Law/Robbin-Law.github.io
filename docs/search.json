@@ -118,7 +118,7 @@
     "href": "semiconductors/section1/topic1/index.html#diode-models",
     "title": "Diode Physics and Models",
     "section": "Diode Models",
-    "text": "Diode Models\nThe behavior of the diode in response to changing conditions in the biasing circuit is surprisingly complex, as shown in the oscilloscope X-Y trace below.\nThis particular diode is a Zener diode, designed with a specific Reverse Breakdown voltage of 5.6 V.  Notice the following:\nBetween approximately -5 V and +0.6 V, the current is essentially zero.  However, with higher resolution, we would actually see a small current, perhaps 500 nA, flowing because of the Minority Carriers in the silicon. As we approach 0.7 V, the current increases in an approximately parabolic, or second order manner. Beyond this point, the current increases rapidly with very little change in voltage.  However, the voltage does increase slightly, indicating that the diode has an internal resistance.  Since V=IR, the slope of this section would be 1/R. Also, as we approach -5.6 V, the current increases in the opposite direction, again in an approximately parabolic manner. Beyond this point, the current again increases rapidly with very little change in voltage.  Further analysis would indicate that the slope of this graph, again 1/R, would be quite similar to the slope at +0.7 V. The condition described in #1 above is the off condition of the diode, where current is practically zero.  Most of it would be in the Reverse Biased region, but there is a small section that is technically forward biased but not with a high enough voltage to overcome the Barrier Potential.\nThe condition described in #3 above is the Forward Biased region, where the voltage remains relatively constant at approximately the Barrier Potential.\nThe condition described in #5 above is the Reverse Breakdown region.\n#2 is referred to as the Forward Knee, due to its rounded shape and sudden change in direction.\n#4 is referred to as the Reverse Knee for the same reasons.\nThis is quite unlike what we would expect to see for a passive component, such as the resistor.  This is the Characteristic “Curve” for a resistor:\nIn this case, a single expression describes the entire response of a resistor to a change in voltage:\n‌I=1RV, or simply Ohm’s Law.",
+    "text": "Diode Models\nThe behavior of the diode in response to changing conditions in the biasing circuit is surprisingly complex, as shown in the oscilloscope X-Y trace below.\n\nThis particular diode is a Zener diode, designed with a specific Reverse Breakdown voltage of 5.6 V.  Notice the following:\n\nBetween approximately -5 V and +0.6 V, the current is essentially zero.  However, with higher resolution, we would actually see a small current, perhaps 500 nA, flowing because of the Minority Carriers in the silicon.\nAs we approach 0.7 V, the current increases in an approximately parabolic, or second order manner.\nBeyond this point, the current increases rapidly with very little change in voltage.  However, the voltage does increase slightly, indicating that the diode has an internal resistance.  Since V=IR, the slope of this section would be 1/R.\nAlso, as we approach -5.6 V, the current increases in the opposite direction, again in an approximately parabolic manner.\nBeyond this point, the current again increases rapidly with very little change in voltage.  Further analysis would indicate that the slope of this graph, again 1/R, would be quite similar to the slope at +0.7 V.\n\nThe condition described in #1 above is the off condition of the diode, where current is practically zero.  Most of it would be in the Reverse Biased region, but there is a small section that is technically forward biased but not with a high enough voltage to overcome the Barrier Potential.\nThe condition described in #3 above is the Forward Biased region, where the voltage remains relatively constant at approximately the Barrier Potential.\nThe condition described in #5 above is the Reverse Breakdown region.\n#2 is referred to as the Forward Knee, due to its rounded shape and sudden change in direction.\n#4 is referred to as the Reverse Knee for the same reasons.\nThis is quite unlike what we would expect to see for a passive component, such as the resistor.  This is the Characteristic “Curve” for a resistor:\n\nIn this case, a single expression describes the entire response of a resistor to a change in voltage:\n\\(‌I=(1/R)V\\), or simply Ohm’s Law.",
     "crumbs": [
       "Semiconductors",
       "Diodes",
@@ -130,43 +130,7 @@
     "href": "semiconductors/section1/topic1/index.html#modelling",
     "title": "Diode Physics and Models",
     "section": "Modelling",
-    "text": "Modelling\nTo make sense of our world, we as humans “model” everything we see.  A model is a simplified description of a system or situation that can be used to predict future outcomes or to help us respond and control the system or situation.  Ohm’s Law is a model of the behaviour of a resistor, and it is simplified in that it doesn’t take into account the effect of temperature on resistance, it doesn’t include the “skin” effect of high frequency changes in voltage on the resistance, it doesn’t take into account the inductance or capacitance of a physical resistive component, it doesn’t account for changes in resistance due to humidity or radiation, and it doesn’t tell us what happens if too much current is driven through the resistor.\nWhen it comes to diodes, our models typically ignore the parabolic regions at the Forward and Reverse Knees.\nThen, depending on how accurately we need to model the device, we may ignore other features:\nWe often don’t include the Reverse Breakdown region, as we assume our circuit will be biased to avoid this. We often don’t include the slope of the Forward bias region, treating the diode as if its dynamic internal resistance is zero. We may even overlook the fact that we need to overcome the Barrier Potential before the diode conducts.",
-    "crumbs": [
-      "Semiconductors",
-      "Diodes",
-      "Diode Physics and Models"
-    ]
-  },
-  {
-    "objectID": "semiconductors/section1/topic1/index.html#ideal-model",
-    "href": "semiconductors/section1/topic1/index.html#ideal-model",
-    "title": "Diode Physics and Models",
-    "section": "Ideal Model",
-    "text": "Ideal Model\nThis is the simplest model.  It just says a diode conducts when forward biased and doesn’t conduct when reverse biased – a polarity-controlled switch, if you wish.",
-    "crumbs": [
-      "Semiconductors",
-      "Diodes",
-      "Diode Physics and Models"
-    ]
-  },
-  {
-    "objectID": "semiconductors/section1/topic1/index.html#practical-model",
-    "href": "semiconductors/section1/topic1/index.html#practical-model",
-    "title": "Diode Physics and Models",
-    "section": "Practical Model",
-    "text": "Practical Model\nThis one takes into account the Barrier Potential, which needs to be overcome before the diode can conduct.  Otherwise, it behaves like a zero-ohm switch.",
-    "crumbs": [
-      "Semiconductors",
-      "Diodes",
-      "Diode Physics and Models"
-    ]
-  },
-  {
-    "objectID": "semiconductors/section1/topic1/index.html#complete-model",
-    "href": "semiconductors/section1/topic1/index.html#complete-model",
-    "title": "Diode Physics and Models",
-    "section": "Complete Model",
-    "text": "Complete Model\nThis one takes into account more of the actual characteristics, primarily the small internal resistance of the diode when it conducts and the small leakage current due to Minority Carriers.  Although the Knees are shown as parabolas, we usually don’t concern ourselves with that unless we have a good reason to.",
+    "text": "Modelling\nTo make sense of our world, we as humans “model” everything we see.  A model is a simplified description of a system or situation that can be used to predict future outcomes or to help us respond and control the system or situation.  Ohm’s Law is a model of the behavior of a resistor, and it is simplified in that it doesn’t take into account the effect of temperature on resistance, it doesn’t include the “skin” effect of high frequency changes in voltage on the resistance, it doesn’t take into account the inductance or capacitance of a physical resistive component, it doesn’t account for changes in resistance due to humidity or radiation, and it doesn’t tell us what happens if too much current is driven through the resistor.\nWhen it comes to diodes, our models typically ignore the parabolic regions at the Forward and Reverse Knees.\nThen, depending on how accurately we need to model the device, we may ignore other features:\n\nWe often don’t include the Reverse Breakdown region, as we assume our circuit will be biased to avoid this.\nWe often don’t include the slope of the Forward bias region, treating the diode as if its dynamic internal resistance is zero.\nWe may even overlook the fact that we need to overcome the Barrier Potential before the diode conducts.\n\n\nIdeal Model\nThis is the simplest model.  It just says a diode conducts when forward biased and doesn’t conduct when reverse biased – a polarity-controlled switch, if you wish.\n\n\n\nPractical Model\nThis one takes into account the Barrier Potential, which needs to be overcome before the diode can conduct.  Otherwise, it behaves like a zero-ohm switch.\n\n\n\nComplete Model\nThis one takes into account more of the actual characteristics, primarily the small internal resistance of the diode when it conducts and the small leakage current due to Minority Carriers.  Although the Knees are shown as parabolas, we usually don’t concern ourselves with that unless we have a good reason to.",
     "crumbs": [
       "Semiconductors",
       "Diodes",

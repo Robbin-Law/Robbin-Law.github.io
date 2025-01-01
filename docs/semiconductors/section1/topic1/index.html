@@ -205,10 +205,12 @@ window.Quarto = {
   <li><a href="#the-diode" id="toc-the-diode" class="nav-link" data-scroll-target="#the-diode">The Diode</a></li>
   </ul></li>
   <li><a href="#diode-models" id="toc-diode-models" class="nav-link" data-scroll-target="#diode-models">Diode Models</a></li>
-  <li><a href="#modelling" id="toc-modelling" class="nav-link" data-scroll-target="#modelling">Modelling</a></li>
+  <li><a href="#modelling" id="toc-modelling" class="nav-link" data-scroll-target="#modelling">Modelling</a>
+  <ul class="collapse">
   <li><a href="#ideal-model" id="toc-ideal-model" class="nav-link" data-scroll-target="#ideal-model">Ideal Model</a></li>
   <li><a href="#practical-model" id="toc-practical-model" class="nav-link" data-scroll-target="#practical-model">Practical Model</a></li>
   <li><a href="#complete-model" id="toc-complete-model" class="nav-link" data-scroll-target="#complete-model">Complete Model</a></li>
+  </ul></li>
   <li><a href="#applying-models" id="toc-applying-models" class="nav-link" data-scroll-target="#applying-models">Applying Models</a></li>
   <li><a href="#worked-examples-diode-model-comparisons" id="toc-worked-examples-diode-model-comparisons" class="nav-link" data-scroll-target="#worked-examples-diode-model-comparisons">Worked Examples – Diode Model Comparisons</a>
   <ul class="collapse">
@@ -312,7 +314,7 @@ window.Quarto = {
 <section id="the-p-n-junction" class="level3">
 <h3 class="anchored" data-anchor-id="the-p-n-junction">The P-N Junction</h3>
 <p>Normally, when we connect two conductors together, we expect to just have a longer conductor.&nbsp; However, when we bond P-Material to N-Material, we observe some very interesting behavior.&nbsp; Here’s a block diagram to help with understanding what happens.</p>
-<p><img src="img/PN-Junction-Block-Diagram.JPG" class="img-fluid"></p>
+<p><img src="img/PN-Junction-Block-Diagram.JPG" class="img-fluid" style="width:4in"></p>
 <ul>
 <li>Right at the connection point, or P-N Junction, the free electrons in the N-Type material are “pulled into” the holes in the P-Type material, in a process called “Recombination”.&nbsp; That means, at the junction there are no charge carriers, therefore the P-N Junction in its natural state is a non-conductor.</li>
 <li>A net positive charge collects on the N-Type side and a net negative charge collects on the P-Type side of the barrier.&nbsp; This results in a potential difference (voltage) referred to as the Barrier Potential.</li>
@@ -338,34 +340,50 @@ window.Quarto = {
 <section id="diode-models" class="level2">
 <h2 class="anchored" data-anchor-id="diode-models">Diode Models</h2>
 <p>The behavior of the diode in response to changing conditions in the biasing circuit is surprisingly complex, as shown in the oscilloscope X-Y trace below.</p>
+<p><img src="img/DiodeCurve.jpg" class="img-fluid" style="width:4in"></p>
 <p>This particular diode is a Zener diode, designed with a specific Reverse Breakdown voltage of 5.6 V.&nbsp; Notice the following:</p>
-<p>Between approximately -5 V and +0.6 V, the current is essentially zero.&nbsp; However, with higher resolution, we would actually see a small current, perhaps 500 nA, flowing because of the Minority Carriers in the silicon. As we approach 0.7 V, the current increases in an approximately parabolic, or second order manner. Beyond this point, the current increases rapidly with very little change in voltage.&nbsp; However, the voltage does increase slightly, indicating that the diode has an internal resistance.&nbsp; Since V=IR, the slope of this section would be 1/R. Also, as we approach -5.6 V, the current increases in the opposite direction, again in an approximately parabolic manner. Beyond this point, the current again increases rapidly with very little change in voltage.&nbsp; Further analysis would indicate that the slope of this graph, again 1/R, would be quite similar to the slope at +0.7 V. The condition described in #1 above is the off condition of the diode, where current is practically zero.&nbsp; Most of it would be in the Reverse Biased region, but there is a small section that is technically forward biased but not with a high enough voltage to overcome the Barrier Potential.</p>
-<p>The condition described in #3 above is the Forward Biased region, where the voltage remains relatively constant at approximately the Barrier Potential.</p>
-<p>The condition described in #5 above is the Reverse Breakdown region.</p>
-<p>#2 is referred to as the Forward Knee, due to its rounded shape and sudden change in direction.</p>
-<p>#4 is referred to as the Reverse Knee for the same reasons.</p>
+<ol class="example" type="1">
+<li>Between approximately -5 V and +0.6 V, the current is essentially zero.&nbsp; However, with higher resolution, we would actually see a small current, perhaps 500 nA, flowing because of the Minority Carriers in the silicon.</li>
+<li>As we approach 0.7 V, the current increases in an approximately parabolic, or second order manner.</li>
+<li>Beyond this point, the current increases rapidly with very little change in voltage.&nbsp; However, the voltage does increase slightly, indicating that the diode has an internal resistance.&nbsp; Since V=IR, the slope of this section would be 1/R.</li>
+<li>Also, as we approach -5.6 V, the current increases in the opposite direction, again in an approximately parabolic manner.</li>
+<li>Beyond this point, the current again increases rapidly with very little change in voltage.&nbsp; Further analysis would indicate that the slope of this graph, again 1/R, would be quite similar to the slope at +0.7 V.</li>
+</ol>
+<p>The condition described in #1 above is the <strong>off</strong> condition of the diode, where current is practically zero.&nbsp; Most of it would be in the Reverse Biased region, but there is a small section that is technically forward biased but not with a high enough voltage to overcome the Barrier Potential.</p>
+<p>The condition described in #3 above is the <strong>Forward Biased</strong> region, where the voltage remains relatively constant at approximately the Barrier Potential.</p>
+<p>The condition described in #5 above is the <strong>Reverse Breakdown</strong> region.</p>
+<p>#2 is referred to as the <strong>Forward Knee</strong>, due to its rounded shape and sudden change in direction.</p>
+<p>#4 is referred to as the <strong>Reverse Knee</strong> for the same reasons.</p>
 <p>This is quite unlike what we would expect to see for a passive component, such as the resistor.&nbsp; This is the Characteristic “Curve” for a resistor:</p>
+<p><img src="img/ResistorCharacteristic.jpg" class="img-fluid" style="width:4in"></p>
 <p>In this case, a single expression describes the entire response of a resistor to a change in voltage:</p>
-<p>‌I=1RV, or simply Ohm’s Law.</p>
+<p><span class="math inline">\(‌I=(1/R)V\)</span>, or simply Ohm’s Law.</p>
 </section>
 <section id="modelling" class="level2">
 <h2 class="anchored" data-anchor-id="modelling">Modelling</h2>
-<p>To make sense of our world, we as humans “model” everything we see.&nbsp; A model is a simplified description of a system or situation that can be used to predict future outcomes or to help us respond and control the system or situation.&nbsp; Ohm’s Law is a model of the behaviour of a resistor, and it is simplified in that it doesn’t take into account the effect of temperature on resistance, it doesn’t include the “skin” effect of high frequency changes in voltage on the resistance, it doesn’t take into account the inductance or capacitance of a physical resistive component, it doesn’t account for changes in resistance due to humidity or radiation, and it doesn’t tell us what happens if too much current is driven through the resistor.</p>
+<p>To make sense of our world, we as humans “model” everything we see.&nbsp; A model is a simplified description of a system or situation that can be used to predict future outcomes or to help us respond and control the system or situation.&nbsp; Ohm’s Law is a model of the behavior of a resistor, and it is simplified in that it doesn’t take into account the effect of temperature on resistance, it doesn’t include the “skin” effect of high frequency changes in voltage on the resistance, it doesn’t take into account the inductance or capacitance of a physical resistive component, it doesn’t account for changes in resistance due to humidity or radiation, and it doesn’t tell us what happens if too much current is driven through the resistor.</p>
 <p>When it comes to diodes, our models typically ignore the parabolic regions at the Forward and Reverse Knees.</p>
 <p>Then, depending on how accurately we need to model the device, we may ignore other features:</p>
-<p>We often don’t include the Reverse Breakdown region, as we assume our circuit will be biased to avoid this. We often don’t include the slope of the Forward bias region, treating the diode as if its dynamic internal resistance is zero. We may even overlook the fact that we need to overcome the Barrier Potential before the diode conducts.</p>
-</section>
-<section id="ideal-model" class="level2">
-<h2 class="anchored" data-anchor-id="ideal-model">Ideal Model</h2>
+<ul>
+<li>We often don’t include the Reverse Breakdown region, as we assume our circuit will be biased to avoid this.</li>
+<li>We often don’t include the slope of the Forward bias region, treating the diode as if its dynamic internal resistance is zero.</li>
+<li>We may even overlook the fact that we need to overcome the Barrier Potential before the diode conducts.</li>
+</ul>
+<section id="ideal-model" class="level3">
+<h3 class="anchored" data-anchor-id="ideal-model">Ideal Model</h3>
 <p>This is the simplest model.&nbsp; It just says a diode conducts when forward biased and doesn’t conduct when reverse biased – a polarity-controlled switch, if you wish.</p>
+<p><img src="img/DiodeIdealModel.jpg" class="img-fluid" style="width:4in"></p>
 </section>
-<section id="practical-model" class="level2">
-<h2 class="anchored" data-anchor-id="practical-model">Practical Model</h2>
+<section id="practical-model" class="level3">
+<h3 class="anchored" data-anchor-id="practical-model">Practical Model</h3>
 <p>This one takes into account the Barrier Potential, which needs to be overcome before the diode can conduct.&nbsp; Otherwise, it behaves like a zero-ohm switch.</p>
+<p><img src="img/DiodePracticalModel.jpg" class="img-fluid" style="width:4in"></p>
 </section>
-<section id="complete-model" class="level2">
-<h2 class="anchored" data-anchor-id="complete-model">Complete Model</h2>
+<section id="complete-model" class="level3">
+<h3 class="anchored" data-anchor-id="complete-model">Complete Model</h3>
 <p>This one takes into account more of the actual characteristics, primarily the small internal resistance of the diode when it conducts and the small leakage current due to Minority Carriers.&nbsp; Although the Knees are shown as parabolas, we usually don’t concern ourselves with that unless we have a good reason to.</p>
+<p><img src="img/DiodeCompleteModel.jpg" class="img-fluid" style="width:4in"></p>
+</section>
 </section>
 <section id="applying-models" class="level2">
 <h2 class="anchored" data-anchor-id="applying-models">Applying Models</h2>
