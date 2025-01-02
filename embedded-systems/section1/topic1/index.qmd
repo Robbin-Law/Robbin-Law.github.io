@@ -2,7 +2,7 @@
 title: "Tool Chain Software Setup"
 ---
 
-### Go thru these resources before Downloading and Installing Software
+## Go thru these resources before Downloading and Installing Software
 
 - [Install drivers and get CodeWarrior setup by Carlos Estay](https://www.youtube.com/watch?v=6BJ_XLAK3PQ&list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&index=2){target="_blank"}
   - Youtube video; first in a playlist of 4.
@@ -16,16 +16,45 @@ title: "Tool Chain Software Setup"
   - Youtube video.
   - Watch this **third**.
 
-### Software to Download and Install
+## Software to Download and Install
+
+### Download and Install CodeWarrior Software and USBDM Drivers
 
 - [USBDM First set of Drivers](assets/tool-chain-software/USBDMPod/USBDM_Drivers_4_12_1_Win_x64.msi){download=""}
   - Download and install this **first**.
 
 - [CodeWarrior5.1](assets/tool-chain-software/CodeWarrior5.1/CW_HC12_v5.1_SPECIAL.exe){download=""}
   - Download and install this **second**. 
-  - Do not store it in C:\Program Files (x86), put it in another folder on the C:\ drive that has **NO spaces** in the folder name.
+  - Do not store it in ```C:\Program Files (x86)```, put it in another folder on the ```C:\``` drive that has **NO spaces** in the folder name.
   - The very last step in the install asks if you want to update, we **DO NOT** want to update, so just cancel that.
 
 - [USBDM Second set of Drivers](assets/tool-chain-software/USBDMPod/USBDM_4_12_1_262_Win.msi){download=""}
   - Download and install this **third** after CodeWarrior has been successfully installed.
 
+### Create a GitHub Account
+
+- [GitHub Website](https://github.com){target="_blank"}
+- Go to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.
+
+
+### Download and Install Git
+
+- [Git Website](https://git-scm.com/){target="_blank"}
+- Download the latest version. Allow all the defaults on download. The path should be updated automatically, so that `git` is available from any directory.
+- Open a PowerShell or CMD terminal. In the shell run `git –version` to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that `git` is available from any directory. To set the path, in the search area at the bottom of the windows task bar type `env` and select `Edit Environment Variables for your Account`. Then edit the `PATH` and add new `C:\Program Files\Git\cmd`. You could add this to the system environments alternatively. Now you can run the `git` command from a terminal anywhere.
+
+### Download and Install GitHub CLI
+
+- [GitHub CLI Website](https://cli.github.com/){target="_blank"}
+- Download the latest version. Allow all the defaults on download. The path should be updated automatically, so that `gh` is available from any directory.
+
+### Download and Install Visual Studio Code
+
+- [Visual Studio Code Website](https://code.visualstudio.com){target="_blank"}
+- Download Visual Studio Code if you do not already have it on your machine.
+
+## Other Resources
+
+- [git and gh shell command overview](git-gh-commands.md){target="_blank"}
+
+- [git and github with VSCode](git-github-with-VSCode.md){target="_blank"}
