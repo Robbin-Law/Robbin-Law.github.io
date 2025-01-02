@@ -270,7 +270,7 @@ The following examples are provided as extra material for you to cover on your o
 
 ### Worked Example 1:
 
- 
+![](img/DiodeModelWE1.JPG){width=12in}
 
  Ideal Model:
 
@@ -290,7 +290,7 @@ Clearly, in this example, the Ideal Model is significantly incorrect, but the Pr
 
 ### Worked Example 2:
 
-
+![](img/DiodeModelWE2.JPG){width=12in}
 
 Ideal Model:
 
@@ -310,7 +310,7 @@ In this example, the Ideal Model is significantly incorrect as in the previous e
 
 ### Worked Example 3:
 
-
+![](img/DiodeModelWE3.JPG){width=12in}
 
 Ideal Model:
 
@@ -330,7 +330,7 @@ In this example, the currents predicted by all three models are practically the 
 
 ### Worked Example 4:
 
-
+![](img/DiodeModelWE4.JPG){width=12in}
 
 Ideal Model:
 
@@ -350,7 +350,7 @@ In this case, the Ideal and Practical models predict the same result, so the Ide
 
 ### Worked Example 5:
 
-
+![](img/DiodeModelWE5.JPG){width=12in}
 
 Ideal Model:
 
