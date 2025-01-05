@@ -35,6 +35,7 @@ website:
         - embedded-systems/index.qmd
         - section: "Environment Setup"
           contents:
+            - embedded-systems/section1/topic0/index.qmd
             - embedded-systems/section1/topic1/index.qmd
             - embedded-systems/section1/topic2/index.qmd
         - section: "Intro to the Micro"

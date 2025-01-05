@@ -31,12 +31,6 @@ title: "Tool Chain Software Setup"
 - [USBDM Second set of Drivers](assets/tool-chain-software/USBDMPod/USBDM_4_12_1_262_Win.msi){download=""}
   - Download and install this **third** after CodeWarrior has been successfully installed.
 
-### Create a GitHub Account
-
-- [GitHub Website](https://github.com){target="_blank"}
-- Go to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.
-
-
 ### Download and Install Git
 
 - [Git Website](https://git-scm.com/){target="_blank"}

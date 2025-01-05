@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tool Chain Software Setup – Home</title>
+<title>Git on the Command Line – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../embedded-systems/section1/topic2/index.html" rel="next">
-<link href="../../../embedded-systems/section1/topic0/index.html" rel="prev">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-741491795e2b8297c661fe89d2da0c58.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-741491795e2b8297c661fe89d2da0c58.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,19 +68,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Tool Chain Software Setup – Home">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="Git on the Command Line – Home">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Home">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Home</span>
     </a>
   </div>
@@ -93,11 +92,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../semiconductors/index.html"> 
+    <a class="nav-link" href="../../../../semiconductors/index.html"> 
 <span class="menu-text">Semiconductors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../../embedded-systems/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../../embedded-systems/index.html"> 
 <span class="menu-text">Embedded-Systems</span></a>
   </li>  
 </ul>
@@ -106,109 +105,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section1/topic0/index.html">Environment Setup</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section1/topic1/index.html">Tool Chain Software Setup</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Embedded-Systems</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Environment Setup</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section1/topic0/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Join Github Classroom</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section1/topic1/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Tool Chain Software Setup</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section1/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Test Drive System</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Intro to the Micro</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section2/topic1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Demos</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section2/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Assessment Specs</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#go-thru-these-resources-before-downloading-and-installing-software" id="toc-go-thru-these-resources-before-downloading-and-installing-software" class="nav-link active" data-scroll-target="#go-thru-these-resources-before-downloading-and-installing-software">Go thru these resources before Downloading and Installing Software</a></li>
-  <li><a href="#software-to-download-and-install" id="toc-software-to-download-and-install" class="nav-link" data-scroll-target="#software-to-download-and-install">Software to Download and Install</a>
-  <ul class="collapse">
-  <li><a href="#download-and-install-codewarrior-software-and-usbdm-drivers" id="toc-download-and-install-codewarrior-software-and-usbdm-drivers" class="nav-link" data-scroll-target="#download-and-install-codewarrior-software-and-usbdm-drivers">Download and Install CodeWarrior Software and USBDM Drivers</a></li>
-  <li><a href="#download-and-install-git" id="toc-download-and-install-git" class="nav-link" data-scroll-target="#download-and-install-git">Download and Install Git</a></li>
-  <li><a href="#download-and-install-github-cli" id="toc-download-and-install-github-cli" class="nav-link" data-scroll-target="#download-and-install-github-cli">Download and Install GitHub CLI</a></li>
-  <li><a href="#download-and-install-visual-studio-code" id="toc-download-and-install-visual-studio-code" class="nav-link" data-scroll-target="#download-and-install-visual-studio-code">Download and Install Visual Studio Code</a></li>
-  </ul></li>
-  <li><a href="#other-resources" id="toc-other-resources" class="nav-link" data-scroll-target="#other-resources">Other Resources</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#basic-git-commands" id="toc-basic-git-commands" class="nav-link" data-scroll-target="#basic-git-commands">Basic Git Commands</a></li>
+  <li><a href="#remote-repositories" id="toc-remote-repositories" class="nav-link" data-scroll-target="#remote-repositories">Remote Repositories</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section1/topic0/index.html">Environment Setup</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section1/topic1/index.html">Tool Chain Software Setup</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tool Chain Software Setup</h1>
+<h1 class="title">Git on the Command Line</h1>
 </div>
 
 
@@ -225,75 +143,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="go-thru-these-resources-before-downloading-and-installing-software" class="level2">
-<h2 class="anchored" data-anchor-id="go-thru-these-resources-before-downloading-and-installing-software">Go thru these resources before Downloading and Installing Software</h2>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=6BJ_XLAK3PQ&amp;list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&amp;index=2" target="_blank">Install drivers and get CodeWarrior setup by Carlos Estay</a>
-<ul>
-<li>Youtube video; first in a playlist of 4.</li>
-<li>Watch this <strong>first</strong>.</li>
-</ul></li>
-<li><a href="assets/UsingVSCodeAsAnEditor.pdf" target="_blank">Using VS Code as an Editor by Simon Walker</a>
-<ul>
-<li>PDF.</li>
-<li>Read this document <strong>second</strong>.</li>
-</ul></li>
-<li><a href="https://www.youtube.com/watch?v=jbNrwPYJGZE" target="_blank">Tool chain tips by Simon Walker</a>
-<ul>
-<li>Youtube video.</li>
-<li>Watch this <strong>third</strong>.</li>
-</ul></li>
+<li><a href="https://git-scm.com/book/en/v2/">git docs</a></li>
 </ul>
 </section>
-<section id="software-to-download-and-install" class="level2">
-<h2 class="anchored" data-anchor-id="software-to-download-and-install">Software to Download and Install</h2>
-<section id="download-and-install-codewarrior-software-and-usbdm-drivers" class="level3">
-<h3 class="anchored" data-anchor-id="download-and-install-codewarrior-software-and-usbdm-drivers">Download and Install CodeWarrior Software and USBDM Drivers</h3>
+<section id="basic-git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="basic-git-commands">Basic Git Commands</h2>
+<p>We can use the git version control application directly from the command line. Here are some useful commands to get started.</p>
 <ul>
-<li><a href="assets/tool-chain-software/USBDMPod/USBDM_Drivers_4_12_1_Win_x64.msi" download="">USBDM First set of Drivers</a>
-<ul>
-<li>Download and install this <strong>first</strong>.</li>
-</ul></li>
-<li><a href="assets/tool-chain-software/CodeWarrior5.1/CW_HC12_v5.1_SPECIAL.exe" download="">CodeWarrior5.1</a>
-<ul>
-<li>Download and install this <strong>second</strong>.</li>
-<li>Do not store it in <code>C:\Program Files (x86)</code>, put it in another folder on the <code>C:\</code> drive that has <strong>NO spaces</strong> in the folder name.</li>
-<li>The very last step in the install asks if you want to update, we <strong>DO NOT</strong> want to update, so just cancel that.</li>
-</ul></li>
-<li><a href="assets/tool-chain-software/USBDMPod/USBDM_4_12_1_262_Win.msi" download="">USBDM Second set of Drivers</a>
-<ul>
-<li>Download and install this <strong>third</strong> after CodeWarrior has been successfully installed.</li>
-</ul></li>
+<li><code>git init</code> - This command will create a git repository in the current folder</li>
+<li><code>git status</code> - This will give you the current status of your git repository</li>
+<li><code>git log</code> - This will give you the history of your git repository</li>
+<li><code>git add .</code> - Use this command to “stage” all of your current changes so that they are ready to be committed.</li>
+<li><code>git commit -m "Your Message"</code> - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a <em>commit history</em> for our repository.</li>
+<li><code>git pull</code> - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer).</li>
+<li><code>git push</code> - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.</li>
 </ul>
+<p>There are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control.</p>
 </section>
-<section id="download-and-install-git" class="level3">
-<h3 class="anchored" data-anchor-id="download-and-install-git">Download and Install Git</h3>
+<section id="remote-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="remote-repositories">Remote Repositories</h2>
+<p>You can use the GitHub CLI to create a remote repository on GitHub.com.</p>
+<pre class="shell"><code>gh repo create my-first-repository</code></pre>
+<p>The command above is interactive, so just follow the prompts.</p>
+<p>You can <strong>push</strong> your code to GitHub.com by typing the following:</p>
+<pre class="shell"><code>git push -u origin main</code></pre>
+<p>Note that the -u means set upstream. After that, you will only need to type <code>git push</code> to push any local changes to the remote repository.</p>
+<p>You can <strong>pull</strong> your code from GitHub.com by typing the following:</p>
+<pre class="shell"><code>git pull upstream main</code></pre>
+<p>After that, you will only need to type <code>git pull</code> to pull any remote changes to the local repository.</p>
+<p>Here’s some other helpful commands with regard to the remote repository connections for your local repository.</p>
 <ul>
-<li><a href="https://git-scm.com/" target="_blank">Git Website</a></li>
-<li>Download the latest version. Allow all the defaults on download. The path should be updated automatically, so that <code>git</code> is available from any directory.</li>
-<li>Open a PowerShell or CMD terminal. In the shell run <code>git –version</code> to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that <code>git</code> is available from any directory. To set the path, in the search area at the bottom of the windows task bar type <code>env</code> and select <code>Edit Environment Variables for your Account</code>. Then edit the <code>PATH</code> and add new <code>C:\Program Files\Git\cmd</code>. You could add this to the system environments alternatively. Now you can run the <code>git</code> command from a terminal anywhere.</li>
-</ul>
-</section>
-<section id="download-and-install-github-cli" class="level3">
-<h3 class="anchored" data-anchor-id="download-and-install-github-cli">Download and Install GitHub CLI</h3>
-<ul>
-<li><a href="https://cli.github.com/" target="_blank">GitHub CLI Website</a></li>
-<li>Download the latest version. Allow all the defaults on download. The path should be updated automatically, so that <code>gh</code> is available from any directory.</li>
-</ul>
-</section>
-<section id="download-and-install-visual-studio-code" class="level3">
-<h3 class="anchored" data-anchor-id="download-and-install-visual-studio-code">Download and Install Visual Studio Code</h3>
-<ul>
-<li><a href="https://code.visualstudio.com" target="_blank">Visual Studio Code Website</a></li>
-<li>Download Visual Studio Code if you do not already have it on your machine.</li>
-</ul>
-</section>
-</section>
-<section id="other-resources" class="level2">
-<h2 class="anchored" data-anchor-id="other-resources">Other Resources</h2>
-<ul>
-<li><p><a href="../../../embedded-systems/section1/topic1/assets/git-gh-commands.html" target="_blank">git and gh shell command overview</a></p></li>
-<li><p><a href="../../../embedded-systems/section1/topic1/assets/git-github-with-VSCode.html" target="_blank">git and github with VSCode</a></p></li>
+<li><code>git remote -v</code> - View all the remote repositories</li>
+<li><code>git remote remove [remoteName]</code> - Remove a remote entry</li>
+<li><code>git remote add [remoteName] [URL-to-Repository]</code> - Add a remote repository</li>
 </ul>
 
 
@@ -717,18 +602,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../../embedded-systems/section1/topic0/index.html" class="pagination-link" aria-label="Join Github Classroom">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Join Github Classroom</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../../embedded-systems/section1/topic2/index.html" class="pagination-link" aria-label="Test Drive System">
-        <span class="nav-page-text">Test Drive System</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

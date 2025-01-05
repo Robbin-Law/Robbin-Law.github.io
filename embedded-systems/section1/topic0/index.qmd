@@ -1,0 +1,14 @@
+---
+title: "Join Github Classroom"
+---
+
+## Step 1 Create a GitHub Account
+
+- [GitHub Website](https://github.com){target="_blank"}
+- Go to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.
+
+## Step 2 Join Github Classroom and Create Your Workbook Repo
+
+- Click the link below for your class and follow the instructions. Look for your name and click on it to begin the process.
+- [Link to Github Classroom for CMPE1250-A02](https://classroom.github.com/a/gMz1y21R){target="_blank"}
+- [Link to Github Classroom for CMPE1250-A03](https://classroom.github.com/a/Hu8FHX3n){target="_blank"}

@@ -60,7 +60,7 @@
     "href": "embedded-systems/section1/topic1/index.html#software-to-download-and-install",
     "title": "Tool Chain Software Setup",
     "section": "Software to Download and Install",
-    "text": "Software to Download and Install\n\nDownload and Install CodeWarrior Software and USBDM Drivers\n\nUSBDM First set of Drivers\n\nDownload and install this first.\n\nCodeWarrior5.1\n\nDownload and install this second.\nDo not store it in C:\\Program Files (x86), put it in another folder on the C:\\ drive that has NO spaces in the folder name.\nThe very last step in the install asks if you want to update, we DO NOT want to update, so just cancel that.\n\nUSBDM Second set of Drivers\n\nDownload and install this third after CodeWarrior has been successfully installed.\n\n\n\n\nCreate a GitHub Account\n\nGitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.\n\n\n\nDownload and Install Git\n\nGit Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that git is available from any directory.\nOpen a PowerShell or CMD terminal. In the shell run git –version to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that git is available from any directory. To set the path, in the search area at the bottom of the windows task bar type env and select Edit Environment Variables for your Account. Then edit the PATH and add new C:\\Program Files\\Git\\cmd. You could add this to the system environments alternatively. Now you can run the git command from a terminal anywhere.\n\n\n\nDownload and Install GitHub CLI\n\nGitHub CLI Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that gh is available from any directory.\n\n\n\nDownload and Install Visual Studio Code\n\nVisual Studio Code Website\nDownload Visual Studio Code if you do not already have it on your machine.",
+    "text": "Software to Download and Install\n\nDownload and Install CodeWarrior Software and USBDM Drivers\n\nUSBDM First set of Drivers\n\nDownload and install this first.\n\nCodeWarrior5.1\n\nDownload and install this second.\nDo not store it in C:\\Program Files (x86), put it in another folder on the C:\\ drive that has NO spaces in the folder name.\nThe very last step in the install asks if you want to update, we DO NOT want to update, so just cancel that.\n\nUSBDM Second set of Drivers\n\nDownload and install this third after CodeWarrior has been successfully installed.\n\n\n\n\nDownload and Install Git\n\nGit Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that git is available from any directory.\nOpen a PowerShell or CMD terminal. In the shell run git –version to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that git is available from any directory. To set the path, in the search area at the bottom of the windows task bar type env and select Edit Environment Variables for your Account. Then edit the PATH and add new C:\\Program Files\\Git\\cmd. You could add this to the system environments alternatively. Now you can run the git command from a terminal anywhere.\n\n\n\nDownload and Install GitHub CLI\n\nGitHub CLI Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that gh is available from any directory.\n\n\n\nDownload and Install Visual Studio Code\n\nVisual Studio Code Website\nDownload Visual Studio Code if you do not already have it on your machine.",
     "crumbs": [
       "Embedded-Systems",
       "Environment Setup",
@@ -280,5 +280,125 @@
       "Diodes",
       "Diode Physics and Models"
     ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
+    "title": "Git and Github with VS Code",
+    "section": "",
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
+    "title": "Git and Github with VS Code",
+    "section": "",
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for one GitHub User",
+    "text": "Setting GitHub Authentication for one GitHub User\nOpen a terminal and check to see that git and github cli are available.\ngit –-version\ngh –-version\nIf one is missing you have to download the msi and try again until a version shows.\nNow config git to always use the user name and email that you used to set up your github account. Note that you only have to do this once.\ngit config --global user.name \"John Doe\"\ngit config --global user.email johndoe@example.com\nNow to see that the config sticks.\ngit config -l\nThe -l means list all configs. Press the space bar to see each setting, and q to quit.\nIf you still get errors when trying to pull from or push to github, you will have to get into the Windows Credential Manager and delete the github references. A machine restart will be required."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for more than one GitHub User",
+    "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html",
+    "href": "embedded-systems/section1/topic0/index.html",
+    "title": "Join Github Classroom",
+    "section": "",
+    "text": "GitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#create-a-github-account",
+    "href": "embedded-systems/section1/topic0/index.html#create-a-github-account",
+    "title": "Join Github Classroom",
+    "section": "",
+    "text": "GitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#join-github-classroom-and-create-your-workbook-repo",
+    "href": "embedded-systems/section1/topic0/index.html#join-github-classroom-and-create-your-workbook-repo",
+    "title": "Join Github Classroom",
+    "section": "Join Github Classroom and Create Your Workbook Repo",
+    "text": "Join Github Classroom and Create Your Workbook Repo\n\nClick the link below for your class and follow the instructions. Look for your name and click on it to begin the process.\nLink to Github Classroom for CMPE1250-A02\nLink to Github Classroom for CMPE1250-A03",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
+    "title": "Git on the Command Line",
+    "section": "",
+    "text": "git docs"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
+    "title": "Git on the Command Line",
+    "section": "",
+    "text": "git docs"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
+    "title": "Git on the Command Line",
+    "section": "Basic Git Commands",
+    "text": "Basic Git Commands\nWe can use the git version control application directly from the command line. Here are some useful commands to get started.\n\ngit init - This command will create a git repository in the current folder\ngit status - This will give you the current status of your git repository\ngit log - This will give you the history of your git repository\ngit add . - Use this command to “stage” all of your current changes so that they are ready to be committed.\ngit commit -m \"Your Message\" - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a commit history for our repository.\ngit pull - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer).\ngit push - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.\n\nThere are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
+    "title": "Git on the Command Line",
+    "section": "Remote Repositories",
+    "text": "Remote Repositories\nYou can use the GitHub CLI to create a remote repository on GitHub.com.\ngh repo create my-first-repository\nThe command above is interactive, so just follow the prompts.\nYou can push your code to GitHub.com by typing the following:\ngit push -u origin main\nNote that the -u means set upstream. After that, you will only need to type git push to push any local changes to the remote repository.\nYou can pull your code from GitHub.com by typing the following:\ngit pull upstream main\nAfter that, you will only need to type git pull to pull any remote changes to the local repository.\nHere’s some other helpful commands with regard to the remote repository connections for your local repository.\n\ngit remote -v - View all the remote repositories\ngit remote remove [remoteName] - Remove a remote entry\ngit remote add [remoteName] [URL-to-Repository] - Add a remote repository"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
+    "title": "VS Code Features and Extensions",
+    "section": "",
+    "text": "VS Code Shortcuts by Traversy Media runtime 17 min\nVS Code Keyboard Shortcuts\n  \"Ctrl + /\" gives a comment in whatever language you are editing in.\n\n  \"Ctrl + `\" brings up a new terminal.\n\n  Word Wrap \"on\" via settings. Just search \"word wrap\".\n\n  \"Alt\" to highlight multiple lines to operate on.\n\n  \"Alt + Shift\" and highlight the paragraph and it will multi highlight each line.\nLorem is part of VSCode. Lorem20 will give 20 random words in one sentence.\nEmmet Cheat Sheet\n\nEmmet is part of VSCode. Used when no content is in place.\n\"! + enter\" will give html5 template.\n\nSome Emmet concepts that use same syntax as CSS:\n\n    + is the sibling selector ex. nav+ul+li gives them as siblings.\n\n    &gt; is the child selector ex. nav&gt;ul&gt;&gt;li*6 gives them as children of the previous.\n\n    ^ is the move up action.\n\n    . class\n\n    # id\n\nUse \"Ctrl + Space\" to get Emmet back in play.\n\nCode faster with Custom VSCode Snippets by Brad Traversy runtime 21 min\nCode Snippets Generator for VSCode, Sublime, and Atom"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-out-of-the-box-features",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-out-of-the-box-features",
+    "title": "VS Code Features and Extensions",
+    "section": "",
+    "text": "VS Code Shortcuts by Traversy Media runtime 17 min\nVS Code Keyboard Shortcuts\n  \"Ctrl + /\" gives a comment in whatever language you are editing in.\n\n  \"Ctrl + `\" brings up a new terminal.\n\n  Word Wrap \"on\" via settings. Just search \"word wrap\".\n\n  \"Alt\" to highlight multiple lines to operate on.\n\n  \"Alt + Shift\" and highlight the paragraph and it will multi highlight each line.\nLorem is part of VSCode. Lorem20 will give 20 random words in one sentence.\nEmmet Cheat Sheet\n\nEmmet is part of VSCode. Used when no content is in place.\n\"! + enter\" will give html5 template.\n\nSome Emmet concepts that use same syntax as CSS:\n\n    + is the sibling selector ex. nav+ul+li gives them as siblings.\n\n    &gt; is the child selector ex. nav&gt;ul&gt;&gt;li*6 gives them as children of the previous.\n\n    ^ is the move up action.\n\n    . class\n\n    # id\n\nUse \"Ctrl + Space\" to get Emmet back in play.\n\nCode faster with Custom VSCode Snippets by Brad Traversy runtime 21 min\nCode Snippets Generator for VSCode, Sublime, and Atom"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-extensions-to-download",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-extensions-to-download",
+    "title": "VS Code Features and Extensions",
+    "section": "VS Code Extensions to Download",
+    "text": "VS Code Extensions to Download\nDownload from Extensions Market Place\n\nMarkdown All in One by Yu Zhang - preview .md files\nPDF Preview by Analytic Signal Limited\nMaterial Icon Theme by Philipp Kief - Icon Theme\nOne Dark Pro by binaryify - Color Theme\nPrettier-Code Formatter by Prettier\nhtmltagwrap by Brad Gashler (Alt + w) - to markup content that is already in place\nmultiple cursors\nAuto Rename Tag by Jun Han - to rename an HTML tag faster\nREST Client by Huachao Mao\nHTML Snippets\nHTML CSS Support\nJavaScript ES6 Snippets\nLive Server by Ritwick Dey - opens in the default browser\nLive Preview by Microsoft - opens in a tab in VSCode\nAuto Import by steotes\nDartJs Sass Compiler and Sass Watcher by CodeLios\nES 7 React/Redux/ GraphQL/React-Native snippets extension by dsznajder"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-and-extension-config-settings",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-and-extension-config-settings",
+    "title": "VS Code Features and Extensions",
+    "section": "VS Code and Extension Config Settings",
+    "text": "VS Code and Extension Config Settings\n\nVS Code Files:\n\nAuto Save: afterdelay\nAuto Save Delay: 1000 ms\n\nVS Code Editor:\n\nFormat on Save: check\nFormat on Save Mode: file\n\nAuto Import configuration settings:\n\nGo to File/Preferences/Settings in VSCode\nIn the settings search type “auto import”\nIn the “Auto Import Configuration”\nchange the “Files to Scan” to {js, jsx, ts, tsx}"
   }
 ]
