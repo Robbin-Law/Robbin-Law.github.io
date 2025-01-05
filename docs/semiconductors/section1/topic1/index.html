@@ -212,13 +212,13 @@ window.Quarto = {
   <li><a href="#complete-model" id="toc-complete-model" class="nav-link" data-scroll-target="#complete-model">Complete Model</a></li>
   </ul></li>
   <li><a href="#applying-models" id="toc-applying-models" class="nav-link" data-scroll-target="#applying-models">Applying Models</a></li>
-  <li><a href="#worked-examples-diode-model-comparisons" id="toc-worked-examples-diode-model-comparisons" class="nav-link" data-scroll-target="#worked-examples-diode-model-comparisons">Worked Examples – Diode Model Comparisons</a>
+  <li><a href="#examples-diode-model-comparisons" id="toc-examples-diode-model-comparisons" class="nav-link" data-scroll-target="#examples-diode-model-comparisons">Examples – Diode Model Comparisons</a>
   <ul class="collapse">
-  <li><a href="#worked-example-1" id="toc-worked-example-1" class="nav-link" data-scroll-target="#worked-example-1">Worked Example 1:</a></li>
-  <li><a href="#worked-example-2" id="toc-worked-example-2" class="nav-link" data-scroll-target="#worked-example-2">Worked Example 2:</a></li>
-  <li><a href="#worked-example-3" id="toc-worked-example-3" class="nav-link" data-scroll-target="#worked-example-3">Worked Example 3:</a></li>
-  <li><a href="#worked-example-4" id="toc-worked-example-4" class="nav-link" data-scroll-target="#worked-example-4">Worked Example 4:</a></li>
-  <li><a href="#worked-example-5" id="toc-worked-example-5" class="nav-link" data-scroll-target="#worked-example-5">Worked Example 5:</a></li>
+  <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1">Example 1:</a></li>
+  <li><a href="#example-2" id="toc-example-2" class="nav-link" data-scroll-target="#example-2">Example 2:</a></li>
+  <li><a href="#example-3" id="toc-example-3" class="nav-link" data-scroll-target="#example-3">Example 3:</a></li>
+  <li><a href="#example-4" id="toc-example-4" class="nav-link" data-scroll-target="#example-4">Example 4:</a></li>
+  <li><a href="#example-5" id="toc-example-5" class="nav-link" data-scroll-target="#example-5">Example 5:</a></li>
   <li><a href="#worked-example-6" id="toc-worked-example-6" class="nav-link" data-scroll-target="#worked-example-6">Worked Example 6:</a></li>
   <li><a href="#worked-example-7" id="toc-worked-example-7" class="nav-link" data-scroll-target="#worked-example-7">Worked Example 7:</a></li>
   <li><a href="#worked-example-8" id="toc-worked-example-8" class="nav-link" data-scroll-target="#worked-example-8">Worked Example 8:</a></li>
@@ -250,7 +250,7 @@ window.Quarto = {
 </header>
 
 
-<p>Author: Robbin Law <br> Original Author: Ross Taylor</p>
+<p>Original Author: Ross Taylor <br></p>
 <p><a href="Diode-Physics-and-Models.pdf" target="_blank">Original Article</a></p>
 <!-- Page 1 -->
 <section id="passive-components-vs.-active-components" class="level2">
@@ -258,11 +258,11 @@ window.Quarto = {
 <section id="passive-components" class="level3">
 <h3 class="anchored" data-anchor-id="passive-components">Passive Components</h3>
 <p>In a previous course, you worked with a group of electrical components that we refer to as&nbsp;Passive Components&nbsp;– components that behave according to simple mathematical relationships in response to changes in the rest of the circuitry.&nbsp; For example, unless you push it beyond its limits, a resistor will always behave very nearly as predicted by</p>
-<p><span class="math display">\[V=IR\]</span></p>
+<p><span class="math inline">\(V=IR\)</span></p>
 <p>A capacitor will always respond very nearly as predicted by</p>
-<p><span class="math display">\[‌i_C=C(dv/dt)\]</span></p>
+<p><span class="math inline">\(‌i_C=C(dv/dt)\)</span></p>
 <p>An inductor will always respond very nearly as predicted by</p>
-<p><span class="math display">\[‌v_L=L(di/dt)\]</span></p>
+<p><span class="math inline">\(‌v_L=L(di/dt)\)</span></p>
 <p>Both the capacitor and inductor, as predicted by their basic formulas, will generate exponential charging functions when placed in series with a resistor and powered by a fixed voltage source.</p>
 <p>By the way, the “very nearly” caveats in the preceding description is an important indication that, by developing these formulas, we are creating simplified mathematical models of real devices.&nbsp; Real devices do other things that we don’t include in our models.&nbsp; For example, the resistance of a resistor changes with temperature, and temperature changes with current, something Ohm’s Law by itself doesn’t account for.&nbsp; Capacitors usually have a small leakage current which means the total current for charging a capacitor will be slightly greater than what is predicted by the model.&nbsp; Inductors are plagued by residual magnetism which means they don’t respond instantaneously to changes in the circuit as predicted by our mathematical model.&nbsp; However, the formulas we use to model the activity of these passive components is usually good enough for the work we’re doing.</p>
 </section>
@@ -389,70 +389,84 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="applying-models">Applying Models</h2>
 <p>The question is:&nbsp; which model do I choose, when, and why?</p>
 <p>In essence, it depends on how accurate the result needs to be and the circuit characteristics.</p>
-<p>If all you care about is presence or absence of current (binary), use the Ideal Model. If you’re working with really large voltages, where 0.7 V is insignificant, and if the resistances are considerably greater than the diode’s dynamic internal resistance,&nbsp;just use the Ideal Model. If you’re working with small voltages and reasonable-sized resistors (like most of what we do in this course), use the Practical Model. If you’re working with large currents in Forward Biasing or really big resistors in Reverse Biasing, you’ll need the Complete Model to explain the otherwise-unexpected results you see. Let’s work with the following diagram.</p>
-<p>Assume V is +6&nbsp;V, the diode has a forward drop of 0.7 V, and&nbsp;R is 10 k‌Ω.</p>
-<p>What current would the Ideal Model predict?&nbsp;‌&nbsp;‌μA</p>
-<p>What current would the Practical Model predict?&nbsp;‌&nbsp;&nbsp;‌μA</p>
-<p>What error does this represent?&nbsp;‌&nbsp;%</p>
-<p>Clearly, in this example, the Ideal Model is not providing us with an accurate answer.</p>
-<p>Now, let’s assume V is +100 V, and everything else is the same.</p>
-<p>What current would the Ideal Model predict?&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>What current would the Practical Model predict?&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>What error does this represent?&nbsp;‌&nbsp;%</p>
-<p>In this example, the Ideal Model is adequate.</p>
-<p>For the same basic circuit, but this time with a 22&nbsp;‌Ω&nbsp;resistor, a power supply of +9.0 V, and a diode with a Barrier Potential of 0.7 V and an internal resistance of 8.3&nbsp;‌Ω, let’s compare what the Practical Model and Complete Model would predict.</p>
-<p>What does the Practical Model say the voltage drop across the diode would be?&nbsp;‌&nbsp;&nbsp;V</p>
-<p>Using the Complete Model, determine the current in this circuit.&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>&nbsp;Given that the Complete Model includes the Barrier Potential and the drop across the internal resistance in the diode’s voltage drop, what is the voltage drop across the diode using this model?&nbsp;‌&nbsp;&nbsp;V</p>
-<p>What is the error introduced by using the Practical Model in this case?&nbsp;‌&nbsp;&nbsp;%</p>
-<p>Clearly, the Practical Model failed us in this example, as the high current results in a significant&nbsp;voltage drop across the internal resistance.</p>
-<p>If a diode with a reverse leakage current of 500 nA is reverse biased in a series circuit with an 8.2 M‌Ω&nbsp;resistor,&nbsp;powered by a 12 V supply, what voltage would the Practical Model predict across the diode?&nbsp;‌&nbsp; V</p>
-<p>What voltage would the Complete Model predict across the diode?&nbsp;‌&nbsp;&nbsp;V</p>
-<p>What is the error introduced by using the Practical Model in this case?&nbsp;‌&nbsp;%</p>
-<p>Again, with such a huge resistor in series, the leakage current becomes significant, and the Practical Model fails us.</p>
+<p>If all you care about is presence or absence of current (binary), use the Ideal Model. If you’re working with really large voltages, where 0.7 V is insignificant, and if the resistances are considerably greater than the diode’s dynamic internal resistance,&nbsp;just use the Ideal Model. If you’re working with small voltages and reasonable-sized resistors (like most of what we do in this course), use the Practical Model. If you’re working with large currents in Forward Biasing or really big resistors in Reverse Biasing, you’ll need the Complete Model to explain the otherwise-unexpected results you see.</p>
 </section>
-<section id="worked-examples-diode-model-comparisons" class="level2">
-<h2 class="anchored" data-anchor-id="worked-examples-diode-model-comparisons">Worked Examples – Diode Model Comparisons</h2>
-<p>The following examples are provided as extra material for you to cover on your own time to help reinforce how to use the models, and, more importantly, to help you determine the conditions under which you may need to use a more accurate model.&nbsp; In each, the forward junction&nbsp;voltage is assumed to be 0.7 V, the internal resistance of the diode is assumed to be 5.9 ‌Ω, and the reverse leakage current is assumed to be 500 nA.&nbsp;&nbsp;For each, the circuit current and the voltage across the diode (i.e.&nbsp;the voltage at the wire stub referenced to ground) are to be determined.</p>
-<section id="worked-example-1" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-1">Worked Example 1:</h3>
+<section id="examples-diode-model-comparisons" class="level2">
+<h2 class="anchored" data-anchor-id="examples-diode-model-comparisons">Examples – Diode Model Comparisons</h2>
+<p>The following examples the forward junction&nbsp;voltage is assumed to be 0.7 V, the internal resistance of the diode is assumed to be 5.9 ‌Ω, and the reverse leakage current is assumed to be 500 nA.&nbsp;&nbsp;For each, the circuit current and the voltage across the diode (i.e.&nbsp;the voltage at the wire stub referenced to ground) are to be determined.</p>
+<section id="example-1" class="level3">
+<h3 class="anchored" data-anchor-id="example-1">Example 1:</h3>
 <p><img src="img/DiodeModelWE1.JPG" class="img-fluid" style="width:12in"></p>
-<p>&nbsp;Ideal Model:</p>
-<p>VD&nbsp;is 0.0 V, since the closed switch is a short I = VR/R = (6 - 0)/22 k‌Ω&nbsp;= 273&nbsp;‌μA Practical Model:</p>
-<p>VD&nbsp;= 0.7 V I = VR/R = (6 - 0.7)/22 k‌Ω&nbsp;= 241&nbsp;‌μA Complete Model:</p>
-<p>We’ll have to start with the current, using KVL:&nbsp; I = (6.0 - 0.7)/(22 k‌Ω&nbsp;+ 5.9&nbsp;‌Ω) = 241&nbsp;‌μA VD&nbsp;= 0.7 + I * r’D&nbsp;= 0.701 V Clearly, in this example, the Ideal Model is significantly incorrect, but the Practical and Complete models predict essentially the same result; so, for a situation in which the power supply is relatively small and the current is limited by a substantial series resistor, we don’t need to use the Complete Model.</p>
+<p>Ideal Model:</p>
+<p><span class="math inline">\(V_D&nbsp;= 0.0 V\)</span>, since the closed switch is a short.</p>
+<p><span class="math inline">\(I = V_R/R = (6 - 0)/22 k‌Ω&nbsp;= 273&nbsp;‌μA\)</span></p>
+<p>Practical Model:</p>
+<p><span class="math inline">\(V_D&nbsp;= 0.7 V\)</span></p>
+<p><span class="math inline">\(I = V_R/R = (6 - 0.7)/22 k‌Ω&nbsp;= 241&nbsp;‌μA\)</span></p>
+<p>Complete Model:</p>
+<p>We’ll have to start with the current, using KVL:</p>
+<p><span class="math inline">\(I = (6.0 - 0.7)/(22 k‌Ω&nbsp;+ 5.9&nbsp;‌Ω) = 241&nbsp;‌μA\)</span></p>
+<p><span class="math inline">\(V_D&nbsp;= 0.7 + I * r'_D&nbsp;= 0.701 V\)</span></p>
+<p>Clearly, in this example, the Ideal Model is significantly incorrect, but the Practical and Complete models predict essentially the same result; so, for a situation in which the power supply is relatively small and the current is limited by a substantial series resistor, we don’t need to use the Complete Model.</p>
 </section>
-<section id="worked-example-2" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-2">Worked Example 2:</h3>
+<section id="example-2" class="level3">
+<h3 class="anchored" data-anchor-id="example-2">Example 2:</h3>
 <p><img src="img/DiodeModelWE2.JPG" class="img-fluid" style="width:12in"></p>
 <p>Ideal Model:</p>
-<p>VD&nbsp;is 0.0 V, since the closed switch is a short I = VR/R = (6 - 0)/120&nbsp;‌Ω&nbsp;= 50 mA Practical Model:</p>
-<p>VD&nbsp;= 0.7 V I = VR/R = (6 - 0.7)/120&nbsp;‌Ω&nbsp;= 44.2 mA Complete Model:</p>
-<p>We’ll have to start with the current, using KVL:&nbsp; I = (6.0 - 0.7)/(120&nbsp;‌Ω&nbsp;+ 5.9&nbsp;‌Ω) = 42.1 mA VD&nbsp;= 0.7 + I * r’D&nbsp;= 0.948 V In this example, the Ideal Model is significantly incorrect as in the previous example.&nbsp; But now the Practical is also significantly incorrect, so a proper prediction can only be made using the Complete model.&nbsp; So, for a situation in which the current is quite high as allowed by a relatively small series resistor, we need to use the Complete Model.</p>
+<p><span class="math inline">\(V_D&nbsp;= 0.0 V\)</span>, since the closed switch is a short.</p>
+<p><span class="math inline">\(I = V_R/R = (6 - 0)/120&nbsp;‌Ω&nbsp;= 50 mA\)</span></p>
+<p>Practical Model:</p>
+<p><span class="math inline">\(V_D&nbsp;= 0.7 V\)</span></p>
+<p><span class="math inline">\(I = V_R/R = (6 - 0.7)/120&nbsp;‌Ω&nbsp;= 44.2 mA\)</span></p>
+<p>Complete Model:</p>
+<p>We’ll have to start with the current, using KVL:</p>
+<p><span class="math inline">\(I = (6.0 - 0.7)/(120&nbsp;‌Ω&nbsp;+ 5.9&nbsp;‌Ω) = 42.1 mA\)</span></p>
+<p><span class="math inline">\(V_D&nbsp;= 0.7 + I * r'_D&nbsp;= 0.948 V\)</span></p>
+<p>In this example, the Ideal Model is significantly incorrect as in the previous example.&nbsp; But now the Practical is also significantly incorrect, so a proper prediction can only be made using the Complete model.&nbsp; So, for a situation in which the current is quite high as allowed by a relatively small series resistor, we need to use the Complete Model.</p>
 </section>
-<section id="worked-example-3" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-3">Worked Example 3:</h3>
+<section id="example-3" class="level3">
+<h3 class="anchored" data-anchor-id="example-3">Example 3:</h3>
 <p><img src="img/DiodeModelWE3.JPG" class="img-fluid" style="width:12in"></p>
 <p>Ideal Model:</p>
-<p>VD&nbsp;is 0.0 V, since the closed switch is a short I = VR/R = (90 - 0)/56 k‌Ω&nbsp;= 1.61 mA Practical Model:</p>
-<p>VD&nbsp;= 0.7 V I = VR/R = (90 - 0.7)/56 k‌Ω&nbsp;= 1.59 mA Complete Model:</p>
-<p>We’ll have to start with the current, using KVL:&nbsp; I = (90 - 0.7)/(56&nbsp;k‌Ω&nbsp;+ 5.9&nbsp;‌Ω) = 1.59 mA VD&nbsp;= 0.7 + I * r’D&nbsp;= 0.709 V In this example, the currents predicted by all three models are practically the same, so the Ideal Model would be sufficient for current determination in a circuit where the supply voltage is considerably larger than the diode forward drop.&nbsp; The voltage across the diode is, of course, still significantly wrong, but the voltage across the resistor (90 V instead of 89.3 V) is not significantly incorrect.</p>
+<p><span class="math inline">\(V_D&nbsp;= 0.0 V\)</span>, since the closed switch is a short.</p>
+<p><span class="math inline">\(I = V_R/R = (90 - 0)/56 k‌Ω&nbsp;= 1.61 mA\)</span></p>
+<p>Practical Model:</p>
+<p><span class="math inline">\(V_D&nbsp;= 0.7 V\)</span></p>
+<p><span class="math inline">\(I = V_R/R = (90 - 0.7)/56 k‌Ω&nbsp;= 1.59 mA\)</span></p>
+<p>Complete Model:</p>
+<p>We’ll have to start with the current, using KVL:</p>
+<p><span class="math inline">\(I = (90 - 0.7)/(56&nbsp;k‌Ω&nbsp;+ 5.9&nbsp;‌Ω) = 1.59 mA\)</span></p>
+<p><span class="math inline">\(V_D&nbsp;= 0.7 + I * r'_D&nbsp;= 0.709 V\)</span></p>
+<p>In this example, the currents predicted by all three models are practically the same, so the Ideal Model would be sufficient for current determination in a circuit where the supply voltage is considerably larger than the diode forward drop.&nbsp; The voltage across the diode is, of course, still significantly wrong, but the voltage across the resistor (90 V instead of 89.3 V) is not significantly incorrect.</p>
 </section>
-<section id="worked-example-4" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-4">Worked Example 4:</h3>
+<section id="example-4" class="level3">
+<h3 class="anchored" data-anchor-id="example-4">Example 4:</h3>
 <p><img src="img/DiodeModelWE4.JPG" class="img-fluid" style="width:12in"></p>
 <p>Ideal Model:</p>
-<p>I = 0 A because of the open circuit VD&nbsp;= 12 V, since there is no current through the resistor, and therefore no voltage drop from the supply. Practical Model:</p>
-<p>I = 0 A because of the open circuit VD&nbsp;= 12 V, since there is no current through the resistor, and therefore no voltage drop from the supply. Complete Model:</p>
-<p>I = 500 nA VD&nbsp;= 12 - I * R = 12 - 500 nA * 56 k‌Ω&nbsp;= 11.97 V In this case, the Ideal and Practical models predict the same result, so the Ideal model is suitable.&nbsp; The Complete model also predicts almost the same result for the voltage, and 500 nA is pretty insignificant, so we don’t need the extra complication of the Complete model in a situation where the diode is reverse-biased and in series with a “reasonably sized” resistor.</p>
+<p><span class="math inline">\(I = 0 A\)</span> because of the open circuit.</p>
+<p><span class="math inline">\(V_D&nbsp;= 12 V\)</span>, since there is no current through the resistor, and therefore no voltage drop from the supply.</p>
+<p>Practical Model:</p>
+<p><span class="math inline">\(I = 0 A\)</span> because of the open circuit.</p>
+<p><span class="math inline">\(V_D&nbsp;= 12 V\)</span>, since there is no current through the resistor, and therefore no voltage drop from the supply.</p>
+<p>Complete Model:</p>
+<p><span class="math inline">\(I = 500 nA\)</span></p>
+<p><span class="math inline">\(V_D&nbsp;= 12 - I * R = 12 - 500 nA * 56 k‌Ω&nbsp;= 11.97 V\)</span></p>
+<p>In this case, the Ideal and Practical models predict the same result, so the Ideal model is suitable.&nbsp; The Complete model also predicts almost the same result for the voltage, and 500 nA is pretty insignificant, so we don’t need the extra complication of the Complete model in a situation where the diode is reverse-biased and in series with a “reasonably sized” resistor.</p>
 </section>
-<section id="worked-example-5" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-5">Worked Example 5:</h3>
+<section id="example-5" class="level3">
+<h3 class="anchored" data-anchor-id="example-5">Example 5:</h3>
 <p><img src="img/DiodeModelWE5.JPG" class="img-fluid" style="width:12in"></p>
 <p>Ideal Model:</p>
-<p>I = 0 A because of the open circuit VD&nbsp;= 12 V, since there is no current through the resistor, and therefore no voltage drop from the supply. Practical Model:</p>
-<p>I = 0 A because of the open circuit VD&nbsp;= 12 V, since there is no current through the resistor, and therefore no voltage drop from the supply. Complete Model:</p>
-<p>I = 500 nA VD&nbsp;= 12 - I * R = 12 - 500 nA * 10 M‌Ω&nbsp;= 7.00 V In this case, the Ideal and Practical models predict the same incorrect result, so the Complete model is the only one making accurate predictions.&nbsp; In this situation, the very large series resistor introduces a significant voltage drop even with a seemingly insignificant leakage current.</p>
+<p><span class="math inline">\(I = 0 A\)</span> because of the open circuit.</p>
+<p><span class="math inline">\(V_D&nbsp;= 12 V\)</span>, since there is no current through the resistor, and therefore no voltage drop from the supply.</p>
+<p>Practical Model:</p>
+<p><span class="math inline">\(I = 0 A\)</span> because of the open circuit.</p>
+<p><span class="math inline">\(V_D&nbsp;= 12 V\)</span>, since there is no current through the resistor, and therefore no voltage drop from the supply.</p>
+<p>Complete Model:</p>
+<p><span class="math inline">\(I = 500 nA\)</span></p>
+<p><span class="math inline">\(V_D&nbsp;= 12 - I * R = 12 - 500 nA * 10 M‌Ω&nbsp;= 7.00 V\)</span></p>
+<p>In this case, the Ideal and Practical models predict the same incorrect result, so the Complete model is the only one making accurate predictions.</p>
+<p>In this situation, the very large series resistor introduces a significant voltage drop even with a seemingly insignificant leakage current.</p>
 <p>Using the Practical Model</p>
 <p>Typically, in this course, we will use the Practical Model to predict our results.&nbsp; Here are some examples for you to practice and learn with.&nbsp; Assume the diode forward voltage drop is 0.7 V in each case.&nbsp; Some worked examples are provided below to help you establish the underlying concepts and the application of the model to replace the diode with standard electrical components.</p>
 <p>VA&nbsp;=&nbsp;‌&nbsp;&nbsp;V</p>
