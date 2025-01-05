@@ -55,6 +55,6 @@ title: "Tool Chain Software Setup"
 
 ## Other Resources
 
-- [git and gh shell command overview](git-gh-commands.md){target="_blank"}
+- [git and gh shell command overview](assets/git-gh-commands.md){target="_blank"}
 
-- [git and github with VSCode](git-github-with-VSCode.md){target="_blank"}
+- [git and github with VSCode](assets/git-github-with-VSCode.md){target="_blank"}
