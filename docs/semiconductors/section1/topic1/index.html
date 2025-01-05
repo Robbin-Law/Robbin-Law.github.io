@@ -219,11 +219,6 @@ window.Quarto = {
   <li><a href="#example-3" id="toc-example-3" class="nav-link" data-scroll-target="#example-3">Example 3:</a></li>
   <li><a href="#example-4" id="toc-example-4" class="nav-link" data-scroll-target="#example-4">Example 4:</a></li>
   <li><a href="#example-5" id="toc-example-5" class="nav-link" data-scroll-target="#example-5">Example 5:</a></li>
-  <li><a href="#worked-example-6" id="toc-worked-example-6" class="nav-link" data-scroll-target="#worked-example-6">Worked Example 6:</a></li>
-  <li><a href="#worked-example-7" id="toc-worked-example-7" class="nav-link" data-scroll-target="#worked-example-7">Worked Example 7:</a></li>
-  <li><a href="#worked-example-8" id="toc-worked-example-8" class="nav-link" data-scroll-target="#worked-example-8">Worked Example 8:</a></li>
-  <li><a href="#worked-example-9" id="toc-worked-example-9" class="nav-link" data-scroll-target="#worked-example-9">Worked Example 9:</a></li>
-  <li><a href="#worked-example-10" id="toc-worked-example-10" class="nav-link" data-scroll-target="#worked-example-10">Worked Example 10:</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -467,48 +462,6 @@ window.Quarto = {
 <p><span class="math inline">\(V_D&nbsp;= 12 - I * R = 12 - 500 nA * 10 M‌Ω&nbsp;= 7.00 V\)</span></p>
 <p>In this case, the Ideal and Practical models predict the same incorrect result, so the Complete model is the only one making accurate predictions.</p>
 <p>In this situation, the very large series resistor introduces a significant voltage drop even with a seemingly insignificant leakage current.</p>
-<p>Using the Practical Model</p>
-<p>Typically, in this course, we will use the Practical Model to predict our results.&nbsp; Here are some examples for you to practice and learn with.&nbsp; Assume the diode forward voltage drop is 0.7 V in each case.&nbsp; Some worked examples are provided below to help you establish the underlying concepts and the application of the model to replace the diode with standard electrical components.</p>
-<p>VA&nbsp;=&nbsp;‌&nbsp;&nbsp;V</p>
-<p>I =&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>VA&nbsp;=&nbsp;‌&nbsp;&nbsp;V</p>
-<p>I =&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>VA&nbsp;=&nbsp;‌&nbsp;&nbsp;V</p>
-<p>I =&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>VA&nbsp;=&nbsp;‌&nbsp;&nbsp;V</p>
-<p>I =&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>VA&nbsp;=&nbsp;‌&nbsp;&nbsp;V</p>
-<p>I =&nbsp;‌&nbsp;&nbsp;mA</p>
-<p>Notice that we still use Ohm’s Law and Kirchhoff’s Laws throughout.&nbsp; All we need to to is replace the diode with the appropriate model, and the basic laws of electricity apply.</p>
-<p>Worked Examples</p>
-<p>Determine the voltage at point A and the current through the diode in each of the circuits below.&nbsp; Assume the forward diode voltage drop for each diode is 0.7 V.</p>
-</section>
-<section id="worked-example-6" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-6">Worked Example 6:</h3>
-<p>Since the diode is reverse biased (current is attempting to flow from VCC to ground, and encounters the Cathode as a “brick wall”), we choose the reverse biased model of the diode – an open switch.</p>
-<p>The current through an open circuit is zero. The voltage at point A can be determined mathematically, as it will be equal to the source voltage minus the voltage drop across the resistor:&nbsp; VA&nbsp;= VCC&nbsp;- I * R and, since I is zero, VA&nbsp;= 10.0 V - 0*2.7 k‌Ω&nbsp;= 10.0 V. (Don’t forget this solution!&nbsp; We will end up using this version of KVL over and over again in this course!&nbsp; When given a current, we can only find voltage drops across resistors, not across active components, so we use KVL to find out what’s left across the active component.)</p>
-</section>
-<section id="worked-example-7" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-7">Worked Example 7:</h3>
-<p>Since the diode is reverse biased (current is attempting to flow from VCC to ground, and encounters the Cathode as a “brick wall”), we choose the reverse biased model of the diode – an open switch.</p>
-<p>The current through an open circuit is zero. The voltage at point A can be determined mathematically, as it will be equal to the voltage drop across the resistor:&nbsp; VA&nbsp;= I * R and, since I is zero, VA&nbsp;= 0*2.7 k‌Ω&nbsp;= 0.0 V.</p>
-</section>
-<section id="worked-example-8" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-8">Worked Example 8:</h3>
-<p>Since the current attempting to flow from VCC to ground encounters the anode and can flow in the direction of the “arrow”, the diode will be forward-biased.&nbsp; Therefore, we replace it with the Practical forward-biased model.</p>
-<p>The voltage at A, referenced to ground, is VCC&nbsp;- VD&nbsp;= 12.0 V - 0.7 V = 11.3 V The current, determined using the resistor, is I = ‌ΔVR/R = (VCC&nbsp;- VD)/R = 11.3 V/ 4.7 k‌Ω&nbsp;= 2.40 mA</p>
-</section>
-<section id="worked-example-9" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-9">Worked Example 9:</h3>
-<p>Since the current attempting to flow from VCC to ground encounters the anode, the diode will be forward-biased.&nbsp; Therefore, we replace it with the Practical forward-biased model.</p>
-<p>The voltage at A, referenced to ground, is VD&nbsp;= 0.7 V. The current, determined using the resistor, is I =&nbsp;‌ΔVR/R = (VCC&nbsp;- VD)/R = (9.0 V - 0.7 V)/1.8 k‌Ω&nbsp;= 4.61 mA</p>
-</section>
-<section id="worked-example-10" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-10">Worked Example 10:</h3>
-<p>Since the current attempting to flow from ground to the negative source, VCC, encounters the anode, the diode will be forward-biased.&nbsp; Therefore, we replace it with the Practical forward-biased model.</p>
-<p>The voltage at A, referenced to ground, is 0.7 V above VCC.&nbsp; From KVL, VA&nbsp;=VCC&nbsp;+ VD&nbsp;= = -10.0 V + 0.7 V = -9.3 V The current, determined using the resistor, is I =&nbsp;‌ΔVR/R = (0 - -9.3 V)/1.8 k‌Ω&nbsp;= 5.17 mA</p>
-<p>There are lots more variations on this theme, but it always comes down to:</p>
-<p>Use KVL to determine the voltage at the point of interest Use Ohm’s Law or KVL to determine the current using the voltage across a resistor.</p>
 
 
 </section>
