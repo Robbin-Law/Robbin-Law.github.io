@@ -400,5 +400,29 @@
     "title": "VS Code Features and Extensions",
     "section": "VS Code and Extension Config Settings",
     "text": "VS Code and Extension Config Settings\n\nVS Code Files:\n\nAuto Save: afterdelay\nAuto Save Delay: 1000 ms\n\nVS Code Editor:\n\nFormat on Save: check\nFormat on Save Mode: file\n\nAuto Import configuration settings:\n\nGo to File/Preferences/Settings in VSCode\nIn the settings search type “auto import”\nIn the “Auto Import Configuration”\nchange the “Files to Scan” to {js, jsx, ts, tsx}"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-1-create-a-github-account",
+    "href": "embedded-systems/section1/topic0/index.html#step-1-create-a-github-account",
+    "title": "Join Github Classroom",
+    "section": "",
+    "text": "GitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-2-join-github-classroom-and-create-your-workbook-repo",
+    "href": "embedded-systems/section1/topic0/index.html#step-2-join-github-classroom-and-create-your-workbook-repo",
+    "title": "Join Github Classroom",
+    "section": "Step 2 Join Github Classroom and Create Your Workbook Repo",
+    "text": "Step 2 Join Github Classroom and Create Your Workbook Repo\n\nClick the link below for your class and follow the instructions. Look for your name and click on it to begin the process.\nLink to Github Classroom for CMPE1250-A02\nLink to Github Classroom for CMPE1250-A03",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
   }
 ]
