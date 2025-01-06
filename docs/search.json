@@ -4,7 +4,7 @@
     "href": "semiconductors/index.html",
     "title": "Semiconductors",
     "section": "",
-    "text": "Semiconductors by Circuit Bread\n\nyoutube video playlist; first 12 are on diodes, next 9 are on transistors.\n\nTransistors, How do they work by Lesics\n\nyoutube video 6.52 min\n\nWhy it was almost impossible to make the blue LED by Veritasum\n\nyoutube video 33.44 min; very good history lesson with great animations.",
+    "text": "All assessments are due on Monday of the week at 11:59 PM.\nAll assignments are to be uploaded to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1\nDay2\nDay3\n\n\n\n\n1-J06\n\nSetup\nSetup\nSetup\n\n\n2-J13\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n3-J20\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n4-J27\nQ1-UI-Layout (10%) A1-UI-Layout (10%)\nUser-Input\nUser-Input\nUser-Input\n\n\n5-F03\n\nUser-Input\nUser-Input\nUser-Input\n\n\n6-F10\n\nThemes\nThemes\nThemes\n\n\nF17\n\n\n\n\n\n\n7-F24\nQ2-User-Input (10%) A2-User-Input (10%)\nCustom-Widgets\nCustom-Widgets\nCustom-Widgets\n\n\n8-M03\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n9-M10\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n10-M17\n\nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n11-M24\nQ3-RestAPI/SQLite (10%) \nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n12-M31\nProject-Proposal (10%)\nGPS/Camera\nGPS/Camera\nGPS/Camera\n\n\n13-A07\n\nProject\nProject\nProject\n\n\n14-A14\n\nProject\nProject\nProject\n\n\n15-A21",
     "crumbs": [
       "Semiconductors"
     ]
@@ -13,8 +13,8 @@
     "objectID": "semiconductors/index.html#general-resources",
     "href": "semiconductors/index.html#general-resources",
     "title": "Semiconductors",
-    "section": "",
-    "text": "Semiconductors by Circuit Bread\n\nyoutube video playlist; first 12 are on diodes, next 9 are on transistors.\n\nTransistors, How do they work by Lesics\n\nyoutube video 6.52 min\n\nWhy it was almost impossible to make the blue LED by Veritasum\n\nyoutube video 33.44 min; very good history lesson with great animations.",
+    "section": "General Resources",
+    "text": "General Resources\n\nSemiconductors by Circuit Bread\n\nyoutube video playlist; first 12 are on diodes, next 9 are on transistors.\n\nTransistors, How do they work by Lesics\n\nyoutube video 6.52 min\n\nWhy it was almost impossible to make the blue LED by Veritasum\n\nyoutube video 33.44 min; very good history lesson with great animations.",
     "crumbs": [
       "Semiconductors"
     ]
@@ -112,7 +112,7 @@
     "href": "embedded-systems/index.html",
     "title": "Embedded-Systems",
     "section": "",
-    "text": "CMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
+    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segs-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
     "crumbs": [
       "Embedded-Systems"
     ]
@@ -121,8 +121,8 @@
     "objectID": "embedded-systems/index.html#general-resources",
     "href": "embedded-systems/index.html#general-resources",
     "title": "Embedded-Systems",
-    "section": "",
-    "text": "CMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
+    "section": "General Resources",
+    "text": "General Resources\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
     "crumbs": [
       "Embedded-Systems"
     ]
@@ -423,6 +423,75 @@
       "Embedded-Systems",
       "Environment Setup",
       "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/index.html#calendar",
+    "href": "embedded-systems/index.html#calendar",
+    "title": "Embedded-Systems",
+    "section": "",
+    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segs-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
+    "crumbs": [
+      "Embedded-Systems"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/schedule-2024-winter.html",
+    "href": "embedded-systems/schedule-2024-winter.html",
+    "title": "DMIT2504 Winter 2024",
+    "section": "",
+    "text": "Link to my demos repo\n\n\n\n\n\n\nAll assessments are due on Monday of the week at 11:59 PM.\nAll assignments are to be uploaded to a github repo and the link to that repo is to be submitted to Moodle.\nAll quizzes are to be done on Moodle.\nProject-Code is to be uploaded to a github repo and the link to that repo is to be submitted to Moodle.\nProject-Present is to be done via YouTube and the link to your YouTube video is to be submitted to Moodle.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1\nDay2\nDay3\n\n\n\n\n1-J08\n\nSetup\nSetup\nSetup\n\n\n2-J15\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n3-J22\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n4-J29\nQ1-UI-Layout (10%) A1-UI-Layout (10%)\nUser-Input\nUser-Input\nUser-Input\n\n\n5-F05\n\nUser-Input\nUser-Input\nUser-Input\n\n\n6-F12\n\nThemes\nThemes\nThemes\n\n\nF19\n\n\n\n\n\n\n7-F26\nQ2-User-Input (10%) A2-User-Input (10%)\nCustom-Widgets\nCustom-Widgets\nCustom-Widgets\n\n\n8-M04\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n9-M11\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n10-M18\n\nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n11-M25\nQ3-RestAPI/SQLite (10%) \nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n12-A01\nProject-Proposal (10%)\nGPS/Camera\nGPS/Camera\nGPS/Camera\n\n\n13-A08\n\nProject\nProject\nProject\n\n\n14-A15\n\nProject\nProject\nProject\n\n\n15-A22"
+  },
+  {
+    "objectID": "embedded-systems/schedule-2024-winter.html#links",
+    "href": "embedded-systems/schedule-2024-winter.html#links",
+    "title": "DMIT2504 Winter 2024",
+    "section": "",
+    "text": "Link to my demos repo"
+  },
+  {
+    "objectID": "embedded-systems/schedule-2024-winter.html#calendar",
+    "href": "embedded-systems/schedule-2024-winter.html#calendar",
+    "title": "DMIT2504 Winter 2024",
+    "section": "",
+    "text": "All assessments are due on Monday of the week at 11:59 PM.\nAll assignments are to be uploaded to a github repo and the link to that repo is to be submitted to Moodle.\nAll quizzes are to be done on Moodle.\nProject-Code is to be uploaded to a github repo and the link to that repo is to be submitted to Moodle.\nProject-Present is to be done via YouTube and the link to your YouTube video is to be submitted to Moodle.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1\nDay2\nDay3\n\n\n\n\n1-J08\n\nSetup\nSetup\nSetup\n\n\n2-J15\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n3-J22\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n4-J29\nQ1-UI-Layout (10%) A1-UI-Layout (10%)\nUser-Input\nUser-Input\nUser-Input\n\n\n5-F05\n\nUser-Input\nUser-Input\nUser-Input\n\n\n6-F12\n\nThemes\nThemes\nThemes\n\n\nF19\n\n\n\n\n\n\n7-F26\nQ2-User-Input (10%) A2-User-Input (10%)\nCustom-Widgets\nCustom-Widgets\nCustom-Widgets\n\n\n8-M04\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n9-M11\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n10-M18\n\nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n11-M25\nQ3-RestAPI/SQLite (10%) \nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n12-A01\nProject-Proposal (10%)\nGPS/Camera\nGPS/Camera\nGPS/Camera\n\n\n13-A08\n\nProject\nProject\nProject\n\n\n14-A15\n\nProject\nProject\nProject\n\n\n15-A22"
+  },
+  {
+    "objectID": "embedded-systems/CPSC1520-schedule-2023-09-fall.html",
+    "href": "embedded-systems/CPSC1520-schedule-2023-09-fall.html",
+    "title": "CPSC1520 Fall 2023",
+    "section": "",
+    "text": "Link to my demos repo\nCPSC 1520 Student Website\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssessment\nvia\nDue 11:59 PM Friday\n%\n\n\n\n\nL1 Console/DOM Access/GitHub/Netlify\nGitHub/Netlify/Moodle\nWeek 3\n5\n\n\nL2 Functions\nGitHub/Netlify/Moodle\nWeek 4\n5\n\n\nQ1 JavaScript Basics/Functions\nMoodle\nWeek 4\n5\n\n\nL3 Events/Decisions\nGitHub/Netlify/Moodle\nWeek 5\n5\n\n\nQ2 Events/Decisions\nMoodle\nWeek 5\n5\n\n\nL4 Forms with Validation/Decisions\nGitHub/Netlify/Moodle\nWeek 6\n5\n\n\nA1 DOM Access/Functions/Events/Decisions/Forms\nGitHub/Netlify/Moodle\nWeek 7\n10\n\n\nL5 Loops/Arrays\nGitHub/Netlify/Moodle\nWeek 8\n5\n\n\nA2 Loops/Arrays/Fetch-API/local-json\nGitHub/Netlify/Moodle\nWeek9\n10\n\n\nQ3 Loops/Arrays\nMoodle\nWeek 9\n5\n\n\nL6 Fetch-API/remote-json\nGitHub/Netlify/Moodle\nWeek 11\n5\n\n\nQ4 Fetch-API\nMoodle\nWeek 11\n5\n\n\nL7 npm/json/packages\nGitHub/Netlify/Moodle\nWeek 12\n5\n\n\nA3 npm/fetch-api/json/packages\nGitHub/Netlify/Moodle\nWeek 14\n10\n\n\nQ5 npm/fetch-api/json/packages\nMoodle\nWeek 14\n5\n\n\nL8 Classes/Objects\nGitHub/Netlify/Moodle\nWeek 15\n5\n\n\nQ6 Classes/Objects/DOM API/Timers\nMoodle\nWeek 15\n5\n\n\nTotal\n\n\n100\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDay1\nDay2\nDay3\nDue\n\n\n\n\n1-S04\nEnvironment-Setup\nEnvironment-Setup\nConsole-Variables\n\n\n\n2-S11\nData-Types\nData-Types & DOM-Access\nDOM-Access\n\n\n\n3-S18\nFunctions\nFunctions\nFunctions\nL1\n\n\n4-S25\nEventsDecisions/debugger\nEvents/Decisions/debugger\nEvents/Decisions/debugger\nL2 Q1\n\n\n5-O02\nForms\nForms\nForms\nL3\n\n\n6-O09\nForms\nForms\nForms\nL4 Q2\n\n\n7-O16\nForms\nForms\nForms\nA1\n\n\n8-O23\nLoops-NodeLists-Arrays\nLoops-NodeLists-Arrays\nLoops-NodeLists-Arrays\nL5\n\n\n9-O30\nFetch/async-await/local-json\nFetch/async-await/local-json\nFetch/async-await/local-json\nA2 Q3\n\n\n10-N06\nFetch/async-await/remote-json\nFetch/async-await/remote-json\nFetch/async-await/remote-json\n\n\n\n11-N13\nnpm-external libs\nnpm-external libs\nnpm-external libs\nL6 Q4\n\n\n12-N20\nnpm/json-server/timers\nnpm/json-server/timers\nnpm/json-server/timers\nL7\n\n\n13-N27\nnpm/json-server/timers\nnpm/json-server/timers\nnpm/json-server/timers\n\n\n\n14-D04\nClasses/Objects\nClasses/Objects\nClasses/Objects\nA3 Q5\n\n\n15-D11\nClasses/Objects\nClasses/Objects\nClasses/Objects\nL8 Q6"
+  },
+  {
+    "objectID": "embedded-systems/CPSC1520-schedule-2023-09-fall.html#links",
+    "href": "embedded-systems/CPSC1520-schedule-2023-09-fall.html#links",
+    "title": "CPSC1520 Fall 2023",
+    "section": "",
+    "text": "Link to my demos repo\nCPSC 1520 Student Website"
+  },
+  {
+    "objectID": "embedded-systems/CPSC1520-schedule-2023-09-fall.html#assessments",
+    "href": "embedded-systems/CPSC1520-schedule-2023-09-fall.html#assessments",
+    "title": "CPSC1520 Fall 2023",
+    "section": "",
+    "text": "Assessment\nvia\nDue 11:59 PM Friday\n%\n\n\n\n\nL1 Console/DOM Access/GitHub/Netlify\nGitHub/Netlify/Moodle\nWeek 3\n5\n\n\nL2 Functions\nGitHub/Netlify/Moodle\nWeek 4\n5\n\n\nQ1 JavaScript Basics/Functions\nMoodle\nWeek 4\n5\n\n\nL3 Events/Decisions\nGitHub/Netlify/Moodle\nWeek 5\n5\n\n\nQ2 Events/Decisions\nMoodle\nWeek 5\n5\n\n\nL4 Forms with Validation/Decisions\nGitHub/Netlify/Moodle\nWeek 6\n5\n\n\nA1 DOM Access/Functions/Events/Decisions/Forms\nGitHub/Netlify/Moodle\nWeek 7\n10\n\n\nL5 Loops/Arrays\nGitHub/Netlify/Moodle\nWeek 8\n5\n\n\nA2 Loops/Arrays/Fetch-API/local-json\nGitHub/Netlify/Moodle\nWeek9\n10\n\n\nQ3 Loops/Arrays\nMoodle\nWeek 9\n5\n\n\nL6 Fetch-API/remote-json\nGitHub/Netlify/Moodle\nWeek 11\n5\n\n\nQ4 Fetch-API\nMoodle\nWeek 11\n5\n\n\nL7 npm/json/packages\nGitHub/Netlify/Moodle\nWeek 12\n5\n\n\nA3 npm/fetch-api/json/packages\nGitHub/Netlify/Moodle\nWeek 14\n10\n\n\nQ5 npm/fetch-api/json/packages\nMoodle\nWeek 14\n5\n\n\nL8 Classes/Objects\nGitHub/Netlify/Moodle\nWeek 15\n5\n\n\nQ6 Classes/Objects/DOM API/Timers\nMoodle\nWeek 15\n5\n\n\nTotal\n\n\n100"
+  },
+  {
+    "objectID": "embedded-systems/CPSC1520-schedule-2023-09-fall.html#calendar",
+    "href": "embedded-systems/CPSC1520-schedule-2023-09-fall.html#calendar",
+    "title": "CPSC1520 Fall 2023",
+    "section": "",
+    "text": "Week\nDay1\nDay2\nDay3\nDue\n\n\n\n\n1-S04\nEnvironment-Setup\nEnvironment-Setup\nConsole-Variables\n\n\n\n2-S11\nData-Types\nData-Types & DOM-Access\nDOM-Access\n\n\n\n3-S18\nFunctions\nFunctions\nFunctions\nL1\n\n\n4-S25\nEventsDecisions/debugger\nEvents/Decisions/debugger\nEvents/Decisions/debugger\nL2 Q1\n\n\n5-O02\nForms\nForms\nForms\nL3\n\n\n6-O09\nForms\nForms\nForms\nL4 Q2\n\n\n7-O16\nForms\nForms\nForms\nA1\n\n\n8-O23\nLoops-NodeLists-Arrays\nLoops-NodeLists-Arrays\nLoops-NodeLists-Arrays\nL5\n\n\n9-O30\nFetch/async-await/local-json\nFetch/async-await/local-json\nFetch/async-await/local-json\nA2 Q3\n\n\n10-N06\nFetch/async-await/remote-json\nFetch/async-await/remote-json\nFetch/async-await/remote-json\n\n\n\n11-N13\nnpm-external libs\nnpm-external libs\nnpm-external libs\nL6 Q4\n\n\n12-N20\nnpm/json-server/timers\nnpm/json-server/timers\nnpm/json-server/timers\nL7\n\n\n13-N27\nnpm/json-server/timers\nnpm/json-server/timers\nnpm/json-server/timers\n\n\n\n14-D04\nClasses/Objects\nClasses/Objects\nClasses/Objects\nA3 Q5\n\n\n15-D11\nClasses/Objects\nClasses/Objects\nClasses/Objects\nL8 Q6"
+  },
+  {
+    "objectID": "semiconductors/index.html#calendar",
+    "href": "semiconductors/index.html#calendar",
+    "title": "Semiconductors",
+    "section": "",
+    "text": "All assessments are due on Monday of the week at 11:59 PM.\nAll assignments are to be uploaded to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1\nDay2\nDay3\n\n\n\n\n1-J06\n\nSetup\nSetup\nSetup\n\n\n2-J13\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n3-J20\n\nUI-Layout\nUI-Layout\nUI-Layout\n\n\n4-J27\nQ1-UI-Layout (10%) A1-UI-Layout (10%)\nUser-Input\nUser-Input\nUser-Input\n\n\n5-F03\n\nUser-Input\nUser-Input\nUser-Input\n\n\n6-F10\n\nThemes\nThemes\nThemes\n\n\nF17\n\n\n\n\n\n\n7-F24\nQ2-User-Input (10%) A2-User-Input (10%)\nCustom-Widgets\nCustom-Widgets\nCustom-Widgets\n\n\n8-M03\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n9-M10\n\nRestfulAPI/SQLite\nRestfulAPI/SQLite\nRestfulAPI/SQLite\n\n\n10-M17\n\nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n11-M24\nQ3-RestAPI/SQLite (10%) \nFirebase/Firestore\nFirebase/Firestore\nFirebase/Firestore\n\n\n12-M31\nProject-Proposal (10%)\nGPS/Camera\nGPS/Camera\nGPS/Camera\n\n\n13-A07\n\nProject\nProject\nProject\n\n\n14-A14\n\nProject\nProject\nProject\n\n\n15-A21",
+    "crumbs": [
+      "Semiconductors"
     ]
   }
 ]
