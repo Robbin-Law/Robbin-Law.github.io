@@ -38,6 +38,7 @@ website:
             - embedded-systems/section1/topic0/index.qmd
             - embedded-systems/section1/topic1/index.qmd
             - embedded-systems/section1/topic2/index.qmd
+            - embedded-systems/section1/topic3/index.qmd
         - section: "Intro to the Micro"
           contents:
             - embedded-systems/section2/topic1/index.qmd
