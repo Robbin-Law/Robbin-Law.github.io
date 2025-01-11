@@ -225,12 +225,24 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>Watch the following video again starting at 6:30 minute, where it shows how to create a new code warrior project from scratch. Then open code warrior and create a new project as shown in the video, the name of the project does not matter.</p></li>
 <li><p><a href="https://www.youtube.com/watch?v=6BJ_XLAK3PQ&amp;list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&amp;index=2" target="_blank">Install drivers and get CodeWarrior setup by Carlos Estay</a></p></li>
-<li><p>Then in CodeWarrior, start the Real-Time Debugger.</p></li>
-<li><p>Select the USBDM HCS12 Menu bar.</p></li>
-<li><p>Select “Load …”.</p></li>
-<li><p>Change “Files of Type” to “Motorola S-Record <em>.s?</em>”.</p></li>
-<li><p>Locate the file BoardTest.abs.s19, that is on your machine, then press “Load Code”.</p></li>
-<li><p>Run the software to see if your board is working properly.</p></li>
+<li><p>When you open CodeWarrior a <strong>Startup dialog box</strong> should appear, if not go to <strong>File/Start Dialog…</strong></p></li>
+<li><p>From the Startup Dialog box click <strong>Create New Project</strong>.</p></li>
+<li><p>Then under <strong>Select the derivative to use</strong> choose <strong>HCS12XD Family/MC9S12XDP512</strong></p></li>
+<li><p>Also choose <strong>USBDM</strong> in the <strong>Connections</strong> box. Then click <strong>next</strong>.</p></li>
+<li><p>Then choose <strong>Single Core</strong>, and click <strong>next</strong>.</p></li>
+<li><p>Then make sure the <strong>C</strong> box is checked and all others not. You can change the name of the folder and place to store it on your machine but for now just leave the default. Click <strong>next</strong>.</p></li>
+<li><p>No need to <strong>add existing files</strong> so click <strong>next</strong>.</p></li>
+<li><p>We want <strong>None</strong> for <strong>Rapid Dev Options</strong>. Click <strong>next</strong>.</p></li>
+<li><p>Choose <strong>ANSI Startup Code</strong>, <strong>Small Memory Model</strong>, and <strong>IEEE32 for both float and double</strong>. Click <strong>next</strong>.</p></li>
+<li><p>Finally check <strong>NO</strong> to PC-lint. Click <strong>Finish</strong>.</p></li>
+<li><p>Then in CodeWarrior, start the <strong>Real-Time Debugger</strong> by clicking the <strong>slanted green arrow</strong>.</p></li>
+<li><p>Click on <strong>OK</strong>, once or twice until the program is downloaded to the micro board.</p></li>
+<li><p>Select the <strong>USBDM HCS12</strong> Menu bar tab.</p></li>
+<li><p>Select <strong>Load …</strong>.</p></li>
+<li><p>Change <strong>Files of Type</strong> to <strong>Motorola S-Record <em>.s?</em></strong>.</p></li>
+<li><p>Locate the file BoardTest.abs.s19, that is on your machine, then press <strong>Load Code</strong>. You will have to click <strong>OK</strong> again to download this code to the micro board.</p></li>
+<li><p>Run the software by clicking the <strong>green Start arrow</strong> to see if your board is working properly. You should see text on the LCD and the yellow 7-segment display should be counting fast in hex. Press any button to continue the test.</p></li>
+<li><p>Click the <strong>red Reset Target arrow</strong> to stop the program.</p></li>
 </ul>
 
 

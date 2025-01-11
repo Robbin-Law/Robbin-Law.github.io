@@ -11,14 +11,38 @@ title: "Test Drive System"
 
 - [Install drivers and get CodeWarrior setup by Carlos Estay](https://www.youtube.com/watch?v=6BJ_XLAK3PQ&list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&index=2){target="_blank"}
 
-- Then in CodeWarrior, start the Real-Time Debugger.
+- When you open CodeWarrior a **Startup dialog box** should appear, if not go to **File/Start Dialog...**
 
-- Select the USBDM HCS12 Menu bar.
+- From the Startup Dialog box click **Create New Project**.
 
-- Select "Load ...".
+- Then under **Select the derivative to use** choose **HCS12XD Family/MC9S12XDP512**
 
-- Change "Files of Type" to "Motorola S-Record *.s?*".
+- Also choose **USBDM** in the **Connections** box. Then click **next**.
 
-- Locate the file BoardTest.abs.s19, that is on your machine, then press "Load Code".
+- Then choose **Single Core**, and click **next**.
 
-- Run the software to see if your board is working properly.
+- Then make sure the **C** box is checked and all others not. You can change the name of the folder and place to store it on your machine but for now just leave the default. Click **next**.
+
+- No need to **add existing files** so click **next**.
+
+- We want **None** for **Rapid Dev Options**. Click **next**.
+
+- Choose **ANSI Startup Code**, **Small Memory Model**, and **IEEE32 for both float and double**. Click **next**.
+
+- Finally check **NO** to PC-lint. Click **Finish**.
+
+- Then in CodeWarrior, start the **Real-Time Debugger** by clicking the **slanted green arrow**.
+
+- Click on **OK**, once or twice until the program is downloaded to the micro board.
+
+- Select the **USBDM HCS12** Menu bar tab.
+
+- Select **Load ...**.
+
+- Change **Files of Type** to **Motorola S-Record *.s?***.
+
+- Locate the file BoardTest.abs.s19, that is on your machine, then press **Load Code**. You will have to click **OK** again to download this code to the micro board.
+
+- Run the software by clicking the **green Start arrow** to see if your board is working properly. You should see text on the LCD and the yellow 7-segment display should be counting fast in hex. Press any button to continue the test.
+
+- Click the **red Reset Target arrow** to stop the program.
