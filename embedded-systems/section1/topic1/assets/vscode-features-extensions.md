@@ -45,7 +45,7 @@ Emmet is part of VSCode. Used when no content is in place.
 
 ## VS Code Extensions to Download
 
-**Download from Extensions Market Place**
+Download from Extensions Market Place
 
 - Markdown All in One by Yu Zhang - preview .md files
 - PDF Preview by Analytic Signal Limited
