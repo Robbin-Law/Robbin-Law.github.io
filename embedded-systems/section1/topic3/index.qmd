@@ -3,3 +3,9 @@ title: "ICA0 Git and Github Basics"
 ---
 
 - [ICA0](assets/ICA0.pdf){target="_blank"}
+
+- [git and gh shell command overview by Robbin Law](assets/git-gh-commands.md){target="_blank"}
+
+- [git branching and merging basics by github](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){target="_blank"}
+
+- [git and github with VSCode by Robbin Law](assets/git-github-with-VSCode.md){target="_blank"}

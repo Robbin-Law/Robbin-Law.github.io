@@ -34,12 +34,40 @@
     "href": "embedded-systems/section1/topic3/index.html",
     "title": "ICA0 Git and Github Basics",
     "section": "",
-    "text": "ICA0",
+    "text": "ICA0\ngit and gh shell command overview by Robbin Law\ngit branching and merging basics by github\ngit and github with VSCode by Robbin Law",
     "crumbs": [
       "Embedded-Systems",
       "Environment Setup",
       "ICA0 Git and Github Basics"
     ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html",
+    "title": "Git on the Command Line",
+    "section": "",
+    "text": "git docs"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#resources",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#resources",
+    "title": "Git on the Command Line",
+    "section": "",
+    "text": "git docs"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#basic-git-commands",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#basic-git-commands",
+    "title": "Git on the Command Line",
+    "section": "Basic Git Commands",
+    "text": "Basic Git Commands\nWe can use the git version control application directly from the command line. Here are some useful commands to get started.\n\ngit init - This command will create a git repository in the current folder on your machine.\n\nThe best way to create a repo is to do it on github via a browser. Once this is done you can clone the repo to your machine. Make your working folder where you want the repo stored and run the following command.\n\ngit clone UrlOfRepoOnGithub.\n\nYou will have had to copy the url of the github repo to the clipboard. Then use the following command to clone. This url is just an example. You would copy the clipboard to the command line.\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git.\n\nOnce your github repo is cloned down to your machine you can start adding folders and files to the repo, and changing what is already in the repo.\nWhen you make an addition or change to a file, always SAVE it, then use the following command to see that git knows there has been a change.\n\ngit status - This will give you the current status of your local git repository.\n\nAt this point the changed files names will be red.\nThe next thing is that you have to stage your changes.\n\ngit add . - Use this command to “stage” all of your current changes so that they are ready to be committed.\ngit status will show that the changed files are staged by turning the file names green from red.\n\nNow you are ready to commit the recent changes.\n\ngit commit -m \"Your Message\" - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a commit history for our repository. The message is NOT optional.\n\nFinally you will want to update your github repo with the changes made on you machines local repo. You can have many commits to one push.\n\ngit push - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.\n\nIf you are working with others and someone changes the github repo, you will have to pull to get those changes on your machine.\n\ngit pull - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer). The pull command is a combination of git fetch and git merge commands.\n\nAnother great command to see what is going on.\n\ngit log - This will give you the history of your git repository\n\nThere are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#remote-repositories",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#remote-repositories",
+    "title": "Git on the Command Line",
+    "section": "Remote Repositories",
+    "text": "Remote Repositories\nYou can use the GitHub CLI to create a remote repository on GitHub.com.\ngh repo create my-first-repository\nThe command above is interactive, so just follow the prompts.\nYou can push your code to GitHub.com by typing the following:\ngit push -u origin main\nNote that the -u means set upstream. After that, you will only need to type git push to push any local changes to the remote repository.\nYou can pull your code from GitHub.com by typing the following:\ngit pull upstream main\nAfter that, you will only need to type git pull to pull any remote changes to the local repository.\nHere’s some other helpful commands with regard to the remote repository connections for your local repository.\n\ngit remote -v - View all the remote repositories\ngit remote remove [remoteName] - Remove a remote entry\ngit remote add [remoteName] [URL-to-Repository] - Add a remote repository"
   },
   {
     "objectID": "embedded-systems/section1/topic1/index.html",
@@ -78,51 +106,11 @@
     ]
   },
   {
-    "objectID": "embedded-systems/section1/topic1/index.html#other-resources",
-    "href": "embedded-systems/section1/topic1/index.html#other-resources",
-    "title": "Tool Chain Software Setup",
-    "section": "Other Resources",
-    "text": "Other Resources\n\ngit and gh shell command overview\ngit and github with VSCode",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Tool Chain Software Setup"
-    ]
-  },
-  {
     "objectID": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
     "href": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
     "title": "Home",
     "section": "",
     "text": "The software files are too big for github. They must be downloaded via Brightspace or a usb."
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
-    "title": "Git on the Command Line",
-    "section": "",
-    "text": "git docs"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
-    "title": "Git on the Command Line",
-    "section": "",
-    "text": "git docs"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
-    "title": "Git on the Command Line",
-    "section": "Basic Git Commands",
-    "text": "Basic Git Commands\nWe can use the git version control application directly from the command line. Here are some useful commands to get started.\n\ngit init - This command will create a git repository in the current folder on your machine.\n\nThe best way to create a repo is to do it on github via a browser. Once this is done you can clone the repo to your machine. Make your working folder where you want the repo stored and run the following command.\n\ngit clone UrlOfRepoOnGithub.\n\nYou will have had to copy the url of the github repo to the clipboard. Then use the following command to clone. This url is just an example. You would copy the clipboard to the command line.\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git.\n\nOnce your github repo is cloned down to your machine you can start adding folders and files to the repo, and changing what is already in the repo.\nWhen you make an addition or change to a file, always SAVE it, then use the following command to see that git knows there has been a change.\n\ngit status - This will give you the current status of your local git repository.\n\nAt this point the changed files names will be red.\nThe next thing is that you have to stage your changes.\n\ngit add . - Use this command to “stage” all of your current changes so that they are ready to be committed.\ngit status will show that the changed files are staged by turning the file names green from red.\n\nNow you are ready to commit the recent changes.\n\ngit commit -m \"Your Message\" - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a commit history for our repository. The message is NOT optional.\n\nFinally you will want to update your github repo with the changes made on you machines local repo. You can have many commits to one push.\n\ngit push - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.\n\nIf you are working with others and someone changes the github repo, you will have to pull to get those changes on your machine.\n\ngit pull - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer). The pull command is a combination of git fetch and git merge commands.\n\nAnother great command to see what is going on.\n\ngit log - This will give you the history of your git repository\n\nThere are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control."
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
-    "title": "Git on the Command Line",
-    "section": "Remote Repositories",
-    "text": "Remote Repositories\nYou can use the GitHub CLI to create a remote repository on GitHub.com.\ngh repo create my-first-repository\nThe command above is interactive, so just follow the prompts.\nYou can push your code to GitHub.com by typing the following:\ngit push -u origin main\nNote that the -u means set upstream. After that, you will only need to type git push to push any local changes to the remote repository.\nYou can pull your code from GitHub.com by typing the following:\ngit pull upstream main\nAfter that, you will only need to type git pull to pull any remote changes to the local repository.\nHere’s some other helpful commands with regard to the remote repository connections for your local repository.\n\ngit remote -v - View all the remote repositories\ngit remote remove [remoteName] - Remove a remote entry\ngit remote add [remoteName] [URL-to-Repository] - Add a remote repository"
   },
   {
     "objectID": "embedded-systems/index.html",
@@ -191,34 +179,6 @@
     ]
   },
   {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
-    "title": "Git and Github with VS Code",
-    "section": "",
-    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
-    "title": "Git and Github with VS Code",
-    "section": "",
-    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
-    "title": "Git and Github with VS Code",
-    "section": "Setting GitHub Authentication for one GitHub User",
-    "text": "Setting GitHub Authentication for one GitHub User\nOpen a terminal and check to see that git and github cli are available.\ngit –-version\ngh –-version\nIf one is missing you have to download the msi and try again until a version shows.\nNow config git to always use the user name and email that you used to set up your github account. Note that you only have to do this once.\ngit config --global user.name \"John Doe\"\ngit config --global user.email johndoe@example.com\nNow to see that the config sticks.\ngit config -l\nThe -l means list all configs. Press the space bar to see each setting, and q to quit.\nIf you still get errors when trying to pull from or push to github, you will have to get into the Windows Credential Manager and delete the github references. A machine restart will be required."
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
-    "title": "Git and Github with VS Code",
-    "section": "Setting GitHub Authentication for more than one GitHub User",
-    "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
-  },
-  {
     "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
     "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
     "title": "VS Code Features and Extensions",
@@ -257,6 +217,34 @@
       "Environment Setup",
       "Test Drive System"
     ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html",
+    "title": "Git and Github with VS Code",
+    "section": "",
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#resources",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#resources",
+    "title": "Git and Github with VS Code",
+    "section": "",
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for one GitHub User",
+    "text": "Setting GitHub Authentication for one GitHub User\nOpen a terminal and check to see that git and github cli are available.\ngit –-version\ngh –-version\nIf one is missing you have to download the msi and try again until a version shows.\nNow config git to always use the user name and email that you used to set up your github account. Note that you only have to do this once.\ngit config --global user.name \"John Doe\"\ngit config --global user.email johndoe@example.com\nNow to see that the config sticks.\ngit config -l\nThe -l means list all configs. Press the space bar to see each setting, and q to quit.\nIf you still get errors when trying to pull from or push to github, you will have to get into the Windows Credential Manager and delete the github references. A machine restart will be required."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for more than one GitHub User",
+    "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
   },
   {
     "objectID": "index.html",
