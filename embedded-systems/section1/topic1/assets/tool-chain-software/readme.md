@@ -1,0 +1,1 @@
+The software files are too big for github. They must be downloaded via Brightspace or a usb.

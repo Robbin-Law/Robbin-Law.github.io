@@ -70,7 +70,7 @@
     "href": "embedded-systems/section1/topic1/index.html#software-to-download-and-install",
     "title": "Tool Chain Software Setup",
     "section": "Software to Download and Install",
-    "text": "Software to Download and Install\n\nDownload and Install CodeWarrior Software and USBDM Drivers\n\nUSBDM First set of Drivers\n\nDownload and install this first.\n\nCodeWarrior5.1\n\nDownload and install this second.\nDo not store it in C:\\Program Files (x86), put it in another folder on the C:\\ drive that has NO spaces in the folder name.\nThe very last step in the install asks if you want to update, we DO NOT want to update, so just cancel that.\n\nUSBDM Second set of Drivers\n\nDownload and install this third after CodeWarrior has been successfully installed.\n\n\n\n\nDownload and Install Git\n\nGit Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that git is available from any directory.\nOpen a PowerShell or CMD terminal. In the shell run git -–version to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that git is available from any directory. To set the path, in the search area at the bottom of the windows task bar type env and select Edit Environment Variables for your Account. Then edit the PATH and add new C:\\Program Files\\Git\\cmd. You could add this to the system environments alternatively. Now you can run the git command from a terminal anywhere.\n\n\n\nDownload and Install GitHub CLI\n\nGitHub CLI Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that gh is available from any directory.\n\n\n\nDownload and Install Visual Studio Code\n\nVisual Studio Code Website\nDownload Visual Studio Code if you do not already have it on your machine.",
+    "text": "Software to Download and Install\n\nDownload and Install CodeWarrior Software and USBDM Drivers\nUnfortunately Github cannot store files as large as the software files we need to download. They must be retrieved from Brightspace or a usb from your instructor.\n\nStep 1\n\nDownload the USBDM drivers file and unzip.\n\n\n\nStep 2\n\nRun the file called “USBDM_Drivers_4_12_1_Win_x64” to install the first driver.\n\n\n\nStep 3\n\nDownload and install CodeWarrior5.1 Special Edition.\nDo not store it in C:\\Program Files (x86), put it in another folder on the C:\\ drive that has NO spaces in the folder name.\nThe very last step in the install asks if you want to update, we DO NOT want to update, so just cancel that.\n\n\n\nStep 4\n\nRun the file called “USBDM_4_12_1_262_Win” only after CodeWarrior is installed.\n\n\n\n\nDownload and Install Git\n\nGit Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that git is available from any directory.\nOpen a PowerShell or CMD terminal. In the shell run git -–version to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that git is available from any directory. To set the path, in the search area at the bottom of the windows task bar type env and select Edit Environment Variables for your Account. Then edit the PATH and add new C:\\Program Files\\Git\\cmd. You could add this to the system environments alternatively. Now you can run the git command from a terminal anywhere.\n\n\n\nDownload and Install GitHub CLI\n\nGitHub CLI Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that gh is available from any directory.\n\n\n\nDownload and Install Visual Studio Code\n\nVisual Studio Code Website\nDownload Visual Studio Code if you do not already have it on your machine.",
     "crumbs": [
       "Embedded-Systems",
       "Environment Setup",
@@ -90,32 +90,69 @@
     ]
   },
   {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
-    "title": "Git and Github with VS Code",
+    "objectID": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
+    "href": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
+    "title": "Home",
     "section": "",
-    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+    "text": "The software files are too big for github. They must be downloaded via Brightspace or a usb."
   },
   {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
-    "title": "Git and Github with VS Code",
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
+    "title": "Git on the Command Line",
     "section": "",
-    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+    "text": "git docs"
   },
   {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
-    "title": "Git and Github with VS Code",
-    "section": "Setting GitHub Authentication for one GitHub User",
-    "text": "Setting GitHub Authentication for one GitHub User\nOpen a terminal and check to see that git and github cli are available.\ngit –-version\ngh –-version\nIf one is missing you have to download the msi and try again until a version shows.\nNow config git to always use the user name and email that you used to set up your github account. Note that you only have to do this once.\ngit config --global user.name \"John Doe\"\ngit config --global user.email johndoe@example.com\nNow to see that the config sticks.\ngit config -l\nThe -l means list all configs. Press the space bar to see each setting, and q to quit.\nIf you still get errors when trying to pull from or push to github, you will have to get into the Windows Credential Manager and delete the github references. A machine restart will be required."
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
+    "title": "Git on the Command Line",
+    "section": "",
+    "text": "git docs"
   },
   {
-    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
-    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
-    "title": "Git and Github with VS Code",
-    "section": "Setting GitHub Authentication for more than one GitHub User",
-    "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
+    "title": "Git on the Command Line",
+    "section": "Basic Git Commands",
+    "text": "Basic Git Commands\nWe can use the git version control application directly from the command line. Here are some useful commands to get started.\n\ngit init - This command will create a git repository in the current folder\ngit status - This will give you the current status of your git repository\ngit log - This will give you the history of your git repository\ngit add . - Use this command to “stage” all of your current changes so that they are ready to be committed.\ngit commit -m \"Your Message\" - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a commit history for our repository.\ngit pull - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer).\ngit push - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.\n\nThere are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
+    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
+    "title": "Git on the Command Line",
+    "section": "Remote Repositories",
+    "text": "Remote Repositories\nYou can use the GitHub CLI to create a remote repository on GitHub.com.\ngh repo create my-first-repository\nThe command above is interactive, so just follow the prompts.\nYou can push your code to GitHub.com by typing the following:\ngit push -u origin main\nNote that the -u means set upstream. After that, you will only need to type git push to push any local changes to the remote repository.\nYou can pull your code from GitHub.com by typing the following:\ngit pull upstream main\nAfter that, you will only need to type git pull to pull any remote changes to the local repository.\nHere’s some other helpful commands with regard to the remote repository connections for your local repository.\n\ngit remote -v - View all the remote repositories\ngit remote remove [remoteName] - Remove a remote entry\ngit remote add [remoteName] [URL-to-Repository] - Add a remote repository"
+  },
+  {
+    "objectID": "embedded-systems/index.html",
+    "href": "embedded-systems/index.html",
+    "title": "Embedded-Systems",
+    "section": "",
+    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\nICA00-Git-Github\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
+    "crumbs": [
+      "Embedded-Systems"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/index.html#calendar-2024-winter",
+    "href": "embedded-systems/index.html#calendar-2024-winter",
+    "title": "Embedded-Systems",
+    "section": "",
+    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\nICA00-Git-Github\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
+    "crumbs": [
+      "Embedded-Systems"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/index.html#general-resources",
+    "href": "embedded-systems/index.html#general-resources",
+    "title": "Embedded-Systems",
+    "section": "General Resources",
+    "text": "General Resources\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
+    "crumbs": [
+      "Embedded-Systems"
+    ]
   },
   {
     "objectID": "embedded-systems/section1/topic0/index.html",
@@ -154,62 +191,32 @@
     ]
   },
   {
-    "objectID": "embedded-systems/index.html",
-    "href": "embedded-systems/index.html",
-    "title": "Embedded-Systems",
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html",
+    "title": "Git and Github with VS Code",
     "section": "",
-    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\nICA00-Git-Github\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
-    "crumbs": [
-      "Embedded-Systems"
-    ]
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
   },
   {
-    "objectID": "embedded-systems/index.html#calendar-2024-winter",
-    "href": "embedded-systems/index.html#calendar-2024-winter",
-    "title": "Embedded-Systems",
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#resources",
+    "title": "Git and Github with VS Code",
     "section": "",
-    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\nICA00-Git-Github\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
-    "crumbs": [
-      "Embedded-Systems"
-    ]
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
   },
   {
-    "objectID": "embedded-systems/index.html#general-resources",
-    "href": "embedded-systems/index.html#general-resources",
-    "title": "Embedded-Systems",
-    "section": "General Resources",
-    "text": "General Resources\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
-    "crumbs": [
-      "Embedded-Systems"
-    ]
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for one GitHub User",
+    "text": "Setting GitHub Authentication for one GitHub User\nOpen a terminal and check to see that git and github cli are available.\ngit –-version\ngh –-version\nIf one is missing you have to download the msi and try again until a version shows.\nNow config git to always use the user name and email that you used to set up your github account. Note that you only have to do this once.\ngit config --global user.name \"John Doe\"\ngit config --global user.email johndoe@example.com\nNow to see that the config sticks.\ngit config -l\nThe -l means list all configs. Press the space bar to see each setting, and q to quit.\nIf you still get errors when trying to pull from or push to github, you will have to get into the Windows Credential Manager and delete the github references. A machine restart will be required."
   },
   {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html",
-    "title": "Git on the Command Line",
-    "section": "",
-    "text": "git docs"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#resources",
-    "title": "Git on the Command Line",
-    "section": "",
-    "text": "git docs"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#basic-git-commands",
-    "title": "Git on the Command Line",
-    "section": "Basic Git Commands",
-    "text": "Basic Git Commands\nWe can use the git version control application directly from the command line. Here are some useful commands to get started.\n\ngit init - This command will create a git repository in the current folder\ngit status - This will give you the current status of your git repository\ngit log - This will give you the history of your git repository\ngit add . - Use this command to “stage” all of your current changes so that they are ready to be committed.\ngit commit -m \"Your Message\" - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a commit history for our repository.\ngit pull - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer).\ngit push - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.\n\nThere are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control."
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
-    "href": "embedded-systems/section1/topic1/assets/git-gh-commands.html#remote-repositories",
-    "title": "Git on the Command Line",
-    "section": "Remote Repositories",
-    "text": "Remote Repositories\nYou can use the GitHub CLI to create a remote repository on GitHub.com.\ngh repo create my-first-repository\nThe command above is interactive, so just follow the prompts.\nYou can push your code to GitHub.com by typing the following:\ngit push -u origin main\nNote that the -u means set upstream. After that, you will only need to type git push to push any local changes to the remote repository.\nYou can pull your code from GitHub.com by typing the following:\ngit pull upstream main\nAfter that, you will only need to type git pull to pull any remote changes to the local repository.\nHere’s some other helpful commands with regard to the remote repository connections for your local repository.\n\ngit remote -v - View all the remote repositories\ngit remote remove [remoteName] - Remove a remote entry\ngit remote add [remoteName] [URL-to-Repository] - Add a remote repository"
+    "objectID": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "href": "embedded-systems/section1/topic1/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for more than one GitHub User",
+    "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
   },
   {
     "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",

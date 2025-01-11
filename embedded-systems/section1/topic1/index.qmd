@@ -20,16 +20,25 @@ title: "Tool Chain Software Setup"
 
 ### Download and Install CodeWarrior Software and USBDM Drivers
 
-- [USBDM First set of Drivers](assets/tool-chain-software/USBDMPod/USBDM_Drivers_4_12_1_Win_x64.msi){download=""}
-  - Download and install this **first**.
+Unfortunately Github cannot store files as large as the software files we need to download. They must be retrieved from Brightspace or a usb from your instructor.
 
-- [CodeWarrior5.1](assets/tool-chain-software/CodeWarrior5.1/CW_HC12_v5.1_SPECIAL.exe){download=""}
-  - Download and install this **second**. 
-  - Do not store it in ```C:\Program Files (x86)```, put it in another folder on the ```C:\``` drive that has **NO spaces** in the folder name.
-  - The very last step in the install asks if you want to update, we **DO NOT** want to update, so just cancel that.
+#### Step 1
 
-- [USBDM Second set of Drivers](assets/tool-chain-software/USBDMPod/USBDM_4_12_1_262_Win.msi){download=""}
-  - Download and install this **third** after CodeWarrior has been successfully installed.
+- Download the USBDM drivers file and unzip.
+
+#### Step 2
+
+- Run the file called "USBDM_Drivers_4_12_1_Win_x64" to install the first driver.
+
+#### Step 3
+
+- Download and install CodeWarrior5.1 Special Edition.
+- Do not store it in ```C:\Program Files (x86)```, put it in another folder on the ```C:\``` drive that has **NO spaces** in the folder name.
+- The very last step in the install asks if you want to update, we **DO NOT** want to update, so just cancel that.
+
+#### Step 4
+
+- Run the file called "USBDM_4_12_1_262_Win" only after CodeWarrior is installed.
 
 ### Download and Install Git
 
