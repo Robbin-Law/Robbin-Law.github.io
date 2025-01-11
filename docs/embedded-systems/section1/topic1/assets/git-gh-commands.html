@@ -155,16 +155,41 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><code>git init</code> - This command will create a git repository in the current folder on your machine.</li>
 </ul>
-<p>The best way to create a repo is to do it on github via a browser. Once this is done you can clone the repo to your machine. Make your working folder where you want the repo stored and run the following command. - <code>git clone UrlOfRepoOnGithub</code>.</p>
-<p>You will have had to copy the <strong>url</strong> of the github repo to the clipboard. Then use the following command to clone. This url is just an example. You would copy the clipboard to the command line. - <code>git clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git</code>.</p>
+<p>The best way to create a repo is to do it on github via a browser. Once this is done you can clone the repo to your machine. Make your working folder where you want the repo stored and run the following command.</p>
+<ul>
+<li><code>git clone UrlOfRepoOnGithub</code>.</li>
+</ul>
+<p>You will have had to copy the <strong>url</strong> of the github repo to the clipboard. Then use the following command to clone. This url is just an example. You would copy the clipboard to the command line.</p>
+<ul>
+<li><code>git clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git</code>.</li>
+</ul>
 <p>Once your github repo is cloned down to your machine you can start adding folders and files to the repo, and changing what is already in the repo.</p>
-<p>When you make an addition or change to a file, always <strong>SAVE</strong> it, then use the following command to see that git knows there has been a change. - <code>git status</code> - This will give you the current status of your local git repository.</p>
+<p>When you make an addition or change to a file, always <strong>SAVE</strong> it, then use the following command to see that git knows there has been a change.</p>
+<ul>
+<li><code>git status</code> - This will give you the current status of your local git repository.</li>
+</ul>
 <p>At this point the changed files names will be <strong>red</strong>.</p>
-<p>The next thing is that you have to <strong>stage</strong> your changes. - <code>git add .</code> - Use this command to “stage” all of your current changes so that they are ready to be committed. - <code>git status</code> will show that the changed files are staged by turning the file names <strong>green</strong> from red.</p>
-<p>Now you are ready to commit the recent changes. - <code>git commit -m "Your Message"</code> - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a <em>commit history</em> for our repository. The message is <strong>NOT optional</strong>.</p>
-<p>Finally you will want to update your github repo with the changes made on you machines local repo. You can have many commits to one push. - <code>git push</code> - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.</p>
-<p>If you are working with others and someone changes the github repo, you will have to <strong>pull</strong> to get those changes on your machine. - <code>git pull</code> - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer). The pull command is a combination of <code>git fetch</code> and <code>git merge</code> commands.</p>
-<p>Another great command to see what is going on. - <code>git log</code> - This will give you the history of your git repository</p>
+<p>The next thing is that you have to <strong>stage</strong> your changes.</p>
+<ul>
+<li><code>git add .</code> - Use this command to “stage” all of your current changes so that they are ready to be committed.</li>
+<li><code>git status</code> will show that the changed files are staged by turning the file names <strong>green</strong> from red.</li>
+</ul>
+<p>Now you are ready to commit the recent changes.</p>
+<ul>
+<li><code>git commit -m "Your Message"</code> - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a <em>commit history</em> for our repository. The message is <strong>NOT optional</strong>.</li>
+</ul>
+<p>Finally you will want to update your github repo with the changes made on you machines local repo. You can have many commits to one push.</p>
+<ul>
+<li><code>git push</code> - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.</li>
+</ul>
+<p>If you are working with others and someone changes the github repo, you will have to <strong>pull</strong> to get those changes on your machine.</p>
+<ul>
+<li><code>git pull</code> - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer). The pull command is a combination of <code>git fetch</code> and <code>git merge</code> commands.</li>
+</ul>
+<p>Another great command to see what is going on.</p>
+<ul>
+<li><code>git log</code> - This will give you the history of your git repository</li>
+</ul>
 <p>There are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control.</p>
 </section>
 <section id="remote-repositories" class="level2">
