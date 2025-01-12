@@ -33,6 +33,9 @@ title: "Embedded-Systems"
 
 ## General Resources
 
+- [CMPE1250 Winter of 2022 Lectures by Carlos Estay](https://www.youtube.com/playlist?list=PLtPfFKnaEIMhBkhTIAGLfNPb6v0TRwFqm){target="_blank"}
+  - youtube video playlist; 29 videos.
+
 - [CMPE1250 Winter of 2023 Lectures by Carlos Estay](https://www.youtube.com/playlist?list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB){target="_blank"}
   - youtube video playlist; 4 videos.
 

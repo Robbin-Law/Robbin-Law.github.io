@@ -30,6 +30,18 @@
     ]
   },
   {
+    "objectID": "embedded-systems/section2/topic1/index.html",
+    "href": "embedded-systems/section2/topic1/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "main.c template\nIntroduction to C Notes 7 pages PDF\nUsing C with the 9S12 17 pages PDF\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOld Note Package CP1503 178 pages PDF\nMC9S12XDP512RMV2 Data Sheet BIG PINK 1348 pages PDF\nFreescale Documentation WEBSITE\nDev Board Schematics 5 pages PDF\nAnalog Discovery 2 Intro by Kevin Moore",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "Resources"
+    ]
+  },
+  {
     "objectID": "embedded-systems/section1/topic3/index.html",
     "href": "embedded-systems/section1/topic3/index.html",
     "title": "ICA0 Git and Github Basics",
@@ -137,7 +149,7 @@
     "href": "embedded-systems/index.html#general-resources",
     "title": "Embedded-Systems",
     "section": "General Resources",
-    "text": "General Resources\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
+    "text": "General Resources\n\nCMPE1250 Winter of 2022 Lectures by Carlos Estay\n\nyoutube video playlist; 29 videos.\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
     "crumbs": [
       "Embedded-Systems"
     ]
@@ -245,6 +257,13 @@
     "title": "Git and Github with VS Code",
     "section": "Setting GitHub Authentication for more than one GitHub User",
     "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic1/assets/a-resources.html",
+    "href": "embedded-systems/section2/topic1/assets/a-resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Resources\n\nmain.c template\nIntroduction to C Notes 7 pages PDF\nUsing C with the 9S12 17 pages PDF\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOld Note Package CP1503 178 pages PDF\nMC9S12XDP512RMV2 Data Sheet BIG PINK 1348 pages PDF\nFreescale Documentation WEBSITE\nDev Board Schematics 5 pages PDF\n\nhttps://www.youtube.com/watch?v=6BJ_XLAK3PQ&list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&index=2\nhttps://www.youtube.com/watch?v=jbNrwPYJGZE\nhttps://naitca-my.sharepoint.com/personal/kevinmo_nait_ca/_layouts/15/stream.aspx?uniqueId=958e065d%2D5f4c%2D55d2%2Dd801%2D1cfe894b8475&portal=%7B%22ha%22%3A%22classicstream%22%2C%22hm%22%3A%22view%22%7D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&scenario=2\nhttps://en.cppreference.com/w/c\nhttps://www.youtube.com/playlist?list=PLtPfFKnaEIMhBkhTIAGLfNPb6v0TRwFqm"
   },
   {
     "objectID": "index.html",
