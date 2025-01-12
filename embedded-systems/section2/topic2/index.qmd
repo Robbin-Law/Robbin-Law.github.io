@@ -1,3 +1,9 @@
 ---
-title: "topic2 under construction"
+title: "ICA01 and ICA02"
 ---
+
+- [ICA01 Program Workflow](assets/CMPE1250_ICA01_1231.pdf){target="_blank"}
+
+- [ICA02 Code Migration from C# to C](assets/CMPE1250_ICA02_1231.pdf){target="_blank"}
+
+- [C# Program.cs for ICA02](assets/Program.cs){target="_blank"}
