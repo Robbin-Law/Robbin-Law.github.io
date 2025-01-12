@@ -374,5 +374,17 @@
       "Diodes",
       "Diode Physics and Models"
     ]
+  },
+  {
+    "objectID": "semiconductors/section1/topic2/index.html",
+    "href": "semiconductors/section1/topic2/index.html",
+    "title": "Rectifiers",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nRectifiers Page1 by Ross Taylor\nRectifiers Page2 Half Wave by Ross Taylor\nRectifiers Half Wave MultiSim\nRectifiers Half Wave Positive and Negative MultiSim\nRectifiers Page3 Full Wave Center Tapped by Ross Taylor\nRectifiers Full Wave Center Tapped MultiSim\nRectifiers Page4 Full Wave Bridge by Ross Taylor\nRectifiers Full Wave Bridge MultiSim\nRectifiers Page5 FW Bridge Negative by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Diodes",
+      "Rectifiers"
+    ]
   }
 ]
