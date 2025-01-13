@@ -4,7 +4,7 @@ title: "Diode Physics and Models"
 
 Original Author: Ross Taylor <br />
 
-[Original Article](Diode-Physics-and-Models.pdf){target="_blank"}
+[Original Article](assets/Diode-Physics-and-Models.pdf){target="_blank"}
 
 <!-- Page 1 -->
 
@@ -38,7 +38,7 @@ Active Components, on the other hand, behave differently for different condition
 
 On a Periodic Table of the Elements, materials fall into three general categories.  Most of the left and central part of the periodic table consists of metals, which conduct electricity and react with non-metals to form Ionic Bonds.  On the right side are the non-metals, which do not readily conduct electricity. Most of these react to form Ionic Bonds with metals, but also form Covalent Bonds with other non-metals.  There is one family of non-metals which almost never enter into any chemical reactions, that is the Ideal (or Noble) Gases.
 
-![](img/PeriodicTable.JPG)
+![](assets/img/PeriodicTable.JPG)
 
 Periodic table is licensed under CC BY-SA 4.0 
 
@@ -50,19 +50,19 @@ Non-metals typically have more than four valence electrons in their Valence Shel
 
 Metals, with their small core charges, have a weak attraction for their valence electrons, and so those electrons are relatively free to move as an electrical current when a voltage is applied across the material.  In fact, these electrons are officially referred to as "Free Electrons".
 
-![](img/MetallicBonding.JPG)
+![](assets/img/MetallicBonding.JPG)
 
 Image from Chemistry LibreTexts
 
 Also, these loosely-attracted valence electrons can be stripped away, leaving a positive ion which will be attracted to negative ions in an Ionic Bond.  Ionic bonded compounds are typically non-conductive, because what used to be a free electron in the metal has now been bound to the non-metal atom.  The strong attractions between the positive ions and negative ions often result in regularly-defined crystal structures.  However, when dissolved in water, the ions become detached from each other, and can move as charged particles in the water, making the solution conductive.
 
-![](img/IonicBonding.JPG)
+![](assets/img/IonicBonding.JPG)
 
 Image from SlideShare
 
 Non-metals with their large core charges, have a strong attraction for their valence electrons, so those electrons are not free to move in a current.  As a result, non-metals make good insulators.  When non-metals react with other non-metals, they form Covalent Bonds, in which they share pairs of valence electrons.  Using the Quantum Mechanical model of atoms to explain this, valence electrons occupy orbitals that can be: empty, contain one electron, or contain two electrons.  The most stable condition is for all the orbitals to be filled -- i.e. containing two electrons, as is the natural case for the Ideal Gases, and which explains why they do not readily enter into chemical reactions.  Covalent bonds result in atoms with single electrons in their orbitals sharing those electrons with other similar atoms so that both atoms now have full orbitals.  The shared orbitals bind the atoms together tightly.  The electrons in these new compound orbitals are not free to move through the material, so covalently-bonded compounds are, under normal conditions, non-conductive.  They continue to be non-conductive when dissolved in water.
 
-![](img/CovalentBond.JPG)
+![](assets/img/CovalentBond.JPG)
 
 Image from expii.com
 
@@ -70,7 +70,7 @@ You'll notice in the previous discussion statements like "under normal condition
 
 Up to this point, we've discussed Conductors and Insulators.  The real point of this discussion was to get to Semiconductors.  In a small band of the periodic table between the conductors and insulators, you'll find a group of elements called the semiconductors.  The two most common of these, silicon and germanium, each have four valence electrons, which puts them in the middle between the metals (<4) and the non-metals (>4).  Thus, they exhibit characteristics which are neither metallic nor non-metallic.  They conduct more readily than non-metals, but they enter into covalent bonds with non-metals.  However, their electrons are not as tightly bound into covalent bonds as with typical non-metals, and can be relatively easily become free electrons.  The differences between Insulators, Conductors, and Semiconductors can be pictured using an Energy Diagram.
 
-![](img/EnergyDiagram.JPG)
+![](assets/img/EnergyDiagram.JPG)
 
 A lot of energy is required to make an insulator conduct, i.e. to move its electrons out of the valence band into the conduction band as free electrons.  Almost no energy is required to move the electrons in a conductor, as there are already free electrons in the conduction band.  Semiconductors lie halfway between these extremes.
 
@@ -80,7 +80,7 @@ Silicon is the most commonly-used semiconductor material, so we'll focus on it 
 
 In one of its natural conditions, silicon bonds covalently into a tetrahedral crystal structure.  A Lewis Diagram shows a flattened version of the bonds that take place.
 
-![](img/SiliconIntrinsic.JPG){width=4in}
+![](assets/img/SiliconIntrinsic.JPG){width=4in}
 
 Pure silicon is also called "Intrinsic silicon", because it contains no other material than silicon atoms.  This is not only very difficult to achieve, but it also doesn't bring us any closer to the answer as to how a diode works.  It is much more likely that a crystal of silicon will contain some impurities, and will therefore be "Extrinsic silicon".  If the bulk of the impurity added to the silicon crystal is the same element, we refer to the result as "Doped silicon".
 
@@ -88,13 +88,13 @@ Pure silicon is also called "Intrinsic silicon", because it contains no other ma
 
 If a very small amount of a five-valence electron, or Pentavalent, dopant is introduced into a silicon crystal, the Pentavalent atoms will be forced into the crystal lattice structure of the silicon crystal, but only four of the electrons will be accepted into the covalent bonds.  That leaves the fifth one as a Free Electron, and, just in metal, this electron will be able to move in a current, making this doped crystal a conductor.  Since the pentavalent dopant has donated a negatively charged Carrier, the new material is referred to as N-Type Material.  The Pentavalent Dopant is referred to as a Donor.  The following Lewis Diagram shows a single Phosphorus atom trapped in a silicon crystal, and its resulting Free Electron.
 
-![](img/SiliconNType.JPG){width=4in}     
+![](assets/img/SiliconNType.JPG){width=4in}     
 
 #### P-Type silicon
 
 If a very small amount of a three-valence electron, or Trivalent, dopant is introduced into a silicon crystal, the Trivalent atoms forced into the crystal will not be able to contribute an electron to all four of the surrounding silicon atoms, so there will be an orbital with only one electron in it.  This orbital has an electrical attraction to any available electrons which may temporarily "fall in", so these are referred to as Holes.  If a source of electrons is connected to one end of the crystal and a positive potential is connected to the other end, electrons will migrate from hole to hole through the crystal, again resulting in a current.  Although the Holes are stationary, they appear to be moving in the opposite direction to the flow of electrons, so this is referred to as Hole Current.  The Trivalent Dopant provide places for electrons to fall into so it is called an Acceptor. The following Lewis Diagram shows a single Aluminum atom trapped in a silicon crystal, and its resulting hole.
 
-![](img/SiliconPType.JPG){width=4in}
+![](assets/img/SiliconPType.JPG){width=4in}
 
 In each of these types of material, it is still possible for electrons in covalent bonds to be ejected by sufficient incoming energy, but this small amount of current is only noticeable if there is little other current.  Consequently, the main form of current is referred to as Majority Current, and the current from the valence electrons is called Minority Current.
   
@@ -104,7 +104,7 @@ So, now we have two new conductive materials.  That still doesn't answer the qu
 
 Normally, when we connect two conductors together, we expect to just have a longer conductor.  However, when we bond P-Material to N-Material, we observe some very interesting behavior.  Here's a block diagram to help with understanding what happens.
 
-![](img/PN-Junction-Block-Diagram.JPG){width=4in}
+![](assets/img/PN-Junction-Block-Diagram.JPG){width=4in}
 
   - Right at the connection point, or P-N Junction, the free electrons in the N-Type material are "pulled into" the holes in the P-Type material, in a process called "Recombination".  That means, at the junction there are no charge carriers, therefore the P-N Junction in its natural state is a non-conductor.
   - A net positive charge collects on the N-Type side and a net negative charge collects on the P-Type side of the barrier.  This results in a potential difference (voltage) referred to as the Barrier Potential.
@@ -131,9 +131,9 @@ A single P-N junction, wired with connections to the P-Type and N-Type material,
 
 The symbol for a diode is shown below, along with a picture showing a typical diode and the way the polarity is indicated on the package.
 
-![](img/DiodeSchematicSymbol.jpg){width=3in}
+![](assets/img/DiodeSchematicSymbol.jpg){width=3in}
 
-![](img/DiodeAxial.jpg)
+![](assets/img/DiodeAxial.jpg)
 
 <!-- Page 3 -->
 
@@ -141,7 +141,7 @@ The symbol for a diode is shown below, along with a picture showing a typical di
 
 The behavior of the diode in response to changing conditions in the biasing circuit is surprisingly complex, as shown in the oscilloscope X-Y trace below.
 
-![](img/DiodeCurve.jpg){width=4in}
+![](assets/img/DiodeCurve.jpg){width=4in}
 
 This particular diode is a Zener diode, designed with a specific Reverse Breakdown voltage of 5.6 V.  Notice the following:
 
@@ -163,7 +163,7 @@ The condition described in #5 above is the **Reverse Breakdown** region.
 
 This is quite unlike what we would expect to see for a passive component, such as the resistor.  This is the Characteristic "Curve" for a resistor:
 
-![](img/ResistorCharacteristic.jpg){width=4in}
+![](assets/img/ResistorCharacteristic.jpg){width=4in}
 
 In this case, a single expression describes the entire response of a resistor to a change in voltage:
 
@@ -185,19 +185,19 @@ Then, depending on how accurately we need to model the device, we may ignore oth
 
 This is the simplest model.  It just says a diode conducts when forward biased and doesn't conduct when reverse biased -- a polarity-controlled switch, if you wish.
 
-![](img/DiodeIdealModel.jpg){width=4in}
+![](assets/img/DiodeIdealModel.jpg){width=4in}
 
 ### Practical Model
 
 This one takes into account the Barrier Potential, which needs to be overcome before the diode can conduct.  Otherwise, it behaves like a zero-ohm switch.
 
-![](img/DiodePracticalModel.jpg){width=4in}
+![](assets/img/DiodePracticalModel.jpg){width=4in}
 
 ### Complete Model
 
 This one takes into account more of the actual characteristics, primarily the small internal resistance of the diode when it conducts and the small leakage current due to Minority Carriers.  Although the Knees are shown as parabolas, we usually don't concern ourselves with that unless we have a good reason to.
 
-![](img/DiodeCompleteModel.jpg){width=4in}
+![](assets/img/DiodeCompleteModel.jpg){width=4in}
 
 ## Applying Models
 
@@ -216,7 +216,7 @@ The following examples the forward junction voltage is assumed to be 0.7 V, the
 
 ### Example 1:
 
-![](img/DiodeModelWE1.JPG){width=12in}
+![](assets/img/DiodeModelWE1.JPG){width=12in}
 
 Ideal Model:
 
@@ -242,7 +242,7 @@ Clearly, in this example, the Ideal Model is significantly incorrect, but the Pr
 
 ### Example 2:
 
-![](img/DiodeModelWE2.JPG){width=12in}
+![](assets/img/DiodeModelWE2.JPG){width=12in}
 
 Ideal Model:
 
@@ -268,7 +268,7 @@ In this example, the Ideal Model is significantly incorrect as in the previous e
 
 ### Example 3:
 
-![](img/DiodeModelWE3.JPG){width=12in}
+![](assets/img/DiodeModelWE3.JPG){width=12in}
 
 Ideal Model:
 
@@ -294,7 +294,7 @@ In this example, the currents predicted by all three models are practically the 
 
 ### Example 4:
 
-![](img/DiodeModelWE4.JPG){width=12in}
+![](assets/img/DiodeModelWE4.JPG){width=12in}
 
 Ideal Model:
 
@@ -318,7 +318,7 @@ In this case, the Ideal and Practical models predict the same result, so the Ide
 
 ### Example 5:
 
-![](img/DiodeModelWE5.JPG){width=12in}
+![](assets/img/DiodeModelWE5.JPG){width=12in}
 
 Ideal Model:
 
