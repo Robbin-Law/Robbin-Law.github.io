@@ -1,5 +1,31 @@
 [
   {
+    "objectID": "semiconductors/section2/topic3/index.html",
+    "href": "semiconductors/section2/topic3/index.html",
+    "title": "Topic3",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
+  },
+  {
+    "objectID": "semiconductors/section2/topic1/index.html",
+    "href": "semiconductors/section2/topic1/index.html",
+    "title": "Topic1",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
+  },
+  {
+    "objectID": "semiconductors/section1/topic2/index.html",
+    "href": "semiconductors/section1/topic2/index.html",
+    "title": "Rectifiers",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 General by Ross Taylor\nPage 2 Half Wave by Ross Taylor\nPage 3 Full Wave Center Tapped by Ross Taylor\nPage 4 Full Wave Bridge by Ross Taylor\nPage 5 Full Wave Bridge Negative by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Diodes",
+      "Rectifiers"
+    ]
+  },
+  {
     "objectID": "semiconductors/index.html",
     "href": "semiconductors/index.html",
     "title": "Semiconductors",
@@ -376,15 +402,22 @@
     ]
   },
   {
-    "objectID": "semiconductors/section1/topic2/index.html",
-    "href": "semiconductors/section1/topic2/index.html",
-    "title": "Rectifiers",
+    "objectID": "semiconductors/section1/topic3/index.html",
+    "href": "semiconductors/section1/topic3/index.html",
+    "title": "Filters & Regulators",
     "section": "",
-    "text": "Lesson Solutions Excel Spread Sheet\nRectifiers Page1 by Ross Taylor\nRectifiers Page2 Half Wave by Ross Taylor\nRectifiers Half Wave MultiSim\nRectifiers Half Wave Positive and Negative MultiSim\nRectifiers Page3 Full Wave Center Tapped by Ross Taylor\nRectifiers Full Wave Center Tapped MultiSim\nRectifiers Page4 Full Wave Bridge by Ross Taylor\nRectifiers Full Wave Bridge MultiSim\nRectifiers Page5 FW Bridge Negative by Ross Taylor",
+    "text": "Page 1 Filtering by Ross Taylor\nPage 2 Zener Regulation by Ross Taylor\nPage 3 Fixed Linear Regulation by Ross Taylor\nPage 4 Adjustable Linear Regulation by Ross Taylor",
     "crumbs": [
       "Semiconductors",
       "Diodes",
-      "Rectifiers"
+      "Filters & Regulators"
     ]
+  },
+  {
+    "objectID": "semiconductors/section2/topic2/index.html",
+    "href": "semiconductors/section2/topic2/index.html",
+    "title": "Topic2",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
   }
 ]

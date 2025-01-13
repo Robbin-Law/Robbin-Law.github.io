@@ -4,20 +4,12 @@ title: "Rectifiers"
 
 - [Lesson Solutions Excel Spread Sheet](assets/a-Rectifier-Circuits-Lessons-Only.xlsx){download=""}
 
-- [Rectifiers Page1 by Ross Taylor](assets/c-Lesson-Page1-Rectifier%20Circuits.pdf){target="_blank"}
+- [Page 1 General by Ross Taylor](assets/c-Lesson-Page1-Rectifier%20Circuits.pdf){target="_blank"}
 
-- [Rectifiers Page2 Half Wave by Ross Taylor](assets/ea-Lesson-Page2-Rectifier%20Circuits-Half-Wave.pdf){target="_blank"}
+- [Page 2 Half Wave by Ross Taylor](assets/ea-Lesson-Page2-Rectifier%20Circuits-Half-Wave.pdf){target="_blank"}
 
-- [Rectifiers Half Wave MultiSim](assets/ec-Lesson-RectifierCircuits-HalfWave.ms14){download=""}
+- [Page 3 Full Wave Center Tapped by Ross Taylor](assets/ga-Lesson-Page3-Rectifier%20Circuits-Full-Wave-Center-Tapped.pdf){target="_blank"}
 
-- [Rectifiers Half Wave Positive and Negative MultiSim](assets/eg-Lesson-RectifierCircuits-HalfWave-PosandNeg.ms14){download=""}
+- [Page 4 Full Wave Bridge by Ross Taylor](assets/ja-Lesson-Page4-Rectifier%20Circuits-Full-Wave-Bridge.pdf){target="_blank"}
 
-- [Rectifiers Page3 Full Wave Center Tapped by Ross Taylor](assets/ga-Lesson-Page3-Rectifier%20Circuits-Full-Wave-Center-Tapped.pdf){target="_blank"}
-
-- [Rectifiers Full Wave Center Tapped MultiSim](assets/gb-Lesson-RectifierCircuits-FullWaveCenterTap.ms14){download=""}
-
-- [Rectifiers Page4 Full Wave Bridge by Ross Taylor](assets/ja-Lesson-Page4-Rectifier%20Circuits-Full-Wave-Bridge.pdf){target="_blank"}
-
-- [Rectifiers Full Wave Bridge MultiSim](assets/je-Lesson-RectifierCircuits-FWBridge.ms14){download=""}
-
-- [Rectifiers Page5 FW Bridge Negative by Ross Taylor](assets/l-Lesson-Page5-Rectifier%20Circuits-Full-Wave-Bridge-Negative-Output.pdf){target="_blank"}
+- [Page 5 Full Wave Bridge Negative by Ross Taylor](assets/l-Lesson-Page5-Rectifier%20Circuits-Full-Wave-Bridge-Negative-Output.pdf){target="_blank"}
