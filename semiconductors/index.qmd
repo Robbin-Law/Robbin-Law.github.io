@@ -32,6 +32,10 @@ title: "Semiconductors"
 
 ## General Resources
 
+- [CMPE1400 Lessons, Projects, Labs, and SA's with NO ANSWERS by Ross Taylor](assets/CMPE1400PDFs.pdf){target="_blank"}
+
+- [CMPE1400 Formula Sheet](assets/CMPE1400-Formula-Sheet.pdf){target="_blank"}
+
 - [Semiconductors by Circuit Bread](https://www.youtube.com/watch?v=n2S7kN12RDQ&list=PLfYdTiQCV_p7sDswtLZKK43BWOd2mTmHC){target="_blank"}
   - youtube video playlist; first 12 are on diodes, next 9 are on transistors.
 
