@@ -1,10 +1,10 @@
 ---
-title: "ICA04 Measurements"
+title: "ICA04 Freq Measurements"
 ---
 
 - [Switch LED Port Notes](assets/Switch-LED-Port-Notes.pdf){target="_blank"}
 
-- [ICA04 ](assets/ICA04/CMPE1250_ICA04_1231_GPIO_LEDS.pdf){target="_blank"}
+- [ICA04 Frequency Measurements with AD2 Specs](assets/ICA04/CMPE1250_ICA04_1231_GPIO_LEDS.pdf){target="_blank"}
 
 - [ICA04 Math](assets/ICA04/ICA04-Math.pdf){target="_blank"}
 
