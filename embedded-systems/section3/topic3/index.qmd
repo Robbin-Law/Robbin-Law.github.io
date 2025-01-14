@@ -1,0 +1,25 @@
+---
+title: "ICA05 sw_led Library"
+---
+
+- [Switch LED Port Notes](assets/Switch-LED-Port-Notes.pdf){target="_blank"}
+
+- [ICA05 Specs](assets/ICA05/CMPE1250_LEDandSwitchLibR1_2.pdf){target="_blank"}
+
+- [ICA05 Part 1 Demo](assets/ICA05/ICA05_T1.mp4){target="_blank"}
+
+- [ICA05 Part 2 Demo](assets/ICA05/ICA05_T2.mp4){target="_blank"}
+
+- [ICA05 Part 3 Demo](assets/ICA05/ICA05_T3.mp4){target="_blank"}
+
+- [Compilation Unit Basics by Simon Walker](https://www.youtube.com/watch?v=1IvrSkqcs8s){target="_blank"}
+
+- [sw_led.h](assets/sw_led.h){target="_blank"}
+
+
+
+
+
+
+
+
