@@ -179,6 +179,30 @@
     ]
   },
   {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-3-accept-invitation-to-join-a-github-team",
+    "href": "embedded-systems/section1/topic0/index.html#step-3-accept-invitation-to-join-a-github-team",
+    "title": "Join Github Classroom",
+    "section": "Step 3 Accept Invitation to Join a Github Team",
+    "text": "Step 3 Accept Invitation to Join a Github Team\n\nAn invitation should have been sent to you via an email. Accept the invitation, which will allow you read access to a InClassDemos submodule.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-4-clone-your-github-workbook-repo-to-a-local-machine",
+    "href": "embedded-systems/section1/topic0/index.html#step-4-clone-your-github-workbook-repo-to-a-local-machine",
+    "title": "Join Github Classroom",
+    "section": "Step 4 Clone your Github Workbook Repo to a local machine",
+    "text": "Step 4 Clone your Github Workbook Repo to a local machine\n\nSign into Github and click on your profile pic (top right) and then click on your organizations.\nIf you missed Step 3 you can still accept the invitation here.\nClick on the organization called CMPE1250 and you will see your workbook repo, click on it and from the green dropdown copy the url to the clip board.\nOpen a terminal and make the working folder the place that you want to clone the github workbook repo.\nType the following command to clone the github workbook repo to this local machine:\n\ngit clone url\n\nfor example\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
     "objectID": "embedded-systems/index.html",
     "href": "embedded-systems/index.html",
     "title": "Embedded-Systems",

@@ -12,3 +12,23 @@ title: "Join Github Classroom"
 - Click the link below for your class and follow the instructions. Look for your name and click on it to begin the process.
 - [Link to Github Classroom for CMPE1250-A02](https://classroom.github.com/a/a-ya42nn){target="_blank"}
 - [Link to Github Classroom for CMPE1250-A03](https://classroom.github.com/a/lH3VDvQI){target="_blank"}
+
+## Step 3 Accept Invitation to Join a Github Team
+
+- An invitation should have been sent to you via an email. Accept the invitation, which will allow you read access to a `InClassDemos` submodule.
+
+## Step 4 Clone your Github Workbook Repo to a local machine
+
+- Sign into Github and click on your profile pic (top right) and then click on your organizations.
+- If you missed Step 3 you can still accept the invitation here.
+- Click on the organization called `CMPE1250` and you will see your workbook repo, click on it and from the `green` dropdown copy the url to the clip board.
+- Open a terminal and make the working folder the place that you want to clone the github workbook repo.
+- Type the following command to clone the github workbook repo to this local machine:
+```github
+git clone url
+```
+
+- for example
+```github
+git clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git
+```
