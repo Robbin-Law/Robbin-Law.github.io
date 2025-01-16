@@ -2,13 +2,15 @@
 title: "Filtering & Regulation"
 ---
 
-<!-- - [Lesson Solutions Excel Spread Sheet](assets){download=""} -->
+- [Filtering and Fixed Linear Regulation Lesson Solutions Excel Spread Sheet](assets/a-Filtering-Fixed-Linear-Regulation-Lessons-Only.xlsx){download=""}
 
 - [Page 1 Filtering by Ross Taylor](assets/ba-Lesson-Page1-Filtering.pdf){target="_blank"}
 
 - [Page 2 Zener Regulation by Ross Taylor](assets/ca-Lesson-Page2-Regulation-Zener.pdf){target="_blank"}
 
 - [Page 3 Fixed Linear Regulation by Ross Taylor](assets/dd-Lesson-Page3-Fixed-Linear-Regulators.pdf){target="_blank"}
+
+- [Adjustable Linear Regulation Lesson Solutions Excel Spread Sheet](assets/pa-Adjustable-Regulation-Lessons-Only.xlsx){download=""}
 
 - [Page 4 Adjustable Linear Regulation by Ross Taylor](assets/fh-Lesson-Page4-Adjustable-Linear-Regulation.pdf){target="_blank"}
 
