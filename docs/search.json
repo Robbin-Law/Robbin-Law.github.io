@@ -80,6 +80,54 @@
     ]
   },
   {
+    "objectID": "embedded-systems/section2/topic2/index.html",
+    "href": "embedded-systems/section2/topic2/index.html",
+    "title": "ICA01 Program Flow",
+    "section": "",
+    "text": "Odd Things about Code Warrior\nICA01 Program Workflow",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-create-a-new-code-warrior-project",
+    "href": "embedded-systems/section2/topic2/index.html#procedure-to-create-a-new-code-warrior-project",
+    "title": "ICA01 Program Flow",
+    "section": "Procedure to Create a New Code Warrior Project",
+    "text": "Procedure to Create a New Code Warrior Project\n\nWhen you open CodeWarrior a Startup dialog box should appear, if not go to File/Start Dialog…\nFrom the Startup Dialog box click Create New Project.\nThen under Select the derivative to use choose HCS12XD Family/MC9S12XDP512\nAlso choose USBDM in the Connections box. Then click next.\nThen choose Single Core, and click next.\nThen make sure the C box is checked and all others not.\nChange the name of the project to something that makes sense for example ICA01.\nChange the place to store the project to the ICAs folder in your workbook repo. Click next.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created.\n\nNo need to add existing files so click next.\nWe want None for Rapid Dev Options. Click next.\nChoose ANSI Startup Code, Small Memory Model, and IEEE32 for both float and double. Click next.\nFinally check NO to PC-lint. Click Finish.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-download-a-project-to-code-warrior",
+    "href": "embedded-systems/section2/topic2/index.html#procedure-to-download-a-project-to-code-warrior",
+    "title": "ICA01 Program Flow",
+    "section": "Procedure to download a project to Code Warrior",
+    "text": "Procedure to download a project to Code Warrior\nNow that the project has been created and stored in your local workbook repo, we will want to change the main.c file to reflect the problem we are solving and then download the project to our micro board and run the program in main.c.\n\nFrom the project root folder in the ICAs folder, right click and via the context sensitive menu choose Open in File Explorer.\nDelete the folder called PROJECTNAME_Data.\nThen double click on the file called PROJECTNAME.mcp. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be C:\\Program Files (x86)\\Freescale\\CWS12v5.1\\bin\\IDE.exe. You may have located the Code Warrior software somewhere else when you installed the software.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-run-a-program-in-code-warrior",
+    "href": "embedded-systems/section2/topic2/index.html#procedure-to-run-a-program-in-code-warrior",
+    "title": "ICA01 Program Flow",
+    "section": "Procedure to run a program in Code Warrior",
+    "text": "Procedure to run a program in Code Warrior\nNow that the project is loaded into Code Warrior we can complile and run it in our micro board.\n\nIn CodeWarrior double click on the main.c file so you can see the program that you are about to run on the micro board.\nIn CodeWarrior, start the Real-Time Debugger by clicking the slanted green arrow. This will compile and load the program into the micro board.\nClick on OK, once or twice until the program is downloaded to the micro board. You may also have had to click on YES to connect to the micro board via the USBDM module.\nRun the program by clicking the horizontal green Start arrow.\nClick the red Reset Target arrow to stop the program.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
     "objectID": "embedded-systems/section2/topic1/index.html",
     "href": "embedded-systems/section2/topic1/index.html",
     "title": "Resources",
@@ -219,7 +267,7 @@
     "href": "embedded-systems/section1/topic0/index.html#step-4-clone-your-github-workbook-repo-to-a-local-machine",
     "title": "Join Github Classroom",
     "section": "Step 4 Clone your Github Workbook Repo to a local machine",
-    "text": "Step 4 Clone your Github Workbook Repo to a local machine\n\nSign into Github and click on your profile pic (top right) and then click on your organizations.\nIf you missed Step 3 you can still accept the invitation here.\nClick on the organization called CMPE1250 and you will see your workbook repo, click on it and from the green dropdown copy the url to the clip board.\nOpen a terminal and make the working folder the place that you want to clone the github workbook repo.\nType the following command to clone the github workbook repo to this local machine:\n\ngit clone url\n\nfor example\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git\n\nNow change directories to the root folder of the cloned repo using the cd command.\nFrom the root folder of the cloned repo run the following command to update the submodule where demos are provided:\n\n./update.cmd\n\nFrom the submodule copy the demo that you are interested in to another part of your workbook repo, then you can make changes to the demo and experiment, and save your work in the workbook repo. You cannot save work to the submodule as it is read only.",
+    "text": "Step 4 Clone your Github Workbook Repo to a local machine\n\nSign into Github and click on your profile pic (top right) and then click on your organizations.\nIf you missed Step 3 you can still accept the invitation here.\nClick on the organization called CMPE1250 and you will see your workbook repo, click on it and from the green dropdown copy the url to the clip board.\nOpen a terminal and make the working folder the place that you want to clone the github workbook repo.\nType the following command to clone the github workbook repo to this local machine:\n\ngit clone url\n\nfor example\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git\n\nNow change directories to the root folder of the cloned repo using the cd command.\nFrom the root folder of the cloned repo run the following command to update the submodule where demos are provided:\n\n./update.cmd\n\nIn your workbook repo create a new folder just under the root level called demos.\nFrom the submodule InClassDemos copy the demo that you are interested in to the newly created demos folder in your workbook repo, then you can make changes to the demo and experiment, and save your work in the demos folder of your workbook repo. You cannot save work to the submodule as it is read only.",
     "crumbs": [
       "Embedded-Systems",
       "Environment Setup",
@@ -231,7 +279,7 @@
     "href": "embedded-systems/index.html",
     "title": "Embedded-Systems",
     "section": "",
-    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\nICA00-Git-Github\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
+    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA02-Code-Migrate ICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
     "crumbs": [
       "Embedded-Systems"
     ]
@@ -241,7 +289,7 @@
     "href": "embedded-systems/index.html#calendar-2024-winter",
     "title": "Embedded-Systems",
     "section": "",
-    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\nICA00-Git-Github\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow ICA02-Code-Migrate\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
+    "text": "In-Class Assessments (ICA’s); 12 total; 24% of final mark; 2% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 66% of final mark; 22% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro/Toolchain-Setup\nIntro/Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow\nC#-to-C-transition\nC#-to-C-transition\n\n\n3-J20\nICA02-Code-Migrate ICA03-Bitwise-Ops\nData-Types/Bitwise-Ops\nData-Types/Bitwise-Ops\n\n\n4-J27\nICA04-AD2-Measure ICA05-SWL-Lib\nAD2/GPIO-LED-Switches/ library\nAD2/GPIO-LED-Switches/ library\n\n\n5-F03\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n6-F10\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA08-SCI-Basic Lab01=SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n8-M03\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n9-M10\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n10-M17\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n11-M24\nICA10-PWM-Basic\n8-bit-Pulse-Width-Mod(PWM)\n8-bit-PWM\n\n\n12-M31\nICA11-PWM-Adv\n16-bit-Pulse-Width-Mod(PWM)\n16-bit-PWM\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers/sprint\nCharacter-Buffers/sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nCap-Stone\nCap-Stone",
     "crumbs": [
       "Embedded-Systems"
     ]
@@ -368,15 +416,43 @@
     "text": "The IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
   },
   {
-    "objectID": "embedded-systems/section2/topic2/index.html",
-    "href": "embedded-systems/section2/topic2/index.html",
-    "title": "ICA01 and ICA02",
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html",
+    "title": "Odd Things about the CodeWarrior IDE",
     "section": "",
-    "text": "ICA01 Program Workflow\nICA02 Code Migration from C# to C\nC# Program.cs for ICA02",
+    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project.\n\n\n\n\nCodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code.\n\n\n\n\nThe IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "CodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "The IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic3/index.html",
+    "href": "embedded-systems/section2/topic3/index.html",
+    "title": "ICA02 Code Migration",
+    "section": "",
+    "text": "ICA02 Code Migration from C# to C Specs\nC# Program.cs for ICA02\nUse the same procedure outlined for ICA01 to create a new project in the ICAs folder of your local workbook repo, but name it ICA02.\nIn VSCode change the main.c file of this new project to solve the problem outlined in the specs document.\nThe intention of this ICA02 is to convert the Program.cs C# program into a C program that will run on the micro board.",
     "crumbs": [
       "Embedded-Systems",
       "Intro to the Micro",
-      "ICA01 and ICA02"
+      "ICA02 Code Migration"
     ]
   },
   {
@@ -492,13 +568,13 @@
   {
     "objectID": "semiconductors/section1/topic3/index.html",
     "href": "semiconductors/section1/topic3/index.html",
-    "title": "Filters & Regulators",
+    "title": "Filtering & Regulation",
     "section": "",
     "text": "Page 1 Filtering by Ross Taylor\nPage 2 Zener Regulation by Ross Taylor\nPage 3 Fixed Linear Regulation by Ross Taylor\nPage 4 Adjustable Linear Regulation by Ross Taylor",
     "crumbs": [
       "Semiconductors",
       "Diodes",
-      "Filters & Regulators"
+      "Filtering & Regulation"
     ]
   },
   {

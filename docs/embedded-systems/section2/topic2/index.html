@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ICA01 and ICA02 – Home</title>
+<title>ICA01 Program Flow – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../embedded-systems/section3/topic1/index.html" rel="next">
+<link href="../../../embedded-systems/section2/topic3/index.html" rel="next">
 <link href="../../../embedded-systems/section2/topic1/index.html" rel="prev">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +71,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="ICA01 and ICA02 – Home">
+<meta property="og:title" content="ICA01 Program Flow – Home">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -111,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic1/index.html">Intro to the Micro</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic2/index.html">ICA01 and ICA02</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic1/index.html">Intro to the Micro</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic2/index.html">ICA01 Program Flow</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -182,7 +183,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../embedded-systems/section2/topic2/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">ICA01 and ICA02</span></a>
+ <span class="menu-text">ICA01 Program Flow</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../embedded-systems/section2/topic3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ICA02 Code Migration</span></a>
   </div>
 </li>
       </ul>
@@ -221,15 +228,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#procedure-to-create-a-new-code-warrior-project" id="toc-procedure-to-create-a-new-code-warrior-project" class="nav-link active" data-scroll-target="#procedure-to-create-a-new-code-warrior-project">Procedure to Create a New Code Warrior Project</a></li>
+  <li><a href="#procedure-to-download-a-project-to-code-warrior" id="toc-procedure-to-download-a-project-to-code-warrior" class="nav-link" data-scroll-target="#procedure-to-download-a-project-to-code-warrior">Procedure to download a project to Code Warrior</a></li>
+  <li><a href="#procedure-to-run-a-program-in-code-warrior" id="toc-procedure-to-run-a-program-in-code-warrior" class="nav-link" data-scroll-target="#procedure-to-run-a-program-in-code-warrior">Procedure to run a program in Code Warrior</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic1/index.html">Intro to the Micro</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic2/index.html">ICA01 and ICA02</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic1/index.html">Intro to the Micro</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section2/topic2/index.html">ICA01 Program Flow</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">ICA01 and ICA02</h1>
+<h1 class="title">ICA01 Program Flow</h1>
 </div>
 
 
@@ -247,12 +262,51 @@ ul.task-list li input[type="checkbox"] {
 
 
 <ul>
+<li><p><a href="../../../embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html" target="_blank">Odd Things about Code Warrior</a></p></li>
 <li><p><a href="assets/CMPE1250_ICA01_1231.pdf" target="_blank">ICA01 Program Workflow</a></p></li>
-<li><p><a href="assets/CMPE1250_ICA02_1231.pdf" target="_blank">ICA02 Code Migration from C# to C</a></p></li>
-<li><p><a href="assets/Program.cs" target="_blank">C# Program.cs for ICA02</a></p></li>
+</ul>
+<section id="procedure-to-create-a-new-code-warrior-project" class="level2">
+<h2 class="anchored" data-anchor-id="procedure-to-create-a-new-code-warrior-project">Procedure to Create a New Code Warrior Project</h2>
+<ul>
+<li><p>When you open CodeWarrior a <strong>Startup dialog box</strong> should appear, if not go to <strong>File/Start Dialog…</strong></p></li>
+<li><p>From the Startup Dialog box click <strong>Create New Project</strong>.</p></li>
+<li><p>Then under <strong>Select the derivative to use</strong> choose <strong>HCS12XD Family/MC9S12XDP512</strong></p></li>
+<li><p>Also choose <strong>USBDM</strong> in the <strong>Connections</strong> box. Then click <strong>next</strong>.</p></li>
+<li><p>Then choose <strong>Single Core</strong>, and click <strong>next</strong>.</p></li>
+<li><p>Then make sure the <strong>C</strong> box is checked and all others not.</p></li>
+<li><p>Change the name of the project to something that makes sense for example <code>ICA01</code>.</p></li>
+<li><p>Change the place to store the project to the <code>ICAs</code> folder in your workbook repo. Click <strong>next</strong>.</p></li>
+</ul>
+<p><strong>Remember This</strong> - The only way to tell where the project is to be stored is when creating the project. You cannot <code>save as</code> the project as a whole via the IDE anywhere else after it has been created.</p>
+<ul>
+<li><p>No need to <strong>add existing files</strong> so click <strong>next</strong>.</p></li>
+<li><p>We want <strong>None</strong> for <strong>Rapid Dev Options</strong>. Click <strong>next</strong>.</p></li>
+<li><p>Choose <strong>ANSI Startup Code</strong>, <strong>Small Memory Model</strong>, and <strong>IEEE32 for both float and double</strong>. Click <strong>next</strong>.</p></li>
+<li><p>Finally check <strong>NO</strong> to PC-lint. Click <strong>Finish</strong>.</p></li>
+</ul>
+</section>
+<section id="procedure-to-download-a-project-to-code-warrior" class="level2">
+<h2 class="anchored" data-anchor-id="procedure-to-download-a-project-to-code-warrior">Procedure to download a project to Code Warrior</h2>
+<p>Now that the project has been created and stored in your local workbook repo, we will want to change the <code>main.c</code> file to reflect the problem we are solving and then download the project to our micro board and run the program in <code>main.c</code>.</p>
+<ul>
+<li><p>From the <code>project root folder</code> in the <code>ICAs</code> folder, right click and via the context sensitive menu choose <code>Open in File Explorer</code>.</p></li>
+<li><p>Delete the folder called <code>PROJECTNAME_Data</code>.</p></li>
+<li><p>Then double click on the file called <code>PROJECTNAME.mcp</code>. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be <code>C:\Program Files (x86)\Freescale\CWS12v5.1\bin\IDE.exe</code>. You may have located the Code Warrior software somewhere else when you installed the software.</p></li>
+</ul>
+</section>
+<section id="procedure-to-run-a-program-in-code-warrior" class="level2">
+<h2 class="anchored" data-anchor-id="procedure-to-run-a-program-in-code-warrior">Procedure to run a program in Code Warrior</h2>
+<p>Now that the project is loaded into Code Warrior we can complile and run it in our micro board.</p>
+<ul>
+<li><p>In CodeWarrior double click on the <code>main.c</code> file so you can see the program that you are about to run on the micro board.</p></li>
+<li><p>In CodeWarrior, start the <strong>Real-Time Debugger</strong> by clicking the <strong>slanted green arrow</strong>. This will compile and load the program into the micro board.</p></li>
+<li><p>Click on <strong>OK</strong>, once or twice until the program is downloaded to the micro board. You may also have had to click on <strong>YES</strong> to connect to the micro board via the USBDM module.</p></li>
+<li><p>Run the program by clicking the horizontal <strong>green Start arrow</strong>.</p></li>
+<li><p>Click the <strong>red Reset Target arrow</strong> to stop the program.</p></li>
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -679,8 +733,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../embedded-systems/section3/topic1/index.html" class="pagination-link" aria-label="ICA03 Bitwise Ops">
-        <span class="nav-page-text">ICA03 Bitwise Ops</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../embedded-systems/section2/topic3/index.html" class="pagination-link" aria-label="ICA02 Code Migration">
+        <span class="nav-page-text">ICA02 Code Migration</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

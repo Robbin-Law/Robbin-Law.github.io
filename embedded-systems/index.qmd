@@ -14,9 +14,9 @@ title: "Embedded-Systems"
 
 |Week|Assessment|Day1 (2 hrs)|Day2 (2 hrs)|
 |:-:|:-:|:-:|:-:|
-|1-J06|ICA00-Git-Github|Intro/Toolchain-Setup|Intro/Toolchain-Setup|
-|2-J13|ICA01-Prog-Workflow<br> ICA02-Code-Migrate|C#-to-C-transition|C#-to-C-transition|
-|3-J20|ICA03-Bitwise-Ops|Data-Types/Bitwise-Ops|Data-Types/Bitwise-Ops|
+|1-J06||Intro/Toolchain-Setup|Intro/Toolchain-Setup|
+|2-J13|ICA01-Prog-Workflow|C#-to-C-transition|C#-to-C-transition|
+|3-J20|ICA02-Code-Migrate<br> ICA03-Bitwise-Ops|Data-Types/Bitwise-Ops|Data-Types/Bitwise-Ops|
 |4-J27|ICA04-AD2-Measure<br> ICA05-SWL-Lib|AD2/GPIO-LED-Switches/<br> library|AD2/GPIO-LED-Switches/<br> library|
 |5-F03|ICA06-PLL<br> PA01|Phased-Locked-Loop(PLL)|PLL|
 |6-F10|ICA07-RTI|Real-Time-Interupt(RTI)|RTI|
