@@ -1,5 +1,5 @@
 ---
-title: "Filters & Regulators"
+title: "Filtering & Regulation"
 ---
 
 <!-- - [Lesson Solutions Excel Spread Sheet](assets){download=""} -->
