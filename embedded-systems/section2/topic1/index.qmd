@@ -2,6 +2,8 @@
 title: "Resources"
 ---
 
+- [Odd Things about Code Warrior](assets/Odd-Things-about-CodeWarrior.md){target="_blank"}
+
 - [main.c template](assets/template-main.c){target="_blank"}
 
 - [Introduction to C Notes 7 pages PDF](assets/Intro-C-Notes.pdf){target="_blank"}
