@@ -24,19 +24,19 @@ title: "Join Github Classroom"
 - Click on the organization called **CMPE1250** and you will see your workbook repo, click on it and from the **green** dropdown copy the url to the clip board.
 - Open a terminal and make the working folder the place that you want to clone the github workbook repo.
 - Type the following command to clone the github workbook repo to this local machine:
-```code
+```csharp
 git clone url
 ```
 
 - for example
-```code
+```csharp
 git clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git
 ```
 
 - Now change directories to the root folder of the cloned repo using the **cd** command.
 
 - From the root folder of the cloned repo run the following command to update the submodule where demos are provided:
-```code
+```javascript
 ./update.cmd
 ```
 - In your workbook repo create a new folder just under the root level called **demos**.
