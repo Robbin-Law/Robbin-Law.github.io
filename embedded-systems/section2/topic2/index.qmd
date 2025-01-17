@@ -36,25 +36,25 @@ title: "ICA01 Program Flow"
 
 ## Procedure to download a project to Code Warrior
 
-Now that the project has been created and stored in your local workbook repo, open it in VSCode as we will want to change the `main.c` file in VSCode to reflect the problem we are solving.
+Now that the project has been created and stored in your local workbook repo, open it in VSCode as we will want to change the **main.c** file in VSCode to reflect the problem we are solving.
 
-- After you have changed `main.c` in VSCode make sure to save your changes, so we can then download the project to our micro board and run the program in `main.c`.
+- After you have changed **main.c** in VSCode make sure to save your changes, so we can then download the project to our micro board and run the program in **main.c**.
 
-- From the `project root folder` that is in the `ICAs` folder, right click and via the context sensitive menu choose `Open in File Explorer`.
+- From the **project root folder** that is in the **ICAs** folder, right click and via the context sensitive menu choose **Open in File Explorer**.
 
 <!-- - Delete the folder called `PROJECTNAME_Data`. -->
 
-- Then double click on the file called `PROJECTNAME.mcp`. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be `C:\Program Files (x86)\Freescale\CWS12v5.1\bin\IDE.exe`. You may have located the Code Warrior software somewhere else when you installed the software.
+- Then double click on the file called **PROJECTNAME.mcp**. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be `C:\Program Files (x86)\Freescale\CWS12v5.1\bin\IDE.exe`. You may have located the Code Warrior software somewhere else when you installed the software.
 
 ## Procedure to run a program in Code Warrior
 
 Now that the project is loaded into Code Warrior we can compile and run it in our micro board.
 
-- In CodeWarrior double click on the `main.c` file so you can see the program that you are about to run on the micro board.
+- In CodeWarrior double click on the **main.c** file so you can see the program that you are about to run on the micro board.
 
 - In CodeWarrior, start the **Real-Time Debugger** by clicking the **slanted green arrow**. This will compile and load the program into the micro board.
 
-- A `USBDM Settings` dialog box may come up, if so click on **Open BDM** to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often that does not work.
+- A **USBDM Settings** dialog box may come up, if so click on **Open BDM** to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often this does not work.
 
 - Click on **OK**, once or twice until the program is downloaded to the micro board. 
 
@@ -64,11 +64,11 @@ Now that the project is loaded into Code Warrior we can compile and run it in ou
 
 - Click the **red Reset Target arrow** to reset the board. Only do this when you are ready to close the debugger, which you would do by clicking the exit symbol at the top right of the window.
 
-- At this point you would go back to VSCode and edit `main.c` as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the `main.c` file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. There is another document in the future of this course that will show you how to set breakpoints etc. to properly debug your program. 
+- At this point you would go back to VSCode and edit **main.c** as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the **main.c** file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. There is another document in the future of this course that will show you how to set breakpoints etc. to properly debug your program. 
 
 - You would do this cycle of editing in VSCode, saving in VSCode, switching to CodeWarrior, and debugging the program, until you are satisfied that your program solves the problem at hand. 
 
-**VERY IMPORTANT** - You must close out of CodeWarriors debug window and the main CodeWarrior window `before` committing and pushing your solution to github.
+**VERY IMPORTANT** - You must close out of CodeWarriors debug window and the main CodeWarrior window **before** committing and pushing your solution to github.
 
-- Finally you would commit your changes and push to github.
+- Finally you would commit your changes on the local machine and push to github.
 
