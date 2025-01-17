@@ -20,11 +20,11 @@ title: "ICA01 Program Flow"
 
 - Then make sure the **C** box is checked and all others not. 
 
-- Change the name of the project to something that makes sense for example `ICA01`. 
+- Change the name of the project to something that makes sense for example **ICA01**. 
 
-- Change the place to store the project to the `ICAs` folder in your workbook repo. Click **next**.
+- Change the place to store the project to the **ICAs** folder in your workbook repo. Click **next**.
 
-**Remember This** - The only way to tell where the project is to be stored is when creating the project. You cannot `save as` the project as a whole via the IDE anywhere else after it has been created.
+**Remember This** - The only way to tell where the project is to be stored is when creating the project. You cannot **save as** the project as a whole via the IDE anywhere else after it has been created.
 
 - No need to **add existing files** so click **next**.
 
@@ -44,7 +44,7 @@ Now that the project has been created and stored in your local workbook repo, op
 
 <!-- - Delete the folder called `PROJECTNAME_Data`. -->
 
-- Then double click on the file called **PROJECTNAME.mcp**. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be `C:\Program Files (x86)\Freescale\CWS12v5.1\bin\IDE.exe`. You may have located the Code Warrior software somewhere else when you installed the software.
+- Then double click on the file called **PROJECTNAME.mcp**. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be **C:\Program Files (x86)\Freescale\CWS12v5.1\bin\IDE.exe**. You may have located the Code Warrior software somewhere else when you installed the software.
 
 ## Procedure to run a program in Code Warrior
 
