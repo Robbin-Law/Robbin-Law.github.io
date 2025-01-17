@@ -19,26 +19,26 @@ title: "Join Github Classroom"
 
 ## Step 4 Clone your Github Workbook Repo to a local machine
 
-- Sign into Github and click on your profile pic (top right) and then click on your organizations.
+- **Sign into Github** and click on your profile pic (top right) and then click on your organizations.
 - If you missed Step 3 you can still accept the invitation here.
-- Click on the organization called `CMPE1250` and you will see your workbook repo, click on it and from the `green` dropdown copy the url to the clip board.
+- Click on the organization called **CMPE1250** and you will see your workbook repo, click on it and from the **green** dropdown copy the url to the clip board.
 - Open a terminal and make the working folder the place that you want to clone the github workbook repo.
 - Type the following command to clone the github workbook repo to this local machine:
-```github
+```code
 git clone url
 ```
 
 - for example
-```
+```code
 git clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git
 ```
 
-- Now change directories to the root folder of the cloned repo using the `cd` command.
+- Now change directories to the root folder of the cloned repo using the **cd** command.
 
 - From the root folder of the cloned repo run the following command to update the submodule where demos are provided:
-```
+```code
 ./update.cmd
 ```
-- In your workbook repo create a new folder just under the root level called `demos`.
+- In your workbook repo create a new folder just under the root level called **demos**.
 
-- From the submodule `InClassDemos` copy the demo that you are interested in to the newly created `demos` folder in your workbook repo, then you can make changes to the demo and experiment, and save your work in the `demos` folder of your workbook repo. You cannot save work to the submodule as it is read only.
+- From the submodule **InClassDemos** copy the demo that you are interested in to the newly created **demos** folder in your workbook repo, then you can make changes to the demo and experiment, and save your work in the **demos** folder of your workbook repo. You cannot save work to the submodule as it is read only.

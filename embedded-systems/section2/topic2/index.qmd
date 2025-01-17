@@ -54,7 +54,7 @@ Now that the project is loaded into Code Warrior we can compile and run it in ou
 
 - In CodeWarrior, start the **Real-Time Debugger** by clicking the **slanted green arrow**. This will compile and load the program into the micro board.
 
-A dialog box may come up, if so click on **Open BDM** to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often that does not work.
+- A `USBDM Settings` dialog box may come up, if so click on **Open BDM** to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often that does not work.
 
 - Click on **OK**, once or twice until the program is downloaded to the micro board. 
 
@@ -64,7 +64,7 @@ A dialog box may come up, if so click on **Open BDM** to connect to the micro bo
 
 - Click the **red Reset Target arrow** to reset the board. Only do this when you are ready to close the debugger, which you would do by clicking the exit symbol at the top right of the window.
 
-- At this point you would go back to VSCode and edit `main.c` as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. I will have another document in the future that will show you how to set breakpoints etc. to properly debug your program. 
+- At this point you would go back to VSCode and edit `main.c` as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the `main.c` file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. There is another document in the future of this course that will show you how to set breakpoints etc. to properly debug your program. 
 
 - You would do this cycle of editing in VSCode, saving in VSCode, switching to CodeWarrior, and debugging the program, until you are satisfied that your program solves the problem at hand. 
 

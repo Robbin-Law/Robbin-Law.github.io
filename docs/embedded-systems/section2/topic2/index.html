@@ -303,14 +303,12 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>In CodeWarrior double click on the <code>main.c</code> file so you can see the program that you are about to run on the micro board.</p></li>
 <li><p>In CodeWarrior, start the <strong>Real-Time Debugger</strong> by clicking the <strong>slanted green arrow</strong>. This will compile and load the program into the micro board.</p></li>
-</ul>
-<p>A dialog box may come up, if so click on <strong>Open BDM</strong> to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often that does not work.</p>
-<ul>
+<li><p>A <code>USBDM Settings</code> dialog box may come up, if so click on <strong>Open BDM</strong> to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often that does not work.</p></li>
 <li><p>Click on <strong>OK</strong>, once or twice until the program is downloaded to the micro board.</p></li>
 <li><p>Run the program by clicking the horizontal <strong>green Start arrow</strong>.</p></li>
 <li><p>Click the <strong>red T symbol</strong> to halt the program. After you do this you can single step thru the code, and/or continue by clicking the green start arrow again.</p></li>
 <li><p>Click the <strong>red Reset Target arrow</strong> to reset the board. Only do this when you are ready to close the debugger, which you would do by clicking the exit symbol at the top right of the window.</p></li>
-<li><p>At this point you would go back to VSCode and edit <code>main.c</code> as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. I will have another document in the future that will show you how to set breakpoints etc. to properly debug your program.</p></li>
+<li><p>At this point you would go back to VSCode and edit <code>main.c</code> as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the <code>main.c</code> file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. There is another document in the future of this course that will show you how to set breakpoints etc. to properly debug your program.</p></li>
 <li><p>You would do this cycle of editing in VSCode, saving in VSCode, switching to CodeWarrior, and debugging the program, until you are satisfied that your program solves the problem at hand.</p></li>
 </ul>
 <p><strong>VERY IMPORTANT</strong> - You must close out of CodeWarriors debug window and the main CodeWarrior window <code>before</code> committing and pushing your solution to github.</p>
