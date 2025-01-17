@@ -287,9 +287,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="procedure-to-download-a-project-to-code-warrior" class="level2">
 <h2 class="anchored" data-anchor-id="procedure-to-download-a-project-to-code-warrior">Procedure to download a project to Code Warrior</h2>
-<p>Now that the project has been created and stored in your local workbook repo, we will want to change the <code>main.c</code> file to reflect the problem we are solving and then download the project to our micro board and run the program in <code>main.c</code>.</p>
+<p>Now that the project has been created and stored in your local workbook repo, open it in VSCode as we will want to change the <code>main.c</code> file in VSCode to reflect the problem we are solving.</p>
 <ul>
-<li>From the <code>project root folder</code> in the <code>ICAs</code> folder, right click and via the context sensitive menu choose <code>Open in File Explorer</code>.</li>
+<li><p>After you have changed <code>main.c</code> in VSCode make sure to save your changes, so we can then download the project to our micro board and run the program in <code>main.c</code>.</p></li>
+<li><p>From the <code>project root folder</code> that is in the <code>ICAs</code> folder, right click and via the context sensitive menu choose <code>Open in File Explorer</code>.</p></li>
 </ul>
 <!-- - Delete the folder called `PROJECTNAME_Data`. -->
 <ul>
@@ -307,7 +308,14 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Click on <strong>OK</strong>, once or twice until the program is downloaded to the micro board.</p></li>
 <li><p>Run the program by clicking the horizontal <strong>green Start arrow</strong>.</p></li>
-<li><p>Click the <strong>red Reset Target arrow</strong> to stop the program.</p></li>
+<li><p>Click the <strong>red T symbol</strong> to halt the program. After you do this you can single step thru the code, and/or continue by clicking the green start arrow again.</p></li>
+<li><p>Click the <strong>red Reset Target arrow</strong> to reset the board. Only do this when you are ready to close the debugger, which you would do by clicking the exit symbol at the top right of the window.</p></li>
+<li><p>At this point you would go back to VSCode and edit <code>main.c</code> as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. I will have another document in the future that will show you how to set breakpoints etc. to properly debug your program.</p></li>
+<li><p>You would do this cycle of editing in VSCode, saving in VSCode, switching to CodeWarrior, and debugging the program, until you are satisfied that your program solves the problem at hand.</p></li>
+</ul>
+<p><strong>VERY IMPORTANT</strong> - You must close out of CodeWarriors debug window and the main CodeWarrior window <code>before</code> committing and pushing your solution to github.</p>
+<ul>
+<li>Finally you would commit your changes and push to github.</li>
 </ul>
 
 

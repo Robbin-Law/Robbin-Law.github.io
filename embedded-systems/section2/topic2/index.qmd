@@ -36,9 +36,11 @@ title: "ICA01 Program Flow"
 
 ## Procedure to download a project to Code Warrior
 
-Now that the project has been created and stored in your local workbook repo, we will want to change the `main.c` file to reflect the problem we are solving and then download the project to our micro board and run the program in `main.c`.
+Now that the project has been created and stored in your local workbook repo, open it in VSCode as we will want to change the `main.c` file in VSCode to reflect the problem we are solving.
 
-- From the `project root folder` in the `ICAs` folder, right click and via the context sensitive menu choose `Open in File Explorer`.
+- After you have changed `main.c` in VSCode make sure to save your changes, so we can then download the project to our micro board and run the program in `main.c`.
+
+- From the `project root folder` that is in the `ICAs` folder, right click and via the context sensitive menu choose `Open in File Explorer`.
 
 <!-- - Delete the folder called `PROJECTNAME_Data`. -->
 
@@ -58,4 +60,15 @@ A dialog box may come up, if so click on **Open BDM** to connect to the micro bo
 
 - Run the program by clicking the horizontal **green Start arrow**.
 
-- Click the **red Reset Target arrow** to stop the program.
+- Click the **red T symbol** to halt the program. After you do this you can single step thru the code, and/or continue by clicking the green start arrow again.
+
+- Click the **red Reset Target arrow** to reset the board. Only do this when you are ready to close the debugger, which you would do by clicking the exit symbol at the top right of the window.
+
+- At this point you would go back to VSCode and edit `main.c` as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. I will have another document in the future that will show you how to set breakpoints etc. to properly debug your program. 
+
+- You would do this cycle of editing in VSCode, saving in VSCode, switching to CodeWarrior, and debugging the program, until you are satisfied that your program solves the problem at hand. 
+
+**VERY IMPORTANT** - You must close out of CodeWarriors debug window and the main CodeWarrior window `before` committing and pushing your solution to github.
+
+- Finally you would commit your changes and push to github.
+
