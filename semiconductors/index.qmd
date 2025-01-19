@@ -4,11 +4,11 @@ title: "Semiconductors"
 
 ## Calendar 2024 Winter
 
-- Projects (P); 8 total; 62% of final mark; 7.75% each.
+- Projects (P); 8 total; 64% of final mark; 8% each.
 - All Projects are due on Sunday of the week at 11:59 PM.
 - Labs (L); 9 total; 18% of final mark; 2% each.
 - All Labs are due on Sunday of the week at 11:59 PM.
-- Exams (E); 4 total; 20% of final mark; 5% each.
+- Exams (E); 3 total; 18% of final mark; 6% each.
 - All Exams are done during class time.
 
 |Week|Assessment|Day1 (2 hrs)|Day2 (2 hrs)|Day3 (1 hr)|
