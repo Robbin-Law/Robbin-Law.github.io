@@ -4,32 +4,32 @@ title: "Embedded-Systems"
 
 ## Calendar 2024 Winter
 
-- In-Class Assessments (ICA's); 10 total; 30% of final mark; 3% each.
+- In-Class Assessments (ICA's); 12 total; 24% of final mark; 2% each.
 - All In-Class Assessments (ICA's) are due on Sunday of the week at 11:59 PM.
 - Labs; 5 total; 10% of final mark; 2% each.
 - All Labs are due on Sunday of the week at 11:59 PM.
-- Practical Assessments (PA's); 3 total; 60% of final mark; 20% each.
+- Practical Assessments (PA's); 3 total; 66% of final mark; 22% each.
 - All Practical Assessments (PA's) are done during class time.
 - All Assessments are to be uploaded (pushed) to your github workbook repo.
 
 |Week|Assessment|Day1 (2 hrs)|Day2 (2 hrs)|
 |:-:|:-:|:-:|:-:|
-|1-J06||Intro<br> Github-Repo<br> Toolchain-Setup|Intro<br> Github-Repo<br> Toolchain-Setup|
-|2-J13|ICA01-Prog-Workflow|Demo1<br> Workflow<br> Data-Types<br> Bitwise-Ops|Demo1<br> Workflow<br> Data-Types<br> Bitwise-Ops|
-|3-J20|ICA02-Code-Migrate|Debugging<br> Breakpoints|Debugging<br> Breakpoints|
-|4-J27|ICA03-Bitwise-Ops|GPIO-LED|GPIO-LED|
-|5-F03|ICA04-AD2-Measure|Measure Freq with AD2|Measure Freq with AD2|
-|6-F10|ICA05-SWL-Lib|GPIO-LED-Switches<br> SWL-Library|GPIO-LED-Switches<br> SWL-Library|
+|1-J06||Intro/Toolchain-Setup|Intro/Toolchain-Setup|
+|2-J13|ICA01-Prog-Workflow|C#-to-C-transition|C#-to-C-transition|
+|3-J20|ICA02-Code-Migrate<br> ICA03-Bitwise-Ops|Data-Types/Bitwise-Ops|Data-Types/Bitwise-Ops|
+|4-J27|ICA04-AD2-Measure<br> ICA05-SWL-Lib|AD2/GPIO-LED-Switches/<br> library|AD2/GPIO-LED-Switches/<br> library|
+|5-F03|ICA06-PLL<br> PA01|Phased-Locked-Loop(PLL)|PLL|
+|6-F10|ICA07-RTI|Real-Time-Interupt(RTI)|RTI|
 |F17||READING-WEEK|READING-WEEK|
-|7-F24|ICA06-PLL<br> PA01|Phased-Locked-Loop(PLL)|PLL|
-|8-M03|ICA07-RTI|Real-Time-Interupt(RTI)|RTI|
-|9-M10|ICA08-SCI-Basic<br> Lab01-SCI|Serial-Com-Interface(SCI)|SCI|
-|10-M17|ICA09-Segs-Basic|7-Segment-Display|7-Segs-Display|
-|11-M24|Lab02-16-bit-Segs|16-bit-Segs|16-bit-Segs|
-|12-M31|Lab03-Dec-Entry<br> PA02|Decimal-Entry-Conversion|Decimal-Entry-Conversion|
+|7-F24|ICA08-SCI-Basic<br> Lab01=SCI|Serial-Com-Interface(SCI)|SCI|
+|8-M03|ICA09-Segs-Basic|7-Segment-Display|7-Segs-Display|
+|9-M10|Lab02-16-bit-Segs|16-bit-Segs|16-bit-Segs|
+|10-M17|Lab03-Dec-Entry<br> PA02|Decimal-Entry-Conversion|Decimal-Entry-Conversion|
+|11-M24|ICA10-PWM-Basic|8-bit-Pulse-Width-Mod(PWM)|8-bit-PWM|
+|12-M31|ICA11-PWM-Adv|16-bit-Pulse-Width-Mod(PWM)|16-bit-PWM|
 |13-A07|ICA12-LCD|Liquid-Crystal-Display(LCD)|LCD|
-|14-A14|Lab04-Sec-LCD-Functions|Character-Buffers<br> sprint|Character-Buffers<br> sprint|
-|15-A21|Lab05-Dynamic-LCD<br> PA03|Dynamic-LCD|Dynamic-LCD|
+|14-A14|Lab04-Sec-LCD-Functions|Character-Buffers/sprint|Character-Buffers/sprint|
+|15-A21|Lab05-Dynamic-LCD<br> PA03|Cap-Stone|Cap-Stone|
 
 ## General Resources
 
