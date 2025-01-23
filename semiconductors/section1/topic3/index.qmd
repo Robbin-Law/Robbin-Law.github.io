@@ -10,7 +10,7 @@ title: "Filtering & Regulation"
 
 - [Page 3 Fixed Linear Regulation by Ross Taylor](assets/dd-Lesson-Page3-Fixed-Linear-Regulators.pdf){target="_blank"}
 
-- [Adjustable Linear Regulation Lesson Solutions Excel Spread Sheet](assets/pa-Adjustable-Regulation-Lessons-Only.xlsx){download=""}
+- [Adjustable Linear Regulation Lesson Solutions Excel Spread Sheet](assets/pa-Adjustable-Regulation-and-Project1.xlsx){download=""}
 
 - [Page 4 Adjustable Linear Regulation by Ross Taylor](assets/fh-Lesson-Page4-Adjustable-Linear-Regulation.pdf){target="_blank"}
 
