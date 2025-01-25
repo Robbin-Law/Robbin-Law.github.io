@@ -1,6 +1,10 @@
 ---
-title: "Diode Physics and Models"
+title: "Diode Physics & Models"
 ---
+
+## Diode Physics and Models
+
+#### This group of notes will cover the theory needed for Lab 1
 
 Original Author: Ross Taylor <br />
 

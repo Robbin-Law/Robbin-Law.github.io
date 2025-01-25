@@ -2,6 +2,8 @@
 title: "Filtering & Regulation"
 ---
 
+#### This group of notes will cover the theory needed for Lab 3 and Project 1
+
 - [Filtering and Fixed Linear Regulation Lesson Solutions Excel Spread Sheet](assets/a-Filtering-Fixed-Linear-Regulation-Lessons-Only.xlsx){download=""}
 
 - [Page 1 Filtering by Ross Taylor](assets/ba-Lesson-Page1-Filtering.pdf){target="_blank"}

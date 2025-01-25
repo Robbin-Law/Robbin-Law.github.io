@@ -2,6 +2,8 @@
 title: "Rectifiers"
 ---
 
+#### This group of notes will cover the theory needed for Lab 2
+
 - [Lesson Solutions Excel Spread Sheet](assets/a-Rectifier-Circuits-Lessons-Only.xlsx){download=""}
 
 - [Page 1 General by Ross Taylor](assets/c-Lesson-Page1-Rectifier%20Circuits.pdf){target="_blank"}

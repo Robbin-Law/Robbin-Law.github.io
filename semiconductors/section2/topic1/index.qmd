@@ -4,7 +4,7 @@ title: "BJTs"
 
 ## Bipolar Junction Transistors (BJTs)
 
-### This group of notes will give the theory needed for Lab4
+#### This group of notes will cover the theory needed for Lab 4
 
 - [Lesson Solutions Excel Spread Sheet](assets/a-BJT.xlsx){download=""}
 

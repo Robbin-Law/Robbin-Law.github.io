@@ -1,6 +1,10 @@
 ---
-title: "Topic2"
+title: "TPole & HBridge"
 ---
+
+## BJT Totem Pole and H-Bridge Circuits
+
+#### This group of notes will cover the theory needed for Project 2
 
 - [Lesson Solutions Excel Spread Sheet](assets){download=""}
 
