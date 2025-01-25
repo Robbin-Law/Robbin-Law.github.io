@@ -27,9 +27,9 @@ website:
             - semiconductors/section1/topic1/index.qmd
             - semiconductors/section1/topic2/index.qmd
             - semiconductors/section1/topic3/index.qmd
-        # - section: "Transistors"
-        #   contents:
-        #     - semiconductors/section2/topic1/index.qmd
+        - section: "Transistors"
+          contents:
+            - semiconductors/section2/topic1/index.qmd
         #     - semiconductors/section2/topic2/index.qmd
         #     - semiconductors/section2/topic3/index.qmd
              

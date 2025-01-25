@@ -1,492 +1,36 @@
 [
   {
-    "objectID": "semiconductors/section2/topic3/index.html",
-    "href": "semiconductors/section2/topic3/index.html",
+    "objectID": "semiconductors/section3/topic3/index.html",
+    "href": "semiconductors/section3/topic3/index.html",
     "title": "Topic3",
     "section": "",
     "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
   },
   {
-    "objectID": "semiconductors/section2/topic1/index.html",
-    "href": "semiconductors/section2/topic1/index.html",
+    "objectID": "semiconductors/section3/topic1/index.html",
+    "href": "semiconductors/section3/topic1/index.html",
     "title": "Topic1",
     "section": "",
     "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
   },
   {
-    "objectID": "semiconductors/section1/topic2/index.html",
-    "href": "semiconductors/section1/topic2/index.html",
-    "title": "Rectifiers",
+    "objectID": "semiconductors/section2/topic2/index.html",
+    "href": "semiconductors/section2/topic2/index.html",
+    "title": "Topic2",
     "section": "",
-    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 General by Ross Taylor\nPage 2 Half Wave by Ross Taylor\nPage 3 Full Wave Center Tapped by Ross Taylor\nPage 4 Full Wave Bridge by Ross Taylor\nPage 5 Full Wave Bridge Negative by Ross Taylor",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
+  },
+  {
+    "objectID": "semiconductors/section1/topic3/index.html",
+    "href": "semiconductors/section1/topic3/index.html",
+    "title": "Filtering & Regulation",
+    "section": "",
+    "text": "Filtering and Fixed Linear Regulation Lesson Solutions Excel Spread Sheet\nPage 1 Filtering by Ross Taylor\nPage 2 Zener Regulation by Ross Taylor\nPage 3 Fixed Linear Regulation by Ross Taylor\nAdjustable Linear Regulation Lesson Solutions Excel Spread Sheet\nPage 4 Adjustable Linear Regulation by Ross Taylor",
     "crumbs": [
       "Semiconductors",
       "Diodes",
-      "Rectifiers"
+      "Filtering & Regulation"
     ]
-  },
-  {
-    "objectID": "semiconductors/index.html",
-    "href": "semiconductors/index.html",
-    "title": "Semiconductors",
-    "section": "",
-    "text": "Projects (P); 8 total; 64% of final mark; 8% each.\nAll Projects are due on Sunday of the week at 11:59 PM.\nLabs (L); 9 total; 18% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nExams (E); 3 total; 18% of final mark; 6% each.\nAll Exams are done during class time.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\nDay3 (1 hr)\n\n\n\n\n1-J06\nL1-Diodes\n\nIntro/Diode-Physics\nDiode-Models\n\n\n2-J13\nL2-Rectifiers\nRectifiers\nRectifiers\nRectifiers\n\n\n3-J20\nL3-Filtering/Reg\nFiltering/Regulation\nFiltering/Regulation\nFiltering/Regulation\n\n\n4-J27\nL4-BJT-Switch/Bias P1-Power-Supply\nBJT-Intro\nBJT-Switching\nBJT-Biasing\n\n\n5-F03\nP2-TPole/HBridge\nBJT-Totem-Pole\nBJT-H-Bridge\nExam1-Diode-Apps\n\n\n6-F10\nL5-FET-Switching\nFET-Intro\nFET-Switching\nFET-Switching\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nL6-OpAmps P3-Transistors\nOpAmps-Intro\nOpAmps-Configs\nOpAmps-Diff-Amps\n\n\n8-M03\nP4-Summing-Amps\nSumming-Amps\nSumming-Amps\nExam2-Transistor-Apps\n\n\n9-M10\nP5-Instrument-Amps\nInstrument-Amps\nInstrument-Amps\nInstrument-Amps\n\n\n10-M17\nL7-DAC P7-Adv-Filters/DAC DAC part only\nDig-Analog-Con\nDig-Analog-Con\nDig-Analog-Con\n\n\n11-M24\nP6-Issues/Basic-Filters\nOpAmp-Issues\nBasic-Filters\nBasic-Filters\n\n\n12-M31\nP7-Adv-Filters/DAC Adv-Filters part only\nAdv-Filters\nAdv-Filters\nAdv-Filters\n\n\n13-A07\nL8-Comparators\nComparators\nComparators\nExam3-OpAmp-Apps\n\n\n14-A14\nL9-ADC\nADC\nADC\nEASTER\n\n\n15-A21\nP8-Comparators-ADC\nEASTER\nP8\nP8",
-    "crumbs": [
-      "Semiconductors"
-    ]
-  },
-  {
-    "objectID": "semiconductors/index.html#calendar-2024-winter",
-    "href": "semiconductors/index.html#calendar-2024-winter",
-    "title": "Semiconductors",
-    "section": "",
-    "text": "Projects (P); 8 total; 64% of final mark; 8% each.\nAll Projects are due on Sunday of the week at 11:59 PM.\nLabs (L); 9 total; 18% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nExams (E); 3 total; 18% of final mark; 6% each.\nAll Exams are done during class time.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\nDay3 (1 hr)\n\n\n\n\n1-J06\nL1-Diodes\n\nIntro/Diode-Physics\nDiode-Models\n\n\n2-J13\nL2-Rectifiers\nRectifiers\nRectifiers\nRectifiers\n\n\n3-J20\nL3-Filtering/Reg\nFiltering/Regulation\nFiltering/Regulation\nFiltering/Regulation\n\n\n4-J27\nL4-BJT-Switch/Bias P1-Power-Supply\nBJT-Intro\nBJT-Switching\nBJT-Biasing\n\n\n5-F03\nP2-TPole/HBridge\nBJT-Totem-Pole\nBJT-H-Bridge\nExam1-Diode-Apps\n\n\n6-F10\nL5-FET-Switching\nFET-Intro\nFET-Switching\nFET-Switching\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nL6-OpAmps P3-Transistors\nOpAmps-Intro\nOpAmps-Configs\nOpAmps-Diff-Amps\n\n\n8-M03\nP4-Summing-Amps\nSumming-Amps\nSumming-Amps\nExam2-Transistor-Apps\n\n\n9-M10\nP5-Instrument-Amps\nInstrument-Amps\nInstrument-Amps\nInstrument-Amps\n\n\n10-M17\nL7-DAC P7-Adv-Filters/DAC DAC part only\nDig-Analog-Con\nDig-Analog-Con\nDig-Analog-Con\n\n\n11-M24\nP6-Issues/Basic-Filters\nOpAmp-Issues\nBasic-Filters\nBasic-Filters\n\n\n12-M31\nP7-Adv-Filters/DAC Adv-Filters part only\nAdv-Filters\nAdv-Filters\nAdv-Filters\n\n\n13-A07\nL8-Comparators\nComparators\nComparators\nExam3-OpAmp-Apps\n\n\n14-A14\nL9-ADC\nADC\nADC\nEASTER\n\n\n15-A21\nP8-Comparators-ADC\nEASTER\nP8\nP8",
-    "crumbs": [
-      "Semiconductors"
-    ]
-  },
-  {
-    "objectID": "semiconductors/index.html#general-resources",
-    "href": "semiconductors/index.html#general-resources",
-    "title": "Semiconductors",
-    "section": "General Resources",
-    "text": "General Resources\n\nCMPE1400 Lessons, Projects, Labs, and SA’s with NO ANSWERS by Ross Taylor\nCMPE1400 Formula Sheet\nSemiconductors by Circuit Bread\n\nyoutube video playlist; first 12 are on diodes, next 9 are on transistors.\n\nTransistors, How do they work by Lesics\n\nyoutube video 6.52 min\n\nWhy it was almost impossible to make the blue LED by Veritasum\n\nyoutube video 33.44 min; very good history lesson with great animations.",
-    "crumbs": [
-      "Semiconductors"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section3/topic3/index.html",
-    "href": "embedded-systems/section3/topic3/index.html",
-    "title": "ICA05 sw_led Library",
-    "section": "",
-    "text": "Switch LED Port Notes\nICA05 Specs\nICA05 Part 1 Demo\nICA05 Part 2 Demo\nICA05 Part 3 Demo\nCompilation Unit Basics by Simon Walker\nsw_led.h",
-    "crumbs": [
-      "Embedded-Systems",
-      "GPIO",
-      "ICA05 sw_led Library"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section3/topic1/index.html",
-    "href": "embedded-systems/section3/topic1/index.html",
-    "title": "ICA03 Bitwise Ops",
-    "section": "",
-    "text": "Switch LED Port Notes\nICA03 Bitwise Operations Specs\nICA03 Bitwise Operations Template.c",
-    "crumbs": [
-      "Embedded-Systems",
-      "GPIO",
-      "ICA03 Bitwise Ops"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section2/topic3/assets/Program.html",
-    "href": "embedded-systems/section2/topic3/assets/Program.html",
-    "title": "Home",
-    "section": "",
-    "text": "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;\nnamespace MigrateCode {\nclass Program { #region IGNORE_ME // ignore this block of code, it is here to simulate items // included in the derivative file of the micro // do not attempt to migrate this code to C (ignore the entire #region) static byte PT1AD1 = 0xFF; static byte DDR1AD1 = 0x00; // end ignore this block #endregion\n    //Global variables\n    static UInt16 uiMainLoopCount = 0;\n\n    static void Main(string[] args)\n    {\n        //One Time initialization\n        PT1AD1 &= 0x1F;\n        DDR1AD1 = 0xE0;            \n\n        //Infinite Loop\n        while (true)\n        {\n            ++uiMainLoopCount;\n            RED(uiMainLoopCount &lt; 0x1000);\n            GREEN(uiMainLoopCount &gt;= 0x1000);\n        }\n    }\n\n\n    //Functions\n    static void RED (bool bOn)\n    {\n        if (bOn)\n            PT1AD1 |= (byte)(((UInt32)1 &lt;&lt; (7)));\n        else\n        {\n            PT1AD1 &= 0x7F;\n        }\n\n    }\n\n    static void GREEN(bool bOn)\n    {\n        if (bOn)\n        {\n            PT1AD1 |= 0x20;\n        }\n        else\n        {\n            PT1AD1 &= 0b11011111;\n        }\n                        \n    }\n}\n}"
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html",
-    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project.\n\n\n\n\nCodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code.\n\n\n\n\nThe IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
-    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
-    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "CodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
-    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "The IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html",
-    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project.\n\n\n\n\nCodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code.\n\n\n\n\nThe IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
-    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
-    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "CodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
-    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
-    "title": "Odd Things about the CodeWarrior IDE",
-    "section": "",
-    "text": "The IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/index.html",
-    "href": "embedded-systems/section1/topic3/index.html",
-    "title": "ICA0 Git and Github Basics",
-    "section": "",
-    "text": "ICA0\ngit and gh shell command overview by Robbin Law\ngit branching and merging basics by github\ngit and github with VSCode by Robbin Law",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "ICA0 Git and Github Basics"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html",
-    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html",
-    "title": "Git on the Command Line",
-    "section": "",
-    "text": "git docs"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#resources",
-    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#resources",
-    "title": "Git on the Command Line",
-    "section": "",
-    "text": "git docs"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#basic-git-commands",
-    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#basic-git-commands",
-    "title": "Git on the Command Line",
-    "section": "Basic Git Commands",
-    "text": "Basic Git Commands\nWe can use the git version control application directly from the command line. Here are some useful commands to get started.\n\ngit init - This command will create a git repository in the current folder on your machine.\n\nThe best way to create a repo is to do it on github via a browser. Once this is done you can clone the repo to your machine. Make your working folder where you want the repo stored and run the following command.\n\ngit clone UrlOfRepoOnGithub.\n\nYou will have had to copy the url of the github repo to the clipboard. Then use the following command to clone. This url is just an example. You would copy the clipboard to the command line.\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git.\n\nOnce your github repo is cloned down to your machine you can start adding folders and files to the repo, and changing what is already in the repo.\nWhen you make an addition or change to a file, always SAVE it, then use the following command to see that git knows there has been a change.\n\ngit status - This will give you the current status of your local git repository.\n\nAt this point the changed files names will be red.\nThe next thing is that you have to stage your changes.\n\ngit add . - Use this command to “stage” all of your current changes so that they are ready to be committed.\ngit status will show that the changed files are staged by turning the file names green from red.\n\nNow you are ready to commit the recent changes.\n\ngit commit -m \"Your Message\" - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a commit history for our repository. The message is NOT optional.\n\nFinally you will want to update your github repo with the changes made on you machines local repo. You can have many commits to one push.\n\ngit push - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.\n\nIf you are working with others and someone changes the github repo, you will have to pull to get those changes on your machine.\n\ngit pull - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer). The pull command is a combination of git fetch and git merge commands.\n\nAnother great command to see what is going on.\n\ngit log - This will give you the history of your git repository\n\nThere are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control."
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#remote-repositories",
-    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#remote-repositories",
-    "title": "Git on the Command Line",
-    "section": "Remote Repositories",
-    "text": "Remote Repositories\nYou can use the GitHub CLI to create a remote repository on GitHub.com.\ngh repo create my-first-repository\nThe command above is interactive, so just follow the prompts.\nYou can push your code to GitHub.com by typing the following:\ngit push -u origin main\nNote that the -u means set upstream. After that, you will only need to type git push to push any local changes to the remote repository.\nYou can pull your code from GitHub.com by typing the following:\ngit pull upstream main\nAfter that, you will only need to type git pull to pull any remote changes to the local repository.\nHere’s some other helpful commands with regard to the remote repository connections for your local repository.\n\ngit remote -v - View all the remote repositories\ngit remote remove [remoteName] - Remove a remote entry\ngit remote add [remoteName] [URL-to-Repository] - Add a remote repository"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/index.html",
-    "href": "embedded-systems/section1/topic1/index.html",
-    "title": "Tool Chain Software Setup",
-    "section": "",
-    "text": "Install drivers and get CodeWarrior setup by Carlos Estay\n\nYoutube video; first in a playlist of 4.\nWatch this first.\n\nUsing VS Code as an Editor by Simon Walker\n\nRead this pdf document second.\n\nTool chain tips by Simon Walker\n\nYoutube video.\nWatch this third.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Tool Chain Software Setup"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/index.html#go-thru-these-resources-before-downloading-and-installing-software",
-    "href": "embedded-systems/section1/topic1/index.html#go-thru-these-resources-before-downloading-and-installing-software",
-    "title": "Tool Chain Software Setup",
-    "section": "",
-    "text": "Install drivers and get CodeWarrior setup by Carlos Estay\n\nYoutube video; first in a playlist of 4.\nWatch this first.\n\nUsing VS Code as an Editor by Simon Walker\n\nRead this pdf document second.\n\nTool chain tips by Simon Walker\n\nYoutube video.\nWatch this third.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Tool Chain Software Setup"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/index.html#software-to-download-and-install",
-    "href": "embedded-systems/section1/topic1/index.html#software-to-download-and-install",
-    "title": "Tool Chain Software Setup",
-    "section": "Software to Download and Install",
-    "text": "Software to Download and Install\n\nDownload and Install CodeWarrior Software and USBDM Drivers\nUnfortunately Github cannot store files as large as the software files we need to download. They must be retrieved from Brightspace or a usb from your instructor.\n\nStep 1\n\nDownload the USBDM drivers file and unzip.\n\n\n\nStep 2\n\nRun the file called USBDM_Drivers_4_12_1_Win_x64 to install the first driver.\n\n\n\nStep 3\n\nDownload and install CodeWarrior5.1 Special Edition.\nDo not store it in C:\\Program Files (x86), put it in another folder on the C:\\ drive that has NO spaces in the folder name.\nThe very last step in the install asks if you want to update, we DO NOT want to update, so just cancel that.\n\n\n\nStep 4\n\nRun the file called USBDM_4_12_1_262_Win only after CodeWarrior is installed.\n\n\n\n\nDownload and Install Git\n\nGit Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that git is available from any directory.\nOpen a PowerShell or CMD terminal. In the shell run git -–version to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that git is available from any directory. To set the path, in the search area at the bottom of the windows task bar type env and select Edit Environment Variables for your Account. Then edit the PATH and add new C:\\Program Files\\Git\\cmd. You could add this to the system environments alternatively. Now you can run the git command from a terminal anywhere.\n\n\n\nDownload and Install GitHub CLI\n\nGitHub CLI Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that gh is available from any directory.\n\n\n\nDownload and Install Visual Studio Code\n\nVisual Studio Code Website\nDownload Visual Studio Code if you do not already have it on your machine.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Tool Chain Software Setup"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
-    "href": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
-    "title": "Home",
-    "section": "",
-    "text": "The software files are too big for github. They must be downloaded via Brightspace or a usb."
-  },
-  {
-    "objectID": "embedded-systems/index.html",
-    "href": "embedded-systems/index.html",
-    "title": "Embedded-Systems",
-    "section": "",
-    "text": "In-Class Assessments (ICA’s); 10 total; 30% of final mark; 3% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 60% of final mark; 20% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro Github-Repo Toolchain-Setup\nIntro Github-Repo Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow\nDemo1 Workflow Data-Types Bitwise-Ops\nDemo1 Workflow Data-Types Bitwise-Ops\n\n\n3-J20\nICA02-Code-Migrate\nDebugging Breakpoints\nDebugging Breakpoints\n\n\n4-J27\nICA03-Bitwise-Ops\nGPIO-LED\nGPIO-LED\n\n\n5-F03\nICA04-AD2-Measure\nMeasure Freq with AD2\nMeasure Freq with AD2\n\n\n6-F10\nICA05-SWL-Lib\nGPIO-LED-Switches SWL-Library\nGPIO-LED-Switches SWL-Library\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n8-M03\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\n9-M10\nICA08-SCI-Basic Lab01-SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n10-M17\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n11-M24\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n12-M31\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers sprint\nCharacter-Buffers sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nDynamic-LCD\nDynamic-LCD",
-    "crumbs": [
-      "Embedded-Systems"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/index.html#calendar-2024-winter",
-    "href": "embedded-systems/index.html#calendar-2024-winter",
-    "title": "Embedded-Systems",
-    "section": "",
-    "text": "In-Class Assessments (ICA’s); 10 total; 30% of final mark; 3% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 60% of final mark; 20% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro Github-Repo Toolchain-Setup\nIntro Github-Repo Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow\nDemo1 Workflow Data-Types Bitwise-Ops\nDemo1 Workflow Data-Types Bitwise-Ops\n\n\n3-J20\nICA02-Code-Migrate\nDebugging Breakpoints\nDebugging Breakpoints\n\n\n4-J27\nICA03-Bitwise-Ops\nGPIO-LED\nGPIO-LED\n\n\n5-F03\nICA04-AD2-Measure\nMeasure Freq with AD2\nMeasure Freq with AD2\n\n\n6-F10\nICA05-SWL-Lib\nGPIO-LED-Switches SWL-Library\nGPIO-LED-Switches SWL-Library\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n8-M03\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\n9-M10\nICA08-SCI-Basic Lab01-SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n10-M17\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n11-M24\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n12-M31\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers sprint\nCharacter-Buffers sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nDynamic-LCD\nDynamic-LCD",
-    "crumbs": [
-      "Embedded-Systems"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/index.html#general-resources",
-    "href": "embedded-systems/index.html#general-resources",
-    "title": "Embedded-Systems",
-    "section": "General Resources",
-    "text": "General Resources\n\nCMPE1250 Winter of 2022 Lectures by Carlos Estay\n\nyoutube video playlist; 29 videos.\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
-    "crumbs": [
-      "Embedded-Systems"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic0/index.html",
-    "href": "embedded-systems/section1/topic0/index.html",
-    "title": "Join Github Classroom",
-    "section": "",
-    "text": "GitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Join Github Classroom"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic0/index.html#step-1-create-a-github-account",
-    "href": "embedded-systems/section1/topic0/index.html#step-1-create-a-github-account",
-    "title": "Join Github Classroom",
-    "section": "",
-    "text": "GitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Join Github Classroom"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic0/index.html#step-2-join-github-classroom-and-create-your-workbook-repo",
-    "href": "embedded-systems/section1/topic0/index.html#step-2-join-github-classroom-and-create-your-workbook-repo",
-    "title": "Join Github Classroom",
-    "section": "Step 2 Join Github Classroom and Create Your Workbook Repo",
-    "text": "Step 2 Join Github Classroom and Create Your Workbook Repo\n\nClick the link below for your class and follow the instructions. Look for your name and click on it to begin the process.\nLink to Github Classroom for CMPE1250-A02\nLink to Github Classroom for CMPE1250-A03",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Join Github Classroom"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic0/index.html#step-3-accept-invitation-to-join-a-github-team",
-    "href": "embedded-systems/section1/topic0/index.html#step-3-accept-invitation-to-join-a-github-team",
-    "title": "Join Github Classroom",
-    "section": "Step 3 Accept Invitation to Join a Github Team",
-    "text": "Step 3 Accept Invitation to Join a Github Team\n\nAn invitation should have been sent to you via an email. Accept the invitation, which will allow you read access to a InClassDemos submodule.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Join Github Classroom"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic0/index.html#step-4-clone-your-github-workbook-repo-to-a-local-machine",
-    "href": "embedded-systems/section1/topic0/index.html#step-4-clone-your-github-workbook-repo-to-a-local-machine",
-    "title": "Join Github Classroom",
-    "section": "Step 4 Clone your Github Workbook Repo to a local machine",
-    "text": "Step 4 Clone your Github Workbook Repo to a local machine\n\nSign into Github and click on your profile pic (top right) and then click on your organizations.\nIf you missed Step 3 you can still accept the invitation here.\nClick on the organization called CMPE1250 and you will see your workbook repo, click on it and from the green dropdown copy the url to the clip board.\nOpen a terminal and make the working folder the place that you want to clone the github workbook repo.\nType the following command to clone the github workbook repo to this local machine:\n\ngit clone url\n\nfor example\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git\n\nNow change directories to the root folder of the cloned repo using the cd command.\nFrom the root folder of the cloned repo run the following command to update the submodule where demos are provided:\n\n./update.cmd\n\nIn your workbook repo create a new folder just under the root level called demos.\nFrom the submodule InClassDemos copy the demo that you are interested in to the newly created demos folder in your workbook repo, then you can make changes to the demo and experiment, and save your work in the demos folder of your workbook repo. You cannot save work to the submodule as it is read only.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Join Github Classroom"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
-    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
-    "title": "VS Code Features and Extensions",
-    "section": "",
-    "text": "VS Code Shortcuts by Traversy Media runtime 17 min\nVS Code Keyboard Shortcuts\n  \"Ctrl + /\" gives a comment in whatever language you are editing in.\n\n  \"Ctrl + `\" brings up a new terminal.\n\n  Word Wrap \"on\" via settings. Just search \"word wrap\".\n\n  \"Alt\" to highlight multiple lines to operate on.\n\n  \"Alt + Shift\" and highlight the paragraph and it will multi highlight each line.\nLorem is part of VSCode. Lorem20 will give 20 random words in one sentence.\nEmmet Cheat Sheet\n\nEmmet is part of VSCode. Used when no content is in place.\n\"! + enter\" will give html5 template.\n\nSome Emmet concepts that use same syntax as CSS:\n\n    + is the sibling selector ex. nav+ul+li gives them as siblings.\n\n    &gt; is the child selector ex. nav&gt;ul&gt;&gt;li*6 gives them as children of the previous.\n\n    ^ is the move up action.\n\n    . class\n\n    # id\n\nUse \"Ctrl + Space\" to get Emmet back in play.\n\nCode faster with Custom VSCode Snippets by Brad Traversy runtime 21 min\nCode Snippets Generator for VSCode, Sublime, and Atom"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-out-of-the-box-features",
-    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-out-of-the-box-features",
-    "title": "VS Code Features and Extensions",
-    "section": "",
-    "text": "VS Code Shortcuts by Traversy Media runtime 17 min\nVS Code Keyboard Shortcuts\n  \"Ctrl + /\" gives a comment in whatever language you are editing in.\n\n  \"Ctrl + `\" brings up a new terminal.\n\n  Word Wrap \"on\" via settings. Just search \"word wrap\".\n\n  \"Alt\" to highlight multiple lines to operate on.\n\n  \"Alt + Shift\" and highlight the paragraph and it will multi highlight each line.\nLorem is part of VSCode. Lorem20 will give 20 random words in one sentence.\nEmmet Cheat Sheet\n\nEmmet is part of VSCode. Used when no content is in place.\n\"! + enter\" will give html5 template.\n\nSome Emmet concepts that use same syntax as CSS:\n\n    + is the sibling selector ex. nav+ul+li gives them as siblings.\n\n    &gt; is the child selector ex. nav&gt;ul&gt;&gt;li*6 gives them as children of the previous.\n\n    ^ is the move up action.\n\n    . class\n\n    # id\n\nUse \"Ctrl + Space\" to get Emmet back in play.\n\nCode faster with Custom VSCode Snippets by Brad Traversy runtime 21 min\nCode Snippets Generator for VSCode, Sublime, and Atom"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-extensions-to-download",
-    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-extensions-to-download",
-    "title": "VS Code Features and Extensions",
-    "section": "VS Code Extensions to Download",
-    "text": "VS Code Extensions to Download\nDownload from Extensions Market Place\n\nMarkdown All in One by Yu Zhang - preview .md files\nPDF Preview by Analytic Signal Limited\nMaterial Icon Theme by Philipp Kief - Icon Theme\nOne Dark Pro by binaryify - Color Theme\nPrettier-Code Formatter by Prettier\nhtmltagwrap by Brad Gashler (Alt + w) - to markup content that is already in place\nmultiple cursors\nAuto Rename Tag by Jun Han - to rename an HTML tag faster\nREST Client by Huachao Mao\nHTML Snippets\nHTML CSS Support\nJavaScript ES6 Snippets\nLive Server by Ritwick Dey - opens in the default browser\nLive Preview by Microsoft - opens in a tab in VSCode\nAuto Import by steotes\nDartJs Sass Compiler and Sass Watcher by CodeLios\nES 7 React/Redux/ GraphQL/React-Native snippets extension by dsznajder"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-and-extension-config-settings",
-    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-and-extension-config-settings",
-    "title": "VS Code Features and Extensions",
-    "section": "VS Code and Extension Config Settings",
-    "text": "VS Code and Extension Config Settings\n\nVS Code Files:\n\nAuto Save: afterdelay\nAuto Save Delay: 1000 ms\n\nVS Code Editor:\n\nFormat on Save: check\nFormat on Save Mode: file\n\nAuto Import configuration settings:\n\nGo to File/Preferences/Settings in VSCode\nIn the settings search type “auto import”\nIn the “Auto Import Configuration”\nchange the “Files to Scan” to {js, jsx, ts, tsx}"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic2/index.html",
-    "href": "embedded-systems/section1/topic2/index.html",
-    "title": "Test Drive System",
-    "section": "",
-    "text": "We will test drive our system with the file BoardTest.abs.s19\nBoardTest.abs.s19\n\nDownload this file, remember where you put it.\n\nWatch the following video again starting at 6:30 minute, where it shows how to create a new code warrior project from scratch. Then open code warrior and create a new project as shown in the video, the name of the project does not matter.\nInstall drivers and get CodeWarrior setup by Carlos Estay\nWhen you open CodeWarrior a Startup dialog box should appear, if not go to File/Start Dialog…\nFrom the Startup Dialog box click Create New Project.\nThen under Select the derivative to use choose HCS12XD Family/MC9S12XDP512\nAlso choose USBDM in the Connections box. Then click next.\nThen choose Single Core, and click next.\nThen make sure the C box is checked and all others not. You can change the name of the folder and place to store it on your machine but for now just leave the default. Click next.\nNo need to add existing files so click next.\nWe want None for Rapid Dev Options. Click next.\nChoose ANSI Startup Code, Small Memory Model, and IEEE32 for both float and double. Click next.\nFinally check NO to PC-lint. Click Finish.\nThen in CodeWarrior, start the Real-Time Debugger by clicking the slanted green arrow.\nClick on OK, once or twice until the program is downloaded to the micro board.\nSelect the USBDM HCS12 Menu bar tab.\nSelect Load ….\nChange Files of Type to Motorola S-Record .s?.\nLocate the file BoardTest.abs.s19, that is on your machine, then press Load Code. You will have to click OK again to download this code to the micro board.\nRun the software by clicking the green Start arrow to see if your board is working properly. You should see text on the LCD and the yellow 7-segment display should be counting fast in hex. Press any button to continue the test.\nClick the red Reset Target arrow to stop the program.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Environment Setup",
-      "Test Drive System"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html",
-    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html",
-    "title": "Git and Github with VS Code",
-    "section": "",
-    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#resources",
-    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#resources",
-    "title": "Git and Github with VS Code",
-    "section": "",
-    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
-    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
-    "title": "Git and Github with VS Code",
-    "section": "Setting GitHub Authentication for one GitHub User",
-    "text": "Setting GitHub Authentication for one GitHub User\nOpen a terminal and check to see that git and github cli are available.\ngit –-version\ngh –-version\nIf one is missing you have to download the msi and try again until a version shows.\nNow config git to always use the user name and email that you used to set up your github account. Note that you only have to do this once.\ngit config --global user.name \"John Doe\"\ngit config --global user.email johndoe@example.com\nNow to see that the config sticks.\ngit config -l\nThe -l means list all configs. Press the space bar to see each setting, and q to quit.\nIf you still get errors when trying to pull from or push to github, you will have to get into the Windows Credential Manager and delete the github references. A machine restart will be required."
-  },
-  {
-    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
-    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
-    "title": "Git and Github with VS Code",
-    "section": "Setting GitHub Authentication for more than one GitHub User",
-    "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
-  },
-  {
-    "objectID": "embedded-systems/section2/topic1/assets/a-resources.html",
-    "href": "embedded-systems/section2/topic1/assets/a-resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Resources\n\nmain.c template\nIntroduction to C Notes 7 pages PDF\nUsing C with the 9S12 17 pages PDF\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOld Note Package CP1503 178 pages PDF\nMC9S12XDP512RMV2 Data Sheet BIG PINK 1348 pages PDF\nFreescale Documentation WEBSITE\nDev Board Schematics 5 pages PDF\n\nhttps://www.youtube.com/watch?v=6BJ_XLAK3PQ&list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&index=2\nhttps://www.youtube.com/watch?v=jbNrwPYJGZE\nhttps://naitca-my.sharepoint.com/personal/kevinmo_nait_ca/_layouts/15/stream.aspx?uniqueId=958e065d%2D5f4c%2D55d2%2Dd801%2D1cfe894b8475&portal=%7B%22ha%22%3A%22classicstream%22%2C%22hm%22%3A%22view%22%7D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&scenario=2\nhttps://en.cppreference.com/w/c\nhttps://www.youtube.com/playlist?list=PLtPfFKnaEIMhBkhTIAGLfNPb6v0TRwFqm"
-  },
-  {
-    "objectID": "embedded-systems/section2/topic1/index.html",
-    "href": "embedded-systems/section2/topic1/index.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Odd Things about Code Warrior\nmain.c template\nIntroduction to C Notes 7 pages PDF\nUsing C with the 9S12 17 pages PDF\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOld Note Package CP1503 178 pages PDF\nMC9S12XDP512RMV2 Data Sheet BIG PINK 1348 pages PDF\nFreescale Documentation WEBSITE\nDev Board Schematics 5 pages PDF\nAnalog Discovery 2 Intro by Kevin Moore",
-    "crumbs": [
-      "Embedded-Systems",
-      "Intro to the Micro",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/index.html",
-    "href": "embedded-systems/section2/topic2/index.html",
-    "title": "ICA01 Program Flow",
-    "section": "",
-    "text": "Odd Things about Code Warrior\nICA01 Program Workflow",
-    "crumbs": [
-      "Embedded-Systems",
-      "Intro to the Micro",
-      "ICA01 Program Flow"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-create-a-new-code-warrior-project",
-    "href": "embedded-systems/section2/topic2/index.html#procedure-to-create-a-new-code-warrior-project",
-    "title": "ICA01 Program Flow",
-    "section": "Procedure to Create a New Code Warrior Project",
-    "text": "Procedure to Create a New Code Warrior Project\n\nWhen you open CodeWarrior a Startup dialog box should appear, if not go to File/Start Dialog…\nFrom the Startup Dialog box click Create New Project.\nThen under Select the derivative to use choose HCS12XD Family/MC9S12XDP512\nAlso choose USBDM in the Connections box. Then click next.\nThen choose Single Core, and click next.\nThen make sure the C box is checked and all others not.\nChange the name of the project to something that makes sense for example ICA01.\nChange the place to store the project to the ICAs folder in your workbook repo. Click next.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created.\n\nNo need to add existing files so click next.\nWe want None for Rapid Dev Options. Click next.\nChoose ANSI Startup Code, Small Memory Model, and IEEE32 for both float and double. Click next.\nFinally check NO to PC-lint. Click Finish.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Intro to the Micro",
-      "ICA01 Program Flow"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-download-a-project-to-code-warrior",
-    "href": "embedded-systems/section2/topic2/index.html#procedure-to-download-a-project-to-code-warrior",
-    "title": "ICA01 Program Flow",
-    "section": "Procedure to download a project to Code Warrior",
-    "text": "Procedure to download a project to Code Warrior\nNow that the project has been created and stored in your local workbook repo, open it in VSCode as we will want to change the main.c file in VSCode to reflect the problem we are solving.\n\nAfter you have changed main.c in VSCode make sure to save your changes, so we can then download the project to our micro board and run the program in main.c.\nFrom the project root folder that is in the ICAs folder, right click and via the context sensitive menu choose Open in File Explorer.\n\n\n\nThen double click on the file called PROJECTNAME.mcp. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be C:\\Program Files (x86)\\Freescale\\CWS12v5.1\\bin\\IDE.exe. You may have located the Code Warrior software somewhere else when you installed the software.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Intro to the Micro",
-      "ICA01 Program Flow"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-run-a-program-in-code-warrior",
-    "href": "embedded-systems/section2/topic2/index.html#procedure-to-run-a-program-in-code-warrior",
-    "title": "ICA01 Program Flow",
-    "section": "Procedure to run a program in Code Warrior",
-    "text": "Procedure to run a program in Code Warrior\nNow that the project is loaded into Code Warrior we can compile and run it in our micro board.\n\nIn CodeWarrior double click on the main.c file so you can see the program that you are about to run on the micro board.\nIn CodeWarrior, start the Real-Time Debugger by clicking the slanted green arrow. This will compile and load the program into the micro board.\nA USBDM Settings dialog box may come up, if so click on Open BDM to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often this does not work.\nClick on OK, once or twice until the program is downloaded to the micro board.\nRun the program by clicking the horizontal green Start arrow.\nClick the red T symbol to halt the program. After you do this you can single step thru the code, and/or continue by clicking the green start arrow again.\nClick the red Reset Target arrow to reset the board. Only do this when you are ready to close the debugger, which you would do by clicking the exit symbol at the top right of the window.\nAt this point you would go back to VSCode and edit main.c as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the main.c file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. There is another document in the future of this course that will show you how to set breakpoints etc. to properly debug your program.\nYou would do this cycle of editing in VSCode, saving in VSCode, switching to CodeWarrior, and debugging the program, until you are satisfied that your program solves the problem at hand.\n\nVERY IMPORTANT - You must close out of CodeWarriors debug window and the main CodeWarrior window before committing and pushing your solution to github.\n\nFinally you would commit your changes on the local machine and push to github.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Intro to the Micro",
-      "ICA01 Program Flow"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section2/topic3/index.html",
-    "href": "embedded-systems/section2/topic3/index.html",
-    "title": "ICA02 Code Migration",
-    "section": "",
-    "text": "ICA02 Code Migration from C# to C Specs\n\n\n\nC# Program.cs for ICA02 to download\nUse the same procedure outlined for ICA01 to create a new project in the ICAs folder of your local workbook repo, but name it ICA02.\nIn VSCode change the main.c file of this new project to solve the problem outlined in the specs document.\nThe intention of this ICA02 is to convert the Program.cs C# program into a C program that will run on the micro board.",
-    "crumbs": [
-      "Embedded-Systems",
-      "Intro to the Micro",
-      "ICA02 Code Migration"
-    ]
-  },
-  {
-    "objectID": "embedded-systems/section3/topic2/index.html",
-    "href": "embedded-systems/section3/topic2/index.html",
-    "title": "ICA04 Freq Measurements",
-    "section": "",
-    "text": "Switch LED Port Notes\nICA04 Frequency Measurements with AD2 Specs\nICA04 Math\nIntroduction to Analog Discovery 2 by Kevin Moore\nBasic Freq Measurement with the AD2 by Simon Walker",
-    "crumbs": [
-      "Embedded-Systems",
-      "GPIO",
-      "ICA04 Freq Measurements"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Robbin Law",
-    "section": "",
-    "text": "This website contains a collection of resources on various subjects. This websites content has been edited by myself but much of it was originally authored by others. We stand on the shoulders of giants! I acknowledge original authors per resource. Enjoy"
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Robbin Law",
-    "section": "",
-    "text": "This website contains a collection of resources on various subjects. This websites content has been edited by myself but much of it was originally authored by others. We stand on the shoulders of giants! I acknowledge original authors per resource. Enjoy"
   },
   {
     "objectID": "semiconductors/section1/topic1/index.html",
@@ -573,20 +117,514 @@
     ]
   },
   {
-    "objectID": "semiconductors/section1/topic3/index.html",
-    "href": "semiconductors/section1/topic3/index.html",
-    "title": "Filtering & Regulation",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Robbin Law",
     "section": "",
-    "text": "Filtering and Fixed Linear Regulation Lesson Solutions Excel Spread Sheet\nPage 1 Filtering by Ross Taylor\nPage 2 Zener Regulation by Ross Taylor\nPage 3 Fixed Linear Regulation by Ross Taylor\nAdjustable Linear Regulation Lesson Solutions Excel Spread Sheet\nPage 4 Adjustable Linear Regulation by Ross Taylor",
+    "text": "This website contains a collection of resources on various subjects. This websites content has been edited by myself but much of it was originally authored by others. We stand on the shoulders of giants! I acknowledge original authors per resource. Enjoy"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Robbin Law",
+    "section": "",
+    "text": "This website contains a collection of resources on various subjects. This websites content has been edited by myself but much of it was originally authored by others. We stand on the shoulders of giants! I acknowledge original authors per resource. Enjoy"
+  },
+  {
+    "objectID": "embedded-systems/section3/topic2/index.html",
+    "href": "embedded-systems/section3/topic2/index.html",
+    "title": "ICA04 Freq Measurements",
+    "section": "",
+    "text": "Switch LED Port Notes\nICA04 Frequency Measurements with AD2 Specs\nICA04 Math\nIntroduction to Analog Discovery 2 by Kevin Moore\nBasic Freq Measurement with the AD2 by Simon Walker",
     "crumbs": [
-      "Semiconductors",
-      "Diodes",
-      "Filtering & Regulation"
+      "Embedded-Systems",
+      "GPIO",
+      "ICA04 Freq Measurements"
     ]
   },
   {
-    "objectID": "semiconductors/section2/topic2/index.html",
-    "href": "semiconductors/section2/topic2/index.html",
+    "objectID": "embedded-systems/section2/topic3/index.html",
+    "href": "embedded-systems/section2/topic3/index.html",
+    "title": "ICA02 Code Migration",
+    "section": "",
+    "text": "ICA02 Code Migration from C# to C Specs\n\n\n\nC# Program.cs for ICA02 to download\nUse the same procedure outlined for ICA01 to create a new project in the ICAs folder of your local workbook repo, but name it ICA02.\nIn VSCode change the main.c file of this new project to solve the problem outlined in the specs document.\nThe intention of this ICA02 is to convert the Program.cs C# program into a C program that will run on the micro board.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA02 Code Migration"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/index.html",
+    "href": "embedded-systems/section2/topic2/index.html",
+    "title": "ICA01 Program Flow",
+    "section": "",
+    "text": "Odd Things about Code Warrior\nICA01 Program Workflow",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-create-a-new-code-warrior-project",
+    "href": "embedded-systems/section2/topic2/index.html#procedure-to-create-a-new-code-warrior-project",
+    "title": "ICA01 Program Flow",
+    "section": "Procedure to Create a New Code Warrior Project",
+    "text": "Procedure to Create a New Code Warrior Project\n\nWhen you open CodeWarrior a Startup dialog box should appear, if not go to File/Start Dialog…\nFrom the Startup Dialog box click Create New Project.\nThen under Select the derivative to use choose HCS12XD Family/MC9S12XDP512\nAlso choose USBDM in the Connections box. Then click next.\nThen choose Single Core, and click next.\nThen make sure the C box is checked and all others not.\nChange the name of the project to something that makes sense for example ICA01.\nChange the place to store the project to the ICAs folder in your workbook repo. Click next.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created.\n\nNo need to add existing files so click next.\nWe want None for Rapid Dev Options. Click next.\nChoose ANSI Startup Code, Small Memory Model, and IEEE32 for both float and double. Click next.\nFinally check NO to PC-lint. Click Finish.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-download-a-project-to-code-warrior",
+    "href": "embedded-systems/section2/topic2/index.html#procedure-to-download-a-project-to-code-warrior",
+    "title": "ICA01 Program Flow",
+    "section": "Procedure to download a project to Code Warrior",
+    "text": "Procedure to download a project to Code Warrior\nNow that the project has been created and stored in your local workbook repo, open it in VSCode as we will want to change the main.c file in VSCode to reflect the problem we are solving.\n\nAfter you have changed main.c in VSCode make sure to save your changes, so we can then download the project to our micro board and run the program in main.c.\nFrom the project root folder that is in the ICAs folder, right click and via the context sensitive menu choose Open in File Explorer.\n\n\n\nThen double click on the file called PROJECTNAME.mcp. This will load the whole project into the Code Warrior IDE. You may have to search for where the IDE is on your machine. By default that location will be C:\\Program Files (x86)\\Freescale\\CWS12v5.1\\bin\\IDE.exe. You may have located the Code Warrior software somewhere else when you installed the software.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/index.html#procedure-to-run-a-program-in-code-warrior",
+    "href": "embedded-systems/section2/topic2/index.html#procedure-to-run-a-program-in-code-warrior",
+    "title": "ICA01 Program Flow",
+    "section": "Procedure to run a program in Code Warrior",
+    "text": "Procedure to run a program in Code Warrior\nNow that the project is loaded into Code Warrior we can compile and run it in our micro board.\n\nIn CodeWarrior double click on the main.c file so you can see the program that you are about to run on the micro board.\nIn CodeWarrior, start the Real-Time Debugger by clicking the slanted green arrow. This will compile and load the program into the micro board.\nA USBDM Settings dialog box may come up, if so click on Open BDM to connect to the micro board via the USBDM module. You have the option to not show the dialog box in the future, but often this does not work.\nClick on OK, once or twice until the program is downloaded to the micro board.\nRun the program by clicking the horizontal green Start arrow.\nClick the red T symbol to halt the program. After you do this you can single step thru the code, and/or continue by clicking the green start arrow again.\nClick the red Reset Target arrow to reset the board. Only do this when you are ready to close the debugger, which you would do by clicking the exit symbol at the top right of the window.\nAt this point you would go back to VSCode and edit main.c as needed, save your work, and then go back to CodeWarrior. When you do this, CodeWarrior should realize that the main.c file has been changed and ask to update, upon which you would. Then you could run the program in the debugger again. There is another document in the future of this course that will show you how to set breakpoints etc. to properly debug your program.\nYou would do this cycle of editing in VSCode, saving in VSCode, switching to CodeWarrior, and debugging the program, until you are satisfied that your program solves the problem at hand.\n\nVERY IMPORTANT - You must close out of CodeWarriors debug window and the main CodeWarrior window before committing and pushing your solution to github.\n\nFinally you would commit your changes on the local machine and push to github.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "ICA01 Program Flow"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic1/index.html",
+    "href": "embedded-systems/section2/topic1/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Odd Things about Code Warrior\nmain.c template\nIntroduction to C Notes 7 pages PDF\nUsing C with the 9S12 17 pages PDF\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOld Note Package CP1503 178 pages PDF\nMC9S12XDP512RMV2 Data Sheet BIG PINK 1348 pages PDF\nFreescale Documentation WEBSITE\nDev Board Schematics 5 pages PDF\nAnalog Discovery 2 Intro by Kevin Moore",
+    "crumbs": [
+      "Embedded-Systems",
+      "Intro to the Micro",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic1/assets/a-resources.html",
+    "href": "embedded-systems/section2/topic1/assets/a-resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Resources\n\nmain.c template\nIntroduction to C Notes 7 pages PDF\nUsing C with the 9S12 17 pages PDF\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOld Note Package CP1503 178 pages PDF\nMC9S12XDP512RMV2 Data Sheet BIG PINK 1348 pages PDF\nFreescale Documentation WEBSITE\nDev Board Schematics 5 pages PDF\n\nhttps://www.youtube.com/watch?v=6BJ_XLAK3PQ&list=PLtPfFKnaEIMj5lHarN9wmaAMJDxcYGMpB&index=2\nhttps://www.youtube.com/watch?v=jbNrwPYJGZE\nhttps://naitca-my.sharepoint.com/personal/kevinmo_nait_ca/_layouts/15/stream.aspx?uniqueId=958e065d%2D5f4c%2D55d2%2Dd801%2D1cfe894b8475&portal=%7B%22ha%22%3A%22classicstream%22%2C%22hm%22%3A%22view%22%7D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&scenario=2\nhttps://en.cppreference.com/w/c\nhttps://www.youtube.com/playlist?list=PLtPfFKnaEIMhBkhTIAGLfNPb6v0TRwFqm"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html",
+    "title": "Git and Github with VS Code",
+    "section": "",
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#resources",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#resources",
+    "title": "Git and Github with VS Code",
+    "section": "",
+    "text": "first time git setup\ngit integration with VSCode\ngit credential manager with multiple users"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for one GitHub User",
+    "text": "Setting GitHub Authentication for one GitHub User\nOpen a terminal and check to see that git and github cli are available.\ngit –-version\ngh –-version\nIf one is missing you have to download the msi and try again until a version shows.\nNow config git to always use the user name and email that you used to set up your github account. Note that you only have to do this once.\ngit config --global user.name \"John Doe\"\ngit config --global user.email johndoe@example.com\nNow to see that the config sticks.\ngit config -l\nThe -l means list all configs. Press the space bar to see each setting, and q to quit.\nIf you still get errors when trying to pull from or push to github, you will have to get into the Windows Credential Manager and delete the github references. A machine restart will be required."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "href": "embedded-systems/section1/topic3/assets/git-github-with-VSCode.html#setting-github-authentication-for-more-than-one-github-user",
+    "title": "Git and Github with VS Code",
+    "section": "Setting GitHub Authentication for more than one GitHub User",
+    "text": "Setting GitHub Authentication for more than one GitHub User\nIf you have more than one user registered at github you must do the following to allow you to authenticate and use different accounts. Do not do the previous username and email config settings or else you will always authenticate to only that one github user account.\ngit config --global  credential.usehttppath true\nNote that with this now every time you touch github you will be asked to authenticate."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic2/index.html",
+    "href": "embedded-systems/section1/topic2/index.html",
+    "title": "Test Drive System",
+    "section": "",
+    "text": "We will test drive our system with the file BoardTest.abs.s19\nBoardTest.abs.s19\n\nDownload this file, remember where you put it.\n\nWatch the following video again starting at 6:30 minute, where it shows how to create a new code warrior project from scratch. Then open code warrior and create a new project as shown in the video, the name of the project does not matter.\nInstall drivers and get CodeWarrior setup by Carlos Estay\nWhen you open CodeWarrior a Startup dialog box should appear, if not go to File/Start Dialog…\nFrom the Startup Dialog box click Create New Project.\nThen under Select the derivative to use choose HCS12XD Family/MC9S12XDP512\nAlso choose USBDM in the Connections box. Then click next.\nThen choose Single Core, and click next.\nThen make sure the C box is checked and all others not. You can change the name of the folder and place to store it on your machine but for now just leave the default. Click next.\nNo need to add existing files so click next.\nWe want None for Rapid Dev Options. Click next.\nChoose ANSI Startup Code, Small Memory Model, and IEEE32 for both float and double. Click next.\nFinally check NO to PC-lint. Click Finish.\nThen in CodeWarrior, start the Real-Time Debugger by clicking the slanted green arrow.\nClick on OK, once or twice until the program is downloaded to the micro board.\nSelect the USBDM HCS12 Menu bar tab.\nSelect Load ….\nChange Files of Type to Motorola S-Record .s?.\nLocate the file BoardTest.abs.s19, that is on your machine, then press Load Code. You will have to click OK again to download this code to the micro board.\nRun the software by clicking the green Start arrow to see if your board is working properly. You should see text on the LCD and the yellow 7-segment display should be counting fast in hex. Press any button to continue the test.\nClick the red Reset Target arrow to stop the program.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Test Drive System"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html",
+    "title": "VS Code Features and Extensions",
+    "section": "",
+    "text": "VS Code Shortcuts by Traversy Media runtime 17 min\nVS Code Keyboard Shortcuts\n  \"Ctrl + /\" gives a comment in whatever language you are editing in.\n\n  \"Ctrl + `\" brings up a new terminal.\n\n  Word Wrap \"on\" via settings. Just search \"word wrap\".\n\n  \"Alt\" to highlight multiple lines to operate on.\n\n  \"Alt + Shift\" and highlight the paragraph and it will multi highlight each line.\nLorem is part of VSCode. Lorem20 will give 20 random words in one sentence.\nEmmet Cheat Sheet\n\nEmmet is part of VSCode. Used when no content is in place.\n\"! + enter\" will give html5 template.\n\nSome Emmet concepts that use same syntax as CSS:\n\n    + is the sibling selector ex. nav+ul+li gives them as siblings.\n\n    &gt; is the child selector ex. nav&gt;ul&gt;&gt;li*6 gives them as children of the previous.\n\n    ^ is the move up action.\n\n    . class\n\n    # id\n\nUse \"Ctrl + Space\" to get Emmet back in play.\n\nCode faster with Custom VSCode Snippets by Brad Traversy runtime 21 min\nCode Snippets Generator for VSCode, Sublime, and Atom"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-out-of-the-box-features",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-out-of-the-box-features",
+    "title": "VS Code Features and Extensions",
+    "section": "",
+    "text": "VS Code Shortcuts by Traversy Media runtime 17 min\nVS Code Keyboard Shortcuts\n  \"Ctrl + /\" gives a comment in whatever language you are editing in.\n\n  \"Ctrl + `\" brings up a new terminal.\n\n  Word Wrap \"on\" via settings. Just search \"word wrap\".\n\n  \"Alt\" to highlight multiple lines to operate on.\n\n  \"Alt + Shift\" and highlight the paragraph and it will multi highlight each line.\nLorem is part of VSCode. Lorem20 will give 20 random words in one sentence.\nEmmet Cheat Sheet\n\nEmmet is part of VSCode. Used when no content is in place.\n\"! + enter\" will give html5 template.\n\nSome Emmet concepts that use same syntax as CSS:\n\n    + is the sibling selector ex. nav+ul+li gives them as siblings.\n\n    &gt; is the child selector ex. nav&gt;ul&gt;&gt;li*6 gives them as children of the previous.\n\n    ^ is the move up action.\n\n    . class\n\n    # id\n\nUse \"Ctrl + Space\" to get Emmet back in play.\n\nCode faster with Custom VSCode Snippets by Brad Traversy runtime 21 min\nCode Snippets Generator for VSCode, Sublime, and Atom"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-extensions-to-download",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-extensions-to-download",
+    "title": "VS Code Features and Extensions",
+    "section": "VS Code Extensions to Download",
+    "text": "VS Code Extensions to Download\nDownload from Extensions Market Place\n\nMarkdown All in One by Yu Zhang - preview .md files\nPDF Preview by Analytic Signal Limited\nMaterial Icon Theme by Philipp Kief - Icon Theme\nOne Dark Pro by binaryify - Color Theme\nPrettier-Code Formatter by Prettier\nhtmltagwrap by Brad Gashler (Alt + w) - to markup content that is already in place\nmultiple cursors\nAuto Rename Tag by Jun Han - to rename an HTML tag faster\nREST Client by Huachao Mao\nHTML Snippets\nHTML CSS Support\nJavaScript ES6 Snippets\nLive Server by Ritwick Dey - opens in the default browser\nLive Preview by Microsoft - opens in a tab in VSCode\nAuto Import by steotes\nDartJs Sass Compiler and Sass Watcher by CodeLios\nES 7 React/Redux/ GraphQL/React-Native snippets extension by dsznajder"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-and-extension-config-settings",
+    "href": "embedded-systems/section1/topic1/assets/vscode-features-extensions.html#vs-code-and-extension-config-settings",
+    "title": "VS Code Features and Extensions",
+    "section": "VS Code and Extension Config Settings",
+    "text": "VS Code and Extension Config Settings\n\nVS Code Files:\n\nAuto Save: afterdelay\nAuto Save Delay: 1000 ms\n\nVS Code Editor:\n\nFormat on Save: check\nFormat on Save Mode: file\n\nAuto Import configuration settings:\n\nGo to File/Preferences/Settings in VSCode\nIn the settings search type “auto import”\nIn the “Auto Import Configuration”\nchange the “Files to Scan” to {js, jsx, ts, tsx}"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html",
+    "href": "embedded-systems/section1/topic0/index.html",
+    "title": "Join Github Classroom",
+    "section": "",
+    "text": "GitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-1-create-a-github-account",
+    "href": "embedded-systems/section1/topic0/index.html#step-1-create-a-github-account",
+    "title": "Join Github Classroom",
+    "section": "",
+    "text": "GitHub Website\nGo to GitHub and create an account. Choose an appropriate username that has your first and last name in it. Remember the username that you create the account with as well as the email that you use. You will need this information to complete the setup.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-2-join-github-classroom-and-create-your-workbook-repo",
+    "href": "embedded-systems/section1/topic0/index.html#step-2-join-github-classroom-and-create-your-workbook-repo",
+    "title": "Join Github Classroom",
+    "section": "Step 2 Join Github Classroom and Create Your Workbook Repo",
+    "text": "Step 2 Join Github Classroom and Create Your Workbook Repo\n\nClick the link below for your class and follow the instructions. Look for your name and click on it to begin the process.\nLink to Github Classroom for CMPE1250-A02\nLink to Github Classroom for CMPE1250-A03",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-3-accept-invitation-to-join-a-github-team",
+    "href": "embedded-systems/section1/topic0/index.html#step-3-accept-invitation-to-join-a-github-team",
+    "title": "Join Github Classroom",
+    "section": "Step 3 Accept Invitation to Join a Github Team",
+    "text": "Step 3 Accept Invitation to Join a Github Team\n\nAn invitation should have been sent to you via an email. Accept the invitation, which will allow you read access to a InClassDemos submodule.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic0/index.html#step-4-clone-your-github-workbook-repo-to-a-local-machine",
+    "href": "embedded-systems/section1/topic0/index.html#step-4-clone-your-github-workbook-repo-to-a-local-machine",
+    "title": "Join Github Classroom",
+    "section": "Step 4 Clone your Github Workbook Repo to a local machine",
+    "text": "Step 4 Clone your Github Workbook Repo to a local machine\n\nSign into Github and click on your profile pic (top right) and then click on your organizations.\nIf you missed Step 3 you can still accept the invitation here.\nClick on the organization called CMPE1250 and you will see your workbook repo, click on it and from the green dropdown copy the url to the clip board.\nOpen a terminal and make the working folder the place that you want to clone the github workbook repo.\nType the following command to clone the github workbook repo to this local machine:\n\ngit clone url\n\nfor example\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git\n\nNow change directories to the root folder of the cloned repo using the cd command.\nFrom the root folder of the cloned repo run the following command to update the submodule where demos are provided:\n\n./update.cmd\n\nIn your workbook repo create a new folder just under the root level called demos.\nFrom the submodule InClassDemos copy the demo that you are interested in to the newly created demos folder in your workbook repo, then you can make changes to the demo and experiment, and save your work in the demos folder of your workbook repo. You cannot save work to the submodule as it is read only.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Join Github Classroom"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/index.html",
+    "href": "embedded-systems/index.html",
+    "title": "Embedded-Systems",
+    "section": "",
+    "text": "In-Class Assessments (ICA’s); 10 total; 30% of final mark; 3% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 60% of final mark; 20% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro Github-Repo Toolchain-Setup\nIntro Github-Repo Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow\nDemo1 Workflow Data-Types Bitwise-Ops\nDemo1 Workflow Data-Types Bitwise-Ops\n\n\n3-J20\nICA02-Code-Migrate\nDebugging Breakpoints\nDebugging Breakpoints\n\n\n4-J27\nICA03-Bitwise-Ops\nGPIO-LED\nGPIO-LED\n\n\n5-F03\nICA04-AD2-Measure\nMeasure Freq with AD2\nMeasure Freq with AD2\n\n\n6-F10\nICA05-SWL-Lib\nGPIO-LED-Switches SWL-Library\nGPIO-LED-Switches SWL-Library\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n8-M03\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\n9-M10\nICA08-SCI-Basic Lab01-SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n10-M17\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n11-M24\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n12-M31\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers sprint\nCharacter-Buffers sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nDynamic-LCD\nDynamic-LCD",
+    "crumbs": [
+      "Embedded-Systems"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/index.html#calendar-2024-winter",
+    "href": "embedded-systems/index.html#calendar-2024-winter",
+    "title": "Embedded-Systems",
+    "section": "",
+    "text": "In-Class Assessments (ICA’s); 10 total; 30% of final mark; 3% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 60% of final mark; 20% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro Github-Repo Toolchain-Setup\nIntro Github-Repo Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow\nDemo1 Workflow Data-Types Bitwise-Ops\nDemo1 Workflow Data-Types Bitwise-Ops\n\n\n3-J20\nICA02-Code-Migrate\nDebugging Breakpoints\nDebugging Breakpoints\n\n\n4-J27\nICA03-Bitwise-Ops\nGPIO-LED\nGPIO-LED\n\n\n5-F03\nICA04-AD2-Measure\nMeasure Freq with AD2\nMeasure Freq with AD2\n\n\n6-F10\nICA05-SWL-Lib\nGPIO-LED-Switches SWL-Library\nGPIO-LED-Switches SWL-Library\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n8-M03\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\n9-M10\nICA08-SCI-Basic Lab01-SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n10-M17\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n11-M24\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n12-M31\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers sprint\nCharacter-Buffers sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nDynamic-LCD\nDynamic-LCD",
+    "crumbs": [
+      "Embedded-Systems"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/index.html#general-resources",
+    "href": "embedded-systems/index.html#general-resources",
+    "title": "Embedded-Systems",
+    "section": "General Resources",
+    "text": "General Resources\n\nCMPE1250 Winter of 2022 Lectures by Carlos Estay\n\nyoutube video playlist; 29 videos.\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
+    "crumbs": [
+      "Embedded-Systems"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
+    "href": "embedded-systems/section1/topic1/assets/tool-chain-software/readme.html",
+    "title": "Home",
+    "section": "",
+    "text": "The software files are too big for github. They must be downloaded via Brightspace or a usb."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/index.html",
+    "href": "embedded-systems/section1/topic1/index.html",
+    "title": "Tool Chain Software Setup",
+    "section": "",
+    "text": "Install drivers and get CodeWarrior setup by Carlos Estay\n\nYoutube video; first in a playlist of 4.\nWatch this first.\n\nUsing VS Code as an Editor by Simon Walker\n\nRead this pdf document second.\n\nTool chain tips by Simon Walker\n\nYoutube video.\nWatch this third.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Tool Chain Software Setup"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/index.html#go-thru-these-resources-before-downloading-and-installing-software",
+    "href": "embedded-systems/section1/topic1/index.html#go-thru-these-resources-before-downloading-and-installing-software",
+    "title": "Tool Chain Software Setup",
+    "section": "",
+    "text": "Install drivers and get CodeWarrior setup by Carlos Estay\n\nYoutube video; first in a playlist of 4.\nWatch this first.\n\nUsing VS Code as an Editor by Simon Walker\n\nRead this pdf document second.\n\nTool chain tips by Simon Walker\n\nYoutube video.\nWatch this third.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Tool Chain Software Setup"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic1/index.html#software-to-download-and-install",
+    "href": "embedded-systems/section1/topic1/index.html#software-to-download-and-install",
+    "title": "Tool Chain Software Setup",
+    "section": "Software to Download and Install",
+    "text": "Software to Download and Install\n\nDownload and Install CodeWarrior Software and USBDM Drivers\nUnfortunately Github cannot store files as large as the software files we need to download. They must be retrieved from Brightspace or a usb from your instructor.\n\nStep 1\n\nDownload the USBDM drivers file and unzip.\n\n\n\nStep 2\n\nRun the file called USBDM_Drivers_4_12_1_Win_x64 to install the first driver.\n\n\n\nStep 3\n\nDownload and install CodeWarrior5.1 Special Edition.\nDo not store it in C:\\Program Files (x86), put it in another folder on the C:\\ drive that has NO spaces in the folder name.\nThe very last step in the install asks if you want to update, we DO NOT want to update, so just cancel that.\n\n\n\nStep 4\n\nRun the file called USBDM_4_12_1_262_Win only after CodeWarrior is installed.\n\n\n\n\nDownload and Install Git\n\nGit Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that git is available from any directory.\nOpen a PowerShell or CMD terminal. In the shell run git -–version to make sure that git is installed and accessible from this directory. Note that it is two minus bars before version. If a version number is not returned, the path must be set so that git is available from any directory. To set the path, in the search area at the bottom of the windows task bar type env and select Edit Environment Variables for your Account. Then edit the PATH and add new C:\\Program Files\\Git\\cmd. You could add this to the system environments alternatively. Now you can run the git command from a terminal anywhere.\n\n\n\nDownload and Install GitHub CLI\n\nGitHub CLI Website\nDownload the latest version. Allow all the defaults on download. The path should be updated automatically, so that gh is available from any directory.\n\n\n\nDownload and Install Visual Studio Code\n\nVisual Studio Code Website\nDownload Visual Studio Code if you do not already have it on your machine.",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "Tool Chain Software Setup"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html",
+    "title": "Git on the Command Line",
+    "section": "",
+    "text": "git docs"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#resources",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#resources",
+    "title": "Git on the Command Line",
+    "section": "",
+    "text": "git docs"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#basic-git-commands",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#basic-git-commands",
+    "title": "Git on the Command Line",
+    "section": "Basic Git Commands",
+    "text": "Basic Git Commands\nWe can use the git version control application directly from the command line. Here are some useful commands to get started.\n\ngit init - This command will create a git repository in the current folder on your machine.\n\nThe best way to create a repo is to do it on github via a browser. Once this is done you can clone the repo to your machine. Make your working folder where you want the repo stored and run the following command.\n\ngit clone UrlOfRepoOnGithub.\n\nYou will have had to copy the url of the github repo to the clipboard. Then use the following command to clone. This url is just an example. You would copy the clipboard to the command line.\n\ngit clone https://github.com/RobbinLawComputerEngineering/Semiconductors-Public.git.\n\nOnce your github repo is cloned down to your machine you can start adding folders and files to the repo, and changing what is already in the repo.\nWhen you make an addition or change to a file, always SAVE it, then use the following command to see that git knows there has been a change.\n\ngit status - This will give you the current status of your local git repository.\n\nAt this point the changed files names will be red.\nThe next thing is that you have to stage your changes.\n\ngit add . - Use this command to “stage” all of your current changes so that they are ready to be committed.\ngit status will show that the changed files are staged by turning the file names green from red.\n\nNow you are ready to commit the recent changes.\n\ngit commit -m \"Your Message\" - This command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a commit history for our repository. The message is NOT optional.\n\nFinally you will want to update your github repo with the changes made on you machines local repo. You can have many commits to one push.\n\ngit push - This command will take whatever commits you have on your computer and push them to the remote repository on GitHub.com.\n\nIf you are working with others and someone changes the github repo, you will have to pull to get those changes on your machine.\n\ngit pull - Use this command to grab any changes from your remote repository (e.g.: GitHub.com) and pull them down onto your local repository (the one on your computer). The pull command is a combination of git fetch and git merge commands.\n\nAnother great command to see what is going on.\n\ngit log - This will give you the history of your git repository\n\nThere are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control."
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/assets/git-gh-commands.html#remote-repositories",
+    "href": "embedded-systems/section1/topic3/assets/git-gh-commands.html#remote-repositories",
+    "title": "Git on the Command Line",
+    "section": "Remote Repositories",
+    "text": "Remote Repositories\nYou can use the GitHub CLI to create a remote repository on GitHub.com.\ngh repo create my-first-repository\nThe command above is interactive, so just follow the prompts.\nYou can push your code to GitHub.com by typing the following:\ngit push -u origin main\nNote that the -u means set upstream. After that, you will only need to type git push to push any local changes to the remote repository.\nYou can pull your code from GitHub.com by typing the following:\ngit pull upstream main\nAfter that, you will only need to type git pull to pull any remote changes to the local repository.\nHere’s some other helpful commands with regard to the remote repository connections for your local repository.\n\ngit remote -v - View all the remote repositories\ngit remote remove [remoteName] - Remove a remote entry\ngit remote add [remoteName] [URL-to-Repository] - Add a remote repository"
+  },
+  {
+    "objectID": "embedded-systems/section1/topic3/index.html",
+    "href": "embedded-systems/section1/topic3/index.html",
+    "title": "ICA0 Git and Github Basics",
+    "section": "",
+    "text": "ICA0\ngit and gh shell command overview by Robbin Law\ngit branching and merging basics by github\ngit and github with VSCode by Robbin Law",
+    "crumbs": [
+      "Embedded-Systems",
+      "Environment Setup",
+      "ICA0 Git and Github Basics"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html",
+    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project.\n\n\n\n\nCodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code.\n\n\n\n\nThe IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
+    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
+    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "CodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
+    "href": "embedded-systems/section2/topic1/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "The IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project.\n\n\n\n\nCodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code.\n\n\n\n\nThe IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#creating-new-projects-using-wizard",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "Use the project wizard provided with the IDE to quickly create new projects. The wizard creates everything needed for a minimal, ready-to-run project. Use the created project as a foundation upon which to add features for each new project.\nChoose File &gt; New Project.\n\nThe New Project Wizard opens.\nEnter a project name in the Project Name field and set the Location for the new project."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#opening-projects-created-on-other-hosts",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "CodeWarrior projects whose names end in .mcp are cross-platform. However, the object code stored inside each project folder is not cross-platform. Use these procedures to properly open the project on a different host computer.\n\nCopy the project folder from the original host to the new host.\nDelete the Data folder inside the newly copied project folder.\nOpen the newly copied project on the new host IDE.\nRecompile the project to generate new object code."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
+    "href": "embedded-systems/section2/topic2/assets/Odd-Things-about-CodeWarrior.html#saving-projects",
+    "title": "Odd Things about the CodeWarrior IDE",
+    "section": "",
+    "text": "The IDE automatically saves projects and updates project information after performing these actions:\n\nClosing the project.\nApplying or saving a preference or target-setting option\nAdding, deleting, or compiling a file.\nEditing group information.\nRemoving or compacting object code.\nQuitting the IDE.\n\nRemember This - The only way to tell where the project is to be stored is when creating the project. You cannot save as the project as a whole via the IDE anywhere else after it has been created."
+  },
+  {
+    "objectID": "embedded-systems/section2/topic3/assets/Program.html",
+    "href": "embedded-systems/section2/topic3/assets/Program.html",
+    "title": "Home",
+    "section": "",
+    "text": "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;\nnamespace MigrateCode {\nclass Program { #region IGNORE_ME // ignore this block of code, it is here to simulate items // included in the derivative file of the micro // do not attempt to migrate this code to C (ignore the entire #region) static byte PT1AD1 = 0xFF; static byte DDR1AD1 = 0x00; // end ignore this block #endregion\n    //Global variables\n    static UInt16 uiMainLoopCount = 0;\n\n    static void Main(string[] args)\n    {\n        //One Time initialization\n        PT1AD1 &= 0x1F;\n        DDR1AD1 = 0xE0;            \n\n        //Infinite Loop\n        while (true)\n        {\n            ++uiMainLoopCount;\n            RED(uiMainLoopCount &lt; 0x1000);\n            GREEN(uiMainLoopCount &gt;= 0x1000);\n        }\n    }\n\n\n    //Functions\n    static void RED (bool bOn)\n    {\n        if (bOn)\n            PT1AD1 |= (byte)(((UInt32)1 &lt;&lt; (7)));\n        else\n        {\n            PT1AD1 &= 0x7F;\n        }\n\n    }\n\n    static void GREEN(bool bOn)\n    {\n        if (bOn)\n        {\n            PT1AD1 |= 0x20;\n        }\n        else\n        {\n            PT1AD1 &= 0b11011111;\n        }\n                        \n    }\n}\n}"
+  },
+  {
+    "objectID": "embedded-systems/section3/topic1/index.html",
+    "href": "embedded-systems/section3/topic1/index.html",
+    "title": "ICA03 Bitwise Ops",
+    "section": "",
+    "text": "Switch LED Port Notes\nICA03 Bitwise Operations Specs\nICA03 Bitwise Operations Template.c",
+    "crumbs": [
+      "Embedded-Systems",
+      "GPIO",
+      "ICA03 Bitwise Ops"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section3/topic3/index.html",
+    "href": "embedded-systems/section3/topic3/index.html",
+    "title": "ICA05 sw_led Library",
+    "section": "",
+    "text": "Switch LED Port Notes\nICA05 Specs\nICA05 Part 1 Demo\nICA05 Part 2 Demo\nICA05 Part 3 Demo\nCompilation Unit Basics by Simon Walker\nsw_led.h",
+    "crumbs": [
+      "Embedded-Systems",
+      "GPIO",
+      "ICA05 sw_led Library"
+    ]
+  },
+  {
+    "objectID": "semiconductors/index.html",
+    "href": "semiconductors/index.html",
+    "title": "Semiconductors",
+    "section": "",
+    "text": "Projects (P); 8 total; 64% of final mark; 8% each.\nAll Projects are due on Sunday of the week at 11:59 PM.\nLabs (L); 9 total; 18% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nExams (E); 3 total; 18% of final mark; 6% each.\nAll Exams are done during class time.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\nDay3 (1 hr)\n\n\n\n\n1-J06\nL1-Diodes\n\nIntro/Diode-Physics\nDiode-Models\n\n\n2-J13\nL2-Rectifiers\nRectifiers\nRectifiers\nRectifiers\n\n\n3-J20\nL3-Filtering/Reg\nFiltering/Regulation\nFiltering/Regulation\nFiltering/Regulation\n\n\n4-J27\nL4-BJT-Switch/Bias P1-Power-Supply\nBJT-Intro\nBJT-Switching\nBJT-Biasing\n\n\n5-F03\nP2-TPole/HBridge\nBJT-Totem-Pole\nBJT-H-Bridge\nExam1-Diode-Apps\n\n\n6-F10\nL5-FET-Switching\nFET-Intro\nFET-Switching\nFET-Switching\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nL6-OpAmps P3-Transistors\nOpAmps-Intro\nOpAmps-Configs\nOpAmps-Diff-Amps\n\n\n8-M03\nP4-Summing-Amps\nSumming-Amps\nSumming-Amps\nExam2-Transistor-Apps\n\n\n9-M10\nP5-Instrument-Amps\nInstrument-Amps\nInstrument-Amps\nInstrument-Amps\n\n\n10-M17\nL7-DAC P7-Adv-Filters/DAC DAC part only\nDig-Analog-Con\nDig-Analog-Con\nDig-Analog-Con\n\n\n11-M24\nP6-Issues/Basic-Filters\nOpAmp-Issues\nBasic-Filters\nBasic-Filters\n\n\n12-M31\nP7-Adv-Filters/DAC Adv-Filters part only\nAdv-Filters\nAdv-Filters\nAdv-Filters\n\n\n13-A07\nL8-Comparators\nComparators\nComparators\nExam3-OpAmp-Apps\n\n\n14-A14\nL9-ADC\nADC\nADC\nEASTER\n\n\n15-A21\nP8-Comparators-ADC\nEASTER\nP8\nP8",
+    "crumbs": [
+      "Semiconductors"
+    ]
+  },
+  {
+    "objectID": "semiconductors/index.html#calendar-2024-winter",
+    "href": "semiconductors/index.html#calendar-2024-winter",
+    "title": "Semiconductors",
+    "section": "",
+    "text": "Projects (P); 8 total; 64% of final mark; 8% each.\nAll Projects are due on Sunday of the week at 11:59 PM.\nLabs (L); 9 total; 18% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nExams (E); 3 total; 18% of final mark; 6% each.\nAll Exams are done during class time.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\nDay3 (1 hr)\n\n\n\n\n1-J06\nL1-Diodes\n\nIntro/Diode-Physics\nDiode-Models\n\n\n2-J13\nL2-Rectifiers\nRectifiers\nRectifiers\nRectifiers\n\n\n3-J20\nL3-Filtering/Reg\nFiltering/Regulation\nFiltering/Regulation\nFiltering/Regulation\n\n\n4-J27\nL4-BJT-Switch/Bias P1-Power-Supply\nBJT-Intro\nBJT-Switching\nBJT-Biasing\n\n\n5-F03\nP2-TPole/HBridge\nBJT-Totem-Pole\nBJT-H-Bridge\nExam1-Diode-Apps\n\n\n6-F10\nL5-FET-Switching\nFET-Intro\nFET-Switching\nFET-Switching\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nL6-OpAmps P3-Transistors\nOpAmps-Intro\nOpAmps-Configs\nOpAmps-Diff-Amps\n\n\n8-M03\nP4-Summing-Amps\nSumming-Amps\nSumming-Amps\nExam2-Transistor-Apps\n\n\n9-M10\nP5-Instrument-Amps\nInstrument-Amps\nInstrument-Amps\nInstrument-Amps\n\n\n10-M17\nL7-DAC P7-Adv-Filters/DAC DAC part only\nDig-Analog-Con\nDig-Analog-Con\nDig-Analog-Con\n\n\n11-M24\nP6-Issues/Basic-Filters\nOpAmp-Issues\nBasic-Filters\nBasic-Filters\n\n\n12-M31\nP7-Adv-Filters/DAC Adv-Filters part only\nAdv-Filters\nAdv-Filters\nAdv-Filters\n\n\n13-A07\nL8-Comparators\nComparators\nComparators\nExam3-OpAmp-Apps\n\n\n14-A14\nL9-ADC\nADC\nADC\nEASTER\n\n\n15-A21\nP8-Comparators-ADC\nEASTER\nP8\nP8",
+    "crumbs": [
+      "Semiconductors"
+    ]
+  },
+  {
+    "objectID": "semiconductors/index.html#general-resources",
+    "href": "semiconductors/index.html#general-resources",
+    "title": "Semiconductors",
+    "section": "General Resources",
+    "text": "General Resources\n\nCMPE1400 Lessons, Projects, Labs, and SA’s with NO ANSWERS by Ross Taylor\nCMPE1400 Formula Sheet\nSemiconductors by Circuit Bread\n\nyoutube video playlist; first 12 are on diodes, next 9 are on transistors.\n\nTransistors, How do they work by Lesics\n\nyoutube video 6.52 min\n\nWhy it was almost impossible to make the blue LED by Veritasum\n\nyoutube video 33.44 min; very good history lesson with great animations.",
+    "crumbs": [
+      "Semiconductors"
+    ]
+  },
+  {
+    "objectID": "semiconductors/section1/topic2/index.html",
+    "href": "semiconductors/section1/topic2/index.html",
+    "title": "Rectifiers",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 General by Ross Taylor\nPage 2 Half Wave by Ross Taylor\nPage 3 Full Wave Center Tapped by Ross Taylor\nPage 4 Full Wave Bridge by Ross Taylor\nPage 5 Full Wave Bridge Negative by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Diodes",
+      "Rectifiers"
+    ]
+  },
+  {
+    "objectID": "semiconductors/section2/topic1/index.html",
+    "href": "semiconductors/section2/topic1/index.html",
+    "title": "BJTs",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 BJT Theory by Ross Taylor\nPage 2 BJT Models by Ross Taylor\nPage 3 BJT Switch Circuits by Ross Taylor\nPage 4 Amplifier Biasing Circuits by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Transistors",
+      "BJTs"
+    ]
+  },
+  {
+    "objectID": "semiconductors/section2/topic1/index.html#bipolar-junction-transistors-bjts",
+    "href": "semiconductors/section2/topic1/index.html#bipolar-junction-transistors-bjts",
+    "title": "BJTs",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 BJT Theory by Ross Taylor\nPage 2 BJT Models by Ross Taylor\nPage 3 BJT Switch Circuits by Ross Taylor\nPage 4 Amplifier Biasing Circuits by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Transistors",
+      "BJTs"
+    ]
+  },
+  {
+    "objectID": "semiconductors/section2/topic3/index.html",
+    "href": "semiconductors/section2/topic3/index.html",
+    "title": "Topic3",
+    "section": "",
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
+  },
+  {
+    "objectID": "semiconductors/section3/topic2/index.html",
+    "href": "semiconductors/section3/topic2/index.html",
     "title": "Topic2",
     "section": "",
     "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"

@@ -1,15 +1,19 @@
 ---
-title: "Topic1"
+title: "BJTs"
 ---
 
-- [Lesson Solutions Excel Spread Sheet](assets){download=""}
+## Bipolar Junction Transistors (BJTs)
 
-- [Page 1 by Ross Taylor](assets){target="_blank"}
+### This group of notes will give the theory needed for Lab4
 
-- [Page 2 by Ross Taylor](assets){target="_blank"}
+- [Lesson Solutions Excel Spread Sheet](assets/a-BJT.xlsx){download=""}
 
-- [Page 3 by Ross Taylor](assets){target="_blank"}
+- [Page 1 BJT Theory by Ross Taylor](assets/c-Page1-BJT-Theory.pdf){target="_blank"}
 
-- [Page 4 by Ross Taylor](assets){target="_blank"}
+- [Page 2 BJT Models by Ross Taylor](assets/c-Page2-BJT-Models.pdf){target="_blank"}
+
+- [Page 3 BJT Switch Circuits by Ross Taylor](assets/ea-BJT-Switch-Circuits.pdf){target="_blank"}
+
+- [Page 4 Amplifier Biasing Circuits by Ross Taylor](assets/g-BJT-Amplifier-Biasing-Circuits.pdf){target="_blank"}
 
 
