@@ -4,6 +4,8 @@ title: "ICA05 sw_led Library"
 
 - [Switch LED Port Notes](assets/Switch-LED-Port-Notes.pdf){target="_blank"}
 
+- [Switch States Diagram](assets/Switch-States.png){target="_blank"}
+
 - [ICA05 Specs](assets/ICA05/CMPE1250_LEDandSwitchLibR1_2.pdf){target="_blank"}
 
 - [ICA05 Part 1 Demo](assets/ICA05/ICA05_T1.mp4){target="_blank"}
