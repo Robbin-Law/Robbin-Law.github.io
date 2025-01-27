@@ -1,29 +1,22 @@
 ---
-title: "Resources"
+title: "C Resources"
 ---
-
-- [Odd Things about Code Warrior](assets/Odd-Things-about-CodeWarrior.md){target="_blank"}
 
 - [main.c template](assets/template-main.c){target="_blank"}
 
+- [Using C with the 9S12 17 pages PDF](assets/Using-C-with-the-9S12.pdf){target="_blank"}
+
 - [Introduction to C Notes 7 pages PDF](assets/Intro-C-Notes.pdf){target="_blank"}
 
-- [Using C with the 9S12 17 pages PDF](assets/Using-C-with-the-9S12.pdf){target="_blank"}
+- [Pointers 8 pages PDF](assets/pointers_general.pdf){target="_blank"}
+
+- [Pointers Summary 2 pages PDF](assets/PointersSummary.pdf){target="_blank"}
 
 - [C for C# Programmers 11 pages PDF](assets/C-for-Csharp-Programmers.pdf){target="_blank"}
 
 - [C language reference by cppreference.com WEBSITE](https://en.cppreference.com/w/c){target="_blank"}
 
-- [Old Note Package CP1503 178 pages PDF](assets/Old-Note-Package-CP1503.pdf){target="_blank"}
-
-- [MC9S12XDP512RMV2 Data Sheet BIG PINK 1348 pages PDF](assets/MC9S12XDP512RMV2BIGPINK.pdf){target="_blank"}
-
-- [Freescale Documentation WEBSITE](https://www.nxp.com/products/processors-and-microcontrollers/additional-mpu-mcus-architectures/16-bit-s12-and-s12x-mcus/s12xd-automotive-and-industrial-microcontrollers-mcus:S12XD){target="_blank"}
-
-- [Dev Board Schematics 5 pages PDF](assets/BoardSchematics2020.pdf){target="_blank"}
-
-
-- [Analog Discovery 2 Intro by Kevin Moore](https://naitca-my.sharepoint.com/personal/kevinmo_nait_ca/_layouts/15/stream.aspx?uniqueId=958e065d%2D5f4c%2D55d2%2Dd801%2D1cfe894b8475&portal=%7B%22ha%22%3A%22classicstream%22%2C%22hm%22%3A%22view%22%7D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&scenario=2){target="_blank"}
+- [Odd Things about Code Warrior](assets/Odd-Things-about-CodeWarrior.md){target="_blank"}
 
 
 

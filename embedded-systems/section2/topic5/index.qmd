@@ -1,0 +1,15 @@
+---
+title: "ICA02 Code Migration"
+---
+
+- [ICA02 Code Migration from C# to C Specs](assets/CMPE1250_ICA02_1231.pdf){target="_blank"}
+
+<!-- - [C# Program.cs for ICA02 as a markdown file](assets/Program.md){target="_blank"} -->
+
+- [C# Program.cs for ICA02 to download](assets/Program.cs){target="_blank"}
+
+- Use the same procedure outlined for ICA01 to create a new project in the `ICAs` folder of your local workbook repo, but name it ICA02. 
+
+- In VSCode change the `main.c` file of this new project to solve the problem outlined in the specs document.
+
+- The intention of this ICA02 is to convert the `Program.cs` C# program into a C program that will run on the micro board.

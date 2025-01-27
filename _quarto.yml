@@ -49,7 +49,9 @@ website:
           contents:
             - embedded-systems/section2/topic1/index.qmd
             - embedded-systems/section2/topic2/index.qmd
-            - embedded-systems/section2/topic3/index.qmd           
+            - embedded-systems/section2/topic3/index.qmd
+            - embedded-systems/section2/topic4/index.qmd
+            - embedded-systems/section2/topic5/index.qmd           
         - section: "GPIO"
           contents:
             - embedded-systems/section3/topic1/index.qmd
