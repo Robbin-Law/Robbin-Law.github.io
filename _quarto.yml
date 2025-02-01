@@ -57,7 +57,19 @@ website:
             - embedded-systems/section3/topic0/index.qmd
             - embedded-systems/section3/topic1/index.qmd
             - embedded-systems/section3/topic2/index.qmd
-            - embedded-systems/section3/topic3/index.qmd           
+            - embedded-systems/section3/topic3/index.qmd
+        - section: "PLL"
+          contents:
+            - embedded-systems/section4/topic1/index.qmd
+            - embedded-systems/section4/topic2/index.qmd
+            - embedded-systems/section4/topic3/index.qmd
+        - section: "RTI"
+          contents:
+            - embedded-systems/section5/topic1/index.qmd
+            - embedded-systems/section5/topic2/index.qmd
+            - embedded-systems/section5/topic3/index.qmd 
+                  
+                  
         
 format:
   html:

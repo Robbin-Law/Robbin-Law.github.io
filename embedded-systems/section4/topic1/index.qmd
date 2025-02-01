@@ -1,0 +1,10 @@
+---
+title: "PLL Resources"
+---
+
+- [Clock System Notes](assets/ClockSystem.pdf){target="_blank"}
+
+- [Phase Locked Loop Discussion](assets/CMPE1250_PLL_Discussion.pdf){target="_blank"}
+
+
+
