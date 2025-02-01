@@ -19,6 +19,7 @@ website:
   sidebar:
     - title: "Semiconductors"
       style: "docked"
+      collapse-level: 1
       background: light
       contents:
         - semiconductors/index.qmd
