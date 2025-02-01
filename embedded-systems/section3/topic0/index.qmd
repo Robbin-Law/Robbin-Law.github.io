@@ -1,0 +1,21 @@
+---
+title: "Bitwise Resources"
+---
+
+- [Bitwise Operators by TheFabytm Youtube 9min](https://www.youtube.com/watch?v=7LhsxYNAXvw&t=4s){target="_blank"}
+
+- [Bitwise Operators by SM Training Academy Youtube 10 min](https://www.youtube.com/watch?v=s4E-JvgWccc&t=1s){target="_blank"}
+
+
+- [Bitwise Operators by ElectronicsHub Website](https://www.electronicshub.org/bitwise-operators-in-microcontroller-programming/){target="_blank"}
+
+- [Bitwise Operators by UTAT Website](https://utat-ss.readthedocs.io/en/master/c-programming/bitwise-operators.html){target="_blank"}
+
+- [Bitwise Operators by InterviewKickStart Website](https://interviewkickstart.com/blogs/interview-questions/bit-manipulation){target="_blank"}
+
+- [Bitwise Operations 1 pdf](assets/Bitwise-R1.pdf){target="_blank"}
+
+- [Bitwise Operations 2 pdf](assets/Bitwise-R2.pdf){target="_blank"}
+
+
+
