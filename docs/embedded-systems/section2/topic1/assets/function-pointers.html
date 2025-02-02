@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ICA04 Freq Measurements – Home</title>
+<title>function-pointers – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../embedded-systems/section3/topic3/index.html" rel="next">
-<link href="../../../embedded-systems/section3/topic1/index.html" rel="prev">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-741491795e2b8297c661fe89d2da0c58.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-741491795e2b8297c661fe89d2da0c58.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,19 +102,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="ICA04 Freq Measurements – Home">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="Home">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Home">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Home</span>
     </a>
   </div>
@@ -93,11 +126,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../semiconductors/index.html"> 
+    <a class="nav-link" href="../../../../semiconductors/index.html"> 
 <span class="menu-text">Semiconductors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../../embedded-systems/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../../embedded-systems/index.html"> 
 <span class="menu-text">Embedded-Systems</span></a>
   </li>  
 </ul>
@@ -106,237 +139,74 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section3/topic0/index.html">GPIO</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section3/topic2/index.html">ICA04 Freq Measurements</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Embedded-Systems</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">Environment Setup</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section1/topic0/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Join Github Classroom</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section1/topic1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tool Chain Software Setup</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section1/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Test Drive System</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section1/topic3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA0 Git and Github Basics</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Intro to the Micro</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section2/topic1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">C Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section2/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Micro Board Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section2/topic3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sheets</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section2/topic4/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA01 Program Flow</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section2/topic5/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA02 Code Migration</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">GPIO</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section3/topic0/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bitwise Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section3/topic1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA03 Bitwise Ops</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section3/topic2/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">ICA04 Freq Measurements</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section3/topic3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA05 sw_led Library</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">PLL</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section4/topic1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PLL Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section4/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA06 Clock</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section4/topic3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
- <span class="menu-text">RTI</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section5/topic1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Interrupts &amp; RTI</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section5/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA07 RTI</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section5/topic3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#function-pointers" id="toc-function-pointers" class="nav-link active" data-scroll-target="#function-pointers">Function Pointers</a>
+  <ul class="collapse">
+  <li><a href="#understanding-the-void-type" id="toc-understanding-the-void-type" class="nav-link" data-scroll-target="#understanding-the-void-type">Understanding the void* type</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section3/topic0/index.html">GPIO</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section3/topic2/index.html">ICA04 Freq Measurements</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">ICA04 Freq Measurements</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<section id="function-pointers" class="level1">
+<h1>Function Pointers</h1>
+<p>Function pointer declaration examples:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> <span class="op">(*</span>pFunction<span class="op">)(</span><span class="dt">void</span><span class="op">)</span> <span class="op">-</span> Pointer to a function that takes no parameters and does not <span class="cf">return</span> anything </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> <span class="op">(*</span>pFunction<span class="op">)(</span><span class="dt">int</span><span class="op">)</span> <span class="op">-</span> Pointer to a function that takes one <span class="dt">int</span> parameter and does not <span class="cf">return</span> anything </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> <span class="op">(*</span>pFunction<span class="op">)()</span> <span class="op">-</span> Pointer to a function that takes any parameter and does not <span class="cf">return</span> anything </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">(*</span>pFunction<span class="op">)(</span><span class="dt">void</span><span class="op">)</span> <span class="op">-</span> Pointer to a function that takes no parameters and returns an <span class="dt">int</span> </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">(*</span>pFunction<span class="op">)(</span><span class="dt">int</span><span class="op">)</span> <span class="op">-</span> Pointer to a function that takes one <span class="dt">int</span> parameter and returns an <span class="dt">int</span> </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="op">(*</span>pFunction<span class="op">)()</span> <span class="op">-</span> Pointer to a function that takes any parameter and returns an <span class="dt">int</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="understanding-the-void-type" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-void-type">Understanding the void* type</h2>
+<p>There are times when the type of a pointer is not known. This occurs primarily in C library functions.</p>
+<p>For this reason, the void* pointer type represents a generic, as yet unspecified pointer – in other words, a pointer whose type is not known at declaration. Any pointer type can be assigned to a pointer variable of the void* type. However, before that pointer variable can be accessed, the type of the data being accessed must be specified through the use of a casting operation:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// we don't yet know what it points to.</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span><span class="op">*</span> aPtr <span class="op">=</span> NULL<span class="op">;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">// it has the address of height, but no type yet.</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>aPtr <span class="op">=</span> <span class="op">&amp;</span>height<span class="op">;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// with casting, we can now go to that</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">// address and fetch an integer value.     </span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> h <span class="op">=</span> <span class="op">*(</span><span class="dt">int</span><span class="op">*)</span>aPtr<span class="op">;</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In the first statement of the preceding code block, we can see how aPtr is declared as a pointer, but we don’t yet know its type or what it points to. In the next statement, aPtr is given the address of height, but we still don’t know the type of the object that aPtr points to. You might think that the type could be inferred from the named variable, but C is not that smart, in other words, the compiler does not keep that kind of information about variables around for use at runtime. In the last statement, there is quite a bit going on. First, we must cast void* aPtr to int* aPtr. Having done that, we can then get the target of the integer pointer by dereferencing the properly typed pointer to get the value of height, which is the correct number of bytes for int. Casting tells the compiler exactly how many bytes to fetch and exactly how to interpret those bytes.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">(</span> <span class="dt">void</span><span class="op">)</span>  <span class="op">{</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> height <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">void</span><span class="op">*</span> aPtr <span class="op">=</span> NULL<span class="op">;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  aPtr <span class="op">=</span> <span class="op">&amp;</span>height<span class="op">;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">int</span> h <span class="op">=</span> <span class="op">*(</span><span class="dt">int</span><span class="op">*)</span>aPtr<span class="op">;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span> <span class="st">"             height = [</span><span class="sc">%d</span><span class="st">]</span><span class="sc">\n</span><span class="st">"</span> <span class="op">,</span> height <span class="op">);</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span> <span class="st">"        *(int*)aPtr = [</span><span class="sc">%d</span><span class="st">]</span><span class="sc">\n</span><span class="st">"</span> <span class="op">,</span> <span class="op">*(</span><span class="dt">int</span><span class="op">*)</span>aPtr <span class="op">);</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span> <span class="st">"                  h = [</span><span class="sc">%d</span><span class="st">]</span><span class="sc">\n</span><span class="st">"</span> <span class="op">,</span> h <span class="op">);</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span> <span class="st">"   sizeof( height ) = </span><span class="sc">%lu\n</span><span class="st">"</span> <span class="op">,</span> <span class="kw">sizeof</span><span class="op">(</span> height <span class="op">)</span> <span class="op">);</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span> <span class="st">"sizeof(*(int*)aPtr) = </span><span class="sc">%lu\n</span><span class="st">"</span> <span class="op">,</span> <span class="kw">sizeof</span><span class="op">(</span> <span class="op">*(</span><span class="dt">int</span><span class="op">*)</span>aPtr <span class="op">)</span> <span class="op">);</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="op">*(</span><span class="dt">int</span><span class="op">*)</span>aPtr <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span> <span class="st">"        *(int*)aPtr = [</span><span class="sc">%d</span><span class="st">]</span><span class="sc">\n</span><span class="st">"</span> <span class="op">,</span> <span class="op">*(</span><span class="dt">int</span><span class="op">*)</span>aPtr <span class="op">);</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  printf<span class="op">(</span> <span class="st">"             height = [</span><span class="sc">%d</span><span class="st">]</span><span class="sc">\n\n</span><span class="st">"</span> <span class="op">,</span> height <span class="op">);</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
-</header>
-
-
-<ul>
-<li><p><a href="assets/Switch-LED-Port-Notes.pdf" target="_blank">Switch LED Port Notes</a></p></li>
-<li><p><a href="assets/ICA04/CMPE1250_ICA04_1231_GPIO_LEDS.pdf" target="_blank">ICA04 Frequency Measurements with AD2 Specs</a></p></li>
-<li><p><a href="assets/ICA04/ICA04-Math.pdf" target="_blank">ICA04 Math</a></p></li>
-<li><p><a href="https://naitca-my.sharepoint.com/personal/kevinmo_nait_ca/_layouts/15/stream.aspx?UniqueId=958e065d%2D5f4c%2D55d2%2Dd801%2D1cfe894b8475&amp;Translate=false&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview%2E9c842449%2Daea5%2D4a8e%2Db1a6%2Dea261afd379e" target="_blank">Introduction to Analog Discovery 2 by Kevin Moore</a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=N5jVD07FVYU" target="_blank">Basic Freq Measurement with the AD2 by Simon Walker</a></p></li>
-</ul>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -756,18 +626,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../../embedded-systems/section3/topic1/index.html" class="pagination-link" aria-label="ICA03 Bitwise Ops">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ICA03 Bitwise Ops</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../../embedded-systems/section3/topic3/index.html" class="pagination-link" aria-label="ICA05 sw_led Library">
-        <span class="nav-page-text">ICA05 sw_led Library</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RTI Resources – Home</title>
+<title>Interrupts &amp; RTI – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="RTI Resources – Home">
+<meta property="og:title" content="Interrupts &amp; RTI – Home">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">RTI</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">RTI Resources</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">RTI</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">Interrupts &amp; RTI</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -281,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../embedded-systems/section5/topic1/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">RTI Resources</span></a>
+ <span class="menu-text">Interrupts &amp; RTI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -303,15 +303,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#intro-to-interrupts-document-summary" id="toc-intro-to-interrupts-document-summary" class="nav-link active" data-scroll-target="#intro-to-interrupts-document-summary">Intro to Interrupts Document Summary</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">RTI</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">RTI Resources</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">RTI</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section5/topic1/index.html">Interrupts &amp; RTI</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">RTI Resources</h1>
+<h1 class="title">Interrupts &amp; RTI</h1>
 </div>
 
 
@@ -329,11 +335,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 <ul>
-<li><p><a href="assets/InterruptsIntroNotes.pdf" target="_blank">Intro to Interrupts Notes</a></p></li>
-<li><p><a href="assets/RTI_Notes.pdf" target="_blank">More Interrupt Notes</a></p></li>
+<li><a href="assets/InterruptsIntroNotes.pdf" target="_blank">Intro to Interrupts Notes pdf 2pgs</a></li>
+</ul>
+<section id="intro-to-interrupts-document-summary" class="level3">
+<h3 class="anchored" data-anchor-id="intro-to-interrupts-document-summary">Intro to Interrupts Document Summary</h3>
+<ul>
+<li><p>Interrupt Vector Table: The MC9S12XDP512 uses an interrupt vector table to store the addresses of interrupt service routines (ISRs). Each interrupt source has a specific vector address in this table. Interrupt Priority: Interrupts are prioritized based on their vector number. Lower vector numbers have higher priority, meaning they are serviced before higher-numbered vectors.</p></li>
+<li><p>Global Interrupt Masking: The microcontroller can globally enable or disable interrupts using the EnableInterrupts and DisableInterrupts macros. This is managed by setting or clearing the I bit in the Condition Code Register (CCR).</p></li>
+<li><p>Non-Maskable Interrupts: Certain critical interrupts, known as non-maskable interrupts, cannot be disabled and must always be serviced. Local Interrupt Masking: Individual interrupts can be enabled or disabled by setting or clearing specific bits in their corresponding control registers. For example, enabling the interrupt for PIT1 involves setting BIT1 in the relevant register.</p></li>
+<li><p>Interrupt Handling Process: When an interrupt occurs, the MCU saves the current program counter (PC) and status registers, executes the ISR, and then restores the saved PC and status registers to resume normal program execution.</p></li>
+<li><p><a href="assets/RTI_Notes.pdf" target="_blank">RTI Notes pdf 3pgs</a></p></li>
+<li><p><a href="assets/rti.pdf" target="_blank">RTI Notes by Carlos Estays pdf 2pgs</a></p></li>
+<li><p><a href="assets/rti.h" target="_blank">rti.h</a></p></li>
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

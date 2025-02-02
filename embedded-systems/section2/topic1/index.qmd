@@ -12,6 +12,10 @@ title: "C Resources"
 
 - [Pointers Summary 2 pages PDF](assets/PointersSummary.pdf){target="_blank"}
 
+- [Function Pointers](assets/function-pointers.md){target="_blank"}
+
+- [Function Pointers Website](https://www.geeksforgeeks.org/function-pointer-in-c/){target="_blank"}
+
 - [C for C# Programmers 11 pages PDF](assets/C-for-Csharp-Programmers.pdf){target="_blank"}
 
 - [C language reference by cppreference.com WEBSITE](https://en.cppreference.com/w/c){target="_blank"}
