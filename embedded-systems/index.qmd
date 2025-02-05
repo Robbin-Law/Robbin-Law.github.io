@@ -2,7 +2,7 @@
 title: "Embedded-Systems"
 ---
 
-## Calendar 2024 Winter
+## Calendar 2025 Winter
 
 - In-Class Assessments (ICA's); 10 total; 30% of final mark; 3% each.
 - All In-Class Assessments (ICA's) are due on Sunday of the week at 11:59 PM.

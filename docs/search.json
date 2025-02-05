@@ -84,8 +84,8 @@
     ]
   },
   {
-    "objectID": "semiconductors/index.html#calendar-2024-winter",
-    "href": "semiconductors/index.html#calendar-2024-winter",
+    "objectID": "semiconductors/index.html#calendar-2025-winter",
+    "href": "semiconductors/index.html#calendar-2025-winter",
     "title": "Semiconductors",
     "section": "",
     "text": "Projects (P); 8 total; 64% of final mark; 8% each.\nAll Projects are due on Sunday of the week at 11:59 PM.\nLabs (L); 9 total; 18% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nExams (E); 3 total; 18% of final mark; 6% each.\nAll Exams are done during class time.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\nDay3 (1 hr)\n\n\n\n\n1-J06\nL1-Diodes\n\nIntro/Diode-Physics\nDiode-Models\n\n\n2-J13\nL2-Rectifiers\nRectifiers\nRectifiers\nRectifiers\n\n\n3-J20\nL3-Filtering/Reg\nFiltering/Regulation\nFiltering/Regulation\nFiltering/Regulation\n\n\n4-J27\nP1-Power-Supply\nBJT-Intro\nBJT-Switching\nBJT-Biasing\n\n\n5-F03\nL4-BJT-Switch/Bias P2-TPole/HBridge\nBJT-Totem-Pole\nBJT-H-Bridge\nBJT-H-Bridge\n\n\n6-F10\nL5-FET-Switching\nFET-Intro\nFET-Switching\nExam1-Diode-Apps\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nL6-OpAmps P3-Transistors\nOpAmps-Intro\nOpAmps-Configs\nOpAmps-Diff-Amps\n\n\n8-M03\nP4-Summing-Amps\nSumming-Amps\nSumming-Amps\nExam2-Transistor-Apps\n\n\n9-M10\nP5-Instrument-Amps\nInstrument-Amps\nInstrument-Amps\nInstrument-Amps\n\n\n10-M17\nL7-DAC P7-Adv-Filters/DAC DAC part only\nDig-Analog-Con\nDig-Analog-Con\nDig-Analog-Con\n\n\n11-M24\nP6-Issues/Basic-Filters\nOpAmp-Issues\nBasic-Filters\nBasic-Filters\n\n\n12-M31\nP7-Adv-Filters/DAC Adv-Filters part only\nAdv-Filters\nAdv-Filters\nAdv-Filters\n\n\n13-A07\nL8-Comparators\nComparators\nComparators\nExam3-OpAmp-Apps\n\n\n14-A14\nL9-ADC\nADC\nADC\nEASTER\n\n\n15-A21\nP8-Comparators-ADC\nEASTER\nP8\nP8",
@@ -369,8 +369,8 @@
     ]
   },
   {
-    "objectID": "embedded-systems/index.html#calendar-2024-winter",
-    "href": "embedded-systems/index.html#calendar-2024-winter",
+    "objectID": "embedded-systems/index.html#calendar-2025-winter",
+    "href": "embedded-systems/index.html#calendar-2025-winter",
     "title": "Embedded-Systems",
     "section": "",
     "text": "In-Class Assessments (ICA’s); 10 total; 30% of final mark; 3% each.\nAll In-Class Assessments (ICA’s) are due on Sunday of the week at 11:59 PM.\nLabs; 5 total; 10% of final mark; 2% each.\nAll Labs are due on Sunday of the week at 11:59 PM.\nPractical Assessments (PA’s); 3 total; 60% of final mark; 20% each.\nAll Practical Assessments (PA’s) are done during class time.\nAll Assessments are to be uploaded (pushed) to your github workbook repo.\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDay1 (2 hrs)\nDay2 (2 hrs)\n\n\n\n\n1-J06\n\nIntro Github-Repo Toolchain-Setup\nIntro Github-Repo Toolchain-Setup\n\n\n2-J13\nICA01-Prog-Workflow\nDemo1 Workflow Data-Types Bitwise-Ops\nDemo1 Workflow Data-Types Bitwise-Ops\n\n\n3-J20\nICA02-Code-Migrate\nDebugging Breakpoints\nDebugging Breakpoints\n\n\n4-J27\nICA03-Bitwise-Ops\nGPIO-LED\nGPIO-LED\n\n\n5-F03\nICA04-AD2-Measure\nMeasure Freq with AD2\nMeasure Freq with AD2\n\n\n6-F10\nICA05-SWL-Lib\nGPIO-LED-Switches SWL-Library\nGPIO-LED-Switches SWL-Library\n\n\nF17\n\nREADING-WEEK\nREADING-WEEK\n\n\n7-F24\nICA06-PLL PA01\nPhased-Locked-Loop(PLL)\nPLL\n\n\n8-M03\nICA07-RTI\nReal-Time-Interupt(RTI)\nRTI\n\n\n9-M10\nICA08-SCI-Basic Lab01-SCI\nSerial-Com-Interface(SCI)\nSCI\n\n\n10-M17\nICA09-Segs-Basic\n7-Segment-Display\n7-Segs-Display\n\n\n11-M24\nLab02-16-bit-Segs\n16-bit-Segs\n16-bit-Segs\n\n\n12-M31\nLab03-Dec-Entry PA02\nDecimal-Entry-Conversion\nDecimal-Entry-Conversion\n\n\n13-A07\nICA12-LCD\nLiquid-Crystal-Display(LCD)\nLCD\n\n\n14-A14\nLab04-Sec-LCD-Functions\nCharacter-Buffers sprint\nCharacter-Buffers sprint\n\n\n15-A21\nLab05-Dynamic-LCD PA03\nDynamic-LCD\nDynamic-LCD",
