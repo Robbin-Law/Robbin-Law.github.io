@@ -2,7 +2,7 @@
 title: "ICA0 Git and Github Basics"
 ---
 
-- [ICA0](assets/ICA0.pdf){target="_blank"}
+- [ICA0](assets/2025-01-01-ICA0.pdf){target="_blank"}
 
 - [git and gh shell command overview by Robbin Law](assets/git-gh-commands.md){target="_blank"}
 

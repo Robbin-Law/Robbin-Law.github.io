@@ -4,9 +4,9 @@ title: "ICA03 Bitwise Ops"
 
 - [Switch LED Port Notes](assets/Switch-LED-Port-Notes.pdf){target="_blank"}
 
-- [ICA03 Bitwise Operations Specs](assets/ICA03/ICA3-1.pdf){target="_blank"}
+- [ICA03 Bitwise Operations Specs](assets/ICA03/2025-01-01-ICA3.pdf){target="_blank"}
 
-- [ICA03 Bitwise Operations Template.c](assets/ICA03/ICA3_Template.c){target="_blank"}
+- [ICA03 Bitwise Operations Template.c](assets/ICA03/2025-01-01-ICA3-Template.c){target="_blank"}
 
 
 

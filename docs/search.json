@@ -622,7 +622,7 @@
     "href": "embedded-systems/section3/topic2/index.html",
     "title": "ICA04 Freq Measurements",
     "section": "",
-    "text": "Switch LED Port Notes\nICA04 Frequency Measurements with AD2 Specs\nICA04 Math\nIntroduction to Analog Discovery 2 by Kevin Moore\nBasic Freq Measurement with the AD2 by Simon Walker",
+    "text": "Switch LED Port Notes\nICA04 Frequency Measurements with AD2 Specs 2024-Fall version\nICA04 Frequency Measurements with AD2 Specs 2025-Winter version\nICA04 Math\nIntroduction to Analog Discovery 2 by Kevin Moore\nBasic Freq Measurement with the AD2 by Simon Walker",
     "crumbs": [
       "Embedded-Systems",
       "GPIO",
