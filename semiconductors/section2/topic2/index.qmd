@@ -6,14 +6,8 @@ title: "TPole & HBridge"
 
 #### This group of notes will cover the theory needed for Project 2
 
-- [Lesson Solutions Excel Spread Sheet](assets){download=""}
+- [Lesson Solutions Excel Spread Sheet](assets/b-Lesson-TPole-HBridge.xlsx){download=""}
 
-- [Page 1 by Ross Taylor](assets){target="_blank"}
-
-- [Page 2 by Ross Taylor](assets){target="_blank"}
-
-- [Page 3 by Ross Taylor](assets){target="_blank"}
-
-- [Page 4 by Ross Taylor](assets){target="_blank"}
+- [Totem Pole and H-Bridge Configurations by Ross Taylor](assets/c-Lesson-Totem%20Pole%20and%20H-Bridge%20Configurations.pdf){target="_blank"}
 
 

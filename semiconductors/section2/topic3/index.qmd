@@ -1,15 +1,25 @@
 ---
-title: "Topic3"
+title: "FET's"
 ---
+
+## Field Effect Transistors (FET's)
+
+#### Page 4 of this group of notes will cover the theory needed for Lab 5
 
 - [Lesson Solutions Excel Spread Sheet](assets){download=""}
 
-- [Page 1 by Ross Taylor](assets){target="_blank"}
+- [Page 1 FET's General by Ross Taylor](assets/c-Lesson-Page1-Field%20Effect%20Transistors%20(FET).pdf){target="_blank"}
 
-- [Page 2 by Ross Taylor](assets){target="_blank"}
+- [Page 2 JFET's by Ross Taylor](assets/c-Lesson-Page2-Field%20Effect%20Transistors%20(FET)-JFET.pdf){target="_blank"}
 
-- [Page 3 by Ross Taylor](assets){target="_blank"}
+- [Page 3 MOSFET's by Ross Taylor](assets/c-Lesson-Page3-Field%20Effect%20Transistors%20(FET)-MOSFETs.pdf){target="_blank"}
 
-- [Page 4 by Ross Taylor](assets){target="_blank"}
+- [Page 4 Enhancement Mode MOSFET's by Ross Taylor](assets/c-Lesson-Page4-Field%20Effect%20Transistors%20(FET)-e-MOSFETs.pdf){target="_blank"}
+
+- [ZVN2110A N-Channel E-MOSFET Datasheet](assets/ZVN2110A.pdf){target="_blank"}
+
+- [ZVP2110A P-Channel E-MOSFET Datasheet](assets/ZVP2110A.pdf){target="_blank"}
+
+
 
 

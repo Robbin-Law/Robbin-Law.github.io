@@ -1,5 +1,5 @@
 ---
-title: "BJTs"
+title: "BJT's"
 ---
 
 ## Bipolar Junction Transistors (BJTs)
