@@ -17,12 +17,12 @@ title: "Embedded-Systems"
 |1-J06||Intro<br> Github-Repo<br> Toolchain-Setup|Intro<br> Github-Repo<br> Toolchain-Setup|
 |2-J13|ICA01-Prog-Workflow|Demo1<br> Workflow<br> Data-Types<br> Bitwise-Ops|Demo1<br> Workflow<br> Data-Types<br> Bitwise-Ops|
 |3-J20|ICA02-Code-Migrate|Debugging<br> Breakpoints|Debugging<br> Breakpoints|
-|4-J27|ICA03-Bitwise-Ops|GPIO-LED|GPIO-LED|
+|4-J27|ICA03-Bitwise-Ops|GPIO-LED-Switches|GPIO-LED-Switches|
 |5-F03|ICA04-AD2-Measure|Measure Freq with AD2|Measure Freq with AD2|
-|6-F10|ICA05-SWL-Lib|GPIO-LED-Switches<br> SWL-Library|GPIO-LED-Switches<br> SWL-Library|
+|6-F10|ICA05-SWL-Lib|SWL-Library|Practical Assessment 1|
 |F17||READING-WEEK|READING-WEEK|
 |7-F24|ICA06-PLL<br> PA01|Phased-Locked-Loop(PLL)|PLL|
-|8-M03|ICA07-RTI|Real-Time-Interupt(RTI)|RTI|
+|8-M03|ICA07-RTI|Real-Time-Interrupt(RTI)|RTI|
 |9-M10|ICA08-SCI-Basic<br> Lab01-SCI|Serial-Com-Interface(SCI)|SCI|
 |10-M17|ICA09-Segs-Basic|7-Segment-Display|7-Segs-Display|
 |11-M24|Lab02-16-bit-Segs|16-bit-Segs|16-bit-Segs|

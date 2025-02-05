@@ -17,10 +17,10 @@ title: "Semiconductors"
 |2-J13|L2-Rectifiers|Rectifiers|Rectifiers|Rectifiers|
 |3-J20|L3-Filtering/Reg|Filtering/Regulation|Filtering/Regulation|Filtering/Regulation|
 |4-J27|P1-Power-Supply|BJT-Intro|BJT-Switching|BJT-Biasing|
-|5-F03|L4-BJT-Switch/Bias<br> P2-TPole/HBridge|BJT-Totem-Pole|BJT-H-Bridge|BJT-H-Bridge|
-|6-F10|L5-FET-Switching|FET-Intro|FET-Switching|Exam1-Diode-Apps|
+|5-F03|L4-BJT-Switch/Bias<br> |BJT-Totem-Pole|BJT-H-Bridge|BJT-H-Bridge|
+|6-F10|P2-TPole/HBridge<br> L5-FET-Switching|FET-Intro|FET-Switching|Exam1-Diode-Apps|
 |F17||READING-WEEK|READING-WEEK|READING-WEEK|
-|7-F24|L6-OpAmps<br> P3-Transistors|OpAmps-Intro|OpAmps-Configs|OpAmps-Diff-Amps|
+|7-F24|P3-Transistors<br> L6-OpAmps|OpAmps-Intro|OpAmps-Configs|OpAmps-Diff-Amps|
 |8-M03|P4-Summing-Amps|Summing-Amps|Summing-Amps|Exam2-Transistor-Apps|
 |9-M10|P5-Instrument-Amps|Instrument-Amps|Instrument-Amps|Instrument-Amps|
 |10-M17|L7-DAC<br> P7-Adv-Filters/DAC<br> DAC part only|Dig-Analog-Con|Dig-Analog-Con|Dig-Analog-Con|
