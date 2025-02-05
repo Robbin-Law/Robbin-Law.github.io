@@ -18,14 +18,24 @@
     "href": "semiconductors/section2/topic3/index.html",
     "title": "FET’s",
     "section": "",
-    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 FET’s General by Ross Taylor\nPage 2 JFET’s by Ross Taylor\nPage 3 MOSFET’s by Ross Taylor\nPage 4 Enhancement Mode MOSFET’s by Ross Taylor\nZVN2110A N-Channel E-MOSFET Datasheet\nZVP2110A P-Channel E-MOSFET Datasheet"
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 FET’s General by Ross Taylor\nPage 2 JFET’s by Ross Taylor\nPage 3 MOSFET’s by Ross Taylor\nPage 4 Enhancement Mode MOSFET’s by Ross Taylor\nZVN2110A N-Channel E-MOSFET Datasheet\nZVP2110A P-Channel E-MOSFET Datasheet",
+    "crumbs": [
+      "Semiconductors",
+      "Transistors",
+      "FET's"
+    ]
   },
   {
     "objectID": "semiconductors/section2/topic3/index.html#field-effect-transistors-fets",
     "href": "semiconductors/section2/topic3/index.html#field-effect-transistors-fets",
     "title": "FET’s",
     "section": "",
-    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 FET’s General by Ross Taylor\nPage 2 JFET’s by Ross Taylor\nPage 3 MOSFET’s by Ross Taylor\nPage 4 Enhancement Mode MOSFET’s by Ross Taylor\nZVN2110A N-Channel E-MOSFET Datasheet\nZVP2110A P-Channel E-MOSFET Datasheet"
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 FET’s General by Ross Taylor\nPage 2 JFET’s by Ross Taylor\nPage 3 MOSFET’s by Ross Taylor\nPage 4 Enhancement Mode MOSFET’s by Ross Taylor\nZVN2110A N-Channel E-MOSFET Datasheet\nZVP2110A P-Channel E-MOSFET Datasheet",
+    "crumbs": [
+      "Semiconductors",
+      "Transistors",
+      "FET's"
+    ]
   },
   {
     "objectID": "semiconductors/section2/topic1/index.html",
@@ -782,21 +792,36 @@
     "href": "semiconductors/section2/topic2/index.html",
     "title": "TPole & HBridge",
     "section": "",
-    "text": "Lesson Solutions Excel Spread Sheet\nTotem Pole and H-Bridge Configurations by Ross Taylor"
+    "text": "Lesson Solutions Excel Spread Sheet\nTotem Pole and H-Bridge Configurations by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Transistors",
+      "TPole & HBridge"
+    ]
   },
   {
     "objectID": "semiconductors/section2/topic2/index.html#bjt-totem-pole-and-h-bridge-circuits",
     "href": "semiconductors/section2/topic2/index.html#bjt-totem-pole-and-h-bridge-circuits",
     "title": "TPole & HBridge",
     "section": "",
-    "text": "Lesson Solutions Excel Spread Sheet\nTotem Pole and H-Bridge Configurations by Ross Taylor"
+    "text": "Lesson Solutions Excel Spread Sheet\nTotem Pole and H-Bridge Configurations by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Transistors",
+      "TPole & HBridge"
+    ]
   },
   {
     "objectID": "semiconductors/section2/topic4/index.html",
     "href": "semiconductors/section2/topic4/index.html",
-    "title": "Topic3",
+    "title": "Project 3",
     "section": "",
-    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor"
+    "text": "Lesson Solutions Excel Spread Sheet\nPage 1 by Ross Taylor\nPage 2 by Ross Taylor\nPage 3 by Ross Taylor\nPage 4 by Ross Taylor",
+    "crumbs": [
+      "Semiconductors",
+      "Transistors",
+      "Project 3"
+    ]
   },
   {
     "objectID": "semiconductors/section3/topic2/index.html",

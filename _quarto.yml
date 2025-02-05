@@ -31,8 +31,9 @@ website:
         - section: "Transistors"
           contents:
             - semiconductors/section2/topic1/index.qmd
-        #     - semiconductors/section2/topic2/index.qmd
-        #     - semiconductors/section2/topic3/index.qmd
+            - semiconductors/section2/topic2/index.qmd
+            - semiconductors/section2/topic3/index.qmd
+            - semiconductors/section2/topic4/index.qmd
              
 
     - title: "Embedded-Systems"
