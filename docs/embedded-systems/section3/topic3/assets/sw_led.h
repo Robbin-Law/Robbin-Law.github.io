@@ -3,7 +3,7 @@
 
 // enum to describe LED indicator positions
 // tag values represent actual bit positions
-typedef enum LEDColourTypedef__ 
+typedef enum LEDColour 
 {
   SWL_RED     = 0b10000000,
   SWL_YELLOW  = 0b01000000,
@@ -13,7 +13,7 @@ typedef enum LEDColourTypedef__
 
 // enum to describe pushbutton switch positions
 // tag values represent actual bit positions
-typedef enum SwitchPosTypedef__ 
+typedef enum SwitchPos
 {
   SWL_CTR  = 0b00000001,
   SWL_RIGHT= 0b00000010,
@@ -23,8 +23,15 @@ typedef enum SwitchPosTypedef__
   SWL_ANY = 0b00011111
 } SWL_SwitchPos;
 
+// option to add debounce in switch state checks
+typedef enum DebounceOption
+{
+  SWL_DebOff,
+  SWL_DebOn
+} DebounceOption;
+
 //To model switch states as 4 states
-typedef enum SwStateTypedef__
+typedef enum SwState
 {
   Idle,
   Pressed,
@@ -34,26 +41,14 @@ typedef enum SwStateTypedef__
 
 // init port PT1AD1
 void SWL_Init (void);
-
-///////////////////////////////////////////////////////////////
 // LED functions
 void SWL_ON (SWL_LEDColour led);
 void SWL_OFF (SWL_LEDColour led);
 void SWL_TOG (SWL_LEDColour led);
-///////////////////////////////////////////////////////////////
-// switch functions
-
-// is a specific switch being pressed
-int SWL_Pushed (SWL_SwitchPos pos);
-
-// is any switch being pressed
-int SWL_Any (void);
-
-// State of a switch in PT1AD1
+// Is switch/s being pressed
+int SWL_Pushed (SWL_SwitchPos pos, DebounceOption deb);
+// State of a switch (pos cannot be SWL_ANY)
 SwState Sw_State(SwState* state, SWL_SwitchPos pos);
-
-// Debounce the switch that is pressed or released.
+// Debounce blocking delay
 void Delay_ms(unsigned int delay);
-int SWL_Pushed_Debounced(SWL_SwitchPos pos);
-SwState Sw_State_Debounced(SwState* state, SWL_SwitchPos pos); 
 
