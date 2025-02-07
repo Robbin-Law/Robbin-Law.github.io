@@ -3,27 +3,29 @@
 #include "sw_led.h"
 #include "derivative.h"
 
-int SWL_Pushed(SWL_SwitchPos pos, DebounceOption deb){
+int SWL_Pushed(SWL_SwitchPos pos){
+  int doNotUseDebounce = 1;
   // Set the samples to be different so the while
-  // loop will be entered into the first time.
+  // loop will be entered into the first time
+  // when using the debounce mechanism.
   unsigned char cSample1 = 1; 
   unsigned char cSample2 = 0;
-  if(deb == SWL_DebOff){
+  if(doNotUseDebounce){
     // Sample all switches only once
     cSample1 = PT1AD1 & 0b00011111;
   }
   else{
     // Only when both samples of the switches are equal
     // before and after a short delay then move on.
-    // It is at that time that the switch is stable
+    // It is at that time when the switch is stable
     // and not bouncing anymore.
     while (cSample1 != cSample2){
       // Sample all switches
-      cSample1 = PT1AD1 & 0b00011111;
+      cSample1 = PT1AD1 & SWL_ANY;
       // Blocking delay for 10 ms
       Delay_ms(10);
       // Sample all switches again
-      cSample2 = PT1AD1 & 0b00011111;
+      cSample2 = PT1AD1 & SWL_ANY;
     }
   }  
   // Check the switch/s of interest.
@@ -35,7 +37,10 @@ int SWL_Pushed(SWL_SwitchPos pos, DebounceOption deb){
 }
 
 SwState Sw_State(SwState* state, SWL_SwitchPos pos){
-  if(SWL_Pushed(pos, SWL_DebOn))
+  // For this state machine to work properly
+  // only one switch can be checked so pos 
+  // cannot be SWL_ANY.
+  if(SWL_Pushed(pos))
   {
     if((*state == Idle)||(*state == Released))
     {

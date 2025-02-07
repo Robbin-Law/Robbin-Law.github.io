@@ -23,13 +23,6 @@ typedef enum SwitchPos
   SWL_ANY = 0b00011111
 } SWL_SwitchPos;
 
-// option to add debounce in switch state checks
-typedef enum DebounceOption
-{
-  SWL_DebOff,
-  SWL_DebOn
-} DebounceOption;
-
 //To model switch states as 4 states
 typedef enum SwState
 {
@@ -46,7 +39,7 @@ void SWL_ON (SWL_LEDColour led);
 void SWL_OFF (SWL_LEDColour led);
 void SWL_TOG (SWL_LEDColour led);
 // Is switch/s being pressed
-int SWL_Pushed (SWL_SwitchPos pos, DebounceOption deb);
+int SWL_Pushed (SWL_SwitchPos pos);
 // State of a switch (pos cannot be SWL_ANY)
 SwState Sw_State(SwState* state, SWL_SwitchPos pos);
 // Debounce blocking delay
