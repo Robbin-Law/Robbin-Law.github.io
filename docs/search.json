@@ -144,7 +144,7 @@
     "href": "embedded-systems/section3/topic3/index.html",
     "title": "ICA05 sw_led Library",
     "section": "",
-    "text": "Switch LED Port Notes\nSwitch States Diagram\nICA05 Specs\nICA05 Part 1 Demo\nICA05 Part 2 Demo\nICA05 Part 3 Demo\nCompilation Unit Basics by Simon Walker\nsw_led.h\nThe following .c file is only part of the solution. You must add to this file and then change the name to sw_led.c for things to work.\nsw_led_partial.c",
+    "text": "Switch LED Port Notes\nSwitch States Diagram\nICA05 Specs\nICA05 Part 1 Demo\nICA05 Part 2 Demo\nICA05 Part 3 Demo\nCompilation Unit Basics by Simon Walker\nsw_led.h\nThe following .c file is only part of the solution. You must add to this file and then change the name to sw_led.c for things to work properly.\nsw_led_partial.c",
     "crumbs": [
       "Embedded-Systems",
       "GPIO",

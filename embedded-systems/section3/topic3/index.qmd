@@ -18,7 +18,7 @@ title: "ICA05 sw_led Library"
 
 - [sw_led.h](assets/sw_led.h){target="_blank"}
 
-- The following .c file is only part of the solution. You must add to this file and then change the name to sw_led.c for things to work.
+- The following .c file is only part of the solution. You must add to this file and then change the name to sw_led.c for things to work properly.
 
 - [sw_led_partial.c](assets/sw_led_partial.c){target="_blank"}
 
