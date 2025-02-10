@@ -6,7 +6,7 @@ title: "FET's"
 
 #### Page 4 of this group of notes will cover the theory needed for Lab 5
 
-- [Lesson Solutions Excel Spread Sheet](assets){download=""}
+- [Lesson Solutions Excel Spread Sheet](assets/b-Lesson-Page4-E-MOSFET-and-Lab5.xlsx){download=""}
 
 - [Page 1 FET's General by Ross Taylor](assets/c-Lesson-Page1-Field%20Effect%20Transistors%20(FET).pdf){target="_blank"}
 

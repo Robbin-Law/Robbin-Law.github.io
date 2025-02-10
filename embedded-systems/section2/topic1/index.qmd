@@ -12,6 +12,12 @@ title: "C Resources"
 
 - [Pointers Summary 2 pages PDF](assets/PointersSummary.pdf){target="_blank"}
 
+- [Pointers Video youtube 8min](https://www.youtube.com/watch?v=2ybLD6_2gKM&t=5s){target="_blank"}
+
+- [Pointer Demo by James Chaulk youtube 22min](https://www.youtube.com/watch?v=wolepY9DGMI&t=4s){target="_blank"}
+
+- [Pointers Website](https://www.geeksforgeeks.org/c-pointers/){target="_blank"}
+
 - [Function Pointers](assets/function-pointers.md){target="_blank"}
 
 - [Function Pointers Website](https://www.geeksforgeeks.org/function-pointer-in-c/){target="_blank"}

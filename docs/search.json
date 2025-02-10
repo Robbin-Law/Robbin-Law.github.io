@@ -535,7 +535,7 @@
     "href": "embedded-systems/section2/topic1/index.html",
     "title": "C Resources",
     "section": "",
-    "text": "main.c template\nUsing C with the 9S12 17 pages PDF\nIntroduction to C Notes 7 pages PDF\nPointers 8 pages PDF\nPointers Summary 2 pages PDF\nFunction Pointers\nFunction Pointers Website\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOdd Things about Code Warrior",
+    "text": "main.c template\nUsing C with the 9S12 17 pages PDF\nIntroduction to C Notes 7 pages PDF\nPointers 8 pages PDF\nPointers Summary 2 pages PDF\nPointers Video youtube 8min\nPointer Demo by James Chaulk youtube 22min\nPointers Website\nFunction Pointers\nFunction Pointers Website\nC for C# Programmers 11 pages PDF\nC language reference by cppreference.com WEBSITE\nOdd Things about Code Warrior",
     "crumbs": [
       "Embedded-Systems",
       "Intro to the Micro",
