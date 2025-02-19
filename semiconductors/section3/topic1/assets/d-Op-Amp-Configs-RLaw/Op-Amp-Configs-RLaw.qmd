@@ -1,0 +1,39 @@
+---
+title: "Op Amp Configurations"
+---
+
+### Rules:
+
+- No current can flow in or out of the + or - inputs.
+- There is a virtual connection between the two inputs so they are the same Voltage.
+
+#### Inverting 
+
+![](assets/d-OpAmpInvertingGeneric.JPG)
+
+$I_{Ri} = I_{Rf}$
+
+$V_{in}/Ri = -V_{out}/Rf$
+
+$V_{out}/V_{in} = -Rf/Ri$
+
+#### Non-Inverting
+
+![](assets/d-OpAmpNonInvertingGeneric.JPG)
+
+$I_{Ri} = I_{Rf}$
+
+$V_{in}/Ri = (V_{out} - V_{in})/Rf$
+
+$V_{in}/Ri = (V_{out})(1/Rf) - (V_{in})(1/Rf)$
+
+$V_{in}/Ri + (V_{in})(1/Rf) = (V_{out})(1/Rf)$
+
+$(V_{in})(1/Ri + 1/Rf) = (V_{out})(1/Rf)$
+
+$(Rf)(1/Ri + 1/Rf) = V_{out}/V_{in}$
+
+$V_{out}/V_{in} = Rf/Ri + 1$
+
+
+

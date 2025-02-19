@@ -34,6 +34,11 @@ website:
             - semiconductors/section2/topic2/index.qmd
             - semiconductors/section2/topic3/index.qmd
             - semiconductors/section2/topic4/index.qmd
+        - section: "Op Amps"
+          contents:
+            - semiconductors/section3/topic1/index.qmd
+            - semiconductors/section3/topic2/index.qmd
+            - semiconductors/section3/topic3/index.qmd
              
 
     - title: "Embedded-Systems"
