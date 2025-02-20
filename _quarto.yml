@@ -39,6 +39,8 @@ website:
             - semiconductors/section3/topic1/index.qmd
             - semiconductors/section3/topic2/index.qmd
             - semiconductors/section3/topic3/index.qmd
+            - semiconductors/section3/topic4/index.qmd
+            - semiconductors/section3/topic5/index.qmd
              
 
     - title: "Embedded-Systems"

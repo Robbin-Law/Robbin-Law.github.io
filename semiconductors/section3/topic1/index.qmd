@@ -1,5 +1,5 @@
 ---
-title: "Op Amps"
+title: "Op Amps Intro"
 ---
 
 <!-- - [Lesson Solutions Excel Spread Sheet](assets){download=""} -->

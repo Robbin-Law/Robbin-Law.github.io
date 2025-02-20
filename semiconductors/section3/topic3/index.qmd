@@ -1,15 +1,15 @@
 ---
-title: "Topic3"
+title: "Summing Amps"
 ---
 
-- [Lesson Solutions Excel Spread Sheet](assets){download=""}
+<!-- - [Lesson Solutions Excel Spread Sheet](assets){download=""} -->
 
-- [Page 1 by Ross Taylor](assets){target="_blank"}
+- [Page 1 Summing Amplifiers by Ross Taylor](assets/aa-Lesson-Page1-Summing-Amplifier.pdf){target="_blank"}
 
-- [Page 2 by Ross Taylor](assets){target="_blank"}
+- [Page 2 Summing Amplifiers by Ross Taylor](assets/ba-Lesson-Page2-Summing-Amplifier.pdf){target="_blank"}
 
-- [Page 3 by Ross Taylor](assets){target="_blank"}
+- [Page 3 Summing Amplifiers by Ross Taylor](assets/ca-Lesson-Page3-Summing-Amplifier.pdf){target="_blank"}
 
-- [Page 4 by Ross Taylor](assets){target="_blank"}
+- [Page 4 Summing Amplifiers by Ross Taylor](assets/da-Lesson-Page4-Summing-Amplifier.pdf){target="_blank"}
 
 
