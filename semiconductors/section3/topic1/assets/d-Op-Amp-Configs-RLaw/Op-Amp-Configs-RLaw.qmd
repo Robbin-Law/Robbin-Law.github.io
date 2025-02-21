@@ -4,7 +4,8 @@ title: "Op Amp Configurations"
 
 ### Rules:
 
-- No current can flow in or out of the + or - inputs.
+- No current can flow in or out of the + or - inputs as Rin = infinite.
+- Current can flow in or out of the output as Rout = 0.
 - There is a virtual connection between the two inputs so they are the same Voltage.
 
 #### Inverting 

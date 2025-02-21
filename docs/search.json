@@ -35,7 +35,7 @@
     "href": "semiconductors/section3/topic1/assets/d-Op-Amp-Configs-RLaw/Op-Amp-Configs-RLaw.html",
     "title": "Op Amp Configurations",
     "section": "",
-    "text": "Rules:\n\nNo current can flow in or out of the + or - inputs.\nThere is a virtual connection between the two inputs so they are the same Voltage.\n\n\nInverting\n\n\\(I_{Ri} = I_{Rf}\\)\n\\(V_{in}/Ri = -V_{out}/Rf\\)\n\\(V_{out}/V_{in} = -Rf/Ri\\)\n\n\nNon-Inverting\n\n\\(I_{Ri} = I_{Rf}\\)\n\\(V_{in}/Ri = (V_{out} - V_{in})/Rf\\)\n\\(V_{in}/Ri = (V_{out})(1/Rf) - (V_{in})(1/Rf)\\)\n\\(V_{in}/Ri + (V_{in})(1/Rf) = (V_{out})(1/Rf)\\)\n\\((V_{in})(1/Ri + 1/Rf) = (V_{out})(1/Rf)\\)\n\\((Rf)(1/Ri + 1/Rf) = V_{out}/V_{in}\\)\n\\(V_{out}/V_{in} = Rf/Ri + 1\\)"
+    "text": "Rules:\n\nNo current can flow in or out of the + or - inputs as Rin = infinite.\nCurrent can flow in or out of the output as Rout = 0.\nThere is a virtual connection between the two inputs so they are the same Voltage.\n\n\nInverting\n\n\\(I_{Ri} = I_{Rf}\\)\n\\(V_{in}/Ri = -V_{out}/Rf\\)\n\\(V_{out}/V_{in} = -Rf/Ri\\)\n\n\nNon-Inverting\n\n\\(I_{Ri} = I_{Rf}\\)\n\\(V_{in}/Ri = (V_{out} - V_{in})/Rf\\)\n\\(V_{in}/Ri = (V_{out})(1/Rf) - (V_{in})(1/Rf)\\)\n\\(V_{in}/Ri + (V_{in})(1/Rf) = (V_{out})(1/Rf)\\)\n\\((V_{in})(1/Ri + 1/Rf) = (V_{out})(1/Rf)\\)\n\\((Rf)(1/Ri + 1/Rf) = V_{out}/V_{in}\\)\n\\(V_{out}/V_{in} = Rf/Ri + 1\\)"
   },
   {
     "objectID": "semiconductors/section2/topic3/index.html",
