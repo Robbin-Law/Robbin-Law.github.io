@@ -2,7 +2,7 @@
 title: "Op Amps Intro"
 ---
 
-<!-- - [Lesson Solutions Excel Spread Sheet](assets){download=""} -->
+- [Lesson Solutions Excel Spread Sheet](assets/a-Op-Amps.xlsx){download=""}
 
 - [Page 1 Intro to Op Amps by Ross Taylor](assets/b-Lesson-Introduction-to-Operational-Amplifiers.pdf){target="_blank"}
 
