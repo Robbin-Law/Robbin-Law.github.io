@@ -49,3 +49,7 @@ title: "Embedded-Systems"
 
 - [CMPE2250 Winter of 2024 Lectures by Carlos Estay](https://www.youtube.com/playlist?list=PLtPfFKnaEIMic1uFGB-Vfh3B7FwUz0FHM){target="_blank"}
   - youtube video playlist; 37 videos.
+
+- [Analog Discovery 2 by Digilent](https://www.youtube.com/playlist?list=PLSTiCUiN_BoLtf_bWtNzhb3VUP-KDvv91){target="_blank"}
+  - youtube video playlist; 18 videos.
+

@@ -407,7 +407,7 @@
     "href": "embedded-systems/index.html#general-resources",
     "title": "Embedded-Systems",
     "section": "General Resources",
-    "text": "General Resources\n\nCMPE1250 Winter of 2022 Lectures by Carlos Estay\n\nyoutube video playlist; 29 videos.\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.",
+    "text": "General Resources\n\nCMPE1250 Winter of 2022 Lectures by Carlos Estay\n\nyoutube video playlist; 29 videos.\n\nCMPE1250 Winter of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 4 videos.\n\nCMPE1250 Fall of 2023 Lectures by Carlos Estay\n\nyoutube video playlist; 38 videos.\n\nCMPE1250 Fall of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 40 videos.\n\nCMPE2250 Winter of 2024 Lectures by Carlos Estay\n\nyoutube video playlist; 37 videos.\n\nAnalog Discovery 2 by Digilent\n\nyoutube video playlist; 18 videos.",
     "crumbs": [
       "Embedded-Systems"
     ]
@@ -658,7 +658,7 @@
     "href": "embedded-systems/section4/topic1/index.html",
     "title": "PLL Resources",
     "section": "",
-    "text": "Clock System Notes\nPhase Locked Loop Discussion",
+    "text": "ICA06 Specs\nClock System Notes\nPhase Locked Loop Discussion",
     "crumbs": [
       "Embedded-Systems",
       "PLL",
