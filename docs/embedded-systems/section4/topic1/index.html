@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PLL Resources – Home</title>
+<title>Phase Locked Loop – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../embedded-systems/section4/topic2/index.html" rel="next">
+<link href="../../../embedded-systems/section5/topic1/index.html" rel="next">
 <link href="../../../embedded-systems/section3/topic3/index.html" rel="prev">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="PLL Resources – Home">
+<meta property="og:title" content="Phase Locked Loop – Home">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">PLL</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">PLL Resources</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">PLL</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">Phase Locked Loop</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -252,19 +252,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../embedded-systems/section4/topic1/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">PLL Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section4/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA06 Clock</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section4/topic3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA</span></a>
+ <span class="menu-text">Phase Locked Loop</span></a>
   </div>
 </li>
       </ul>
@@ -284,18 +272,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Interrupts &amp; RTI</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section5/topic2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA07 RTI</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../embedded-systems/section5/topic3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICA</span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -309,9 +285,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">PLL</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">PLL Resources</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">PLL</a></li><li class="breadcrumb-item"><a href="../../../embedded-systems/section4/topic1/index.html">Phase Locked Loop</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">PLL Resources</h1>
+<h1 class="title">Phase Locked Loop</h1>
 </div>
 
 
@@ -332,6 +308,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="assets/ICA06.pdf" target="_blank">ICA06 Specs</a></p></li>
 <li><p><a href="assets/ClockSystem.pdf" target="_blank">Clock System Notes</a></p></li>
 <li><p><a href="assets/CMPE1250_PLL_Discussion.pdf" target="_blank">Phase Locked Loop Discussion</a></p></li>
+<li><p><a href="assets/clock.h" target="_blank">clock.h</a></p></li>
 </ul>
 
 
@@ -761,8 +738,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../embedded-systems/section4/topic2/index.html" class="pagination-link" aria-label="ICA06 Clock">
-        <span class="nav-page-text">ICA06 Clock</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../embedded-systems/section5/topic1/index.html" class="pagination-link" aria-label="Interrupts &amp; RTI">
+        <span class="nav-page-text">Interrupts &amp; RTI</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
