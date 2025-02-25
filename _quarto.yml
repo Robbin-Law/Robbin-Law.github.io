@@ -70,9 +70,11 @@ website:
         - section: "PLL"
           contents:
             - embedded-systems/section4/topic1/index.qmd
+            - embedded-systems/section4/topic2/index.qmd
         - section: "RTI"
           contents:
             - embedded-systems/section5/topic1/index.qmd
+            - embedded-systems/section5/topic2/index.qmd
                   
                   
         
