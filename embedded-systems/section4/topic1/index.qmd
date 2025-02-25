@@ -1,5 +1,5 @@
 ---
-title: "PLL Resources"
+title: "Phase Locked Loop"
 ---
 
 - [ICA06 Specs](assets/ICA06.pdf){target="_blank"}
@@ -7,6 +7,8 @@ title: "PLL Resources"
 - [Clock System Notes](assets/ClockSystem.pdf){target="_blank"}
 
 - [Phase Locked Loop Discussion](assets/CMPE1250_PLL_Discussion.pdf){target="_blank"}
+
+- [clock.h](assets/clock.h){target="_blank"}
 
 
 

@@ -53,3 +53,6 @@ title: "Embedded-Systems"
 - [Analog Discovery 2 by Digilent](https://www.youtube.com/playlist?list=PLSTiCUiN_BoLtf_bWtNzhb3VUP-KDvv91){target="_blank"}
   - youtube video playlist; 18 videos.
 
+- [Bare Metal with the Nucleo L476RG by Carlos Estay](https://www.youtube.com/playlist?list=PLtPfFKnaEIMhqOiXppoAIipLIoXNPinPn){target="_blank"}
+  - youtube video playlist; 4 videos.
+
