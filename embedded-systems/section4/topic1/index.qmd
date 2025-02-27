@@ -6,6 +6,8 @@ title: "Phase Locked Loop"
 
 - [Phase Locked Loop Discussion](assets/CMPE1250_PLL_Discussion.pdf){target="_blank"}
 
+- [Phase Locked Loop Calculations](assets/calcs.qmd){target="_blank"}
+
 
 
 

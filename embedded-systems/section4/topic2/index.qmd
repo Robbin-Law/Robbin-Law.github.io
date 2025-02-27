@@ -2,7 +2,7 @@
 title: "ICA06 PLL"
 ---
 
-- [ICA06 Specs](assets/ICA06.pdf){target="_blank"}
+- [ICA06 PLL Specs](assets/ICA06.pdf){target="_blank"}
 
 - [clock.h](assets/clock.h){target="_blank"}
 

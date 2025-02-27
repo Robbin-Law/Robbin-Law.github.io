@@ -75,9 +75,7 @@ website:
           contents:
             - embedded-systems/section5/topic1/index.qmd
             - embedded-systems/section5/topic2/index.qmd
-                  
-                  
-        
+
 format:
   html:
     fig-height: 7
