@@ -12,6 +12,8 @@ title: "Op Amps Intro"
 
 - [Derivation of Gains by Robbin Law](assets/d-Op-Amp-Configs-RLaw/Op-Amp-Configs-RLaw.qmd){target="_blank"}
 
+- [Op Amp Power Supply Ground by Robbin Law](assets/Op%20Amp%20Power%20Supply%20Ground%20by%20RLaw.pdf){target="_blank"}
+
 - [LM741 DataSheet](assets/lm741.pdf){target="_blank"}
 
 - [LM1458 DataSheet](assets/lm1458.pdf){target="_blank"}
