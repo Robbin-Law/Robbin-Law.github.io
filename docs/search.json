@@ -23,7 +23,7 @@
     "href": "semiconductors/section3/topic2/index.html",
     "title": "Diff Amps",
     "section": "",
-    "text": "Page 1 Differential Amplifiers by Ross Taylor\nPage 2 Differential Offset Compensation by Ross Taylor",
+    "text": "Differential Amplifiers by Ross Taylor\nPage 1 Differential Offset Compensation by Ross Taylor\nPage 2 Differential Offset Compensation by Ross Taylor",
     "crumbs": [
       "Semiconductors",
       "Op Amps",
@@ -132,7 +132,7 @@
     "href": "embedded-systems/section5/topic2/index.html",
     "title": "ICA07 RTI",
     "section": "",
-    "text": "ICA07 Real Time Interrupt Specs",
+    "text": "ICA07 Real Time Interrupt Specs\nrti.h",
     "crumbs": [
       "Embedded-Systems",
       "RTI",
@@ -665,7 +665,7 @@
     "href": "embedded-systems/section5/topic1/index.html",
     "title": "Interrupts & RTI",
     "section": "",
-    "text": "Intro to Interrupts Notes pdf 2pgs\n\n\nIntro to Interrupts Document Summary\n\nInterrupt Vector Table: The MC9S12XDP512 uses an interrupt vector table to store the addresses of interrupt service routines (ISRs). Each interrupt source has a specific vector address in this table. Interrupt Priority: Interrupts are prioritized based on their vector number. Lower vector numbers have higher priority, meaning they are serviced before higher-numbered vectors.\nGlobal Interrupt Masking: The microcontroller can globally enable or disable interrupts using the EnableInterrupts and DisableInterrupts macros. This is managed by setting or clearing the I bit in the Condition Code Register (CCR).\nNon-Maskable Interrupts: Certain critical interrupts, known as non-maskable interrupts, cannot be disabled and must always be serviced. Local Interrupt Masking: Individual interrupts can be enabled or disabled by setting or clearing specific bits in their corresponding control registers. For example, enabling the interrupt for PIT1 involves setting BIT1 in the relevant register.\nInterrupt Handling Process: When an interrupt occurs, the MCU saves the current program counter (PC) and status registers, executes the ISR, and then restores the saved PC and status registers to resume normal program execution.\nRTI Notes pdf 3pgs\nRTI Notes by Carlos Estays pdf 2pgs\nrti.h",
+    "text": "Intro to Interrupts Notes pdf 2pgs\n\n\nIntro to Interrupts Document Summary\n\nInterrupt Vector Table: The MC9S12XDP512 uses an interrupt vector table to store the addresses of interrupt service routines (ISRs). Each interrupt source has a specific vector address in this table. Interrupt Priority: Interrupts are prioritized based on their vector number. Lower vector numbers have higher priority, meaning they are serviced before higher-numbered vectors.\nGlobal Interrupt Masking: The microcontroller can globally enable or disable interrupts using the EnableInterrupts and DisableInterrupts macros. This is managed by setting or clearing the I bit in the Condition Code Register (CCR).\nNon-Maskable Interrupts: Certain critical interrupts, known as non-maskable interrupts, cannot be disabled and must always be serviced. Local Interrupt Masking: Individual interrupts can be enabled or disabled by setting or clearing specific bits in their corresponding control registers. For example, enabling the interrupt for PIT1 involves setting BIT1 in the relevant register.\nInterrupt Handling Process: When an interrupt occurs, the MCU saves the current program counter (PC) and status registers, executes the ISR, and then restores the saved PC and status registers to resume normal program execution.\nRTI Notes pdf 3pgs\nRTI Notes by Carlos Estays pdf 2pgs",
     "crumbs": [
       "Embedded-Systems",
       "RTI",

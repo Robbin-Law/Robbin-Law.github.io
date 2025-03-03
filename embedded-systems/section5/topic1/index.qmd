@@ -17,7 +17,6 @@ Local Interrupt Masking: Individual interrupts can be enabled or disabled by set
 
 - [RTI Notes by Carlos Estays pdf 2pgs](assets/rti.pdf){target="_blank"}
 
-- [rti.h](assets/rti.h){target="_blank"}
 
 
 
