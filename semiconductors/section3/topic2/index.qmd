@@ -2,7 +2,7 @@
 title: "Diff Amps"
 ---
 
-<!-- - [Lesson Solutions Excel Spread Sheet](assets){download=""} -->
+- [Lesson Solutions Excel Spread Sheet](assets/na-Diff-Offset-Comp.xlsx){download=""}
 
 - [Differential Amplifiers by Ross Taylor](assets/ba-Lesson-Differential-Amplification.pdf){target="_blank"}
 
