@@ -2,7 +2,7 @@
 title: "ICA07 RTI"
 ---
 
-- [ICA07 Real Time Interrupt Specs](assets/CMPE1250_ICA07_1241_RTI.pdf){target="_blank"}
+- [ICA07 Real Time Interrupt Specs](assets/ICA07-1242.pdf){target="_blank"}
 
 
 
