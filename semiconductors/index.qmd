@@ -21,9 +21,9 @@ title: "Semiconductors"
 |6-F10|P2-TPole/HBridge<br> L5-FET-Switching|FET-Intro|FET-Switching|Exam1-Diode-Apps|
 |F17||READING-WEEK|READING-WEEK|READING-WEEK|
 |7-F24|P3-Transistors<br> L6-OpAmps|OpAmps-Intro|OpAmps-Configs|OpAmps-Diff-Amps|
-|8-M03|P4-Summing-Amps|Summing-Amps|Summing-Amps|Exam2-Transistor-Apps|
+|8-M03|P4-Summing-Amps|Summing-Amps|Summing-Amps|Summing-Amps|
 |9-M10|P5-Instrument-Amps|Instrument-Amps|Instrument-Amps|Instrument-Amps|
-|10-M17|L7-DAC<br> P7-Adv-Filters/DAC<br> DAC part only|Dig-Analog-Con|Dig-Analog-Con|Dig-Analog-Con|
+|10-M17|L7-DAC<br> P7-Adv-Filters/DAC<br> DAC part only|Dig-Analog-Con|Dig-Analog-Con|Exam2-Op-Amps|
 |11-M24|P6-Issues/Basic-Filters|OpAmp-Issues|Basic-Filters|Basic-Filters|
 |12-M31|P7-Adv-Filters/DAC<br> Adv-Filters part only|Adv-Filters|Adv-Filters|Adv-Filters|
 |13-A07|L8-Comparators|Comparators|Comparators|Exam3-OpAmp-Apps|
