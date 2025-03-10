@@ -75,6 +75,10 @@ website:
           contents:
             - embedded-systems/section5/topic1/index.qmd
             - embedded-systems/section5/topic2/index.qmd
+        - section: "SCI"
+          contents:
+            - embedded-systems/section6/topic1/index.qmd
+            - embedded-systems/section6/topic2/index.qmd
 
 format:
   html:

@@ -128,6 +128,44 @@
     ]
   },
   {
+    "objectID": "embedded-systems/section7/topic2/index.html",
+    "href": "embedded-systems/section7/topic2/index.html",
+    "title": "ICA08 & LAB01",
+    "section": "",
+    "text": "ICA08 Serial Communications Specs\nLab01 Serial Communications Specs\nsci.h"
+  },
+  {
+    "objectID": "embedded-systems/section7/topic1/index.html",
+    "href": "embedded-systems/section7/topic1/index.html",
+    "title": "SCI",
+    "section": "",
+    "text": "Serial Communications Interface"
+  },
+  {
+    "objectID": "embedded-systems/section6/topic2/index.html",
+    "href": "embedded-systems/section6/topic2/index.html",
+    "title": "ICA08 & LAB01",
+    "section": "",
+    "text": "ICA08 Serial Communications Specs\nLab01 Serial Communications Specs\nsci.h",
+    "crumbs": [
+      "Embedded-Systems",
+      "SCI",
+      "ICA08 & LAB01"
+    ]
+  },
+  {
+    "objectID": "embedded-systems/section6/topic1/index.html",
+    "href": "embedded-systems/section6/topic1/index.html",
+    "title": "SCI",
+    "section": "",
+    "text": "Serial Communications Interface Notes from CMPE1250\nSerial Communications Interface Notes from CMPE2250",
+    "crumbs": [
+      "Embedded-Systems",
+      "SCI",
+      "SCI"
+    ]
+  },
+  {
     "objectID": "embedded-systems/section5/topic2/index.html",
     "href": "embedded-systems/section5/topic2/index.html",
     "title": "ICA07 RTI",
