@@ -6,5 +6,5 @@
 
 void SCI_Init(void);
 void sci0_txByte (unsigned char byte);
-void sci0_txStr (char const* strIndex);
+void sci0_txStr (unsigned char* strIndex);
 unsigned char sci0_rxByte(unsigned char* pRxByte);
