@@ -27,7 +27,7 @@ title: "Embedded-Systems"
 |10-M17|Lab01-SCI|Serial-Com-Interface|SCI|
 |11-M24|ICA09-Segs-Basic|7-Segment-Display|Practical Assessment 2|
 |12-M31|Lab02-16-bit-Segs|16-bit-Segs|16-bit-Segs|
-|13-A07|Lab03-Dec-Entry|Decimal-Entry-Conversion|Practical Assessment 2|
+|13-A07|Lab03-Dec-Entry|Decimal-Entry-Conversion|Decimal-Entry-Conversion|
 |14-A14|ICA10-LCD|Liquid-Crystal-Display|LCD|
 |15-A21|Lab04-Sec-LCD-Functions|r-Buffers<br> sprint|Practical Assessment 3|
 
