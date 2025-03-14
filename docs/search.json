@@ -158,7 +158,7 @@
     "href": "embedded-systems/section6/topic1/index.html",
     "title": "SCI",
     "section": "",
-    "text": "Serial Communications Interface Notes from CMPE1250\nSerial Communications Interface Notes from CMPE2250",
+    "text": "Serial Communications Interface Notes from CMPE1250\nSerial Communications Interface Notes from CMPE2250\nsscanf and sprintf resources",
     "crumbs": [
       "Embedded-Systems",
       "SCI",
@@ -903,5 +903,12 @@
       "Op Amps",
       "DtoA Conversion"
     ]
+  },
+  {
+    "objectID": "embedded-systems/section6/topic1/assets/resources.html",
+    "href": "embedded-systems/section6/topic1/assets/resources.html",
+    "title": "sscanf and sprintf",
+    "section": "",
+    "text": "sscanf and sprintf\n#include &lt;stdio.h&gt;\n\nint main() {\n   const char *input = \"42 Alice\";\n   int number;\n   char name[20];\n\n   int result = sscanf(input, \"%d %s\", &number, name);\n   printf(\"Parsed number: %d\\n\", number);\n   printf(\"Parsed name: %s\\n\", name);\n   printf(\"Number of items matched: %d\\n\", result);\n   return 0;\n}\nThe above code produces following result: \nParsed number: 42\nParsed name: Alice\nNumber of items matched: 2\n#include &lt;stdio.h&gt;\n\nint main() {\n    char buffer[100];\n    int age = 30;\n    char name[] = \"John\";\n\n    sprintf(buffer, \"%s is %d years old.\", name, age);\n    printf(\"%s\\n\", buffer);\n    return 0;\n}\nThe above code produces following result: \nJohn is 30 years old.\n\n\nWeb Resources\n\nsscanf by tutorialspoint website\nsprintf by tutorialspoint website\nC format specifiers by geeksforgeeks website"
   }
 ]

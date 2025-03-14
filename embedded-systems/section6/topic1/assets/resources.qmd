@@ -1,0 +1,53 @@
+# sscanf and sprintf
+
+```C
+#include <stdio.h>
+
+int main() {
+   const char *input = "42 Alice";
+   int number;
+   char name[20];
+
+   int result = sscanf(input, "%d %s", &number, name);
+   printf("Parsed number: %d\n", number);
+   printf("Parsed name: %s\n", name);
+   printf("Number of items matched: %d\n", result);
+   return 0;
+}
+```
+
+The above code produces following result: </br>
+
+```C
+Parsed number: 42
+Parsed name: Alice
+Number of items matched: 2
+```
+
+```C
+#include <stdio.h>
+
+int main() {
+    char buffer[100];
+    int age = 30;
+    char name[] = "John";
+
+    sprintf(buffer, "%s is %d years old.", name, age);
+    printf("%s\n", buffer);
+    return 0;
+}
+```
+
+The above code produces following result: </br>
+
+```C
+John is 30 years old.
+```
+
+# Web Resources
+
+- [sscanf by tutorialspoint website](https://www.tutorialspoint.com/c_standard_library/c_function_sscanf.htm){target="_blank"}
+
+- [sprintf by tutorialspoint website](https://www.tutorialspoint.com/c_standard_library/c_function_sprintf.htm){target="_blank"}
+
+- [C format specifiers by geeksforgeeks website](https://www.geeksforgeeks.org/format-specifiers-in-c/){target="_blank"}

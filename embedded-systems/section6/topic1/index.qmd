@@ -6,6 +6,8 @@ title: "SCI"
 
 - [Serial Communications Interface Notes from CMPE2250](assets/SCI-From-2250.pdf){target="_blank"}
 
+- [sscanf and sprintf resources](assets/resources.qmd){target="_blank"}
+
 
 
 
