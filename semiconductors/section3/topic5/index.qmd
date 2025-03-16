@@ -2,7 +2,7 @@
 title: "DtoA Conversion"
 ---
 
-<!-- - [Lesson Solutions Excel Spread Sheet](assets){download=""} -->
+- [Lesson Solutions Excel Spread Sheet](assets/ab-DAC.xlsx){download=""}
 
 - [Page 1 Digital to Analog Conversion by Ross Taylor](assets/bd-Lesson-Page1-DAC.pdf){target="_blank"}
 
@@ -10,6 +10,13 @@ title: "DtoA Conversion"
 
 - [Page 3 Digital to Analog Conversion by Ross Taylor](assets/bm-Lesson-Page3-DAC.pdf){target="_blank"}
 
-<!-- - [Page 4 Digital to Analog Conversion by Ross Taylor](assets){target="_blank"} -->
+- [Lab07 Part1 DAC MultiSim](assets/ee-Lab07-Part1-DAC.ms14){download=""}
+
+- [Lab07 Part2 DAC Excel Spreadsheet Begin](assets/eg-Lab07-Part2-DAC-Begin.xlsx){download=""}
+
+- [Project07 Second Stage Gain Calc](assets/hm-Project7-second-stage-gain-calc.png){target="_blank"}
+
+- [Project07 R2R Data Sheet](assets/hj-Project7-r2r-data-sheet.pdf){target="_blank"}
+
 
 
