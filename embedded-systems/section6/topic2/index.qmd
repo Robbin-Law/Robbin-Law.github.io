@@ -4,7 +4,7 @@ title: "ICA08 & LAB01"
 
 - [ICA08 Serial Communications Specs](assets/CMPE1250_ICA08_1242_SCI.pdf){target="_blank"}
 
-- [Lab01 Serial Communications Specs](assets){target="_blank"}
+- [Lab01 Serial Communications Specs](assets/CMPE1250_LAB01_1241_SCI_RTI.pdf){target="_blank"}
 
 - [sci.h](assets/sci.h){target="_blank"}
 
