@@ -8,7 +8,7 @@ title: "SCI"
 
 - [sscanf and sprintf resources](assets/resources.qmd){target="_blank"}
 
-
+- [Analog Discovery 2 Protocol Analyzer by James Chaulk](https://youtu.be/joM8QZUKIf0){target="_blank"}
 
 
 
