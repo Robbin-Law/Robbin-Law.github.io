@@ -18,5 +18,7 @@ title: "DtoA Conversion"
 
 - [Project07 R2R Data Sheet](assets/hj-Project7-r2r-data-sheet.pdf){target="_blank"}
 
+- [DAC Other Resources](assets/aa-resources.md){target="_blank"}
+
 
 
