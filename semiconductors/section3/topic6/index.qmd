@@ -2,14 +2,18 @@
 title: "Filters"
 ---
 
-- [Lesson Solutions Excel Spread Sheet](assets){download=""}
+- [Op Amp Frequence Response Lesson Solutions Excel Spread Sheet](assets/ac-Op-Amp-Freq-Response.xlsx){download=""}
 
-- [Page 1 by Ross Taylor](assets){target="_blank"}
+- [Single Pole Low and High Pass Filters Lesson Solutions Excel Spread Sheet](assets/ae-Single-Pole-Low-and-High-Pass-Filters.xlsx){download=""}
 
-- [Page 2 by Ross Taylor](assets){target="_blank"}
+- [Multi Pole Butterworth Sallen-Key Filters Lesson Solutions Excel Spread Sheet](assets/ag-Multi-Pole-Butterworth-Sallen-Key-Filters.xlsx){download=""}
 
-- [Page 3 by Ross Taylor](assets){target="_blank"}
+- [Intro to Frequency Response Page 1 by Ross Taylor](assets/ba-Lesson-Page1-Intro%20to%20Frequency%20Response.pdf){target="_blank"}
 
-- [Page 4 by Ross Taylor](assets){target="_blank"}
+- [Intro to Frequency Response Page 2 by Ross Taylor](assets/bb-Lesson-Page2-Intro%20to%20Frequency%20Response.pdf){target="_blank"}
+
+- [Op Amp Frequency Issues and Single Pole Filters Page 1 by Ross Taylor](assets/da-Lesson-Page1-Op%20Amp%20Frequency%20Issues%20and%20Filters.pdf){target="_blank"}
+
+- [Op Amp Frequency Issues and Single Pole Filters Page 2 by Ross Taylor](assets/db-Lesson-Page2-Op%20Amp%20Frequency%20Issues%20and%20Filters.pdf){target="_blank"}
 
 
