@@ -12,8 +12,11 @@ title: "Filters"
 
 - [Intro to Frequency Response Page 2 by Ross Taylor](assets/bb-Lesson-Page2-Intro%20to%20Frequency%20Response.pdf){target="_blank"}
 
-- [Op Amp Frequency Issues and Single Pole Filters Page 1 by Ross Taylor](assets/da-Lesson-Page1-Op%20Amp%20Frequency%20Issues%20and%20Filters.pdf){target="_blank"}
+- [Op Amp Frequency Issues by Ross Taylor](assets/da-Lesson-Op%20Amp%20Frequency%20Response%20Issues.pdf){target="_blank"}
 
-- [Op Amp Frequency Issues and Single Pole Filters Page 2 by Ross Taylor](assets/db-Lesson-Page2-Op%20Amp%20Frequency%20Issues%20and%20Filters.pdf){target="_blank"}
+- [Single Pole Filters by Ross Taylor](assets/dba-Lesson-Single-Pole-Filters.pdf){target="_blank"}
+
+- [Salen-Key Filters by Ross Taylor](assets/dca-Lesson-Salen-Key-Filters.pdf){target="_blank"}
+
 
 
